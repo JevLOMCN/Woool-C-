@@ -1,0 +1,385 @@
++30
+[@main]
+你好,有什么能为你效劳？要拜师的话随时可以找我。\
+<可接任务/@_RW_entry>\
+<了解拜师系统相关知识/@ask>\
+<我要拜师/@needteacher>           <取消拜师请求/@cancel>\
+<解除师徒关系/@left>        <领取荣誉勋章/@get>\
+<修理荣誉勋章/@s_repair>        <查询声望/@check>\
+<离开/@exit>
+
+[@_RW_entry]
+#act
+CALL @王都送信任务.中州_武馆
+
+[@ask]
+27级以下的玩家可以拜28级以上的玩家为师。\
+徒弟等级升高后师傅会得到相应的声望值，\
+有了声望值就可以做一些比较特殊的事情了。\
+徒弟35级将自动毕业出师，但注意如果没有\
+毕业或者还没解除师徒关系的人是不能再收\
+徒弟的。另外必须双方在一起时才能拜师。\
+<离开/@exit>
+
+[@needteacher]
+<$username>如果你想要拜师的话，请你要拜的师傅到场，\
+请点击下面的“拜师”选项，\
+并输入对方的名字。\
+<拜师/@inputname>\
+<离开/@exit>
+
+[@inputname]
+#if
+checkex level > 27
+#say
+你已经超过了拜师的级别了,\
+#act
+return
+#if
+hasmaster
+#say
+你已经超过了拜师的级别了,\
+或者你已拜过师了!\
+#elseact
+inputtext 请输入师父的名字: 16 @postrequest
+close
+[@postrequest]
+#if
+humonline $inputtext
+#say
+请求已发送,请耐心等待!\\
+#act
+showpage $inputtext @checkandrequest1 $username
+#elsesay
+<$inputtext>不在线，无法接受您的拜师请求。\\
+<关闭/@exit>
+[@error]
+请求失败，原因是\
+<$_param0>\\\
+<关闭/@exit>
+
+[@checkandrequest1]
+#act
+movr requeststudent $_param0
+delay 0 @checkandrequest
+close
+
+[@checkandrequest]
+#if
+hasmaster
+#act
+showpage $requeststudent @error "对方还没有出师，不能做你师父．"
+close
+#if
+checkex level < 28
+#act
+showpage $requeststudent @error "对方等级不够，不能做你师父．"
+close
+#if
+cantakestudent
+#elseact
+showpage $requeststudent @error "对方已经有三个徒弟了，不能做你师父．"
+close
+#end 
+
+#say
+<$requeststudent>想拜您为师，请确认．．．\\
+<接受/@acceptrequest&$requeststudent>\
+<拒绝/@refuserequest&$requeststudent>\
+[@acceptrequest]
+#if
+addstudent $_param0
+#act
+showpage $_param0 @requestaccepted $username
+#say
+<$_param0>拜师成功！\\\
+<关闭/@exit>
+#elseact
+showpage $_param0 @error "拜师失败！"
+#elsesay
+<$_param0>拜师失败！\\\
+<关闭/@exit>
+[@refuserequest]
+#act
+showpage $_param0 @error "对方拒绝！"
+#say
+已经拒绝<$_param0>的拜师请求!\\\
+<关闭/@exit>
+[@requestaccepted]
+#say
+<$_param0>已经接受了您的拜师请求！\\\
+<关闭/@exit> 
+
+
+
+[@left]
+徒弟脱离师父要交五万金币，\
+师傅开除徒弟需要十万金币。\
+你是否需要解除师徒关系？\
+<是的/@leftteacher>\
+<返回/@main>
+
+[@leftteacher]
+<我要脱离师父/@leftmaster>\
+<我要开除徒弟/@delstudent>\
+<离开/@exit>
+
+[@leftmaster]
+#if
+checkex gold < 50000
+#say
+你身上的钱不够,我不能帮你!\
+#act
+return
+#if
+hasmaster
+#act
+leaveteacher 
+takegold 50000
+#say
+师徒关系解除成功!\
+#elsesay
+现在你没有师徒关系。\\
+<关闭/@exit>
+
+[@delstudent]
+#if
+checkex gold < 100000
+#say
+你身上的钱不够,我不能帮你!\
+#elseact
+inputtext 请输入徒弟的名字: 16 @studentname
+close
+
+[@studentname]
+#if
+deletestudent $inputtext
+#act
+takegold 100000
+#say
+师徒关系解除成功!\
+#elsesay
+师徒关系解除失败!\\
+<关闭/@exit>
+
+[@get]
+你想付出多少声望点数换取勋章？\
+付出越多得到好勋章的机会越大。\\
+<10点/@nomedal1>\
+<20点/@nomedal2>\
+<30点/@nomedal3>\
+<40点/@nomedal4>\
+<50点/@nomedal5>\
+<返回/@main>
+
+[@nomedal1]
+#if
+checkex credit > 9
+#act
+takecredit 10
+goto @givenomedal1
+#elsesay
+没有声望也想来骗勋章.快走开\
+<返回/@main>
+
+[@givenomedal1]
+#switch
+random 2 5
+#case:2
+give 荣誉勋章12号 1
+#say
+你获得了荣誉勋章12号!\
+<返回/@main>
+#case:3
+give 荣誉勋章13号 1
+#say
+你获得了荣誉勋章13号!\
+<返回/@main>
+#case:4
+give 荣誉勋章14号 1
+#say
+你获得了荣誉勋章14号!\
+<返回/@main>
+#case:5
+give 荣誉勋章15号 1
+#say
+你获得了荣誉勋章15号!\
+<返回/@main
+#default
+give 荣誉勋章11号 1
+#say
+你获得了荣誉勋章11号!\
+<返回/@main>
+#end
+
+[@nomedal2]
+#if
+checkex credit > 19
+#act
+takecredit 20
+goto @givenomedal2
+#elsesay
+没有声望也想来骗勋章.快走开\
+<返回/@main>
+
+[@givenomedal2]
+#switch
+random 2 5
+#case:2
+give 荣誉勋章22号 1
+#say
+你获得了荣誉勋章22号!\
+<返回/@main>
+#case:3
+give 荣誉勋章23号 1
+#say
+你获得了荣誉勋章23号!\
+<返回/@main>
+#case:4
+give 荣誉勋章24号 1
+#say
+你获得了荣誉勋章24号!\
+<返回/@main>
+#case:5
+give 荣誉勋章25号 1
+#say
+你获得了荣誉勋章25号!\
+<返回/@main
+#default
+give 荣誉勋章21号 1
+#say
+你获得了荣誉勋章21号!\
+<返回/@main>
+#end
+
+[@nomedal3]
+#if
+checkex credit > 29
+#act
+takecredit 30
+goto @givenomedal3
+#elsesay
+没有声望也想来骗勋章.快走开\
+<返回/@main>
+
+[@givenomedal3]
+#switch
+random 2 5
+#case:2
+give 荣誉勋章32号 1
+#say
+你获得了荣誉勋章32号!\
+<返回/@main>
+#case:3
+give 荣誉勋章33号 1
+#say
+你获得了荣誉勋章33号!\
+<返回/@main>
+#case:4
+give 荣誉勋章34号 1
+#say
+你获得了荣誉勋章34号!\
+<返回/@main>
+#case:5
+give 荣誉勋章35号 1
+#say
+你获得了荣誉勋章35号!\
+<返回/@main
+#default
+give 荣誉勋章31号 1
+#say
+你获得了荣誉勋章31号!\
+<返回/@main>
+#end
+
+[@nomedal4]
+#if
+checkex credit > 39
+#act
+takecredit 40
+goto @givenomedal4
+#elsesay
+没有声望也想来骗勋章.快走开\
+<返回/@main>
+
+[@givenomedal4]
+#switch
+random 2 5
+#case:2
+give 荣誉勋章42号 1
+#say
+你获得了荣誉勋章42号!\
+<返回/@main>
+#case:3
+give 荣誉勋章43号 1
+#say
+你获得了荣誉勋章43号!\
+<返回/@main>
+#case:4
+give 荣誉勋章44号 1
+#say
+你获得了荣誉勋章44号!\
+<返回/@main>
+#case:5
+give 荣誉勋章45号 1
+#say
+你获得了荣誉勋章45号!\
+<返回/@main
+#default
+give 荣誉勋章41号 1
+#say
+你获得了荣誉勋章41号!\
+<返回/@main>
+#end
+
+[@nomedal5]
+#if
+checkex credit > 49
+#act
+takecredit 50
+goto @givenomedal5
+#elsesay
+没有声望也想来骗勋章.快走开\
+<返回/@main>
+
+[@givenomedal5]
+#switch
+random 2 5
+#case:2
+give 荣誉勋章52号 1
+#say
+你获得了荣誉勋章52号!\
+<返回/@main>
+#case:3
+give 荣誉勋章53号 1
+#say
+你获得了荣誉勋章53号!\
+<返回/@main>
+#case:4
+give 荣誉勋章54号 1
+#say
+你获得了荣誉勋章54号!\
+<返回/@main>
+#case:5
+give 荣誉勋章55号 1
+#say
+你获得了荣誉勋章55号!\
+<返回/@main
+#default
+give 荣誉勋章51号 1
+#say
+你获得了荣誉勋章51号!\
+<返回/@main>
+#end
+
+[@s_repair]
+要修理荣誉勋章吗？\\
+<返 回/@main>
+
+[@~s_repair]
+荣誉勋章已经修理好了！\\
+<返 回/@main> 
+
+[@check]
+你目前的声望是<$credit>点。\\
+<离开/@exit>

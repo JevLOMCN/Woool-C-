@@ -1,0 +1,39 @@
+[@ms]
+#if
+addgodbless 1 50 1800
+#act
+us_damagedura 1
+#say
+超级秒杀!\
+持续时间为30分钟\
+下线自动消失!\\
+
+[@zj]
+#if
+addgodbless 2 60 2400
+#act
+us_damagedura 1
+#say
+超级重击!\
+持续时间为40分钟\
+下线自动消失!\\
+
+[@syo]
+#if
+addgodbless 4 90 3600
+#act
+us_damagedura 1
+#say
+超级神佑!\
+持续时间为60分钟\
+下线自动消失!\\
+
+[@syu]
+#if
+addgodbless 3 90 3600
+#act
+us_damagedura 1
+#say
+超级神御!\
+持续时间为60分钟\
+下线自动消失!\\

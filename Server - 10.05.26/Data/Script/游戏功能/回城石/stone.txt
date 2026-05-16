@@ -1,0 +1,17 @@
+[@gohome1]
+#if
+US_USEHOMESTONE
+#act
+close
+
+[@gohome2]
+#if
+US_USEHOMESTONE
+#act
+us_damagedura 1
+close
+
+[@RandomTeleport]
+#act
+US_DAMAGEDURA 1
+MOVE

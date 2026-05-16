@@ -1,0 +1,10 @@
+[@元宝]
+#if
+us_damagedura 1
+#act
+giveyuanbao $_param0
+systemmsgex $CC_SPECIAL $USERNAME "恭喜你已经获得<$_param0>点元宝,目前你已有<$YUANBAO>元宝"
+systemmsgex 请注意：您身上最多只能携带2000元宝，如果您要充入的元宝数量超过2000，将无效！
+#end
+#act
+close

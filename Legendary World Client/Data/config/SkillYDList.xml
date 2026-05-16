@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+     <Skill id="1" name="追踪"/>
+     <Skill id="2" name="折射"/>
+     <Skill id="3" name="虚弱打击"/>
+     <Skill id="4" name="孤立"/>
+     <Skill id="5" name="熔岩爆发"/>
+     <Skill id="6" name="怒火"/>
+     <Skill id="7" name="嗜血"/>
+     <Skill id="8" name="协调"/>
+     <Skill id="9" name="定身"/>
+     <Skill id="10" name="毁灭"/>
+     <Skill id="11" name="炎甲"/>
+     <Skill id="14" name="以牙还牙"/>
+     <Skill id="15" name="避魔"/>
+     <Skill id="17" name="急速闪避"/>
+     <Skill id="16" name="朱雀护佑"/>
+     <Skill id="13" name="妖魂"/>
+     <Skill id="18" name="绝处逢生"/>
+     <Skill id="19" name="磐石之坚"/>
+     <Skill id="12" name="朱雀内甲"/>
+</CFG>

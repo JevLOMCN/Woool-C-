@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "PackageWnd">
+  <Script file="PackageWnd.lua" />
+  
+  <Offset x = "0" y = "0" align = "Center" />
+  <BackTexture index = "723" />
+
+  
+  <Button name ="PetButton">
+    <Offset x = "485" y = "34" />
+    <NormalTexture index = "5600" />
+    <HighlightTexture index = "5601" />
+    <PushedTexture index = "5602" />
+    <Tips text="宠物包裹" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("PetPackageWnd");
+      </OnClick>
+    </Scripts>       
+  </Button>
+
+  <Button name ="PMButton">
+    <Offset x = "485" y = "98" />
+    <NormalTexture index = "5630" />
+    <HighlightTexture index = "5631" />
+    <PushedTexture index = "5632" />
+    <Tips text="拍卖行" />
+  </Button>
+
+  <Button name ="SaleButton">
+    <Offset x = "485" y = "130" />
+    <NormalTexture index = "4983" />
+    <HighlightTexture index = "4984" />
+    <PushedTexture index = "4985" />
+    <Tips text="出售物品" />
+  </Button>
+
+  <Button name ="MerButton">
+    <Offset x = "485" y = "66" />
+    <NormalTexture index = "5603" />
+    <HighlightTexture index = "5604" />
+    <PushedTexture index = "5605" />
+    <Tips text="元神包裹" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("MerPackageWnd");
+      </OnClick>
+    </Scripts>       
+  </Button>
+  
+  <Button name ="EnlargeMoneybag">
+    <Offset x = "485" y = "162" />
+    <NormalTexture index = "16039" />
+    <HighlightTexture index = "16040" />
+    <PushedTexture index = "16041" />
+    <Tips text="扩展钱袋,可存放1千万金币" />
+  </Button>
+  
+  <Button name ="MoreButton">
+    <Offset x = "25" y = "317" />
+    <NormalTexture index = "4986" />
+    <HighlightTexture index = "4987" />
+    <PushedTexture index = "4988" />
+  </Button>
+
+  <Button name ="JFButton">
+    <Offset x = "25" y = "346" />
+    <NormalTexture index = "743" />
+    <HighlightTexture index = "744" />
+    <PushedTexture index = "745" />
+  </Button> 
+  <Button name ="GuildMoney">
+    <Offset x = "189" y = "346" />
+    <NormalTexture index = "746" />
+    <HighlightTexture index = "747" />
+    <PushedTexture index = "748" />
+  </Button>   
+  <Button name ="VIPButton">
+    <Offset x = "365" y = "18" />
+    <NormalTexture index = "17343" />
+    <HighlightTexture index = "17344" />
+    <PushedTexture index = "17345" />    
+    <Scripts>
+      <OnClick>
+        UpdateWindow("VipStoreWnd");
+      </OnClick>
+    </Scripts>       
+  </Button>
+</Window>

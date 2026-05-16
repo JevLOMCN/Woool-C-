@@ -1,0 +1,157 @@
+[@main]
+你想做什么？\
+<求婚/@marry>\
+<取消求婚/@wantcancel>\
+<离婚/@divorce>\
+<询问结婚时间/@asktime>\
+<打听消息/@ask>\
+<离开/@exit>\
+
+[@marry]
+求婚必须是男性,还必须拥有至少5点的声望\
+值和带上求婚戒指!满足了上述所有条件之后，\
+你只需支付1000块金币的手续费，就可以向\
+爱人“求婚”了\
+<我够条件,我要求婚/@marry1>\
+<我下次再来吧/@main>
+
+[@marry1]
+#if
+checkex gold < 1000
+#say
+你小子太穷了,1000块都拿不出,还来求婚!\
+#act
+return
+#if
+ismarried 
+#say
+你已经结婚了,还来找我做什么!\
+#act
+return
+#if
+checkequipmentex 求婚戒指
+#elsesay
+你没带上结婚戒指,带上了再来找我!\
+#if
+checkex credit < 5
+#say
+你的声望值少于5点,我不能答应你的请求!\
+#act
+return
+#if
+checkex sex = 1
+#say
+你是女人,你来求婚做什么,怕嫁不出去啊?\
+#elseact
+inputtext 请输入求婚对象的名字: 16 @postrequest
+close
+
+[@postrequest]
+#if
+humonline $inputtext
+#say
+请求已发送！\\
+#act
+showpage $inputtext @checkandrequest1 $username
+#elsesay
+<$inputtext>不在线，无法接受您的求婚请求。\\
+<关闭/@exit>
+[@error]
+请求失败，原因是\
+<$_param0>\\\
+<关闭/@exit>
+[@checkandrequest1]
+#act
+movr requeststudent $_param0
+delay 0 @checkandrequest
+close
+[@checkandrequest]
+#if
+checkex sex = 0
+#act
+showpage $requeststudent @error "对方不是女人，不能结婚．"
+close
+#if
+ismarried
+#act
+showpage $requeststudent @error "对方已经结婚，来世再做夫妻吧．"
+close
+#end 
+#say
+<$requeststudent>向您求婚，请确认．．．\\
+<接受/@acceptrequest&$requeststudent>\
+<拒绝/@refuserequest&$requeststudent>\
+[@acceptrequest]
+#if
+setwife $_param0
+#act
+showpage $_param0 @requestaccepted $username
+#say
+<$_param0>求婚成功！\\\
+<关闭/@exit>
+#elseact
+showpage $_param0 @error "求婚失败！"
+#elsesay
+<$_param0>求婚失败！\\\
+<关闭/@exit>
+[@refuserequest]
+#act
+showpage $_param0 @error "对方拒绝！"
+#say
+已经拒绝<$_param0>的求婚请求!\\\
+<关闭/@exit>
+[@requestaccepted]
+#act
+takeequipment 求婚戒指
+takegold 1000
+#say
+<$_param0>已经接受了您的求婚请求！\\\
+<关闭/@exit> 
+
+[@wantcancel]
+求婚者必须是男性且装备求婚戒指，声望值在5点以上\
+如果你的求婚失败，你的求婚戒指会保留下来。\
+求婚成功后，你的求婚戒指就会被收走。\
+每次求婚收取1000金币手续费，你准备好求婚了吗？\
+<准备好了/@agree>\
+<没有/@exit>，下次再来\
+<返回/@main>
+
+[@agree]
+#act
+goto @marry1
+
+[@divorce]
+想要离婚的话你必须支付一根金条，\
+而且对方必须在线.\
+你确定要离婚吗？\\
+<确定/@leave>\
+<不离/@exit>\
+<返回/@main>\
+
+[@leave]
+#if
+checkbagitem 金条 1
+#elsesay
+你没金条,来找我做什么!\
+<返回/@main>\
+#elseact
+return
+#if
+ismarried
+unmarry 
+#act
+takebagitem 金条 1
+#say
+离婚成功！\\
+<返回/@main>\
+#elsesay
+你没结婚,来找我做什么!\
+<返回/@main>\
+
+[@ask]
+#say
+前几天我不小心丢了一枚戒指，\
+你能帮我找回来吗？\\
+<确定/@exit>
+

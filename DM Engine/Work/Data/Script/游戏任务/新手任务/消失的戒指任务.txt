@@ -1,0 +1,188 @@
+[@落霞岛_首饰1]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp2>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp2]
+原来是你啊，村民们说，你来落霞村不久，已经帮大家做了\
+很多好事了，大家都很佩服你。呵呵，你能帮我一个忙吗？\
+<非常愿意/@_RW_fulfilTask2>                <没事/@exit>
+
+[@_RW_fulfilTask2]
+#ACT
+modifytask 11 2
+GIVEEXP 4200
+GIVEGOLD 300
+systemmsg $username "您成功增加了300金币。"
+#SAY
+杂货铺掌柜在我这定做的结婚戒指不见了，真是急死人啊。\
+我一直没有找到，你能帮我找找看吗？听说近来不少人家都\
+失窃了，这到底是怎么回事呢？村里的老兵号称万事通，你\
+去找他问问吧。老兵在村子中央（253：248）的大树下。\
+<离开/@exit>
+
+[@落霞岛_老兵1]
+我夜观天象，发现黑气冲天，煞星犯北斗，以此断定，村里\
+必有妖孽作乱。是首饰店的杏子让你来的吧，你说吧，有什\
+么事情需要我帮忙。\
+<打听结婚戒指/@_RW_fulfilTask5>                <离开/@exit>
+
+[@_RW_fulfilTask5]
+#ACT
+modifytask 11 3
+GIVEEXP 7500
+GIVEGOLD 300
+systemmsg $username "您成功增加了300金币。"
+#SAY
+哈哈，这事问我，你算找对人了，村子近来不怎么太平啊！\
+昨天有一只棍犬混进了村子，很有可能是那家伙干的坏事。\
+你回去把这事告诉首饰店店员吧，别让她等着急了。首饰店\
+在村子中央的（241：232）附近。\
+<离开/@exit>
+
+[@落霞岛_首饰2]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp6>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp6]
+村里的老兵以前跟白云道观的蛟川道人学过道家法术，神通\
+广大。他甚至可以把人瞬间转移到很远的地方……对了，老\
+兵告诉你答案了吗？\
+<转告老兵的答案/@_RW_fulfilTask6>                <不知道/@exit>
+
+[@_RW_fulfilTask6]
+#ACT
+modifytask 11 4
+GIVEEXP 18000
+GIVEGOLD 300
+give 幻彩项链 1 1
+systemmsg $username "您成功增加了300金币。"
+#SAY
+快去杀死棍犬吧，结婚戒指就在它身上。\
+<离开/@exit>
+
+[@落霞岛_首饰3]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp7>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp7]
+棍犬是一种很凶猛的动物，普通人要对付它可是要花一番气\
+力的。你这么快就回来了，难道你真的如村民传说中那么勇\
+敢和强大吗？了不起。你真的杀死棍犬，抢回结婚戒指了？\
+<交还结婚戒指/@_RW_fulfilTask7_7>                <离开/@exit>
+
+[@_RW_fulfilTask7_7]
+#IF
+CHECKBAGITEM 结婚戒指 1
+#ACT
+CompleteTask 11
+TAKEBAGITEM 结婚戒指 1
+GIVEEXP 8000
+GIVEGOLD 300
+give 结婚戒指 1
+AddTask 12
+systemmsg $username "您成功增加了300金币。"
+#SAY
+果然是英雄出少年，名不虚传啊。再麻烦你跑一趟，快把戒\
+指交给杂货铺掌柜吧，关乎他的人生大事哦。杂货铺就在村\
+子中央的（233：255）附近。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@海角_首饰1]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp19>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp19]
+原来是你啊，村民们说，你来海角村不久，已经帮大家做了\
+很多好事了，大家都很佩服你。呵呵，你能帮我一个忙吗？\
+<非常愿意/@_RW_fulfilTask19_19>                <没事/@exit>
+
+[@_RW_fulfilTask19_19]
+#ACT
+modifytask 24 2
+GIVEEXP 4200
+GIVEGOLD 300
+systemmsg $username "您成功增加了300金币。"
+#SAY
+杂货铺掌柜在我这定做的结婚戒指不见了，真是急死人啊。\
+我一直没有找到，你能帮我找找看吗？听说近来不少人家都\
+失窃了，这到底是怎么回事呢？村里的老兵号称万事通，你\
+去找他问问吧。老兵在村子中央（400：620）附近。\
+<离开/@exit>
+
+[@海角_老兵1]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp20>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp20]
+我夜观天象，发现黑气冲天，煞星犯北斗，以此断定，村里\
+必有妖孽作乱。是首饰店的小娟让你来的吧，你说吧，有什\
+么事情需要我帮忙。\
+<打听结婚戒指/@_RW_fulfilTask20_20>                <离开/@exit>
+
+[@_RW_fulfilTask20_20]
+#ACT
+modifytask 24 3
+GIVEEXP 7500
+GIVEGOLD 300
+systemmsg $username "您成功增加了300金币。"
+#SAY
+哈哈，这事问我，你算找对人了，村子近来不怎么太平啊！\
+昨天有一只棍犬混进了村子，很有可能是那家伙干的坏事。\
+你回去把这事告诉首饰店店员吧，别让她等着急了。首饰店\
+在村子中央的（241：232）附近。\
+<离开/@exit>
+
+[@海角_首饰2]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp21>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp21]
+村里的老兵以前跟白云道观的蛟川道人学过道家法术，神通\
+广大。他甚至可以把人瞬间转移到很远的地方……对了，老\
+兵告诉你答案了吗？\
+<转告老兵的答案/@_RW_fulfilTask21_21>                <不知道/@exit>
+
+[@_RW_fulfilTask21_21]
+#ACT
+modifytask 24 4
+GIVEEXP 18000
+GIVEGOLD 300
+give 幻彩项链 1 1
+systemmsg $username "您成功增加了300金币。"
+#SAY
+快去杀死棍犬吧，结婚戒指就在它身上。\
+<离开/@exit>
+
+[@海角_首饰3]
+可以完成的任务：\
+<新手任务--消失的戒指/@_RW_fulfilTaskDesp22>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp22]
+#IF
+CHECKBAGITEM 结婚戒指 1
+#ACT
+CompleteTask 24
+TAKEBAGITEM 结婚戒指 1
+GIVEEXP 8000
+GIVEGOLD 300
+give 结婚戒指 1
+AddTask 25
+systemmsg $username "您成功增加了300绑定金币。"
+#SAY
+果然是英雄出少年，名不虚传啊。再麻烦你跑一趟，快把戒\
+指交给杂货铺掌柜吧，关乎他的人生大事哦。杂货铺就在北\
+门右边的（429：600）附近。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>

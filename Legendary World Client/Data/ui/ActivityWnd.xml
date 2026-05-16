@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "ActivityWnd">
+  <Offset x = "0" y = "0" align = "Center" />
+  <BackTexture index = "13380" />
+  <Scripts>
+    <OnClose>
+      CloseWindow("ActivityWnd")
+    </OnClose>    
+    <OnLoad>
+      this:SetCloseButton(642,7);
+    </OnLoad>    
+  </Scripts>
+  
+  <Button name ="ConfirmBtn">
+    <Offset x = "546" y = "272" />
+    <NormalTexture index = "13381" />
+    <HighlightTexture index = "13382" />
+    <PushedTexture index = "13383" />
+  </Button>
+
+  <Button name ="UpButton">
+    <Offset x = "623" y = "303" />
+    <NormalTexture index = "51" />
+    <HighlightTexture index = "52" />
+    <PushedTexture index = "53" />
+  </Button>
+
+  <Button name ="DownButton">
+    <Offset x = "623" y = "369" />
+    <NormalTexture index = "56" />
+    <HighlightTexture index = "57" />
+    <PushedTexture index = "58" />
+  </Button>
+  
+  <Button name ="PrevPage">
+    <Offset x = "396" y = "272" />
+    <NormalTexture index = "13386" />
+    <HighlightTexture index = "13387" />
+    <PushedTexture index = "13388" />
+    <DisableTexture index = "13389" />
+  </Button>
+  
+  <Button name ="NextPage">
+    <Offset x = "471" y = "272" />
+    <NormalTexture index = "13390" />
+    <HighlightTexture index = "13391" />
+    <PushedTexture index = "13392" />
+    <DisableTexture index = "13393" />
+  </Button> 
+  
+   <Scroll name ="ListScroll" ScrollTexture ="54" Width ="16" Height ="65">
+    <Offset x = "623" y = "312" />
+  </Scroll>
+  
+</Window>

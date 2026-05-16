@@ -1,0 +1,8 @@
+[@carryto]
+#if
+us_damagedura 1
+#act
+mapmove $_param0
+#end
+#act
+close

@@ -1,0 +1,59 @@
+[@Open]
+#act
+SENDOPENGAMETIMEINFO
+
+
+[@Refill]
+#IF
+Check $VPARAM*0 30
+CheckEX yuanbao < 30
+#ACT
+MSGBOX ¹ºÂòÊ§°Ü£¬Ôª±¦²»×ã30¸ö£¡
+#IF
+Check $VPARAM*0 50
+CheckEX yuanbao < 50
+#ACT
+MSGBOX ¹ºÂòÊ§°Ü£¬Ôª±¦²»×ã50¸ö£¡
+#IF
+Check $VPARAM*0 100
+CheckEX yuanbao < 100
+#ACT
+MSGBOX ¹ºÂòÊ§°Ü£¬Ôª±¦²»×ã100¸ö£¡
+#IF
+Check $VPARAM*0 30
+CheckEX yuanbao >= 30
+#ACT
+TAKEYUANBAO 30
+CHANGEGAMETIME + 108000
+SENDOPENGAMETIMEINFO
+#IF
+Check $VPARAM*0 50
+CheckEX yuanbao >= 50
+#ACT
+TAKEYUANBAO 50
+CHANGEGAMETIME + 180000
+SENDOPENGAMETIMEINFO
+#IF
+Check $VPARAM*0 100
+CheckEX yuanbao >= 100
+#ACT
+TAKEYUANBAO 100
+CHANGEGAMETIME + 360000
+SENDOPENGAMETIMEINFO
+
+
+[@Renewal]
+#IF
+Check $VPARAM*0 1
+CheckEX yuanbao >= 30
+#ACT
+TAKEYUANBAO 30
+CHANGEGAMETIME + 108000
+SENDOPENGAMETIMEINFO
+#ELSEACT
+MSGBOX ¹ºÂòÊ§°Ü£¬Ôª±¦²»×ã30¸ö£¡
+
+
+[@TimeOver]
+#act
+SENDGAMETIMENOTICE

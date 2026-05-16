@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<AutoEatEx name="强效太阳神水"	type="6" hp="1" mp="1"/>
+	<AutoEatEx name="强效太阳水药袋"	type="6" hp="1" mp="1"/>
+	<AutoEatEx name="太阳神水"		type="6" hp="1" mp="1"/>	
+	<AutoEatEx name="太阳水药袋"		type="6" hp="1" mp="1"/>
+
+	<AutoEatEx name="治疗药水"		type="7" hp="1" mp="1"/>	
+
+	<AutoEatEx name="治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="超级治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="超级太阳神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="沙城治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="天山雪莲"	  type="101" hp="1" mp="0"/>
+	<AutoEatEx name="超级天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="深海灵礁"	  type="101" hp="0" mp="1"/>
+	<AutoEatEx name="超级深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="元力神水"		type="201" yp="1"/>
+	
+	<AutoEatBao name="金创药（中）包"	bao="中包金创药袋"/>
+	<AutoEatBao name="超级金创药"	bao="超级金创药袋"/>
+	<AutoEatBao name="特级金创药包"	bao="特级金创药袋"/>
+	<AutoEatBao name="海神金创药包"	bao="海神金创药袋"/>
+	<AutoEatBao name="魔法药（中）包"	bao="中包魔法药袋"/>
+	<AutoEatBao name="超级魔法药"	bao="超级魔法药袋"/>
+	<AutoEatBao name="特级魔法药包"	bao="特级魔法药袋"/>
+	<AutoEatBao name="海神魔法药包"	bao="海神魔法药袋"/>
+	
+	<AutoEatAdv name="超级金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="特级金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="海神金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="沙城金创药"	 hp="1" mp="0"/>
+	
+	<AutoEatAdv name="超级魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="特级魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="海神魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="沙城魔法药"	 hp="0" mp="1"/>
+	
+	<AutoEatAdv name="超级太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="超级治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="强效太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="沙城治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="治疗神水"	 hp="1" mp="1"/>
+	
+	
+	<!-- 转药配置 -->
+	<AutoEatAdu name="超级金创药"/>
+	<AutoEatAdu name="超级金创药袋"/>
+	<AutoEatAdu name="特级金创药"/>
+	<AutoEatAdu name="特级金创药包"/>
+	<AutoEatAdu name="特级金创药袋"/>
+	<AutoEatAdu name="海神金创药"/>
+	<AutoEatAdu name="海神金创药包"/>
+	<AutoEatAdu name="海神金创药袋"/>
+	<AutoEatAdu name="超级魔法药"/>
+	<AutoEatAdu name="超级魔法药袋"/>
+	<AutoEatAdu name="特级魔法药"/>
+	<AutoEatAdu name="特级魔法药包"/>
+	<AutoEatAdu name="特级魔法药袋"/>
+	<AutoEatAdu name="海神魔法药"/>
+	<AutoEatAdu name="海神魔法药包"/>
+	<AutoEatAdu name="海神魔法药袋"/>
+	<AutoEatAdu name="太阳神水"/>
+	<AutoEatAdu name="太阳水药袋"/>
+	<AutoEatAdu name="强效太阳神水"/>
+	<AutoEatAdu name="强效太阳水药袋"/>
+	<AutoEatAdu name="治疗药水"/>
+	<AutoEatAdu name="治疗神水"/>
+	<AutoEatAdu name="超级治疗神水"/>
+	<AutoEatAdu name="沙城治疗神水"/>
+	<AutoEatAdu name="超级太阳神水"/>
+	<AutoEatAdu name="金创药（中）包"/>
+	<AutoEatAdu name="魔法药（中）包"/>
+</CFG>

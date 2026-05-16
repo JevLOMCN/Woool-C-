@@ -1,0 +1,295 @@
+[@落霞岛_书店]
+#IF
+CHECKTASKSTEP 3 = 1
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 3 = 3
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp3>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 3 = 4
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp4>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 6 = 1
+#ACT
+CALL @打听拜师任务.落霞岛_书店1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+
+[@_RW_fulfilTaskDesp4]
+麻烦你跑了这么多趟，我都有一些不好意思了，呵呵。你是\
+个好人，好人会有好报的。请问你帮我买到修复油了吗？\
+<给你修复油/@_RW_fulfilTask4_4>                <离开/@exit>
+
+[@_RW_fulfilTask4_4]
+#IF
+CHECKBAGITEM 修复油 1
+#ACT
+TAKEBAGITEM 修复油 1
+#ELSEIF
+check job 0
+#ACT
+CompleteTask 3
+give 初级剑法 1
+AddTask 4
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSEIF
+check job 1
+#ACT
+CompleteTask 3
+give 小火球 1
+AddTask 4
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSEIF
+check job 2
+#ACT
+CompleteTask 3
+give 治疗术 1
+AddTask 4
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp3]
+服下解药之后，老婆孩子都明显好转了……真是一件值得庆\
+祝的事情，不过首先要感谢的是炼药师和你这个送药人。我\
+现在终于可以腾出手来修理书橱了，你找到木材了吗？\
+<给你书橱木材/@_RW_fulfilTask3_3>                <离开/@exit>
+
+[@_RW_fulfilTask3_3]
+#if
+CHECKBAGITEM 书橱木材 1
+#ACT
+modifytask 3 4
+TAKEBAGITEM 书橱木材 1
+GIVEEXP 1800
+GIVEGOLD 800
+give 修复油 1
+systemmsg $username "您成功增加了800金币。"
+#SAY
+真不错啊，这些木材够我再做一个新书橱了，可惜我的工具\
+有些旧了。眼看就到梅雨季节了，我可不想我那些宝贝书都\
+被虫子给蠹了。工欲善其事，必先利其器，这个事情又要麻\
+烦你哦。你再帮我买瓶修复油来吧，我先把那些工具修理一\
+下。你去村子中央的杂货铺（233：255）买修复油吧。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+自从老婆孩子中毒以来，我的头发都灰白了一半，如果家人\
+有什么三长两短，我活着还有什么意义啊？真希望村里的药\
+师快点配好解药啊，早点让我的家人脱离苦海，就算要付出\
+我的生命也在所不惜……你当真是来送解药的？\
+<交还解药/@_RW_fulfilTask1_1>                <离开/@exit>
+
+[@_RW_fulfilTask1_1]
+#IF
+CHECKBAGITEM 解毒药 1
+#ACT
+modifytask 3 2
+GIVEEXP 1350
+TAKEBAGITEM 解毒药 1
+#SAY
+太好了，你真是雪中送炭啊，我的家人有救了。我的书橱坏\
+掉了，需要重新找些木头来修理它。你帮我去建材商人那里\
+看看能不能借点木材来，我现在得先把药送回家去救人。建\
+材商人在村子东南边的木材铺（249：270）附近。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@落霞岛_建材]
+#IF
+CHECKTASKSTEP 3 = 2
+#SAY
+<新手任务--雪中送炭/@_RW_fulfilTask2>\\
+<离开/@exit>
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTask2]
+#ACT
+modifytask 3 3
+give 书橱木材 1
+GIVEEXP 1500
+#SAY
+唉…原来你是找我借木材，不是买啊，让我考虑一下，近来\
+木材奇缺，王城那边都供不应求了。这样吧，我先把木材借\
+给你，但到了19级的时候，你一定要记得来帮我砍树！差点\
+忘记，你赶快把木材送回给书店老板吧。\
+<离开/@exit>
+
+[@海角_书店]
+#IF
+CHECKTASKSTEP 16 = 1
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp10>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 16 = 3
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp12>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 16 = 4
+#SAY
+可以完成的任务：\
+<新手任务--雪中送炭/@_RW_fulfilTaskDesp13>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 19 = 1
+#ACT
+CALL @打听拜师任务.海角_书店10
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+
+[@_RW_fulfilTaskDesp10]
+自从老婆孩子中毒以来，我的头发都灰白了一半，如果家人\
+有什么三长两短，我活着还有什么意义啊？真希望村里的药\
+师快点配好解药啊，早点让我的家人脱离苦海，就算要付出\
+我的生命也在所不惜……你当真是来送解药的？\
+<交还解药/@_RW_fulfilTask10_10>                <离开/@exit>
+
+[@_RW_fulfilTask10_10]
+#IF
+CHECKBAGITEM 解毒药 1
+#ACT
+modifytask 16 2
+GIVEEXP 1350
+TAKEBAGITEM 解毒药 1
+#SAY
+太好了，你真是雪中送炭啊，我的家人有救了。我的书橱坏\
+掉了，需要重新找些木头来修理它。你帮我去建材商人那里\
+看看能不能借点木材来，我现在得先把药送回家去救人。建\
+材商人在村子东南边的木材铺（425：630）附近。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@海角_建材]
+#IF
+CHECKTASKSTEP 16 = 2
+#SAY
+<新手任务--雪中送炭/@_RW_fulfilTask11>\\
+<离开/@exit>
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTask11]
+#ACT
+modifytask 16 3
+give 书橱木材 1
+GIVEEXP 1500
+#SAY
+你可以到铁匠那里购买伐木斧，装备上后去攻击野外的树，\
+将树砍倒后站在旁边按住ALT＋鼠标左键点树，就可以得到\
+木材了，回来卖给我，我会根据品质收购的。这是木材，你\
+把它送给书店老板吧。\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp12]
+服下解药之后，老婆孩子都明显好转了……真是一件值得庆\
+祝的事情，不过首先要感谢的是炼药师和你这个送药人。我\
+现在终于可以腾出手来修理书橱了，你找到木材了吗？\
+<给你书橱木材/@_RW_fulfilTask12_12>                <离开/@exit>
+
+[@_RW_fulfilTask12_12]
+#IF
+CHECKBAGITEM 书橱木材 1
+#ACT
+modifytask 16 4
+TAKEBAGITEM 书橱木材 1
+GIVEEXP 1800
+GIVEGOLD 800
+give 修复油 1
+systemmsg $username "您成功增加了800金币。"
+#SAY
+真不错啊，这些木材够我再做一个新书橱了，可惜我的工具\
+有些旧了，眼看就到梅雨季节了，我可不想我那些宝贝书都\
+被虫子给蠹了，工欲善其事，必先利其器，这个事情又要麻\
+烦你哦，你再帮我买瓶修复油来吧，我先把那些工具修理一\
+下。你去村子北门右边的杂货铺（429：600）买修复油吧。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp13]
+麻烦你跑了这么多趟，我都有一些不好意思了，呵呵。你是\
+个好人，好人会有好报的。请问你帮我买到修复油了吗？\
+<给你修复油/@_RW_fulfilTask13_13>                <离开/@exit>
+
+[@_RW_fulfilTask13_13]
+#IF
+CHECKBAGITEM 修复油 1
+#ACT
+TAKEBAGITEM 修复油 1
+#ELSEIF
+check job 0
+#ACT
+CompleteTask 16
+give 基本剑法 1
+AddTask 17
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSEIF
+check job 1
+#ACT
+CompleteTask 16
+give 小火球 1
+AddTask 17
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSEIF
+check job 2
+#ACT
+CompleteTask 16
+give 治疗术 1
+AddTask 17
+#SAY
+谢谢你，这本书就送给你了，好好钻研啊。在包裹中双击书\
+籍，就可以学习了。如果你有时间，就去铁匠那里看看吧，\
+他可以教你如何挖矿赚钱。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>

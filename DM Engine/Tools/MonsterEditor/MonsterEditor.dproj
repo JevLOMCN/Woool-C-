@@ -1,0 +1,52 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{c9b541c7-ff7f-4623-b33f-ae6956f18762}</ProjectGuid>
+    <MainSource>MonsterEditor.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\MonsterEditor.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_ExeOutput>..\</DCC_ExeOutput>
+    <DCC_Define>RELEASE;EUREKALOG;EUREKALOG_VER6</DCC_Define>
+    <DCC_DcuOutput>..\Build</DCC_DcuOutput>
+    <DCC_ObjOutput>..\Build</DCC_ObjOutput>
+    <DCC_HppOutput>..\Build</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\Sui</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\Sui</DCC_ResourcePath>
+    <DCC_ObjPath>..\Sui</DCC_ObjPath>
+    <DCC_IncludePath>..\Sui</DCC_IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_ExeOutput>..\</DCC_ExeOutput>
+    <DCC_DcuOutput>..\Build</DCC_DcuOutput>
+    <DCC_ObjOutput>..\Build</DCC_ObjOutput>
+    <DCC_HppOutput>..\Build</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\Sui</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\Sui</DCC_ResourcePath>
+    <DCC_ObjPath>..\Sui</DCC_ObjPath>
+    <DCC_IncludePath>..\Sui</DCC_IncludePath>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">2</VersionInfo><VersionInfo Name="Release">1</VersionInfo><VersionInfo Name="Build">72</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2052</VersionInfo><VersionInfo Name="CodePage">936</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription">怪物编辑器</VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.2.1.72</VersionInfoKeys><VersionInfoKeys Name="InternalName">MonsterEditor</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">MonsterEditor.exe</VersionInfoKeys><VersionInfoKeys Name="ProductName">怪物编辑器</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.2.1.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">MonsterEditor.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="MonsterEditor.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="define.pas" />
+    <DCCReference Include="frmMonsterEdit.pas">
+      <Form>_frmMonsterEdit</Form>
+    </DCCReference>
+    <DCCReference Include="newClass.pas">
+      <Form>frmNewClass</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>

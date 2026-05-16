@@ -1,0 +1,28 @@
+[@main]
+#if
+checkex level > 46
+#say
+<我要去修罗界/@xiuluo>\
+<没事/@exit>\\
+#elsesay
+等级不够,无法催动魔阵\
+<没事/@exit>\\
+[@xiuluo]
+你想去哪?\
+<虚无之关/@xuwuzhiguan>\
+<苍茫大厅/@cangmangdating>\
+<封印魔地/@fengyinmodi>\\
+<返回/@main>
+
+[@xuwuzhiguan]
+#act
+move 299 28 114
+close
+[@cangmangdating]
+#act
+move 300 30 109
+close
+[@fengyinmodi]
+#act
+move 301 47 53
+close

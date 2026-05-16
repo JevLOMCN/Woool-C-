@@ -1,0 +1,29 @@
+[@double]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+#end
+#act
+close
+
+[@doubleday]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+hour 6 18
+#act
+US_CHECKANDUPTODATE
+SETEXPFACTOR 200
+#elseact
+SETEXPFACTOR 200
+#end
+#act
+close
+

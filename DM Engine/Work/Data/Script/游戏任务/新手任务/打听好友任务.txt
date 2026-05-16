@@ -1,0 +1,83 @@
+[@落霞岛_杂货]
+#IF
+CHECKTASKSTEP 5 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听加好友/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 12 = 1
+#ACT
+CALL @求婚的勇气任务.落霞岛_杂货1
+#ELSEIF
+CHECKTASKSTEP 12 = 3
+#ACT
+CALL @求婚的勇气任务.落霞岛_杂货2
+#ELSEIF
+CHECKTASKSTEP 12 = 6
+#ACT
+CALL @求婚的勇气任务.落霞岛_杂货3
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+年轻人，是元铁匠让你来的吧，他刚才还在我面前夸你能干\
+呢！你找我有什么事情吗？\
+<打听加好友/@_RW_fulfilTask1_1>                <没事/@exit>
+
+[@_RW_fulfilTask1_1]
+#ACT
+CompleteTask 5
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 6
+systemmsg $username "您成功增加了300金币。"
+#SAY
+你可以点右下界面中的社交界面（CTRL+I），里面有加好友\
+的选项，输入你要加的人的名字点确定就可以啦。如果你的\
+朋友在你身边的话，可以直接右键点他的头像进行操作。\
+你现在去书店老板那里看看，他会教你如何拜师的。\
+<离开/@exit>
+
+[@海角_杂货]
+#IF
+CHECKTASKSTEP 18 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听加好友/@_RW_fulfilTaskDesp10>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 25 = 1
+#ACT
+CALL @求婚的勇气任务.海角_杂货1
+#ELSEIF
+CHECKTASKSTEP 25 = 3
+#ACT
+CALL @求婚的勇气任务.海角_杂货2
+#ELSEIF
+CHECKTASKSTEP 25 = 6
+#ACT
+CALL @求婚的勇气任务.海角_杂货3
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp10]
+年轻人，是元铁匠让你来的吧，他刚才还在我面前夸你能干\
+呢！你找我有什么事情吗？\
+<打听加好友/@_RW_fulfilTask10_10>                <没事/@exit>
+
+[@_RW_fulfilTask10_10]
+#ACT
+CompleteTask 18
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 19
+systemmsg $username "您成功增加了300金币。"
+#SAY
+你可以点右下界面中的社交界面（CTRL+I），里面有加好友\
+的选项，输入你要加的人的名字点确定就可以啦。如果你的\
+朋友在你身边的话，可以直接右键点他的头像进行操作。\
+你现在去书店老板那里看看，他会教你如何拜师的。\
+<离开/@exit>

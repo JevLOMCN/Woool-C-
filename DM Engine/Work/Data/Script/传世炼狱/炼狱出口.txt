@@ -1,0 +1,5 @@
+[@goout]
+#act
+multimaphumteleport 164 219 16
+systemmsg "炼狱入口已经慢慢的消失了.........."
+close

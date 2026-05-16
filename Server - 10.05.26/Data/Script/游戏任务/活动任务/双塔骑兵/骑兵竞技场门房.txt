@@ -1,0 +1,56 @@
+[@main]
+你准备好了吗?准备好了我就会将你传送上\
+跑道上了,而且计时也开始,如果150秒内没跑\
+完赛道视为作弊\
+\
+<我准备好了/@ready1>\
+<我要离开这!/@leave>\
+<还没呢!/@eixt>\\
+
+[@leave]
+#act
+move 16 469 222
+close
+
+[@ready1]
+#if
+checkex $horserace.raceway1 = 0
+#act
+movr horserace.raceway1 1
+movr horserace.player1name $username
+move 258 126 67
+#elseact
+call @ready2
+
+[@ready2]
+#if
+checkex $horserace.raceway2 = 0
+#act
+movr horserace.raceway2 1
+movr horserace.player2name $username
+move 258 129 70
+#elseact
+call @reday3
+
+[@ready3]
+#if
+checkex $horserace.raceway3 = 0
+#act
+movr horserace.raceway3 1
+movr horserace.player3name $username
+move 258 132 73
+#elseact
+call @reday4
+
+[@ready4]
+#if
+checkex $horserace.raceway4 = 0
+#act
+movr horserace.raceway4 1
+movr horserace.player4name $username
+move 258 135 76
+close
+#elsesay
+目前没有赛道可用!\
+<哦!知道了/@exit>\
+

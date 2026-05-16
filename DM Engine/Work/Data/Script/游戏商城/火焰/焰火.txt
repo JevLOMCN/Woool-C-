@@ -1,0 +1,8 @@
+[@Ñæ»ð]
+#if
+us_damagedura 1
+#act
+showfireworks $_param0
+#end
+#act
+close

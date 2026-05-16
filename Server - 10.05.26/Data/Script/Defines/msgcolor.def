@@ -1,0 +1,8 @@
+#define CC_RED 0x38ff
+#define CC_SPECIAL 0xfdff
+#define CC_GREEN 0xfcffdb
+#define CC_MAGICTIPS 0xdbffdb
+#define CC_CRY 0x389700
+#define CC_NORMAL 0xff00
+#define CC_WISPER 0xfffc
+#define CC_GROUP 0xff2f

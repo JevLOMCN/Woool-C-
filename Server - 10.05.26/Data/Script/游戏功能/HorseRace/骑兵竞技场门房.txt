@@ -1,0 +1,47 @@
+[@main]
+你准备好了吗?准备好了我就会将你传送上\
+跑道上了,而且计时也开始\
+
+<我准备好了/@reday>\
+<还没呢!/@eixt>\\
+
+[@reday]
+#if
+checkex $raceway.raceway1 0
+#act
+movr raceway.raceway1 1
+movr player.player1 1
+move 258 126 67
+#elseact
+call @reday1
+
+[@reday1]
+#if
+checkex $raceway.raceway2 0
+#act
+movr raceway.raceway2 1
+movr player.player2 1
+move 258 129 70
+#elseact
+call @reday2
+
+[@reday2]
+#if
+checkex $raceway.raceway3 0
+#act
+movr raceway.raceway3 1
+movr player.player3 1
+move 258 132 73
+#elseact
+call @reday3
+
+[@reday3]
+#if
+checkex $raceway.raceway4 0
+#act
+movr raceway.raceway4 1
+movr player.player4 1
+move 258 135 76
+close
+
+

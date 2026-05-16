@@ -1,0 +1,1789 @@
+<?xml version="1.0" encoding="gb2312"?>
+<TTInfos>
+	<!--Task name 推图组的名称（一个推图组可以包含N个图） index 默认序号-->
+	<!--————————————————————副本组1：落霞岛————————————————————-->
+	<!--————————————————————副本组1：落霞岛————————————————————-->
+	<Task name="落霞梦境" index="1">
+		<!--index 显示顺序 name 顺序N的推图本名称 qua 品质由低到高 0~3 (qua决定图标显示样式，青铜、白金、钻石等)-->
+		<!--————————————————————第1张————————————————————-->
+		<SubTask index="1" name="落霞梦境一重" qua="0">
+			<!--level value 推图难度1~3 name 按钮文本 monster 怪物的图片帧ID-->
+			<level value="1" name = "简 单" monster = "505">
+				<!--Desc text 推图说明-->
+				<Desc text= "落霞岛的练功房，练功师长年训练场所。落霞岛新人均会来此，挑战练/功师，证明自己的实力。"/>
+				<!--PrizeDesc text 推图奖励-->
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "505">
+				<Desc text= "落霞岛的练功房，练功师长年训练场所。落霞岛新人均会来此，挑战练/功师，证明自己的实力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "505">
+				<Desc text= "落霞岛的练功房，练功师长年训练场所。落霞岛新人均会来此，挑战练/功师，证明自己的实力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>	
+		<!--————————————————————第2张————————————————————-->
+				<SubTask index="2" name="落霞梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "53">
+				<Desc text= "落霞梦境创造的一只强大的怪物，新人们通过击败它以证明自己的实力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "53">
+				<Desc text= "落霞梦境创造的一只强大的怪物，新人们通过击败它以证明自己的实力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "53">
+				<Desc text= "落霞梦境创造的一只强大的怪物，新人们通过击败它以证明自己的实力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————第3张————————————————————-->
+				<SubTask index="3" name="落霞梦境三重" qua="1">
+			<level value="1" name = "简 单" monster = "33">
+				<Desc text= "花园里面的花也修炼成妖了，而且它们更加的狡猾，平时都隐藏在花丛/之中，当人没有防备的路过时，就开始突然袭击，让人防不胜防。你要/小心搜寻哦。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "33">
+				<Desc text= "花园里面的花也修炼成妖了，而且它们更加的狡猾，平时都隐藏在花丛/之中，当人没有防备的路过时，就开始突然袭击，让人防不胜防。你要/小心搜寻哦。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "33">
+				<Desc text= "花园里面的花也修炼成妖了，而且它们更加的狡猾，平时都隐藏在花丛/之中，当人没有防备的路过时，就开始突然袭击，让人防不胜防。你要/小心搜寻哦。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "2" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "2" class = "1" pos = "2">
+  <Job type = "战士" desc="鹿皮腰带"/>
+  <Job type = "法师" desc="鹿皮腰带"/>
+  <Job type = "道士" desc="鹿皮腰带"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "2" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "2">
+  <Job type = "战士" desc="魔力手镯"/>
+  <Job type = "法师" desc="黑檀木手镯"/>
+  <Job type = "道士" desc="道士手镯"/>
+  <Job type = "妖士" desc="古纹手镯"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "2">
+  <Job type = "战士" desc="恶魔项链"/>
+  <Job type = "法师" desc="白金项链"/>
+  <Job type = "道士" desc="凤凰项链"/>
+  <Job type = "妖士" desc="古纹项链"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "3">
+  <Job type = "战士" desc="死神戒指"/>
+  <Job type = "法师" desc="生铁戒指"/>
+  <Job type = "道士" desc="道士戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+
+
+		
+	</Task>
+<!--————————————————————副本组2：矿区————————————————————-->
+<!--————————————————————副本组2：矿区————————————————————-->
+<Task name="矿区" index="2">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 矿洞梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "119/22/22">
+				<Desc text= "曾经在战斗中倒下的骷髅重新站立了起来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "119/22/22">
+				<Desc text= "曾经在战斗中倒下的骷髅重新站立了起来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "119/22/22">
+				<Desc text= "曾经在战斗中倒下的骷髅重新站立了起来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 矿洞梦境二重" qua="1">
+			<level value="1" name = "简 单" monster = "49/119/119">
+				<Desc text= "矿洞梦境二重比一重更加潮湿阴暗，要小心对待。注意掉落的巨石！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "49/119/119">
+				<Desc text= "矿洞梦境二重比一重更加潮湿阴暗，要小心对待。注意掉落的巨石！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "49/119/119">
+				<Desc text= "矿洞梦境二重比一重更加潮湿阴暗，要小心对待。注意掉落的巨石！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 矿洞梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "54/51/51">
+				<Desc text= "偶尔传出恐怖的尖叫声，进入的人很少能够安全出来。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "54/51/51">
+				<Desc text= "偶尔传出恐怖的尖叫声，进入的人很少能够安全出来。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "54/51/51">
+				<Desc text= "偶尔传出恐怖的尖叫声，进入的人很少能够安全出来。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 矿洞梦境四重" qua="2">
+			<level value="1" name = "简 单" monster = "69">
+				<Desc text= "僵尸！僵尸！这是大量僵尸的发源地，勇士需要准备充分再考虑进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "69">
+				<Desc text= "僵尸！僵尸！这是大量僵尸的发源地，勇士需要准备充分再考虑进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "69">
+				<Desc text= "僵尸！僵尸！这是大量僵尸的发源地，勇士需要准备充分再考虑进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "3" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "3" class = "1" pos = "2">
+  <Job type = "战士" desc="鹿皮靴子"/>
+  <Job type = "法师" desc="鹿皮靴子"/>
+  <Job type = "道士" desc="鹿皮靴子"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "3" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "2">
+  <Job type = "战士" desc="死神戒指"/>
+  <Job type = "法师" desc="生铁戒指"/>
+  <Job type = "道士" desc="道士戒指"/>
+  <Job type = "妖士" desc="古纹戒指"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "2">
+  <Job type = "战士" desc="死神头盔"/>
+  <Job type = "法师" desc="魔力头盔"/>
+  <Job type = "道士" desc="魔力头盔"/>
+  <Job type = "妖士" desc="古纹项链"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "3">
+  <Job type = "战士" desc="魔力手镯"/>
+  <Job type = "法师" desc="黑檀木手镯"/>
+  <Job type = "道士" desc="道士手镯"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+	</Task>
+	
+	
+	
+<!--————————————————————副本组3：中州————————————————————-->
+<!--————————————————————副本组3：中州————————————————————-->
+<Task name="中州" index="3">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 中州梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "36">
+				<Desc text= "梦境里，中州郊外莫名出现了大批蝎子，他们摇曳着尾刺的战斗姿态，/简直像极了着了魔的木偶！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "36">
+				<Desc text= "梦境里，中州郊外莫名出现了大批蝎子，他们摇曳着尾刺的战斗姿态，/简直像极了着了魔的木偶！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "36">
+				<Desc text= "梦境里，中州郊外莫名出现了大批蝎子，他们摇曳着尾刺的战斗姿态，/简直像极了着了魔的木偶！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 中州梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "43">
+				<Desc text= "中州一块孤零零的、难以防守的阵地，突然从四座桥上潮水般的涌来手/持木板的尸卫，梦境中的中州竟然如此不堪一击，尸卫的进攻又突然停/了下来，这是在暗示着什么呢？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "43">
+				<Desc text= "中州一块孤零零的、难以防守的阵地，突然从四座桥上潮水般的涌来手/持木板的尸卫，梦境中的中州竟然如此不堪一击，尸卫的进攻又突然停/了下来，这是在暗示着什么呢？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "43">
+				<Desc text= "中州一块孤零零的、难以防守的阵地，突然从四座桥上潮水般的涌来手/持木板的尸卫，梦境中的中州竟然如此不堪一击，尸卫的进攻又突然停/了下来，这是在暗示着什么呢？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 中州梦境三重" qua="4">
+			<level value="1" name = "简 单" monster = "44">
+				<Desc text= "尸卫勇士占领了一条关键的通道，消灭他们！可不是最可怕的，最棘手/的是他们居然学会了使用法术将空中的闪电引向你！！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "44">
+				<Desc text= "尸卫勇士占领了一条关键的通道，消灭他们！可不是最可怕的，最棘手/的是他们居然学会了使用法术将空中的闪电引向你！！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "44">
+				<Desc text= "尸卫勇士占领了一条关键的通道，消灭他们！可不是最可怕的，最棘手/的是他们居然学会了使用法术将空中的闪电引向你！！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 中州梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "46/47/47">
+				<Desc text= "中州的一块区域中竖起来两排旗帜，搭建起一个祭台。这些梦境中的妖/孽是要在准备什么仪式，更奇怪的是这些士兵们居然群龙无首，没有头/领！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "46/47/47">
+				<Desc text= "中州的一块区域中竖起来两排旗帜，搭建起一个祭台。这些梦境中的妖/孽是要在准备什么仪式，更奇怪的是这些士兵们居然群龙无首，没有头/领！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "46/47/47">
+				<Desc text= "中州的一块区域中竖起来两排旗帜，搭建起一个祭台。这些梦境中的妖/孽是要在准备什么仪式，更奇怪的是这些士兵们居然群龙无首，没有头/领！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 中州梦境五重" qua="1">
+			<level value="1" name = "简 单" monster = "46/47/47">
+				<Desc text= "尸卫战将、掷枪尸卫、尸卫勇士居然牢牢了控制了中州一块不大不小的/区域。他们有节奏的木偶般的前行，却没有首领，视乎苍穹中有一只无/形巨手在操控着这一切。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "46/47/47">
+				<Desc text= "尸卫战将、掷枪尸卫、尸卫勇士居然牢牢了控制了中州一块不大不小的/区域。他们有节奏的木偶般的前行，却没有首领，视乎苍穹中有一只无/形巨手在操控着这一切。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "46/47/47">
+				<Desc text= "尸卫战将、掷枪尸卫、尸卫勇士居然牢牢了控制了中州一块不大不小的/区域。他们有节奏的木偶般的前行，却没有首领，视乎苍穹中有一只无/形巨手在操控着这一切。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "4" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "2">
+  <Job type = "战士" desc="天鹰腰带"/>
+  <Job type = "法师" desc="玄珠腰带"/>
+  <Job type = "道士" desc="玄珠腰带"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "2">
+  <Job type = "战士" desc="死神手套"/>
+  <Job type = "法师" desc="天珑手镯"/>
+  <Job type = "道士" desc="楼兰手镯"/>
+  <Job type = "妖士" desc="古纹戒指"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "2">
+  <Job type = "战士" desc="幽冥项链"/>
+  <Job type = "法师" desc="魔镜"/>
+  <Job type = "道士" desc="天珠项链"/>
+  <Job type = "妖士" desc="古纹手镯"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "3">
+  <Job type = "战士" desc="珊瑚戒指"/>
+  <Job type = "法师" desc="降妖戒指"/>
+  <Job type = "道士" desc="降妖戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+	</Task>
+	
+<!--————————————————————副本组4：将军坟————————————————————-->
+<!--————————————————————副本组4：将军坟————————————————————-->
+<Task name="将军坟" index="4">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 将军坟梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "36">
+				<Desc text= "蝎子与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "36">
+				<Desc text= "蝎子与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "36">
+				<Desc text= "蝎子与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 将军坟梦境二重" qua="1">
+			<level value="1" name = "简 单" monster = "69">
+				<Desc text= "一副棺材与空荡荡的墓室，有尸霸带驻守着，棺材里面是什么？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "69">
+				<Desc text= "一副棺材与空荡荡的墓室，有尸霸带驻守着，棺材里面是什么？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "69">
+				<Desc text= "一副棺材与空荡荡的墓室，有尸霸带驻守着，棺材里面是什么？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "1" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "1" class = "1" pos = "2">
+  <Job type = "战士" desc="天鹰靴子"/>
+  <Job type = "法师" desc="玄珠靴子"/>
+  <Job type = "道士" desc="玄珠靴子"/>
+  <Job type = "妖士" desc="古锭腰带"/>
+</Good>
+<Good needLevel = "1" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "5" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "5" class = "2" pos = "2">
+  <Job type = "战士" desc="珊瑚戒指"/>
+  <Job type = "法师" desc="降妖戒指"/>
+  <Job type = "道士" desc="降妖戒指"/>
+  <Job type = "妖士" desc="古锭手镯"/>
+</Good>
+<Good needLevel = "5" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "6" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "6" class = "3" pos = "2">
+  <Job type = "战士" desc="记忆头盔"/>
+  <Job type = "法师" desc="道士头盔"/>
+  <Job type = "道士" desc="道士头盔"/>
+  <Job type = "妖士" desc="古锭项链"/>
+</Good>
+<Good needLevel = "6" class = "3" pos = "3">
+  <Job type = "战士" desc="死神手套"/>
+  <Job type = "法师" desc="天珑手镯"/>
+  <Job type = "道士" desc="楼兰手镯"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+
+	</Task>
+	
+	
+<!--————————————————————副本组5：将军坟东————————————————————-->
+<!--————————————————————副本组5：将军坟东————————————————————-->
+<Task name="将军坟东" index="5">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 将军坟东梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "19">
+				<Desc text= "蝙蝠与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "19">
+				<Desc text= "蝙蝠与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "19">
+				<Desc text= "蝙蝠与洞蛆对于现在的你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 将军坟东梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "43">
+				<Desc text= "梦境里的将军坟东面二重聚集了少许尸卫，消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "43">
+				<Desc text= "梦境里的将军坟东面二重聚集了少许尸卫，消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "43">
+				<Desc text= "梦境里的将军坟东面二重聚集了少许尸卫，消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 将军坟东梦境三重" qua="1">
+			<level value="1" name = "简 单" monster = "69">
+				<Desc text= "进入三重这样大的区域要额外小心，阴险的家伙正躲在角落伺机而动！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "69">
+				<Desc text= "进入三重这样大的区域要额外小心，阴险的家伙正躲在角落伺机而动！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "69">
+				<Desc text= "进入三重这样大的区域要额外小心，阴险的家伙正躲在角落伺机而动！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "2" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "2" class = "1" pos = "2">
+  <Job type = "战士" desc="天鹰腰带"/>
+  <Job type = "法师" desc="灵力腰带"/>
+  <Job type = "道士" desc="光芒腰带"/>
+  <Job type = "妖士" desc="古锭靴子"/>
+</Good>
+<Good needLevel = "2" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "2">
+  <Job type = "战士" desc="幽冥手套"/>
+  <Job type = "法师" desc="魔魂手镯"/>
+  <Job type = "道士" desc="心灵护腕"/>
+  <Job type = "妖士" desc="古锭戒指"/>
+</Good>
+<Good needLevel = "7" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "2">
+  <Job type = "战士" desc="记忆项链"/>
+  <Job type = "法师" desc="生命项链"/>
+  <Job type = "道士" desc="思诺项链"/>
+  <Job type = "妖士" desc="古锭头盔"/>
+</Good>
+<Good needLevel = "9" class = "3" pos = "3">
+  <Job type = "战士" desc="龙戒"/>
+  <Job type = "法师" desc="红宝戒指"/>
+  <Job type = "道士" desc="白金戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+	</Task>
+	
+<!--————————————————————副本组6：热砂荒漠————————————————————-->
+<!--————————————————————副本组6：热砂荒漠————————————————————-->
+<Task name="热砂荒漠" index="6">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 热砂梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "76">
+				<Desc text= "青铜兽移动发出的咯吱声在广袤的热砂荒漠里显得异常诡异，是什么力/量让他们有能力离开机关洞的？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "76">
+				<Desc text= "青铜兽移动发出的咯吱声在广袤的热砂荒漠里显得异常诡异，是什么力/量让他们有能力离开机关洞的？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "76">
+				<Desc text= "青铜兽移动发出的咯吱声在广袤的热砂荒漠里显得异常诡异，是什么力/量让他们有能力离开机关洞的？"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 热砂梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "72">
+				<Desc text= "机关洞出来的滚刀手、石人占领了一条热砂荒漠的一块小型区域，赶快/消灭他们！可不是最可怕的，最棘手的是他们居然学会了使用法术制作/巨大的火球袭击你！！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "72">
+				<Desc text= "机关洞出来的滚刀手、石人占领了一条热砂荒漠的一块小型区域，赶快/消灭他们！可不是最可怕的，最棘手的是他们居然学会了使用法术制作/巨大的火球袭击你！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "72">
+				<Desc text= "机关洞出来的滚刀手、石人占领了一条热砂荒漠的一块小型区域，赶快/消灭他们！可不是最可怕的，最棘手的是他们居然学会了使用法术制作/巨大的火球袭击你！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 热砂梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "138">
+				<Desc text= "注意那些蚁巢，你最好优先清理掉他们，否则白蚁会源源不断的涌出来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "138">
+				<Desc text= "注意那些蚁巢，你最好优先清理掉他们，否则白蚁会源源不断的涌出来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "138">
+				<Desc text= "注意那些蚁巢，你最好优先清理掉他们，否则白蚁会源源不断的涌出来！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 热砂梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "138">
+				<Desc text= "魔甲虫的毒液有麻痹效果，与他们保持距离，伺机战胜它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "138">
+				<Desc text= "魔甲虫的毒液有麻痹效果，与他们保持距离，伺机战胜它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "138">
+				<Desc text= "魔甲虫的毒液有麻痹效果，与他们保持距离，伺机战胜它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 热砂梦境五重" qua="2">
+			<level value="1" name = "简 单" monster = "139">
+				<Desc text= "这些咯吱作响的金刚人能够将空中的雷电引下来，注意躲避！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "139">
+				<Desc text= "这些咯吱作响的金刚人能够将空中的雷电引下来，注意躲避！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "139">
+				<Desc text= "这些咯吱作响的金刚人能够将空中的雷电引下来，注意躲避！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "4" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "2">
+  <Job type = "战士" desc="天鹰靴子"/>
+  <Job type = "法师" desc="灵力靴子"/>
+  <Job type = "道士" desc="光芒靴子"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "2">
+  <Job type = "战士" desc="龙戒"/>
+  <Job type = "法师" desc="红宝戒指"/>
+  <Job type = "道士" desc="白金戒指"/>
+  <Job type = "妖士" desc="古锭戒指"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "2">
+  <Job type = "战士" desc="记忆头盔"/>
+  <Job type = "法师" desc="道士头盔"/>
+  <Job type = "道士" desc="道士头盔"/>
+  <Job type = "妖士" desc="古锭手镯"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "3">
+  <Job type = "战士" desc="幽冥手套"/>
+  <Job type = "法师" desc="魔魂手镯"/>
+  <Job type = "道士" desc="心灵护腕"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+
+	</Task>
+	
+	
+	
+<!--————————————————————副本组7：蛇穴————————————————————-->
+<!--————————————————————副本组7：蛇穴————————————————————-->
+<Task name="蛇穴" index="7">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 蛇穴梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "35">
+				<Desc text= "蟒、大土蛇对你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "35">
+				<Desc text= "蟒、大土蛇对你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "35">
+				<Desc text= "蟒、大土蛇对你来说已经不算什么了！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 蛇穴梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "135">
+				<Desc text= "清理掉回型道上的甲虫。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "135">
+				<Desc text= "清理掉回型道上的甲虫。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "135">
+				<Desc text= "清理掉回型道上的甲虫。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 蛇穴梦境三重" qua="1">
+			<level value="1" name = "简 单" monster = "141">
+				<Desc text= "黑、红蛇妖总是成对出现的，注意各个击破！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "141">
+				<Desc text= "黑、红蛇妖总是成对出现的，注意各个击破！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "141">
+				<Desc text= "黑、红蛇妖总是成对出现的，注意各个击破！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 蛇穴梦境四重" qua="2">
+			<level value="1" name = "简 单" monster = "136">
+				<Desc text= "这里有三头蛇王出没，别看他个小它可是蛇中之王！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "136">
+				<Desc text= "这里有三头蛇王出没，别看他个小它可是蛇中之王！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "136">
+				<Desc text= "这里有三头蛇王出没，别看他个小它可是蛇中之王！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+
+	<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "3" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "3" class = "1" pos = "2">
+  <Job type = "战士" desc="玄铁腰带"/>
+  <Job type = "法师" desc="灵力腰带"/>
+  <Job type = "道士" desc="光芒腰带"/>
+  <Job type = "妖士" desc="赤羽腰带"/>
+</Good>
+<Good needLevel = "3" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "2">
+  <Job type = "战士" desc="猛士手镯"/>
+  <Job type = "法师" desc="龙鳞手镯"/>
+  <Job type = "道士" desc="三眼护腕"/>
+  <Job type = "妖士" desc="赤羽手镯"/>
+</Good>
+<Good needLevel = "9" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "2">
+  <Job type = "战士" desc="绿色项链"/>
+  <Job type = "法师" desc="恶魔铃"/>
+  <Job type = "道士" desc="灵魂项链"/>
+  <Job type = "妖士" desc="赤羽项链"/>
+</Good>
+<Good needLevel = "12" class = "3" pos = "3">
+  <Job type = "战士" desc="力量戒指"/>
+  <Job type = "法师" desc="碧螺戒指"/>
+  <Job type = "道士" desc="泰坦戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+	</Task>
+	
+<!--————————————————————副本组8：机关道————————————————————-->
+<!--————————————————————副本组8：机关道————————————————————-->
+<Task name="机关道" index="8">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 机关道梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "71">
+				<Desc text= "清理驻守在一重的铜人！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "71">
+				<Desc text= "清理驻守在一重的铜人！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "71">
+				<Desc text= "清理驻守在一重的铜人！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 机关道梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "76">
+				<Desc text= "清理驻守在二重的青铜兽！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "76">
+				<Desc text= "清理驻守在二重的青铜兽！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "76">
+				<Desc text= "清理驻守在二重的青铜兽！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 机关道梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "72">
+				<Desc text= "清理驻守在三重的滚刀手！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "72">
+				<Desc text= "清理驻守在三重的滚刀手！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "72">
+				<Desc text= "清理驻守在三重的滚刀手！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 机关道梦境四重" qua="1">
+			<level value="1" name = "简 单" monster = "72">
+				<Desc text= "青铜兽、铜人、滚刀手聚集起来，要小心！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "72">
+				<Desc text= "青铜兽、铜人、滚刀手聚集起来，要小心！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "72">
+				<Desc text= "青铜兽、铜人、滚刀手聚集起来，要小心！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 机关道梦境五重" qua="0">
+			<level value="1" name = "简 单" monster = "73">
+				<Desc text= "石人破坏力巨大，要注意游走！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "73">
+				<Desc text= "石人破坏力巨大，要注意游走！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "73">
+				<Desc text= "石人破坏力巨大，要注意游走！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第6张————————————————————-->
+		<SubTask index="6" name=" 机关道梦境六重" qua="0">
+			<level value="1" name = "简 单" monster = "75">
+				<Desc text= "金刚人可不是好惹的，进入前要好好考虑！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "75">
+				<Desc text= "金刚人可不是好惹的，进入前要好好考虑！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "75">
+				<Desc text= "金刚人可不是好惹的，进入前要好好考虑！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第7张————————————————————-->
+		<SubTask index="7" name=" 机关道梦境七重" qua="0">
+			<level value="1" name = "简 单" monster = "74">
+				<Desc text= "铜锤手破坏力巨大，它们占领了关键的通道！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "74">
+				<Desc text= "铜锤手破坏力巨大，它们占领了关键的通道！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "74">
+				<Desc text= "铜锤手破坏力巨大，它们占领了关键的通道！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第8张————————————————————-->
+		<SubTask index="8" name=" 机关道梦境八重" qua="3">
+			<level value="1" name = "简 单" monster = "74">
+				<Desc text= "数量成规模的铜锤手、石人和金刚人，没有强大的攻击力很难在短时间/内消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "74">
+				<Desc text= "数量成规模的铜锤手、石人和金刚人，没有强大的攻击力很难在短时间/内消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "74">
+				<Desc text= "数量成规模的铜锤手、石人和金刚人，没有强大的攻击力很难在短时间/内消灭他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第9张————————————————————-->
+		<SubTask index="9" name=" 机关道梦境九重" qua="4">
+			<level value="1" name = "简 单" monster = "77">
+				<Desc text= "咯吱咯吱……咯吱咯吱……咯吱咯吱……地面在颤抖……"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "77">
+				<Desc text= "咯吱咯吱……咯吱咯吱……咯吱咯吱……地面在颤抖……"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "77">
+				<Desc text= "咯吱咯吱……咯吱咯吱……咯吱咯吱……地面在颤抖……"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "8" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "8" class = "1" pos = "2">
+  <Job type = "战士" desc="玄铁靴子"/>
+  <Job type = "法师" desc="灵力靴子"/>
+  <Job type = "道士" desc="光芒靴子"/>
+  <Job type = "妖士" desc="赤羽靴子"/>
+</Good>
+<Good needLevel = "8" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "19" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "19" class = "2" pos = "2">
+  <Job type = "战士" desc="力量戒指"/>
+  <Job type = "法师" desc="碧螺戒指"/>
+  <Job type = "道士" desc="泰坦戒指"/>
+  <Job type = "妖士" desc="赤羽戒指"/>
+</Good>
+<Good needLevel = "19" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "27" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "27" class = "3" pos = "2">
+  <Job type = "战士" desc="黑铁头盔"/>
+  <Job type = "法师" desc="黑铁头盔"/>
+  <Job type = "道士" desc="黑铁头盔"/>
+  <Job type = "妖士" desc="赤羽头盔"/>
+</Good>
+<Good needLevel = "27" class = "3" pos = "3">
+  <Job type = "战士" desc="猛士手镯"/>
+  <Job type = "法师" desc="龙鳞手镯"/>
+  <Job type = "道士" desc="三眼护腕"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+	</Task>
+	
+<!--————————————————————副本组9：跃马平原————————————————————-->
+<!--————————————————————副本组9：跃马平原————————————————————-->
+<Task name="跃马平原" index="9">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 跃马梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "126">
+				<Desc text= "几个小妖精对你来说不算什么！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "126">
+				<Desc text= "几个小妖精对你来说不算什么！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "126">
+				<Desc text= "几个小妖精对你来说不算什么！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 跃马梦境二重" qua="3">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "大量逆魔雕像，准备好一场持久战吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "大量逆魔雕像，准备好一场持久战吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "大量逆魔雕像，准备好一场持久战吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 跃马梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "少量逆魔卫士，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "少量逆魔卫士，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "少量逆魔卫士，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 跃马梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "少量逆魔侍卫，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "少量逆魔侍卫，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "少量逆魔侍卫，消灭它们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 跃马梦境五重" qua="4">
+			<level value="1" name = "简 单" monster = "133">
+				<Desc text= "偶尔传出恐怖的尖叫声，由逆魔之王所统领的梦境第五重！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "133">
+				<Desc text= "偶尔传出恐怖的尖叫声，由逆魔之王所统领的梦境第五重！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "133">
+				<Desc text= "偶尔传出恐怖的尖叫声，由逆魔之王所统领的梦境第五重！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "4" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "2">
+  <Job type = "战士" desc="圣战腰带"/>
+  <Job type = "法师" desc="法神腰带"/>
+  <Job type = "道士" desc="天尊腰带"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "2">
+  <Job type = "战士" desc="圣战手镯"/>
+  <Job type = "法师" desc="法神手镯"/>
+  <Job type = "道士" desc="天尊手镯"/>
+  <Job type = "妖士" desc="赤羽戒指"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "2">
+  <Job type = "战士" desc="圣战项链"/>
+  <Job type = "法师" desc="法神项链"/>
+  <Job type = "道士" desc="天尊项链"/>
+  <Job type = "妖士" desc="赤羽手镯"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "3">
+  <Job type = "战士" desc="圣战戒指"/>
+  <Job type = "法师" desc="法神戒指"/>
+  <Job type = "道士" desc="天尊戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+	</Task>
+	
+	
+<!--————————————————————副本组10：逆魔殿————————————————————-->
+<!--————————————————————副本组10：逆魔殿————————————————————-->
+<Task name="逆魔殿" index="10">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 逆魔梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "126">
+				<Desc text= "几只地下小鬼而已。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "126">
+				<Desc text= "几只地下小鬼而已。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "126">
+				<Desc text= "几只地下小鬼而已。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 逆魔梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "少量逆魔雕像，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "少量逆魔雕像，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "少量逆魔雕像，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 逆魔梦境三重" qua="1">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "少量逆魔卫士，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "少量逆魔卫士，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "少量逆魔卫士，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 逆魔梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "少量逆魔侍卫，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "少量逆魔侍卫，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "少量逆魔侍卫，注意你的步伐，不要惊动所有雕像！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 逆魔梦境五重" qua="2">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "逆魔弓箭手是远距离攻击的，没有足够的防御力不要轻易进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "逆魔弓箭手是远距离攻击的，没有足够的防御力不要轻易进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "逆魔弓箭手是远距离攻击的，没有足够的防御力不要轻易进入！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第6张————————————————————-->
+		<SubTask index="6" name=" 逆魔梦境六重" qua="2">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔雕像牢牢控制了逆魔梦境六重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔雕像牢牢控制了逆魔梦境六重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔雕像牢牢控制了逆魔梦境六重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第7张————————————————————-->
+		<SubTask index="7" name=" 逆魔梦境七重" qua="0">
+			<level value="1" name = "简 单" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔卫士牢牢控制了逆魔梦境七重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔卫士牢牢控制了逆魔梦境七重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "132">
+				<Desc text= "逆魔弓箭手、逆魔卫士牢牢控制了逆魔梦境七重，挑战他们吧！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第8张————————————————————-->
+		<SubTask index="8" name=" 逆魔梦境八重" qua="2">
+			<level value="1" name = "简 单" monster = "133">
+				<Desc text= "逆魔本体出现了，注意躲避好他召唤的烈焰，速战速决！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "133">
+				<Desc text= "逆魔本体出现了，注意躲避好他召唤的烈焰，速战速决！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "133">
+				<Desc text= "逆魔本体出现了，注意躲避好他召唤的烈焰，速战速决！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "7" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "1" pos = "2">
+  <Job type = "战士" desc="圣战靴子"/>
+  <Job type = "法师" desc="法神靴子"/>
+  <Job type = "道士" desc="天尊道靴"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "7" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "17" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "17" class = "2" pos = "2">
+  <Job type = "战士" desc="圣战戒指"/>
+  <Job type = "法师" desc="法神戒指"/>
+  <Job type = "道士" desc="天尊戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "17" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "24" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "24" class = "3" pos = "2">
+  <Job type = "战士" desc="圣战头盔"/>
+  <Job type = "法师" desc="法神头盔"/>
+  <Job type = "道士" desc="天尊头盔"/>
+  <Job type = "妖士" desc="火妖项链"/>
+</Good>
+<Good needLevel = "24" class = "3" pos = "3">
+  <Job type = "战士" desc="圣战手镯"/>
+  <Job type = "法师" desc="法神手镯"/>
+  <Job type = "道士" desc="天尊手镯"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+	</Task>
+	
+<!--————————————————————副本组11：禁地————————————————————-->
+<!--————————————————————副本组11：禁地————————————————————-->
+<Task name="禁地" index="11">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 禁地梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "126">
+				<Desc text= "零星分布的地狱奴，对你不构成威胁！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "126">
+				<Desc text= "零星分布的地狱奴，对你不构成威胁！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "126">
+				<Desc text= "零星分布的地狱奴，对你不构成威胁！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 禁地梦境二重" qua="4">
+			<level value="1" name = "简 单" monster = "175">
+				<Desc text= "藤妖居然能脱离潮湿的洞内环境跑到禁地，这是一股令人惊叹的魔力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "175">
+				<Desc text= "藤妖居然能脱离潮湿的洞内环境跑到禁地，这是一股令人惊叹的魔力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "175">
+				<Desc text= "藤妖居然能脱离潮湿的洞内环境跑到禁地，这是一股令人惊叹的魔力。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 禁地梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "173">
+				<Desc text= "血魔与刺魔占领一处重要的通路，清理掉他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "173">
+				<Desc text= "血魔与刺魔占领一处重要的通路，清理掉他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "173">
+				<Desc text= "血魔与刺魔占领一处重要的通路，清理掉他们！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 禁地梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "175">
+				<Desc text= "清理掉区域类所有的树妖。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "175">
+				<Desc text= "清理掉区域类所有的树妖。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "175">
+				<Desc text= "清理掉区域类所有的树妖。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 禁地梦境五重" qua="1">
+			<level value="1" name = "简 单" monster = "179">
+				<Desc text= "中央出现的祭台似乎暗示着什么，注意妖精们召唤的闪电！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "179">
+				<Desc text= "中央出现的祭台似乎暗示着什么，注意妖精们召唤的闪电！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "179">
+				<Desc text= "中央出现的祭台似乎暗示着什么，注意妖精们召唤的闪电！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "4" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "2">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "2">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "2">
+  <Job type = "战士" desc="神武项链"/>
+  <Job type = "法师" desc="幻魔项链"/>
+  <Job type = "道士" desc="天玄项链"/>
+  <Job type = "妖士" desc="火妖头盔"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "3">
+  <Job type = "战士" desc="神武戒指"/>
+  <Job type = "法师" desc="幻魔戒指"/>
+  <Job type = "道士" desc="天玄戒指"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+
+	</Task>
+	
+	<!--————————————————————副本组12：禁地魔穴————————————————————-->
+<!--————————————————————副本组12：禁地魔穴————————————————————-->
+<Task name="禁地魔穴" index="12">
+	<!--————————————————————第1张————————————————————-->
+	<SubTask index="1" name=" 禁地魔穴梦境一重" qua="0">
+			<level value="1" name = "简 单" monster = "126">
+				<Desc text= "这里只有一些地狱奴。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "126">
+				<Desc text= "这里只有一些地狱奴。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "126">
+				<Desc text= "这里只有一些地狱奴。"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第2张————————————————————-->
+		<SubTask index="2" name=" 禁地魔穴梦境二重" qua="0">
+			<level value="1" name = "简 单" monster = "175">
+				<Desc text= "藤妖们发狂了，他们聚集起来的破坏能力简直是惊人的！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "175">
+				<Desc text= "藤妖们发狂了，他们聚集起来的破坏能力简直是惊人的！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "175">
+				<Desc text= "藤妖们发狂了，他们聚集起来的破坏能力简直是惊人的！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第3张————————————————————-->
+		<SubTask index="3" name=" 禁地魔穴梦境三重" qua="0">
+			<level value="1" name = "简 单" monster = "173">
+				<Desc text= "狭小的空间内出现的血魔、刺魔会发挥他们的优势远距离攻击你！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "173">
+				<Desc text= "狭小的空间内出现的血魔、刺魔会发挥他们的优势远距离攻击你！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "173">
+				<Desc text= "狭小的空间内出现的血魔、刺魔会发挥他们的优势远距离攻击你！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第4张————————————————————-->
+		<SubTask index="4" name=" 禁地魔穴梦境四重" qua="0">
+			<level value="1" name = "简 单" monster = "174">
+				<Desc text= "四重简直像极了一张迷宫，光想在短时间把妖精们揪出来就不是易事！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "174">
+				<Desc text= "四重简直像极了一张迷宫，光想在短时间把妖精们揪出来就不是易事！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "174">
+				<Desc text= "四重简直像极了一张迷宫，光想在短时间把妖精们揪出来就不是易事！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+	<!--————————————————————第5张————————————————————-->
+		<SubTask index="5" name=" 禁地魔穴梦境五重" qua="4">
+			<level value="1" name = "简 单" monster = "192">
+				<Desc text= "本重是魔血最后一重，禁地魔王现身于此！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="2" name = "普 通" monster = "192">
+				<Desc text= "本重是魔血最后一重，禁地魔王现身于此！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+			<level value="3" name = "困 难" monster = "192">
+				<Desc text= "本重是魔血最后一重，禁地魔王现身于此！"/>
+				<PrizeDesc text= "大量经验/补给药物"/>
+			</level>
+		</SubTask>
+		<!--————————————————————$$副本组：奖励部分$$————————————————————-->
+<Prize>
+<Good needLevel = "4" class = "1" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "2">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "4" class = "1" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "2">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "11" class = "2" pos = "3">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "1">
+  <Job type = "战士" desc="大量经验"/>
+  <Job type = "法师" desc="大量经验"/>
+  <Job type = "道士" desc="大量经验"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "2">
+  <Job type = "战士" desc="神武头盔"/>
+  <Job type = "法师" desc="幻魔头盔"/>
+  <Job type = "道士" desc="天玄头盔"/>
+  <Job type = "妖士" desc="火妖手镯"/>
+</Good>
+<Good needLevel = "15" class = "3" pos = "3">
+  <Job type = "战士" desc="神武手镯"/>
+  <Job type = "法师" desc="幻魔手镯"/>
+  <Job type = "道士" desc="天玄手镯"/>
+  <Job type = "妖士" desc="大量经验"/>
+</Good>
+</Prize>
+
+	</Task>
+
+	<Looks>
+		<item name="经验"looks="951"/>
+		<item name="大量经验"looks="951"/>
+		<item name="海量经验"looks="951"/>
+		<item name="金币" Looks="229"/>
+		<item name="绑定元宝" Looks="1239"/>
+		<item name="月光宝盒(小)" Looks="907"/>
+		<item name="月光宝盒(大)" Looks="907"/>
+		<item name="月光宝盒(特大)" Looks="907"/>
+		<item name="回城神石" Looks="729"/>
+		<item name="强化技能灵丹" Looks="751"/>
+		<item name="超级金创药" Looks="171"/>
+		<item name="超级魔法药" Looks="178"/>
+		<item name="金创药（小）包" Looks="235"/>
+		<item name="金创药（中）包" Looks="237"/>
+		<item name="特级金创药包" Looks="731"/>
+		<item name="特级魔法药包" Looks="732"/>
+		<item name="天山雪莲" Looks="793"/>
+		<item name="深海灵礁" Looks="794"/>
+		<item name="战士神油" Looks="181"/>
+		<item name="大量经验" Looks="179"/>
+		<item name="元神经验丹" Looks="5023"/>
+		<item name="天山雪莲" Looks="793"/>
+		<item name="深海灵礁" Looks="794"/>
+		<item name="战士神油" Looks="181"/>
+		<item name="大量经验" Looks="179"/>
+		<item name="死神头盔" Looks="136"/>
+		<item name="记忆头盔" Looks="141"/>
+		<item name="黑铁头盔" Looks="137"/>
+		<item name="圣战头盔" Looks="150"/>
+		<item name="神武头盔" Looks="601"/>
+		<item name="魔力头盔" Looks="134"/>
+		<item name="道士头盔" Looks="135"/>
+		<item name="法神头盔" Looks="154"/>
+		<item name="幻魔头盔" Looks="603"/>
+		<item name="天尊头盔" Looks="158"/>
+		<item name="天玄头盔" Looks="602"/>
+		<item name="恶魔项链" Looks="78"/>
+		<item name="幽冥项链" Looks="89"/>
+		<item name="记忆项链" Looks="140"/>
+		<item name="绿色项链" Looks="83"/>
+		<item name="圣战项链" Looks="153"/>
+		<item name="神武项链" Looks="604"/>
+		<item name="白金项链" Looks="74"/>
+		<item name="魔镜" Looks="82"/>
+		<item name="生命项链" Looks="115"/>
+		<item name="恶魔铃" Looks="85"/>
+		<item name="法神项链" Looks="157"/>
+		<item name="幻魔项链" Looks="606"/>
+		<item name="凤凰项链" Looks="113"/>
+		<item name="天珠项链" Looks="79"/>
+		<item name="思诺项链" Looks="252"/>
+		<item name="灵魂项链" Looks="84"/>
+		<item name="天尊项链" Looks="161"/>
+		<item name="天玄项链" Looks="605"/>
+		<item name="魔力手镯" Looks="108"/>
+		<item name="死神手套" Looks="109"/>
+		<item name="幽冥手套" Looks="106"/>
+		<item name="猛士手镯" Looks="102"/>
+		<item name="圣战手镯" Looks="152"/>
+		<item name="神武手镯" Looks="607"/>
+		<item name="黑檀木手镯" Looks="97"/>
+		<item name="天珑手镯" Looks="254"/>
+		<item name="魔魂手镯" Looks="101"/>
+		<item name="龙鳞手镯" Looks="105"/>
+		<item name="法神手镯" Looks="156"/>
+		<item name="幻魔手镯" Looks="609"/>
+		<item name="道士手镯" Looks="96"/>
+		<item name="楼兰手镯" Looks="251"/>
+		<item name="心灵护腕" Looks="99"/>
+		<item name="三眼护腕" Looks="100"/>
+		<item name="天尊手镯" Looks="160"/>
+		<item name="天玄手镯" Looks="608"/>
+		<item name="死神戒指" Looks="56"/>
+		<item name="珊瑚戒指" Looks="54"/>
+		<item name="龙戒" Looks="57"/>
+		<item name="力量戒指" Looks="114"/>
+		<item name="圣战戒指" Looks="151"/>
+		<item name="神武戒指" Looks="610"/>
+		<item name="生铁戒指" Looks="45"/>
+		<item name="降妖戒指" Looks="52"/>
+		<item name="红宝戒指" Looks="55"/>
+		<item name="碧螺戒指" Looks="116"/>
+		<item name="法神戒指" Looks="155"/>
+		<item name="幻魔戒指" Looks="612"/>
+		<item name="道士戒指" Looks="50"/>
+		<item name="白金戒指" Looks="53"/>
+		<item name="泰坦戒指" Looks="67"/>
+		<item name="天尊戒指" Looks="159"/>
+		<item name="天玄戒指" Looks="611"/>
+		<item name="鹿皮靴子" Looks="664"/>
+		<item name="天鹰靴子" Looks="665"/>
+		<item name="玄铁靴子" Looks="723"/>
+		<item name="圣战靴子" Looks="667"/>
+		<item name="神武战靴" Looks="668"/>
+		<item name="玄珠靴子" Looks="725"/>
+		<item name="灵力靴子" Looks="724"/>
+		<item name="法神靴子" Looks="671"/>
+		<item name="幻魔法靴" Looks="672"/>
+		<item name="光芒靴子" Looks="673"/>
+		<item name="天尊道靴" Looks="675"/>
+		<item name="天玄道靴" Looks="676"/>
+		<item name="鹿皮腰带" Looks="677"/>
+		<item name="天鹰腰带" Looks="678"/>
+		<item name="玄铁腰带" Looks="726"/>
+		<item name="圣战腰带" Looks="680"/>
+		<item name="神武腰带" Looks="681"/>
+		<item name="玄珠腰带" Looks="728"/>
+		<item name="灵力腰带" Looks="727"/>
+		<item name="法神腰带" Looks="684"/>
+		<item name="幻魔腰带" Looks="685"/>
+		<item name="光芒腰带" Looks="686"/>
+		<item name="天尊腰带" Looks="688"/>
+		<item name="天玄腰带" Looks="689"/>
+		<item name="古纹项链"looks="10002"/>
+		<item name="古纹手镯"looks="10003"/>
+		<item name="古纹戒指"looks="10004"/>
+		<item name="古锭头盔"looks="10010"/>
+		<item name="古锭项链"looks="10011"/>
+		<item name="古锭手镯"looks="10012"/>
+		<item name="古锭戒指"looks="10013"/>
+		<item name="古锭靴子"looks="10014"/>
+		<item name="古锭腰带"looks="10015"/>
+		<item name="赤羽头盔"looks="10019"/>
+		<item name="赤羽项链"looks="10020"/>
+		<item name="赤羽手镯"looks="10021"/>
+		<item name="赤羽戒指"looks="10022"/>
+		<item name="赤羽靴子"looks="10023"/>
+		<item name="赤羽腰带"looks="10024"/>
+		<item name="赤羽勋章"looks="1241"/>
+		<item name="火妖头盔"looks="10028"/>
+		<item name="火妖项链"looks="10029"/>
+		<item name="火妖手镯"looks="10030"/>
+		<item name="火妖戒指"looks="10031"/>
+		<item name="火妖靴子"looks="10032"/>
+		<item name="火妖腰带"looks="10033"/>
+		<item name="火妖勋章"looks="1241"/>
+		
+	</Looks>
+</TTInfos>

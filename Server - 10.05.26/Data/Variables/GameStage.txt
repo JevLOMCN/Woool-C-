@@ -1,0 +1,2 @@
+CURDAY = "0"
+CURSTAGE = "0"

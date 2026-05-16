@@ -1,0 +1,6 @@
+[@main]
+#if
+RepairEquipment 0 11
+#act
+us_damagedura 1
+close

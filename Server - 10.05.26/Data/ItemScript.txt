@@ -1,0 +1,6 @@
+#物品名=捡物品脚本,扔物品脚本,使用脚本
+宝盒=@box.pickup,10|180|@box.lose,
+黑暗之戒=@darkring.pickup,,
+鞭炮=,1|2|@marryitem.banger
+豹魔石=,,@leopard.use
+豹粮=,,@leopard.upgrade

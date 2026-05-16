@@ -1,0 +1,490 @@
+[@main]
+这差事真无聊，天天站在这里风吹雨淋，你找我有什么事？\\
+<想快速到达其他地区/@main1>   <记录回城点/@_LB_homePos>\
+<报名参加骑兵竞技/@runhorse>     <挑战百兽园/@_LB_baishou> \
+<充值元宝/@_LB_throwmoney>     <领取奖品/@get>\
+<可接任务/@_RW_entry>     <询问任务/@_QueArmy_start_main>\
+<测试自定义界面/@test1>\
+<没事/@exit>\
+
+[@test1]
+#json100
+{
+    "MsgType": 0,
+    "WndName": "ShiYao2024",
+    "StrList": [
+       "风症",
+       "普通",
+        "祛毒",
+        "<color=orange 在神农鼎中放入两类草药，可炼制出治病的丹药。>\\<color=orange 不同的病症需要的草药不同。放入><color=green 放入对症的高品质草药，>\\<color=orange 炼制出的丹药疗效越强，获得的奖励也越多。>",
+        "3#千年人参#百年人参#十年人参#0#3",
+        "3#紫灵芝#赤灵芝#青灵芝#2#3",
+        "3#金川贝#银川贝#铜川贝#0#1",
+        "3#天之茯苓#地之茯苓#玄之茯苓#1#2"
+    ],
+    "NumList": [ 2 ]
+}
+#end
+
+[@_RW_entry]
+#act
+CALL @打听声望任务.落霞_老兵
+
+[@main1]
+这是国王为了对抗邪恶力量而特别开辟的骑兵驿道，能够\
+以最快的速度帮助你往返于各个地区 。不过为此你必须付\
+出一些代价做为使用费用。你确定要使用这条驿道吗？\\
+<去中州/@capital>\
+<去将军坟/@h071>\
+<矿坑/@kuangkeng>\\
+
+[@capital]
+要去中州吗？\
+1000金币就可以了，没有的话就自己走着去吧。\\
+<付钱/@capital1> \
+<没钱/@exit>
+
+[@capital1]
+#if
+checkex gold > 999
+#act
+takegold 1000
+move 16 470 225
+close
+#elsesay
+你没有足够金钱!\
+<关闭/@exit>
+
+[@h071]
+要去将军坟吗？\
+800金币就可以了，没有的话就自己走着去吧。\\
+<付钱/@h071a>\
+<没钱/@exit>
+
+[@h071a]
+#if
+checkex gold > 799
+#act
+takegold 800
+move 16 32 353
+close
+#elsesay
+你没有足够金钱!\
+<关闭/@exit>
+
+
+[@kuangkeng]
+要去矿坑？挖矿挺赚的吧？\
+不介意的话，给500金币我送您过去？\\
+<好/@kk> \
+<不用了/@main>
+
+[@kk]
+#if
+checkex gold > 499
+#act
+takegold 500
+move 53 473 400
+close
+#elsesay
+你没有足够金钱!\
+<关闭/@exit>
+
+[@_LB_homePos]
+<我要记录回城点/@_LB_loading>\
+<了解回城石的使用方法/@_LB_know>\
+<离开/@exit>
+
+[@_LB_loading]
+请选择要记录回城的城市!\
+<中州/@zhongzhou>\
+<落霞岛/@luoxiadao>\
+<热砂荒漠/@resha>\
+<死水沼泽/@shishui>\
+<禁地/@jingdi>\
+<西域奇境/@xiyu>\\
+
+[@zhongzhou]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestone
+
+[@makeuphomestone]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 中州
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 中州
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@luoxiadao]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestonelx
+
+[@makeuphomestonelx]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 落霞岛
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 落霞岛
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@resha]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestoners
+
+[@makeuphomestoners]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 热砂荒漠
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 热砂荒漠
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@shishui]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestonesh
+
+[@makeuphomestonesh]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 死水沼泽
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 死水沼泽
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@jingdi]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestonejd
+
+[@makeuphomestonejd]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 禁地
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 禁地
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@xiyu]
+请放上你回城石或回城神石
+#act
+putitem 提供回城石或回城神石 @makeuphomestonexy
+
+[@makeuphomestonexy]
+#ifnot
+checkex $ui_stdmode = 3
+#say
+你提供的不是回城石\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 15
+#act
+us_makehomestone 西域奇境
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elseif
+checkex $ui_shape = 17
+#act
+us_makehomestone 西域奇境
+#say
+你的回城石已记录好了\
+<离开/@exit>
+#elsesay
+你提供的不是回城石\
+<离开/@exit>
+
+
+[@_LB_know]
+首先，携带回城石在各个城市老兵处记录回城的地点\
+然后，双击回城石就直接回到您最后一次记录点的城市。\\
+<好的，我明白了！/@exit>
+
+[@_LB_newlianyu]
+炼狱是具有双倍经验附加功能的区域，如果用户选择此场景，\
+需要另行支付附加费用\
+1、选择按秒计时方式充值的用户在炼狱中游戏一小时另行加收一小时\
+的费用（即用户在此场景中游戏一小时将被扣除两小时的游戏时间）。\
+2、选择包月包日充值的用户如果需要进入本场景，其已经充值的天数\
+将会被作为附加费用支付的单位。用户在进入本场景游戏后，每累计\
+游戏五小时系统将会加收一天的游戏时间作为附加费用。（即用户在\
+本场景中每累计游戏达五小时，其已经包月或包日的时段中将会被扣\
+除一天的游戏时间）------你确定要进入吗？  <进入/@_LB_newenter>   <放弃/@exit>
+
+
+[@runhorse]
+还没到比赛时间呢，等到时间再来吧。\
+每天10:00-11:00会有骑兵竞技选拔比赛。\
+参加骑兵竞技很容易，跑出一等一的好成绩可就不容易了，你\
+若是今天跑了第一，除去大有可能入选王国铁骑军团，你也会\
+获得丰厚的奖赏。\
+要是你对当骑兵不感兴趣，也可以去彩票员那里买些竞技彩票\
+试试自己的眼力和运气。他在438，215 附近\
+<返回/@main>
+
+[@_LB_baishou]
+年轻人来“百兽园”逛逛吧。里面有20位“幸运大使”，由\
+于前世罪孽深重，作为惩罚，他们身中魔咒，形象丑陋。为\
+了洗刷前世的冤孽，恢复本相，他们肩负起了“幸运大使”\
+的职责……看你满面红光，一定是福星高照，财神驾到，没\
+准儿今天就能发大财。您只要先交10万金币的门票，参与我\
+们的活动，就有机会赢得1000万金币的巨奖！\
+<太棒了，我要碰碰运气/@_LB_goodluck>\
+<查看活动规则/@_LB_knowsome>\
+<没兴趣/@exit>
+
+[@_LB_goodluck]
+#if
+checkex gold > 99999
+#act
+takegold 100000
+mapmove 16
+close
+#elsesay
+你没有足够金钱!\
+<关闭/@exit>
+
+[@_LB_knowsome]
+规则其实很简单，“百兽园”里有20位能带给你好运的“幸\
+运大使”。别看他们外表丑陋，他们最多能给你带来1000万\
+金币的巨奖哦。不过我要事先提醒一下，前世罪孽深重的“\
+幸运大使”本身就是两面人……如果你在不恰当的时候去找\
+他说话，那可能就会一无所获甚至被赶出“百兽园”。总之\
+先祝你好运吧！\
+<知道了/@exit>
+
+[@_LB_throwmoney]
+您可以选择：\\
+<进入网站充值/@@urlpay.npc8.com>\
+<返回/@main>
+
+[@get]
+<领取名人堂奖品/@mingrentang>\
+<领取金牌帐号奖品/@goldenprize>\
+<使用声望令牌/@useshengwang>\
+<领取奖品/@get01>\
+
+[@mingrentang]
+现在，如果能将自己的等级提升到46级，将获得相应职业的顶\
+级技能书，多加努力把。\\
+<返回/@get>
+
+[@goldenprize]
+您不是金牌会员，不能领取奖品。\
+<离开/@exit>
+
+[@useshengwang]
+你确认要使用声望令牌么？使用声望令牌(四十)将使你获得\
+40点声望，声望令牌(十)将使你获得10点声望，声望令牌(五)\
+使你获得5点声望，声望令牌(三)将使你获得3点声望，声望令\
+牌(一)将使你获得1点声望。\
+<使用声望令牌/@shengwang>\
+<返回/@get>
+
+[@shengwang]
+使用<声望令牌(四十)/@shengwang40>\
+使用<声望令牌(十)/@shengwang10>\
+使用<声望令牌(五)/@shengwang5>\
+使用<声望令牌(三)/@shengwang3>\
+使用<声望令牌(一)/@shengwang1>\\
+<返回/@useshengwang>
+
+[@shengwang40]
+#if
+checkbagitem 声望令牌(四十) 1
+#act
+takebagitem 声望令牌(四十) 1
+givecredit 40
+#say
+您获得了40点声望!\
+<返回/@get>
+#elsesay
+你没有声望令牌(四十)。\
+<离开/@exit>
+
+[@shengwang10]
+#if
+checkbagitem 声望令牌(十) 1
+#act
+takebagitem 声望令牌(十) 1
+givecredit 10
+#say
+您获得了10点声望!\
+<返回/@get>
+#elsesay
+你没有声望令牌(十)。\
+<离开/@exit>
+
+[@shengwang5]
+#if
+checkbagitem 声望令牌(五) 1
+#act
+takebagitem 声望令牌(五) 1
+givecredit 5
+#say
+您获得了5点声望!\
+<返回/@get>
+#elsesay
+你没有声望令牌(五)。\
+<离开/@exit>
+
+[@shengwang3]
+#if
+checkbagitem 声望令牌(三) 1
+#act
+takebagitem 声望令牌(三) 1
+givecredit 3
+#say
+您获得了3点声望!\
+<返回/@get>
+#elsesay
+你没有声望令牌(三)。\
+<离开/@exit>
+
+
+[@shengwang1]
+#if
+checkbagitem 声望令牌(一) 1
+#act
+takebagitem 声望令牌(一) 1
+givecredit 1
+#say
+您获得了1点声望!\
+<返回/@get>
+#elsesay
+你没有声望令牌(一)。\
+<离开/@exit>
+
+
+[@get01]
+对不起，你无法领取奖品。确认一下下列可能吧。\
+1、你领取奖品的时间不对。\
+2、你已经领取过奖品了\
+<确认/@exit>
+
+[@_QueArmy_start_main]
+机会只会被有勇气的人把握，这里有一个凶险的任务，你可以\
+了解了解这个任务，然后决定是不是接受这个考验。\\
+<接受任务/@_QueArmy_DoTask>\
+<询问再次接受任务/@_QueArmy_TaskRedo>\
+<离开/@exit>
+
+[@_QueArmy_DoTask]
+年青人，你一定也听过有关"铁血魔城"的消息吧。为了掌握魔城\
+的一举一动，国王已经派出了大量精干的密探，变身后深藏在怪\
+物们的洞穴之中。现在，国王有一道军机秘令要传达给他们核对。\
+我老了，需要你这样的年轻英雄来担任军机秘使。当然，传令地\
+点越危险，你获得的奖励也会越丰厚，你愿意担任这一职务吗？\
+<准备好了，一切包在我身上！/@_QueArmy_acceptquest>\
+<让我再考虑考虑/@_QueArmy_canclequest>
+
+[@_QueArmy_acceptquest]
+你需要送达的军机令是：\\
+死水沼泽深处有一个神秘的传送阵，那里直接通往铁血魔城。\\
+我们的第一位密探变身后隐藏在中州将军坟三层，坐标100：120附近。\
+找到他并完成你的使命吧，一路上小心。\
+<我一定完成任务！请您放心！/@exit>\
+
+[@_QueArmy_canclequest]
+
+[@_QueArmy_TaskRedo]
+对你来说，重要的也许不是你的实力，更重要的是你的决心，也\
+许你能再次接受任务，但看起来来你的情况不太好。\
+<再次接受任务/@_QueArmy_RedoTask>\
+<离开/@exit>
+
+[@_QueArmy_RedoTask]
+你需要送达的军机令是：\\
+攻破铁血魔城绝非易事，更有严格时间限制，所以必须速战速决。\\
+我们的第一位密探变身后隐藏在中州将军坟三层，坐标100：120附近。\
+找到他并完成你的使命吧，一路上小心。\
+<我一定完成任务！请您放心！/@exit>\

@@ -1,0 +1,1671 @@
+<!-- type == 0 JumpPoint type == 1 NPC -->
+<mapjump>
+	<map id="1">
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="ZQD" dstx="175" dsty="124">
+				<Command Com="@main1"/>
+				<!--command Com="@@FlyTo 1,255,250;ZQD,175,124"/-->
+				<Command Com="@zqd"/>
+				<!--qu zhuquedao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU1" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU2" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="T011" dstx="13" dsty="131">
+				<Command Com="@main1"/>
+				<Command Com="@kuangkeng"/>
+				<Command Com="@kk"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxiadao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@main1"/>
+				<!--Command Com="@@FlyTo 1,255,250;0,468,226"/-->
+				<Command Com="@capital"/>
+				<!--qu quzhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="8">
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XFD" dstx="175" dsty="124">
+				<Command Com="@main1"/>
+				<!--command Com="@@FlyTo 8,255,250;XFD,175,124"/-->
+				<Command Com="@xfd"/>
+				<!--qu zhuquedao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU1" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU2" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="T011" dstx="13" dsty="131">
+				<Command Com="@main1"/>
+				<Command Com="@kuangkeng"/>
+				<Command Com="@kk"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxiadao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@main1"/>
+				<!--Command Com="@@FlyTo 8,255,250;0,468,226"/-->
+				<Command Com="@capital"/>
+				<!--qu quzhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="DQD">
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="HHD" dstx="175" dsty="124">
+				<Command Com="@main1"/>
+				<!--command Com="@@FlyTo DQD,255,250;HHD,175,124"/-->
+				<Command Com="@hhd"/>
+				<!--qu zhuquedao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU1" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="XTUITU2" dstx="34" dsty="60">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="T011" dstx="13" dsty="131">
+				<Command Com="@main1"/>
+				<Command Com="@kuangkeng"/>
+				<Command Com="@kk"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="253" srcy="248" type="1">
+			<!--luoxiadao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@main1"/>
+				<!--Command Com="@@FlyTo DQD,255,250;0,468,226"/-->
+				<Command Com="@capital"/>
+				<!--qu quzhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="ZQD">
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="1" dstx="249" dsty="244">
+				<!--Command Com="@@FlyTo ZQD,175,124;1,255,250"/-->
+				<Command Com="@go_1"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@go_0"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="XFD">
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="8" dstx="249" dsty="244">
+				<!--Command Com="@@FlyTo XFD,175,124;8,255,250"/-->
+				<Command Com="@go_8"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@go_0"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="HHD">
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="DQD" dstx="249" dsty="244">
+				<!--Command Com="@@FlyTo HHD,175,124;DQD,255,250"/-->
+				<Command Com="@go_dqd"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="175" srcy="124" type="1">
+			<!--zhuquedao-->
+			<Ponit dstid="0" dstx="468" dsty="226">
+				<Command Com="@go_0"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="XTUITU">
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="1" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_1"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="8" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_8"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="DQD" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_dqd"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="0" dstx="470" dsty="225">
+				<Command Com="@go_place"/>
+				<Command Com="@capital"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="XTUITU1">
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="1" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_1"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="8" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_8"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="DQD" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_dqd"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="0" dstx="470" dsty="225">
+				<Command Com="@go_place"/>
+				<Command Com="@capital"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="XTUITU2">
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="1" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_1"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="8" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_8"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="DQD" dstx="249" dsty="244">
+				<Command Com="@go_place"/>
+				<Command Com="@go_dqd"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="28" srcy="50" type="1">
+			<!--mengjing-->
+			<Ponit dstid="0" dstx="470" dsty="225">
+				<Command Com="@go_place"/>
+				<Command Com="@capital"/>
+				<!--qu luoxiadao-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="0">
+		<Jump srcx="468" srcy="221" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="ZZGC" dstx="89" dsty="86">
+				<Command Com="@gotozzgc"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="SH000" dstx="31" dsty="34">
+				<Command Com="@gosh000"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="ZQD" dstx="170" dsty="69">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@go_zqd"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="XFD" dstx="170" dsty="69">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@go_xfd"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="HHD" dstx="170" dsty="69">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@go_hhd"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="1" dstx="238" dsty="236">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@island"/>
+				<Command Com="@island1"/>
+				<!--qu luoxia-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="8" dstx="245" dsty="245">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@go_8"/>
+				<!--qu taohua-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="DQD" dstx="245" dsty="245">
+				<Command Com="@main1"/>
+				<Command Com="@othergo"/>
+				<Command Com="@go_dqd"/>
+				<!--qu xixia-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="548" srcy="195" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="SH003" dstx="19" dsty="28"/>
+		</Jump>
+		<Jump srcx="497" srcy="245" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="SH010" dstx="7" dsty="13"/>
+		</Jump>
+		<Jump srcx="521" srcy="266" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="SH045" dstx="6" dsty="20"/>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="XTUITU" dstx="20" dsty="27">
+				<Command Com="@goxuwu"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="5" dstx="459" dsty="105">
+				<Command Com="@main1"/>
+				<Command Com="@west"/>
+				<Command Com="@west1"/>
+				<!--qu xiyuqijing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="0" dstx="32" dsty="348">
+				<Command Com="@main1"/>
+				<Command Com="@lingmuall"/>
+				<Command Com="@lingmus"/>
+				<Command Com="@lms"/>
+				<!--qu jiangjunfennan-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="468" srcy="226" type="1">
+			<!--zhongzhou-->
+			<Ponit dstid="3" dstx="136" dsty="369">
+				<Command Com="@gohaidi"/>
+				<Command Com="@goshacheng"/>
+				<!--qu jiangjunfennan-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="777" srcy="393" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="H081" dstx="201" dsty="329"/>
+		</Jump>
+		<Jump srcx="28" srcy="346" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="H071" dstx="258" dsty="497"/>
+		</Jump>
+		<Jump srcx="783" srcy="521" type="0">
+			<!-- sishui -->
+			<Ponit dstid="7" dstx="12" dsty="14"/>
+		</Jump>
+		<Jump srcx="728" srcy="35" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="2" dstx="441" dsty="971"/>
+		</Jump>
+	</map>
+	<map id="SH000">
+		<Jump srcx="12" srcy="54" type="1">
+			<!--huanggong-->
+			<Ponit dstid="0" dstx="483" dsty="143">
+				<Command Com="@out1"/>
+				<!--qu huanggong-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="SH003">
+		<Jump srcx="20" srcy="29" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="0" dstx="549" dsty="198"/>
+		</Jump>
+	</map>
+	<map id="SH010">
+		<Jump srcx="6" srcy="15" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="0" dstx="497" dsty="246"/>
+		</Jump>
+	</map>
+	<map id="SH045">
+		<Jump srcx="8" srcy="23" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="0" dstx="520" dsty="267"/>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh00" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh01" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh02" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh03" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh04" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh05" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh06" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh07" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh08" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh09" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh10" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh11" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh12" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh13" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh14" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh15" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh16" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh17" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh18" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="8" srcy="12" type="1">
+			<!--zhongzhoukezhan-->
+			<Ponit dstid="QueYsh19" dstx="15" dsty="15">
+				<Command Com="@staryuanshen"/>
+				<Command Com="@Ineedhelpa"/>
+				<Command Com="@Ineedhelp"/>
+				<!--qu jiangjunfendong-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="T011">
+		<Jump srcx="12" srcy="130" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="1" dstx="245" dsty="245">
+				<Command Com="@go_place"/>
+				<Command Com="@go_1"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="12" srcy="130" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="8" dstx="245" dsty="245">
+				<Command Com="@go_place"/>
+				<Command Com="@go_8"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="12" srcy="130" type="1">
+			<!--luoxialaobin-->
+			<Ponit dstid="DQD" dstx="245" dsty="245">
+				<Command Com="@go_place"/>
+				<Command Com="@go_dqd"/>
+				<!--qu mengjing-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="H071">
+		<Jump srcx="259" srcy="499" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="0" dstx="30" dsty="351"/>
+		</Jump>
+	</map>
+	<map id="H081">
+		<Jump srcx="198" srcy="331" type="0">
+			<!-- zhongzhou -->
+			<Ponit dstid="0" dstx="774" dsty="396"/>
+		</Jump>
+	</map>
+	<map id="QueYsh00">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh01">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh02">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh03">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh04">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh05">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh06">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh07">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh08">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh09">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh10">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh11">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh12">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh13">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh14">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh15">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh16">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh17">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh18">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="QueYsh19">
+		<Jump srcx="25" srcy="14" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="0" dstx="470" dsty="230">
+				<Command Com="@Goout1"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="7">
+		<Jump srcx="11" srcy="9" type="0">
+			<!-- sishui -->
+			<Ponit dstid="0" dstx="781" dsty="524"/>
+		</Jump>
+		<Jump srcx="389" srcy="44" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC001" dstx="62" dsty="206"/>
+		</Jump>
+	</map>
+	<map id="2">
+		<Jump srcx="443" srcy="526" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="3" dstx="27" dsty="436"/>
+		</Jump>
+		<Jump srcx="199" srcy="485" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="SH022" dstx="8" dsty="15"/>
+		</Jump>
+		<Jump srcx="201" srcy="428" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="M001" dstx="46" dsty="252"/>
+		</Jump>
+		<Jump srcx="344" srcy="23" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="10" dstx="82" dsty="64"/>
+		</Jump>
+		<Jump srcx="439" srcy="973" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="0" dstx="725" dsty="37"/>
+		</Jump>
+		<Jump srcx="207" srcy="427" type="0">
+			<!-- tucheng -->
+			<Ponit dstid="M005" dstx="91" dsty="104"/>
+		</Jump>
+	</map>
+	<map id="3">
+		<Jump srcx="22" srcy="437" type="0">
+			<!-- sishui -->
+			<Ponit dstid="2" dstx="441" dsty="526"/>
+		</Jump>
+		<Jump srcx="142" srcy="151" type="0">
+			<!-- sishui -->
+			<Ponit dstid="SH021" dstx="19" dsty="26"/>
+		</Jump>
+		<Jump srcx="138" srcy="368" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="haidi" dstx="161" dsty="181">
+				<Command Com="@gohaidi"/>
+				<Command Com="@gohaidishijie"/>
+				<!--qu zhongzhou-->
+			</Ponit>
+		</Jump>
+		<Jump srcx="397" srcy="602" type="0">
+			<!-- yuemapingyuan -->
+			<Ponit dstid="S011" dstx="275" dsty="276"/>
+		</Jump>
+	</map>
+	<map id="SH022">
+		<Jump srcx="7" srcy="16" type="0">
+			<!-- sishui -->
+			<Ponit dstid="2" dstx="198" dsty="487"/>
+		</Jump>
+	</map>
+	<map id="M001">
+		<Jump srcx="44" srcy="255" type="0">
+			<!-- sishui -->
+			<Ponit dstid="2" dstx="200" dsty="429"/>
+		</Jump>
+	</map>
+	<map id="10">
+		<Jump srcx="87" srcy="66" type="0">
+			<!-- shemogu -->
+			<Ponit dstid="2" dstx="347" dsty="25"/>
+		</Jump>
+		<Jump srcx="61" srcy="11" type="0">
+			<!-- shemogu -->
+			<Ponit dstid="4" dstx="180" dsty="480"/>
+		</Jump>
+		<Jump srcx="64" srcy="38" type="0">
+			<!-- shemogu -->
+			<Ponit dstid="N001" dstx="186" dsty="273"/>
+		</Jump>
+	</map>
+	<map id="4">
+		<Jump srcx="182" srcy="482" type="0">
+			<!-- sishui -->
+			<Ponit dstid="10" dstx="64" dsty="13"/>
+		</Jump>
+		<Jump srcx="14" srcy="65" type="0">
+			<!-- sishui -->
+			<Ponit dstid="5" dstx="599" dsty="606"/>
+		</Jump>
+	</map>
+	<map id="5">
+		<Jump srcx="601" srcy="607" type="0">
+			<!-- xiyuqijing -->
+			<Ponit dstid="4" dstx="16" dsty="65"/>
+		</Jump>
+		<Jump srcx="137" srcy="102" type="0">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT001" dstx="336" dsty="313"/>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="131" srcy="112" type="1">
+			<!-- xiyuqijing -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@goin"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="MH001">
+		<Jump srcx="50" srcy="90" type="1">
+			<!-- lingtaijingtian -->
+			<Ponit dstid="2" dstx="247" dsty="545">
+				<Command Com="@out"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="M005">
+		<Jump srcx="92" srcy="106" type="0">
+			<!-- jiguandong -->
+			<Ponit dstid="2" dstx="208" dsty="428"/>
+		</Jump>
+		<Jump srcx="89" srcy="56" type="0">
+			<!-- jiguandong -->
+			<Ponit dstid="M009" dstx="200" dsty="65"/>
+		</Jump>
+	</map>
+	<map id="M009">
+		<Jump srcx="202" srcy="63" type="0">
+			<!-- jiguandong -->
+			<Ponit dstid="M005" dstx="91" dsty="54"/>
+		</Jump>
+	</map>
+	<map id="N001">
+		<Jump srcx="185" srcy="274" type="0">
+			<!-- dixueruk -->
+			<Ponit dstid="10" dstx="62" dsty="41"/>
+		</Jump>
+		<Jump srcx="101" srcy="375" type="0">
+			<!-- dixueruk -->
+			<Ponit dstid="N002" dstx="327" dsty="263"/>
+		</Jump>
+	</map>
+	<map id="N002">
+		<Jump srcx="326" srcy="262" type="0">
+			<!-- huandao -->
+			<Ponit dstid="N001" dstx="100" dsty="374"/>
+		</Jump>
+		<Jump srcx="134" srcy="367" type="0">
+			<!-- huandao -->
+			<Ponit dstid="N003" dstx="63" dsty="115"/>
+		</Jump>
+	</map>
+	<map id="N003">
+		<Jump srcx="62" srcy="117" type="0">
+			<!-- huandao -->
+			<Ponit dstid="N002" dstx="133" dsty="368"/>
+		</Jump>
+	</map>
+	<map id="S011">
+		<Jump srcx="277" srcy="277" type="0">
+			<!-- nimoyiceng -->
+			<Ponit dstid="3" dstx="399" dsty="605"/>
+		</Jump>
+		<Jump srcx="155" srcy="155" type="0">
+			<!-- nimoyiceng -->
+			<Ponit dstid="S012" dstx="58" dsty="51"/>
+		</Jump>
+	</map>
+	<map id="S012">
+		<Jump srcx="59" srcy="53" type="0">
+			<!-- jiangjingtang -->
+			<Ponit dstid="S011" dstx="157" dsty="157"/>
+		</Jump>
+		<Jump srcx="40" srcy="31" type="0">
+			<!-- jiangjingtang -->
+			<Ponit dstid="S013" dstx="259" dsty="265"/>
+		</Jump>
+	</map>
+	<map id="S013">
+		<Jump srcx="261" srcy="268" type="0">
+			<!-- nimoerceng -->
+			<Ponit dstid="S012" dstx="42" dsty="34"/>
+		</Jump>
+	</map>
+	<map id="TT001">
+		<Jump srcx="337" srcy="316" type="0">
+			<!-- yishouzhetian -->
+			<Ponit dstid="5" dstx="138" dsty="105"/>
+		</Jump>
+		<Jump srcx="56" srcy="173" type="0">
+			<!-- yishouzhetian -->
+			<Ponit dstid="TT002" dstx="44" dsty="165"/>
+		</Jump>
+	</map>
+	<map id="TT002">
+		<Jump srcx="42" srcy="167" type="0">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT001" dstx="55" dsty="176"/>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="177" srcy="80" type="1">
+			<!-- erdaolangxian -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT003">
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="200" srcy="172" type="1">
+			<!-- sanjiaopailou -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT004">
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="219" srcy="183" type="1">
+			<!-- sifangleitai -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT005">
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="340" srcy="306" type="1">
+			<!-- wuxinggongdian -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT006">
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="346" srcy="211" type="1">
+			<!-- liudaolunhui -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT007">
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="242" srcy="206" type="1">
+			<!-- qixuanguanka -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT008">
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="TT009" dstx="289" dsty="147">
+				<Command Com="@main"/>
+				<Command Com="@go_9"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="263" srcy="164" type="1">
+			<!-- baxianzongheng -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="TT009">
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT002" dstx="176" dsty="80">
+				<Command Com="@main"/>
+				<Command Com="@go_2"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT003" dstx="200" dsty="173">
+				<Command Com="@main"/>
+				<Command Com="@go_3"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT004" dstx="220" dsty="183">
+				<Command Com="@main"/>
+				<Command Com="@go_4"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT005" dstx="340" dsty="306">
+				<Command Com="@main"/>
+				<Command Com="@go_5"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT006" dstx="346" dsty="211">
+				<Command Com="@main"/>
+				<Command Com="@go_6"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT007" dstx="242" dsty="206">
+				<Command Com="@main"/>
+				<Command Com="@go_7"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="TT008" dstx="263" dsty="164">
+				<Command Com="@main"/>
+				<Command Com="@go_8"/>
+			</Ponit>
+		</Jump>
+		<Jump srcx="289" srcy="147" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="5" dstx="130" dsty="121">
+				<Command Com="@main"/>
+				<Command Com="@goback"/>
+			</Ponit>
+		</Jump>
+	</map>
+	<map id="MC001">
+		<Jump srcx="63" srcy="203" type="0">
+			<!-- sishui -->
+			<Ponit dstid="7" dstx="387" dsty="49"/>
+		</Jump>
+		<Jump srcx="79" srcy="33" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC002" dstx="224" dsty="69"/>
+		</Jump>
+	</map>
+	<map id="MC002">
+		<Jump srcx="226" srcy="67" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC001" dstx="82" dsty="30"/>
+		</Jump>
+		<Jump srcx="113" srcy="254" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC003" dstx="122" dsty="286"/>
+		</Jump>
+	</map>
+	<map id="MC003">
+		<Jump srcx="90" srcy="78" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC002" dstx="89" dsty="92"/>
+		</Jump>
+		<Jump srcx="324" srcy="76" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC004" dstx="194" dsty="26"/>
+		</Jump>
+	</map>
+	<map id="MC004">
+		<Jump srcx="195" srcy="23" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC003" dstx="323" dsty="77"/>
+		</Jump>
+		<Jump srcx="78" srcy="230" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC005" dstx="241" dsty="22"/>
+		</Jump>
+	</map>
+	<map id="MC005">
+		<Jump srcx="242" srcy="20" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC004" dstx="80" dsty="228"/>
+		</Jump>
+		<Jump srcx="56" srcy="254" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC006" dstx="106" dsty="245"/>
+		</Jump>
+	</map>
+	<map id="MC006">
+		<Jump srcx="107" srcy="243" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC005" dstx="55" dsty="252"/>
+		</Jump>
+		<Jump srcx="56" srcy="254" type="0">
+			<!-- sishui -->
+			<Ponit dstid="MC006" dstx="106" dsty="245"/>
+		</Jump>
+	</map>
+	<map id="H081">
+		<Jump srcx="206" srcy="169" type="0">
+			<!-- jiangjunfen dong 1 -->
+			<Ponit dstid="H082" dstx="107" dsty="83"/>
+		</Jump>
+	</map>
+	<map id="H082">
+		<Jump srcx="107" srcy="83" type="0">
+			<!-- jiangjunfen dong 2 -->
+			<Ponit dstid="H081" dstx="206" dsty="169"/>
+		</Jump>
+	</map>
+	<map id="bkc">
+		<Jump srcx="53" srcy="369" type="0">
+			<Ponit dstid="xwy" dstx="80" dsty="19"/>
+		</Jump>
+	</map>
+	<map id="ZZGC">
+		<Jump srcx="89" srcy="80" type="1">
+			<!-- jiuchongyunxiao -->
+			<Ponit dstid="0" dstx="470" dsty="220">
+				<Command Com="@gotozz"/>
+			</Ponit>
+		</Jump>
+	</map>
+</mapjump>

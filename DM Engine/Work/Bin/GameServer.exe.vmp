@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+    <Protection InputFileName="GameServer.exe" Options="295368" VMCodeSectionName=".???" VMComplexity="1" VMVersion="1" VMInstances="5">
+        <Messages>
+            <Message Id="0">已发现有调试器在您的系统中运行。&#x0A;请将其从内存中卸载，并重新启动您的程序。</Message>
+            <Message Id="1">抱歉，此应用程序无法在虚拟机环境下运行。</Message>
+            <Message Id="2">文件损坏！此程序已被篡改，可能已被病毒感染或被破解。此文件将无法再正常使用。</Message>
+            <Message Id="3">此代码需要有效的序列号才能运行。&#x0A;程序将被终止。</Message>
+            <Message Id="4">此应用程序无法在本电脑上运行。</Message>
+        </Messages>
+        <Folders />
+        <Procedures>
+            <Procedure MapAddress='VMProtectMarker &quot;许可证&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;错误：许可证已过期！&#x0A;硬件ID：%s&#x0A;&quot;' Options="0" CompilationType="1" Complexity="1" />
+            <Procedure MapAddress='string &quot;错误：许可证验证失败！&#x0A;硬件ID：%s&#x0A;&quot;' Options="0" CompilationType="1" Complexity="1" />
+            <Procedure MapAddress="EntryPoint" Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;CHumanPlayerMgr-boTest&quot;' Options="0" />
+            <Procedure MapAddress='VMProtectMarker &quot;NewPlayer-boTest&quot;' Options="0" />
+            <Procedure MapAddress='string &quot;引擎已注册！&#x0A;用户名：%ls&#x0A;人数：无限制&#x0A;有效期：%u年-%u月-%u日&#x0A;硬件ID：%s&#x0A;&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;测试版引擎！&#x0A;用户名：测试&#x0A;人数：5人&#x0A;硬件ID：%s&#x0A;&quot;' Options="0" CompilationType="1" />
+            <Procedure MapAddress='string &quot;错误：程序被恶意修改！&#x0A;硬件ID：%s&#x0A;&quot;' Options="0" CompilationType="1" />
+        </Procedures>
+        <Objects />
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script />
+    <LicenseManager ProductCode="36DEDj37kVA=" Algorithm="RSA" Bits="4096" PublicExp="AAEAAQ==" PrivateExp="lBUnPVrnt5Z1jWH+V2oQ1DwNagkUCwnJOeABI2vJhutGOBYwleMNXhxtRF9bwNRDCfaTWXxCl2EP6+UnLYQQC3G+ePxYYGuUnmq9mpm8A8ueqVDXv/FTa8DWqaUu+2jt47Chr4ngrIvAQw2Y2sHZxt+txvTqIRNw8mwlwRJ+kITWJKZ18s4vdH94ZIWeuVebrseJmrE0IWYH/QE+/aw+v3Hn9VgZvyAKvhhGTNnN3PuAtbgt9jmDB5u111SUTCJbpqluiPegtYXX91s1FHIxiy2KjpFjp/jrvBaAaJyo4Y8BbflEMynhF+57jj0KOxN2/jXX7o8g91Wt27gPs9bfpAoPqlKfm0daf5eQPdLJpWh+n6vF24UXs/j15Maro0W82xHXSK9HsZuP9nMMjcL0s67dJZvMsxYAOjiHwfFm/6pnW3hxV+h+tbIcloYfW4Mjonrzx4rGcrdG4NVLQw39h0yFsxaYi4viCw9nCN0BrAdr+oGHnasqRr6ZqnTjsvKg+xv1QAj5ILkdSTxYwdD9gqkt8xN6FrQJLFDxGbgyA3FBT9P504j3zpksewUlkSmPkdrJGTLe8RQ7BPkAfVroLLmjQ8ZT8S3rKyDB2C9pNaEVhcDxR5haTKePscOZvOl1gQLh7yinOAfUhPkTmkbT1zZDBGnsod5dYYMc9dEUeyU=" Modulus="3z/xyXgHmYVc3Ml+7v03SBqgvweda0pWk+0+YO0kprvObz7MVh5M4bMxNQiy4oaWB3D/6XptMQAMg4rr6qdiyOhF1fskywE5oq3s5GsBpuvMLrVgDE1yusnOXtjZDEEjyn7qavoJJGb9xdbt/9zhmXUzU4QIEV62cJ2XGdAYzHA8dApDG0XNvFRJ0wIcFZdJwwVX9AzUv7wGlwlAZsUhW/jb6e2uDl4tBCVcrnq7CetQ6nsjAyvKvyMf4hkkzfENcFOzhyu5Srd/akwTkqwxnetjEi3RTvH6As321+J4OxPejmxburXvjo1YKAxwt0BogQVRjxQ/2eDmwx0C+S2VZgVzEiZIl8tg2zItc8I2XLAqEYeDzUEny9eeuV1jfoHO1zcA0xtFMpNYIurMw16zXFm7B2J/u2oRTucz0z/TYzzBgihxoP4kKc/J/bNs/HKdQmyG7vAIquqOh53lElVAekIAAwgFJ9MjxAsZK3qbe2s1aVmnKxPlFZ3aa7/nG5SWHYDz5+VH7fTGD4qtW8wqyAPHS9PBFKjEhruqLt/R5Cj9nuZEwL7Tp3GHAngZ5BLkduftu8VvaZf+gv5rbFBkesCMr8WjYY8bhij14GYhskAjKm+fycgAk3jZN/dJHVFJ9qLIv/egOLP1+w+++OTPk2DErHZqrWBE7Sq8IgojJz0=" />
+</Document>

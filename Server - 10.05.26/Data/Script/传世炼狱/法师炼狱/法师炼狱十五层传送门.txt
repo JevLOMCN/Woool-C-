@@ -1,0 +1,4 @@
+[@main]
+#act
+move 199 65 50
+close

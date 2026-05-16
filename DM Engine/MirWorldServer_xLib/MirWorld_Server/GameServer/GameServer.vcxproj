@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{1025870F-E111-47FF-827A-264766606FF4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.32819.101</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\work\Bin\</OutDir>
+    <IntDir>$(SolutionDir)..\..\out\GameServer-$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\work\Bin\</OutDir>
+    <IntDir>$(SolutionDir)..\..\out\GameServer-$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\work\Bin\</OutDir>
+    <IntDir>$(SolutionDir)..\..\out\GameServer-$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\work\Bin\</OutDir>
+    <IntDir>$(SolutionDir)..\..\out\GameServer-$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions Condition="'$(Platform)'=='Win32'">WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Platform)'=='x64'">_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\Vendor\RapidJson\include;$(ProjectDir)..\..\mimalloc\include;$(ProjectDir)..\..\Vendor\VMProtect\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/execution-charset:gbk %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(TargetDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)GameServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine Condition="'$(Platform)'=='Win32'">MachineX86</TargetMachine>
+      <TargetMachine Condition="'$(Platform)'=='x64'">MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\Vendor\VMProtect\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions Condition="'$(Platform)'=='Win32'">WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Platform)'=='x64'">NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\Vendor\RapidJson\include;$(ProjectDir)..\..\mimalloc\include;$(ProjectDir)..\..\Vendor\VMProtect\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalOptions>/execution-charset:gbk %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(TargetDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine Condition="'$(Platform)'=='Win32'">MachineX86</TargetMachine>
+      <TargetMachine Condition="'$(Platform)'=='x64'">MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\Vendor\VMProtect\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\Vendor\RapidJson\include;$(ProjectDir)..\..\mimalloc\include;$(ProjectDir)..\..\Vendor\VMProtect\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/execution-charset:gbk %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(TargetDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)GameServer.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\Vendor\VMProtect\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\Vendor\RapidJson\include;$(ProjectDir)..\..\mimalloc\include;$(ProjectDir)..\..\Vendor\VMProtect\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <AdditionalOptions>/execution-charset:gbk %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(TargetDir)$(ProjectName).exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalLibraryDirectories>$(ProjectDir)..\..\Vendor\VMProtect\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\res\public.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AiObjectEx.cpp" />
+    <ClCompile Include="AliveObject.cpp" />
+    <ClCompile Include="AutoScriptManager.cpp" />
+    <ClCompile Include="BlueFireEvent.cpp" />
+    <ClCompile Include="BossTJ.cpp" />
+    <ClCompile Include="BundleManager.cpp" />
+    <ClCompile Include="Human_Achieve.cpp" />
+    <ClCompile Include="TimeAchieve.cpp" />
+    <ClCompile Include="ChangeMapEvent.cpp" />
+    <ClCompile Include="CmdProc.cpp" />
+    <ClCompile Include="DamageEvent.cpp" />
+    <ClCompile Include="DownItemMgr.cpp" />
+    <ClCompile Include="DownItemObject.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="EventManager.cpp" />
+    <ClCompile Include="EventObject.cpp" />
+    <ClCompile Include="EventProcessor.cpp" />
+    <ClCompile Include="ExchangeObj.cpp" />
+    <ClCompile Include="ExchangeObjectMgr.cpp" />
+    <ClCompile Include="FengHaoGrowManager.cpp" />
+    <ClCompile Include="FireBurnEvent.cpp" />
+    <ClCompile Include="FireNimoBurnEvent.cpp" />
+    <ClCompile Include="FireRainEvent.cpp" />
+    <ClCompile Include="FlagEventEx.cpp" />
+    <ClCompile Include="FmtTextFile.cpp" />
+    <ClCompile Include="GameServer.cpp" />
+    <ClCompile Include="GameStage.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="GmManager.cpp" />
+    <ClCompile Include="GroupObject.cpp" />
+    <ClCompile Include="GroupObjectMgr.cpp" />
+    <ClCompile Include="gsClientObj.cpp" />
+    <ClCompile Include="GuildEx.cpp" />
+    <ClCompile Include="GuildManagerEx.cpp" />
+    <ClCompile Include="GuildWarManager.cpp" />
+    <ClCompile Include="HumanPlayer.cpp" />
+    <ClCompile Include="HumanPlayerMgr.cpp" />
+    <ClCompile Include="Human_Action.cpp" />
+    <ClCompile Include="Human_Community.cpp" />
+    <ClCompile Include="Human_FengHao.cpp" />
+    <ClCompile Include="Human_Guild.cpp" />
+    <ClCompile Include="Human_Item.cpp" />
+    <ClCompile Include="Human_Msg.cpp" />
+    <ClCompile Include="Human_Pet.cpp" />
+    <ClCompile Include="Human_Skill.cpp" />
+    <ClCompile Include="Human_Task.cpp" />
+    <ClCompile Include="ItemBox.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="MonsterAttack.cpp" />
+    <ClCompile Include="TriggerEvent.cpp" />
+    <ClCompile Include="Variable_Achieve.cpp" />
+    <ClCompile Include="Variable_Item.cpp" />
+    <ClCompile Include="LogicMap.cpp" />
+    <ClCompile Include="LogicMapMgr.cpp" />
+    <ClCompile Include="MagicManager.cpp" />
+    <ClCompile Include="MapObject.cpp" />
+    <ClCompile Include="MapScriptManager.cpp" />
+    <ClCompile Include="Market.cpp" />
+    <ClCompile Include="MarketManager.cpp" />
+    <ClCompile Include="MineList.cpp" />
+    <ClCompile Include="MonItemsMgr.cpp" />
+    <ClCompile Include="MonsterEx.cpp" />
+    <ClCompile Include="ScriptFunction_Monster.cpp" />
+    <ClCompile Include="MonsterGenManager.cpp" />
+    <ClCompile Include="MonsterManagerEx.cpp" />
+    <ClCompile Include="MonsterTrapper.cpp" />
+    <ClCompile Include="Variable_Monster.cpp" />
+    <ClCompile Include="NpcManager.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="PalaceWall.cpp" />
+    <ClCompile Include="PhysicsMap.cpp" />
+    <ClCompile Include="PhysicsMapMgr.cpp" />
+    <ClCompile Include="Variable_Player.cpp" />
+    <ClCompile Include="PoolManager.cpp" />
+    <ClCompile Include="SandCity.cpp" />
+    <ClCompile Include="Variable_SandCity.cpp" />
+    <ClCompile Include="SCArcher.cpp" />
+    <ClCompile Include="SCDoor.cpp" />
+    <ClCompile Include="SCPalaceDoor.cpp" />
+    <ClCompile Include="ScriptElement.cpp" />
+    <ClCompile Include="ScriptEvent.cpp" />
+    <ClCompile Include="ScriptFile.cpp" />
+    <ClCompile Include="ScriptFunction.cpp" />
+    <ClCompile Include="ScriptFunction2.cpp" />
+    <ClCompile Include="ScriptFunction_UsingItem.cpp" />
+    <ClCompile Include="ScriptNpc.cpp" />
+    <ClCompile Include="ScriptObject.cpp" />
+    <ClCompile Include="ScriptObjectMgr.cpp" />
+    <ClCompile Include="ScriptShell.cpp" />
+    <ClCompile Include="ScriptTarget.cpp" />
+    <ClCompile Include="ScriptTimerManager.cpp" />
+    <ClCompile Include="ScriptVariable.cpp" />
+    <ClCompile Include="ScriptView.cpp" />
+    <ClCompile Include="SculpEiceEvent.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="SimpleDBConnection.cpp" />
+    <ClCompile Include="SpecialEquipmentManager.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringListManager.cpp" />
+    <ClCompile Include="SubMarket.cpp" />
+    <ClCompile Include="SystemScript.cpp" />
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="Variable_Timer.cpp" />
+    <ClCompile Include="TimeSystem.cpp" />
+    <ClCompile Include="tinystr.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp" />
+    <ClCompile Include="TopManager.cpp" />
+    <ClCompile Include="Variable_Top.cpp" />
+    <ClCompile Include="VisibleEvent.cpp" />
+    <ClCompile Include="WeatherSystem.cpp" />
+    <ClCompile Include="xSimpleSocket.cpp" />
+    <ClCompile Include="ZombiHoleEvent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\res\resource.h" />
+    <ClInclude Include="AiObjectEx.h" />
+    <ClInclude Include="AliveObject.h" />
+    <ClInclude Include="AutoScriptManager.h" />
+    <ClInclude Include="BlueFireEvent.h" />
+    <ClInclude Include="BossTJ.h" />
+    <ClInclude Include="BundleManager.h" />
+    <ClInclude Include="TimeAchieve.h" />
+    <ClInclude Include="ChangeMapEvent.h" />
+    <ClInclude Include="CmdProc.h" />
+    <ClInclude Include="DamageEvent.h" />
+    <ClInclude Include="DownItemMgr.h" />
+    <ClInclude Include="DownItemObject.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="EventManager.h" />
+    <ClInclude Include="EventObject.h" />
+    <ClInclude Include="EventProcessor.h" />
+    <ClInclude Include="ExchangeObj.h" />
+    <ClInclude Include="ExchangeObjectMgr.h" />
+    <ClInclude Include="FengHaoGrowManager.h" />
+    <ClInclude Include="FindFile.h" />
+    <ClInclude Include="FireBurnEvent.h" />
+    <ClInclude Include="FireNimoBurnEvent.h" />
+    <ClInclude Include="FireRainEvent.h" />
+    <ClInclude Include="FlagEventEx.h" />
+    <ClInclude Include="FlagEventListener.h" />
+    <ClInclude Include="FmtTextFile.h" />
+    <ClInclude Include="GameServer.h" />
+    <ClInclude Include="GameStage.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="GmManager.h" />
+    <ClInclude Include="GroupObject.h" />
+    <ClInclude Include="GroupObjectMgr.h" />
+    <ClInclude Include="gsClientObj.h" />
+    <ClInclude Include="GuildEx.h" />
+    <ClInclude Include="GuildManagerEx.h" />
+    <ClInclude Include="GuildWarManager.h" />
+    <ClInclude Include="HumanPlayer.h" />
+    <ClInclude Include="HumanPlayerMgr.h" />
+    <ClInclude Include="ItemBox.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="LocalDefine.h" />
+    <ClInclude Include="LocalSupport.h" />
+    <ClInclude Include="LogicMap.h" />
+    <ClInclude Include="LogicMapMgr.h" />
+    <ClInclude Include="MagicManager.h" />
+    <ClInclude Include="MapObject.h" />
+    <ClInclude Include="MapScriptManager.h" />
+    <ClInclude Include="Market.h" />
+    <ClInclude Include="MarketDef.h" />
+    <ClInclude Include="MarketManager.h" />
+    <ClInclude Include="MineList.h" />
+    <ClInclude Include="MonItemsMgr.h" />
+    <ClInclude Include="EventsBus.h" />
+    <ClInclude Include="MonsterEx.h" />
+    <ClInclude Include="MonsterGenManager.h" />
+    <ClInclude Include="MonsterManagerEx.h" />
+    <ClInclude Include="MonsterTrapper.h" />
+    <ClInclude Include="MonsterAttack.h" />
+    <ClInclude Include="NpcManager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="PalaceWall.h" />
+    <ClInclude Include="PhysicsMap.h" />
+    <ClInclude Include="PhysicsMapMgr.h" />
+    <ClInclude Include="PoolManager.h" />
+    <ClInclude Include="SandCity.h" />
+    <ClInclude Include="SCArcher.h" />
+    <ClInclude Include="SCDoor.h" />
+    <ClInclude Include="SCPalaceDoor.h" />
+    <ClInclude Include="ScriptDef.h" />
+    <ClInclude Include="ScriptElement.h" />
+    <ClInclude Include="ScriptEvent.h" />
+    <ClInclude Include="ScriptFile.h" />
+    <ClInclude Include="ScriptFunction.h" />
+    <ClInclude Include="ScriptNpc.h" />
+    <ClInclude Include="ScriptObject.h" />
+    <ClInclude Include="ScriptObjectMgr.h" />
+    <ClInclude Include="ScriptShell.h" />
+    <ClInclude Include="ScriptTarget.h" />
+    <ClInclude Include="ScriptTimerManager.h" />
+    <ClInclude Include="ScriptVariable.h" />
+    <ClInclude Include="ScriptView.h" />
+    <ClInclude Include="SculpEiceEvent.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="SimpleDBConnection.h" />
+    <ClInclude Include="SpecialEquipmentManager.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringDef.h" />
+    <ClInclude Include="StringListManager.h" />
+    <ClInclude Include="SubMarket.h" />
+    <ClInclude Include="SystemScript.h" />
+    <ClInclude Include="TaskManager.h" />
+    <ClInclude Include="TimeSystem.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="TitleManager.h" />
+    <ClInclude Include="TopManager.h" />
+    <ClInclude Include="TriggerEvent.h" />
+    <ClInclude Include="VisibleEvent.h" />
+    <ClInclude Include="vMap.h" />
+    <ClInclude Include="VMProtectHelper.h" />
+    <ClInclude Include="WeatherSystem.h" />
+    <ClInclude Include="xSimpleSocket.h" />
+    <ClInclude Include="ZombiHoleEvent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\public\public.vcxproj">
+      <Project>{bf28a1d6-551e-4857-a8de-38eab6e67dc3}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

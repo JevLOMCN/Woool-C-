@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SafeArea>
+	<map name="0">
+		<sa x="474" y="222" r="21"/>
+		<sa x="410" y="612" r="22"/>
+		<sa x="417" y="248" r="10"/>
+	</map>
+	<map name="1">
+		<sa x="229" y="241" r="26"/>
+	</map>
+	<map name="8">
+		<sa x="229" y="241" r="26"/>
+	</map>
+	<map name="DQD">
+		<sa x="229" y="241" r="31"/>
+	</map>
+	<map name="2">
+		<sa x="233" y="448" r="15"/>
+		<sa x="208" y="448" r="15"/>
+	</map>
+	<map name="3">
+		<sa x="138" y="368" r="15"/>
+	</map>
+	<map name="4">
+		<sa x="340" y="178" r="15"/>
+	</map>
+	<map name="5">
+		<sa x="462" y="107" r="15"/>
+	</map>
+	<map name="128">
+		<sa x="25" y="25" r="100"/>
+	</map>
+	<map name="7">
+		<sa x="54" y="51" r="17"/>
+	</map>
+	<map name ="QGD">
+    	<sa x = "37" y = "55" r="40" />
+    	<sa x = "30" y = "60" r="40" />
+  	</map> 	
+	<map name="MH001">
+		<sa x="111" y="80" r="100"/>
+	</map>
+	<map name="MH008">
+		<sa x="124" y="69" r="10"/>
+	</map>
+	<map name="MH012">
+		<sa x="166" y="97" r="10"/>
+	</map>
+	<map name="MH019">
+		<sa x="28" y="43" r="10"/>
+	</map>
+	<map name="MH026">
+		<sa x="94" y="105" r="10"/>
+	</map>
+	<map name="MH036">
+		<sa x="149" y="67" r="10"/>
+	</map>
+	<map name="MH055">
+		<sa x="62" y="40" r="10"/>
+	</map>
+	<map name="MH056">
+		<sa x="62" y="40" r="10"/>
+	</map>
+	<map name="MH057">
+		<sa x="62" y="40" r="10"/>
+	</map>
+	<map name="SH000">
+		<sa x="20" y="45" r="100"/>
+	</map>
+	<map name="LXXD">
+		<sa x="116" y="31" r="10"/>
+		<sa x="73" y="64" r="10"/>
+	</map>
+	<map name="KFZZB">
+		<sa x="97" y="104" r="300"/>
+	</map>
+	<map name="smd">
+		<sa x="48" y="43" r="100"/>
+	</map>
+	<map name="hjba1">
+		<sa x="48" y="43" r="100"/>
+	</map>
+	<map name="hjba2">
+		<sa x="48" y="43" r="100"/>
+	</map>
+	<map name="skycity3">
+		<sa x="218" y="127" r="6"/>
+		<sa x="90" y="198" r="5"/>
+	</map>
+	<map name="LXXDXN">
+		<sa x="59" y="79" r="300"/>
+	</map>
+	<map name="shly2">
+		<sa x="85" y="127" r="300"/>
+	</map>
+	<map name="HAIDI">
+		<sa x="160" y="173" r="16"/>
+	</map>
+	<map name="DC_ISLAND0001">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0002">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0003">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0004">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0005">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0006">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0007">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0008">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0009">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0010">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0011">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0012">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0013">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0014">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0015">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0016">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0017">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0018">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0019">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0020">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0101">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0102">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0103">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0104">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0105">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0106">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0107">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0108">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0109">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0110">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0111">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0112">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0113">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0114">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0115">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0116">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0117">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0118">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0119">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0120">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0201">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0202">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0203">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0204">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0205">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0206">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0207">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0208">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0209">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0210">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0211">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0212">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0213">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0214">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0215">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0216">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0217">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0218">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0219">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="DC_ISLAND0220">
+		<sa x="98" y="98" r="37"/>
+	</map>
+	<map name="3">
+		<sa x="183" y="206" r="120"/>
+	</map>
+	<map name="KFZB01">
+		<sa x="88" y="80" r="100"/>
+	</map>
+	<map name="ZZGC">
+		<sa x="91" y="83" r="100"/>
+	</map>
+</SafeArea>
+<!--Mapinfo内容2012年7月5日，杨凌波添加
+[NOFIGHT]
+;地图编号   坐标    安全区半径      城的半径     是否是出生点（1,是，0，否）
+
+0	474 222	21
+0	410 612	22
+0 	417 248 10
+
+1	229	241	22
+
+2	223 448	15
+2	208 448	15
+
+3	138 368 15
+
+4	340 178	15
+
+5	462 107	15
+
+7	54 41	17
+
+8	229 241	26
+
+MH001	111 80	100
+
+SH000	20 45 100
+
+lxxdxn	59 79 300
+
+haidi	160 173 16
+
+
+
+zqd	135,150 15	15	0
+zqd	221,163 15	15	0
+
+zqd	209,186 10	10	0
+zqd	153,188 10	10	0
+zqd	226,131 10	10	0
+
+zqd	210,82  10	10	0
+zqd	182,63  10	10	0
+zqd	140,98  10	10	0
+
+
+
+
+
+xfd	182,125 32	50	1
+xfd	135,150 15	15	0
+xfd	221,163 15	15	0
+
+xfd	209,186 10	10	0
+xfd	153,188 10	10	0
+xfd	226,131 10	10	0
+
+xfd	210,82  10	10	0
+xfd	182,63  10	10	0
+xfd	140,98  10	10	0
+
+hhd	182,125 32	50	1
+hhd	135,150 15	15	0
+hhd	221,163 15	15	0
+
+hhd	209,186 10	10	0
+hhd	153,188 10	10	0
+hhd	226,131 10	10	0
+
+hhd	210,82  10	10	0
+hhd	182,63  10	10	0
+hhd	140,98  10	10	0
+    	
+
+
+
+
+
+
+
+
+-->

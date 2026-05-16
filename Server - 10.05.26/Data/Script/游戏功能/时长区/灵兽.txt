@@ -1,0 +1,9 @@
+[@BackExp]
+#if
+ISNEXTDAY $PetBackExpTime
+#act
+movr PetBackExpTime $NOWTIMESTAMP
+systemmsg "宠物回馈经验领取"
+GIVEEXP 500 $VPARAM*0
+#ELSEACT
+systemmsg "你已经领取宠物回馈经验"

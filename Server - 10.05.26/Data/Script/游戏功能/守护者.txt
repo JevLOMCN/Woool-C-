@@ -1,0 +1,4 @@
+[@tutelary]
+#act
+setflag 7
+close

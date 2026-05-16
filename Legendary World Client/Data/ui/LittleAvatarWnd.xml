@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "AvatarWnd">
+  <Offset x = "0" y = "0" align = "Center" />
+  <BackTexture index= "10102" />
+  <Script file="AvatarWnd.lua" />
+  <Scripts>
+    <OnClose>
+      CloseWindow("AvatarWnd")
+    </OnClose>
+    <OnMouseMove>
+    	ShowTip(x,y)
+    </OnMouseMove>    
+  </Scripts>  
+
+	<GoodGrid name ="LeftRingGrid" GridType ="8" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "175" y = "277" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(8)
+    		GetBackgroundColor(8)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(8)
+    	</OnEnter>
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>  
+  	</Scripts>  
+  </GoodGrid>
+    
+  <GoodGrid name ="RightRingGrid" GridType ="7" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "404" y = "277" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(7)
+    		GetBackgroundColor(7)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(7)
+    	</OnEnter>
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>  
+  	</Scripts>  
+  </GoodGrid>
+  
+   <GoodGrid name ="LeftBraceletGrid" GridType ="6" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "175" y = "235" /> 
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(6)
+    		GetBackgroundColor(6)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(6)
+    	</OnEnter>
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>  
+  	</Scripts>  
+  </GoodGrid>
+  
+  <GoodGrid name ="RightBraceletGrid" GridType ="5" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "404" y = "235" /> 
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(5)
+    		GetBackgroundColor(5)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(5)
+    	</OnEnter>
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>  
+  	</Scripts>  
+  </GoodGrid>
+  
+  <GoodGrid name ="NecklaceGrid" GridType ="3" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "404" y = "78" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(3)
+    		GetBackgroundColor(3)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(3)
+    	</OnEnter>
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>  
+  	</Scripts>  
+  </GoodGrid>  
+  
+   <GoodGrid name ="MedalGrid" GridType ="2" WCells="1" HCells="1" CellWidth="35" CellHeight="36" CellDisW="0" CellDisH="0">
+    <Offset x = "404" y = "120" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(2)
+    		GetBackgroundColor(2)
+    	</OnMouseUp>
+    	<OnEnter>
+    		GetBackgroundColor(2)
+    	</OnEnter>   
+    	<OnLeave>
+    		this:SetBack(0);
+    	</OnLeave>   	
+  	</Scripts>  
+  </GoodGrid> 
+  
+  <GoodGrid name ="PersonGrid" GridType ="0" WCells="1" HCells="1" CellWidth="97" CellHeight="183" CellDisW="0" CellDisH="0">
+    <Offset x = "238" y = "129" />   
+    <Scripts>    
+    	<OnMouseUp>
+    		ClickAvatarGood(0)
+    	</OnMouseUp>     	 	
+  	</Scripts>  
+  </GoodGrid>   
+  
+  <GoodGrid name ="HelmetGrid" GridType ="4" WCells="1" HCells="1" CellWidth="40" CellHeight="50" CellDisW="0" CellDisH="0">
+    <Offset x = "266" y = "94" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(4)
+    	</OnMouseUp>
+  	</Scripts>  
+  </GoodGrid>   
+  
+  <GoodGrid name ="WeaponGrid" GridType ="1" WCells="1" HCells="1" CellWidth="70" CellHeight="150" CellDisW="0" CellDisH="0">
+    <Offset x = "175" y = "67" />
+    <Scripts>
+    	<OnMouseUp>
+    		ClickAvatarGood(1)
+    	</OnMouseUp>
+  	</Scripts>  
+  </GoodGrid> 
+  
+  <GoodGrid name ="ShieldGrid" GridType ="13" WCells="1" HCells="1" CellWidth="67" CellHeight="100" CellDisW="0" CellDisH="0">
+    <Offset x = "295" y = "140" />
+  </GoodGrid>
+  
+  <GoodGrid name ="BallGrid" GridType ="14" WCells="1" HCells="1" CellWidth="42" CellHeight="42" CellDisW="0" CellDisH="0">
+    <Offset x = "400" y = "190" />
+  </GoodGrid>
+  
+  <Tip name ="DarkExpTip">  
+  </Tip>
+  
+  </Window>

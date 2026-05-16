@@ -1,0 +1,4645 @@
+<?xml version="1.0" encoding="gb2312"?>
+<SkillHelper>
+	<Skill name="初级剑法" psx="83" psy="1568">
+  enter
+    普通技能/ff85cddc
+    战士的入门剑术，修炼完成后/FFFABF8F
+    总计可提高13点准确。/FFFABF8F
+    1级：需要等级7/FF87C23A
+    2级：需要等级11/FF87C23A
+    3级：需要等级16/FF87C23A
+    大师级：需要天人一重/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="血影刀法" psx="162" psy="1512">
+  enter
+    普通技能/ff85cddc
+    战士的低级刀法。在攻击时损/FFFABF8F
+    耗少量生命值，将血气附于兵/FFFABF8F
+    刃之上，从而提升攻击威力。/FFFABF8F
+    1级：需要等级12/FF87C23A
+    2级：需要等级15/FF87C23A
+    3级：需要等级19/FF87C23A
+    preSkill=初级剑法
+    此技能不可与残影刀法、攻杀剑法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="血影刀法骑战" psx="180" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的低级刀法。在攻击时损/FFFABF8F
+    耗少量生命值，将血气附于兵/FFFABF8F
+    刃之上，从而提升攻击威力。/FFFABF8F
+    1级：需要等级12/FF87C23A
+    2级：需要等级15/FF87C23A
+    3级：需要等级19/FF87C23A
+    preSkill=初级剑法
+    此技能不可与残影刀法、攻杀剑法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="残影刀法骑战" psx="180" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的低级刀法。在挥刀攻击/FFFABF8F
+    之后，有一定几率出现一道残/FFFABF8F
+    影，对敌人进行再次攻击。/FFFABF8F
+    1级：需要等级15/FF87C23A
+    2级：需要等级19/FF87C23A
+    3级：需要等级22/FF87C23A
+    preSkill=初级剑法
+    此技能不可与血影刀法、攻杀剑法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="残影刀法" psx="83" psy="1456">
+  enter
+    普通技能/ff85cddc
+    战士的低级刀法。在挥刀攻击/FFFABF8F
+    之后，有一定几率出现一道残/FFFABF8F
+    影，对敌人进行再次攻击。/FFFABF8F
+    1级：需要等级15/FF87C23A
+    2级：需要等级19/FF87C23A
+    3级：需要等级22/FF87C23A
+    preSkill=初级剑法
+    此技能不可与血影刀法、攻杀剑法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="攻杀剑法" psx="2" psy="1344">
+  enter
+    普通技能/ff85cddc
+    战士向剑客迈进的进阶剑术。/FFFABF8F
+    可以使战士物理攻击的破坏力/FFFABF8F
+    得到成倍提升。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级22/FF87C23A
+    3级：需要等级24/FF87C23A
+    preSkill=初级剑法
+    此技能不可与血影刀法、残影刀法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="护身真气" psx="83" psy="1344">
+  enter
+    普通技能/ff85cddc
+    战士的基本防御技能。真气凝/FFFABF8F
+    聚后环绕身体焕闪微光，生命/FFFABF8F
+    值和防御能力由此提升。在战/FFFABF8F
+    斗中，护身真气可以持续吸收/FFFABF8F
+    敌人攻击真气，从而提高自身/FFFABF8F
+    真气等级，使防御能力和生命/FFFABF8F
+    值得到更大幅度提升。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=攻杀剑法/残影刀法/血影刀法
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="护身真气骑战" psx="94" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的基本防御技能。真气凝/FFFABF8F
+    聚后环绕身体焕闪微光，生命/FFFABF8F
+    值和防御能力由此提升。在战/FFFABF8F
+    斗中，护身真气可以持续吸收/FFFABF8F
+    敌人攻击真气，从而提高自身/FFFABF8F
+    真气等级，使防御能力和生命/FFFABF8F
+    值得到更大幅度提升。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=攻杀剑法/残影刀法/血影刀法
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="刺杀剑术" psx="83" psy="1120">
+  enter
+    普通技能/ff85cddc
+    战士成为剑客的标志。它能大/FFFABF8F
+    幅度提高攻击的破坏力，隔位/FFFABF8F
+    攻击效果更是法师的噩梦，令/FFFABF8F
+    对手闻风丧胆。/FFFABF8F
+    1级：需要等级25/FF87C23A
+    2级：需要等级27/FF87C23A
+    3级：需要等级29/FF87C23A
+    preSkill=护身真气
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="抱月刀" psx="3" psy="1064">
+  enter
+    普通技能/ff85cddc
+    战士的群体攻击技能。刀锋环/FFFABF8F
+    扫360度，周身滴水不透，即使/FFFABF8F
+    十面受袭也可刀刀攻敌要害。/FFFABF8F
+    1级：需要等级27/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级33/FF87C23A
+    preSkill=刺杀剑术
+    此技能不可与半月弯刀同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="抱月刀骑战" psx="450" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的群体攻击技能。刀锋环/FFFABF8F
+    扫360度，周身滴水不透，即使/FFFABF8F
+    十面受袭也可刀刀攻敌要害。/FFFABF8F
+    1级：需要等级27/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级33/FF87C23A
+    preSkill=刺杀剑术
+    此技能不可与半月弯刀同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="半月弯刀" psx="162" psy="1008">
+  enter
+    普通技能/ff85cddc
+    战士的群体攻击技能。以气凝/FFFABF8F
+    聚于刀身，随刀锋挥出，可伤/FFFABF8F
+    及身前半圆内五名敌人；因刀/FFFABF8F
+    锋形似半月而得名，攻击效果/FFFABF8F
+    十分华丽。/FFFABF8F
+    1级：需要等级28/FF87C23A
+    2级：需要等级31/FF87C23A
+    3级：需要等级34/FF87C23A
+    preSkill=刺杀剑术
+    此技能不可与抱月刀同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="半月弯刀骑战" psx="450" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的群体攻击技能。以气凝/FFFABF8F
+    聚于刀身，随刀锋挥出，可伤/FFFABF8F
+    及身前半圆内五名敌人；因刀/FFFABF8F
+    锋形似半月而得名，攻击效果/FFFABF8F
+    十分华丽。/FFFABF8F
+    1级：需要等级28/FF87C23A
+    2级：需要等级31/FF87C23A
+    3级：需要等级34/FF87C23A
+    preSkill=刺杀剑术
+    此技能不可与抱月刀同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="野蛮冲撞" psx="83" psy="953">
+  enter
+    普通技能/ff85cddc
+    天下至刚的外家功夫，凝聚全/FFFABF8F
+    身的劲道，将敌人强行撞开。/FFFABF8F
+    1级：需要等级30/FF87C23A
+    2级：需要等级34/FF87C23A
+    3级：需要等级39/FF87C23A
+    preSkill=半月弯刀/抱月刀
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="战魂真悟" psx="82" psy="671">
+  enter
+    普通技能/ff85cddc
+    此技能将使战士在打怪时有机/FFFABF8F
+    会获得双倍经验，并且获得双/FFFABF8F
+    倍经验的几率将随技能等级的/FFFABF8F
+    提高而增长。/FFFABF8F
+    需要等级30/FF87C23A
+    按技能经验值升级技能等级/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="烈火剑法" psx="2" psy="840">
+  enter
+    普通技能/ff85cddc
+    到目前为止战士的最高级剑法。/FFFABF8F
+    剑生烈焰，霸道无双，招发必/FFFABF8F
+    取人命。/FFFABF8F
+    1级：需要等级35/FF87C23A
+    2级：需要等级37/FF87C23A
+    3级：需要等级40/FF87C23A
+    preSkill=野蛮冲撞
+    此技能不可与雷霆剑同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="雷霆剑" psx="162" psy="840">
+  enter
+    普通技能/ff85cddc
+    战士唯一的魔法攻击剑术，堪/FFFABF8F
+    与烈火剑法媲美。将全身真气/FFFABF8F
+    聚于剑尖，雷霆万钧之势横空/FFFABF8F
+    劈出，剑身电光四射，有如雷/FFFABF8F
+    裂长空，见者无不动容。/FFFABF8F
+    1级：需要等级34/FF87C23A
+    2级：需要等级36/FF87C23A
+    3级：需要等级39/FF87C23A
+    preSkill=野蛮冲撞
+    此技能不可与烈火剑法同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="破击剑法" psx="2" psy="671">
+  enter
+    普通技能/ff85cddc
+    战士的高级特效剑术。可以让/FFFABF8F
+    神圣战甲、幽灵盾的防御加成/FFFABF8F
+    效果消失，护身真气消失。攻/FFFABF8F
+    击时刀光表现猛烈，在被击破/FFFABF8F
+    防御的人身上还会出现盾被击/FFFABF8F
+    碎的效果。技能等级越高，消/FFFABF8F
+    除对方防御加成效果的几率越大。/FFFABF8F
+    需要等级36/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="突斩" psx="162" psy="617">
+  enter
+    普通技能/ff85cddc
+    战士的连击剑术。面对等级低/FFFABF8F
+    于自己的对手可以向前突进，/FFFABF8F
+    同时进行连续攻击，刀光剑影/FFFABF8F
+    中将对手撞开并造成重创。技/FFFABF8F
+    能等级越高，将对手撞开越远。/FFFABF8F
+    需要等级37/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="破盾斩" psx="2" psy="560">
+  enter
+    普通技能/ff85cddc
+    战士的高级特效剑术。可以无/FFFABF8F
+    视对方的高级防护魔法，破除/FFFABF8F
+    魔法盾、风影盾、金刚护体产/FFFABF8F
+    生的防御加成效果。技能等级/FFFABF8F
+    越高，消除对方防御加成效果/FFFABF8F
+    的几率越大。/FFFABF8F
+    需要等级39/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="破空剑法" psx="1" psy="751">
+  enter
+    高级技能/ff85cddc
+    战士的顶级剑术。除了拥有/FFFABF8F
+    破盾、破击剑术的精髓以外/FFFABF8F
+    更可以攻击到第二格位置的/FFFABF8F
+    目标，并具有穿透效果，等/FFFABF8F
+    级越高，穿透效果越强/FFFABF8F
+
+    学习等级45/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="破盾斩骑战" psx="272" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的高级特效剑术。可以无/FFFABF8F
+    视对方的高级防护魔法，破除/FFFABF8F
+    魔法盾、风影盾、金刚护体产/FFFABF8F
+    生的防御加成效果。技能等级/FFFABF8F
+    越高，消除对方防御加成效果/FFFABF8F
+    的几率越大。/FFFABF8F
+    需要等级39/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="金刚护体" psx="82" psy="476">
+  enter
+    普通技能/ff85cddc
+    战士的高级防护技能。损耗大/FFFABF8F
+    量MP，一定时间内大幅度增加/FFFABF8F
+    自身的物理防御和魔法防御能/FFFABF8F
+    力，具有近乎于变态的防御效/FFFABF8F
+    果。技能等级越高免伤比例越/FFFABF8F
+    高。/FFFABF8F
+    需要等级41/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="金刚护体骑战" psx="2" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的高级防护技能。损耗大/FFFABF8F
+    量MP，一定时间内大幅度增加/FFFABF8F
+    自身的物理防御和魔法防御能/FFFABF8F
+    力，具有近乎于变态的防御效/FFFABF8F
+    果。技能等级越高免伤比例越/FFFABF8F
+    高。/FFFABF8F
+    需要等级41/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+  	<Skill name="战神震慑" psx="160" psy="475">
+  enter
+    辅助技能/ff85cddc
+    战士的群体技能。使用攻击自/FFFABF8F
+    身周围范围内怪物，一定几率/FFFABF8F
+    使其晕眩，技能等级越高，晕/FFFABF8F
+    眩时间越长，晕眩几率越高。/FFFABF8F
+    战神震慑，顾名思义，连神都/FFFABF8F
+    可以震慑，对付大量怪物时非/FFFABF8F
+    常有效。/FFFABF8F
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name="铁血神技战" psx="0" psy="419">
+  enter
+    顶级技能/ff85cddc
+    战士的顶级连击技能。由皓/FFFABF8F
+    月斩,追魂刺,神圣一击,旋天/FFFABF8F
+    破风斩组成。/FFFABF8F
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="擒龙手" psx="162" psy="364">
+  enter
+    普通技能/ff85cddc
+    战士的捕获技能。可将远处的/FFFABF8F
+    怪物瞬间拉到身边，然后挥刀/FFFABF8F
+    攻击，怪物被拖拽之后有一定/FFFABF8F
+    的眩晕效果。擒龙手，顾名思/FFFABF8F
+    义，连龙都可擒来，十分神奇。/FFFABF8F
+    招手之间，怪到身旁，不用再/FFFABF8F
+    冒被围之险。/FFFABF8F
+    1级：需要等级43/FF87C23A
+    2级：需要等级45/FF87C23A
+    3级：需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="移形换影" psx="82" psy="364">
+  enter
+    普通技能/ff85cddc
+    战士的挪移技能。可瞬间到达/FFFABF8F
+    屏幕以内鼠标所指的点。如果/FFFABF8F
+    鼠标所指的点为障碍物或已经/FFFABF8F
+    被占，则技能使用失效。移形/FFFABF8F
+    换位，神出鬼没。此技能攻可/FFFABF8F
+    出其不意，退可留存实力，非/FFFABF8F
+    常实用。/FFFABF8F
+    1级：需要等级43/FF87C23A
+    2级：需要等级45/FF87C23A
+    3级：需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="移形换影骑战" psx="359" psy="2">
+  enter
+    普通技能/ff85cddc
+    战士的挪移技能。可瞬间到达/FFFABF8F
+    屏幕以内鼠标所指的点。如果/FFFABF8F
+    鼠标所指的点为障碍物或已经/FFFABF8F
+    被占，则技能使用失效。移形/FFFABF8F
+    换位，神出鬼没。此技能攻可/FFFABF8F
+    出其不意，退可留存实力，非/FFFABF8F
+    常实用。/FFFABF8F
+    1级：需要等级43/FF87C23A
+    2级：需要等级45/FF87C23A
+    3级：需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="治疗术" psx="162" psy="1624">
+  enter
+    普通技能/ff85cddc
+    道士的入门基本技能。可施放/FFFABF8F
+    出如星光闪耀的温暖光线，为/FFFABF8F
+    笼罩在其中的人类疗伤，可以/FFFABF8F
+    说是人们在战场上最常见也最/FFFABF8F
+    想见到的光芒。/FFFABF8F
+    1级：需要等级7/FF87C23A
+    2级：需要等级11/FF87C23A
+    3级：需要等级16/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="精神战法" psx="83" psy="1624">
+  enter
+    普通技能/ff85cddc
+    道士的物理攻击辅助技能。可/FFFABF8F
+    以提高道士物理攻击的命中率，/FFFABF8F
+    总计提高9点。/FFFABF8F
+    1级：需要等级9/FF87C23A
+    2级：需要等级13/FF87C23A
+    3级：需要等级19/FF87C23A
+    preSkill=治疗术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="施毒术" psx="2" psy="1512">
+  enter
+    普通技能/ff85cddc
+    非常普通但是非常神奇的道士/FFFABF8F
+    技能，可大幅降低对手的防御/FFFABF8F
+    或生命值。一个精通施毒术的/FFFABF8F
+    道士，可能会成为战场上的好/FFFABF8F
+    搭档，也可能会成为令人恐怖/FFFABF8F
+    的暗杀者。/FFFABF8F
+    1级：需要等级14/FF87C23A
+    2级：需要等级17/FF87C23A
+    3级：需要等级20/FF87C23A
+    preSkill=精神战法
+    此技能不可与诅咒术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="诅咒术" psx="83" psy="1512">
+  enter
+    普通技能/ff85cddc
+    跟施毒术并列的技能。通过强/FFFABF8F
+    大精神力量的影响，被施咒对/FFFABF8F
+    象的防御与魔法值都将同时降/FFFABF8F
+    低。/FFFABF8F
+    1级：需要等级14/FF87C23A
+    2级：需要等级17/FF87C23A
+    3级：需要等级20/FF87C23A
+    preSkill=精神战法
+    此技能不可与施毒术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="灵魂道符" psx="83" psy="1400">
+  enter
+    普通技能/ff85cddc
+    道士的基本魔法攻击技能。和/FFFABF8F
+    火球术类似的远程法术，通过/FFFABF8F
+    驱使护身符来攻击敌人，此法/FFFABF8F
+    术不可绕开障碍物。/FFFABF8F
+    1级：需要等级18/FF87C23A
+    2级：需要等级21/FF87C23A
+    3级：需要等级24/FF87C23A
+    preSkill=施毒术/诅咒术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="灵魂道符骑战" psx="272" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的基本魔法攻击技能。和/FFFABF8F
+    火球术类似的远程法术，通过/FFFABF8F
+    驱使护身符来攻击敌人，此法/FFFABF8F
+    术不可绕开障碍物。/FFFABF8F
+    1级：需要等级18/FF87C23A
+    2级：需要等级21/FF87C23A
+    3级：需要等级24/FF87C23A
+    preSkill=施毒术/诅咒术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="骷髅召唤术" psx="162" psy="1344">
+  enter
+    普通技能/ff85cddc
+    道士的基本召唤技能。通过强/FFFABF8F
+    大的精神力，使用护身符召唤/FFFABF8F
+    来自地狱的骷髅，召唤出的骷/FFFABF8F
+    髅将成为道士最忠实的随从，/FFFABF8F
+    不死不休/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=灵魂道符
+    此技能不可与赶尸术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="赶尸" psx="2" psy="1344">
+  enter
+    普通技能/ff85cddc
+    道士的基本召唤技能。在道士/FFFABF8F
+    神秘咒语的召唤下，任何尸体，/FFFABF8F
+    即使是生前拥有强大力量的怪/FFFABF8F
+    物，都难逃被驱使的命运。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=灵魂道符
+    此技能不可与骷髅召唤术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="隐身术" psx="162" psy="1233">
+  enter
+    普通技能/ff85cddc
+    道士的自我保护技能。隐身术/FFFABF8F
+    使怪物无法察觉你的存在。隐/FFFABF8F
+    身后采用魔法远程攻击，是一/FFFABF8F
+    种非常理想的单对单战斗方法。/FFFABF8F
+    1级：需要等级20/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=骷髅召唤术/赶尸
+    此技能不可与替身法符同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="替身法符" psx="2" psy="1233">
+  enter
+    普通技能/ff85cddc
+    道士的自我保护技能。施法成/FFFABF8F
+    功后，所有集中在施术者身上/FFFABF8F
+    的仇恨和追逐都将被转嫁到法/FFFABF8F
+    符所及之处。/FFFABF8F
+    1级：需要等级20/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=骷髅召唤术/赶尸
+    此技能不可与隐身术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="集体隐身术" psx="83" psy="1177">
+  enter
+    普通技能/ff85cddc
+    道士保护同伴的技能。是一种/FFFABF8F
+    大面积的隐身术。与普通的隐/FFFABF8F
+    身术作用类似，能将一定范围/FFFABF8F
+    内人类的气息隐藏，令怪物无/FFFABF8F
+    法发觉其存在。/FFFABF8F
+    1级：需要等级21/FF87C23A
+    2级：需要等级25/FF87C23A
+    3级：需要等级29/FF87C23A
+    preSkill=隐身术/替身法符
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="幽灵盾" psx="162" psy="1064">
+  enter
+    普通技能/ff85cddc
+    道士的魔法防御技能。通过召/FFFABF8F
+    唤“玄武”神兽，为自己和周/FFFABF8F
+    围的战友们增加抵抗魔法攻击/FFFABF8F
+    的能力。道术越高，增加魔法/FFFABF8F
+    防御的时间也就越长。/FFFABF8F
+    1级：需要等级22/FF87C23A
+    2级：需要等级24/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=集体隐身术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="神圣战甲术" psx="2" psy="1008">
+  enter
+    普通技能/ff85cddc
+    道士的物理防御技能。通过召/FFFABF8F
+    唤“青龙”神兽，道士可以让/FFFABF8F
+    自己和战友的肉体更加强健，/FFFABF8F
+    能抵御更强的物理攻击。对于/FFFABF8F
+    使用直接物理攻击的绝大多数/FFFABF8F
+    怪物特别有效。/FFFABF8F
+    1级：需要等级25/FF87C23A
+    2级：需要等级27/FF87C23A
+    3级：需要等级29/FF87C23A
+    preSkill=幽灵盾
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="神圣战甲术骑战" psx="2" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的物理防御技能。通过召/FFFABF8F
+    唤“青龙”神兽，道士可以让/FFFABF8F
+    自己和战友的肉体更加强健，/FFFABF8F
+    能抵御更强的物理攻击。对于/FFFABF8F
+    使用直接物理攻击的绝大多数/FFFABF8F
+    怪物特别有效。/FFFABF8F
+    1级：需要等级25/FF87C23A
+    2级：需要等级27/FF87C23A
+    3级：需要等级29/FF87C23A
+    preSkill=幽灵盾
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="狮子吼" psx="82" psy="952">
+  enter
+    普通技能/ff85cddc
+    道士的防近身攻击技能。路见/FFFABF8F
+    不平狮子吼，用丹田真气将面/FFFABF8F
+    前的敌人远远推开，使敌人无/FFFABF8F
+    法近身攻击。/FFFABF8F
+    1级：需要等级26/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级35/FF87C23A
+    preSkill=神圣战甲术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="狮子吼骑战" psx="94" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的防近身攻击技能。路见/FFFABF8F
+    不平狮子吼，用丹田真气将面/FFFABF8F
+    前的敌人远远推开，使敌人无/FFFABF8F
+    法近身攻击。/FFFABF8F
+    1级：需要等级26/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级35/FF87C23A
+    preSkill=神圣战甲术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="困魔咒" psx="162" psy="896">
+  enter
+    普通技能/ff85cddc
+    道士强大精神力的杰作，群体/FFFABF8F
+    技能，对低级怪物有效。被限/FFFABF8F
+    制在咒语中的怪物无法动弹。/FFFABF8F
+    当怪物受到外界攻击时会醒来，/FFFABF8F
+    困魔效果消失。/FFFABF8F
+    1级：需要等级28/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级32/FF87C23A
+    preSkill=狮子吼
+    此技能不可与灵魂墙同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="灵魂墙" psx="2" psy="896">
+  enter
+    普通技能/ff85cddc
+    道士强大精神力的杰作，单体/FFFABF8F
+    技能，对高级怪物有效。一旦/FFFABF8F
+    被冤魂所构成的墙壁所包围，/FFFABF8F
+    再高级的怪物都将无法行动。/FFFABF8F
+    困魔效果消失。/FFFABF8F
+    1级：需要等级28/FF87C23A
+    2级：需要等级30/FF87C23A
+    3级：需要等级32/FF87C23A
+    preSkill=狮子吼
+    此技能不可与困魔咒同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="道心清明" psx="82" psy="608">
+  enter
+    普通技能/ff85cddc
+    学会“道心清明”将使道士在/FFFABF8F
+    打怪时有几率获得双倍经验，/FFFABF8F
+    并且获得双倍经验的几率将随/FFFABF8F
+    技能等级的提高而增长。/FFFABF8F
+    需要等级30/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="群体治愈术" psx="82" psy="840">
+  enter
+    普通技能/ff85cddc
+    道士的高级治愈技能。能够恢/FFFABF8F
+    复自己和周围一定范围玩家的/FFFABF8F
+    生命值，治疗效果随等级增长。/FFFABF8F
+    1级：需要等级33/FF87C23A
+    2级：需要等级35/FF87C23A
+    3级：需要等级38/FF87C23A
+    preSkill=困魔咒/灵魂墙
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="召唤神兽" psx="2" psy="784">
+  enter
+    普通技能/ff85cddc
+    道士的高级召唤技能。通过道/FFFABF8F
+    士的高级召唤技能。通过强大/FFFABF8F
+    的精神力，能够召唤一只喷火/FFFABF8F
+    攻击、法力强大的神兽作自己/FFFABF8F
+    的随从，神兽是很多高级怪物/FFFABF8F
+    的克星。/FFFABF8F
+    1级：需要等级35/FF87C23A
+    2级：需要等级37/FF87C23A
+    3级：需要等级40/FF87C23A
+    preSkill=群体治愈术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="召唤神兽骑战" psx="359" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的高级召唤技能。通过道/FFFABF8F
+    士的高级召唤技能。通过强大/FFFABF8F
+    的精神力，能够召唤一只喷火/FFFABF8F
+    攻击、法力强大的神兽作自己/FFFABF8F
+    的随从，神兽是很多高级怪物/FFFABF8F
+    的克星。/FFFABF8F
+    1级：需要等级35/FF87C23A
+    2级：需要等级37/FF87C23A
+    3级：需要等级40/FF87C23A
+    preSkill=群体治愈术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="神光术骑战" psx="359" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的解救技能。可解除一些/FFFABF8F
+    的诅咒，怪物的石化。/FFFABF8F
+    技能等级越高，解除诅咒和石/FFFABF8F
+    化的几率越大。/FFFABF8F
+    需要等级36/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="解毒术" psx="162" psy="448">
+  enter
+    普通技能/ff85cddc
+    道士的解救技能。可解除一些/FFFABF8F
+    负面属性的魔法，如一定范围/FFFABF8F
+    内玩家的中毒状态。/FFFABF8F
+    技能等级越高，解除中毒状态/FFFABF8F
+    的几率越大。/FFFABF8F
+    需要等级38/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="神光术" psx="82" psy="504">
+  enter
+    普通技能/ff85cddc
+    道士的解救技能。可解除一些/FFFABF8F
+    负面属性的魔法，如一定范围/FFFABF8F
+    内玩家的诅咒、石化状态。/FFFABF8F
+    技能等级越高，解除诅咒、石/FFFABF8F
+    化状态的几率越大。/FFFABF8F
+    需要等级36/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="幽冥火咒" psx="2" psy="392">
+  enter
+    普通技能/ff85cddc
+    道士的高级魔法攻击技能。作/FFFABF8F
+    为魔法攻击和物理攻击都较弱/FFFABF8F
+    的道士来说，学会此项技能后，/FFFABF8F
+    将拥有比灵魂道符更加强大的/FFFABF8F
+    符咒，魔法攻击力大幅提升，/FFFABF8F
+    堪比魔法师强大的闪电。/FFFABF8F
+    1级：需要等级39/FF87C23A
+    2级：需要等级41/FF87C23A
+    3级：需要等级43/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="幽冥火咒骑战" psx="180" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的高级魔法攻击技能。作/FFFABF8F
+    为魔法攻击和物理攻击都较弱/FFFABF8F
+    的道士来说，学会此项技能后，/FFFABF8F
+    将拥有比灵魂道符更加强大的/FFFABF8F
+    符咒，魔法攻击力大幅提升，/FFFABF8F
+    堪比魔法师强大的闪电。/FFFABF8F
+    1级：需要等级39/FF87C23A
+    2级：需要等级41/FF87C23A
+    3级：需要等级43/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="强化骷髅术" psx="82" psy="336">
+  enter
+    普通技能/ff85cddc
+    道士的最高级召唤技能。修习/FFFABF8F
+    “强化骷髅”后，道士可同时/FFFABF8F
+    召唤两个身穿重盔、佩带腰刀/FFFABF8F
+    的强化骷髅，打怪对敌，威力/FFFABF8F
+    无比。/FFFABF8F
+    需要等级42/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="强化骷髅术骑战" psx="450" psy="2">
+  enter
+    普通技能/ff85cddc
+    道士的最高级召唤技能。修习/FFFABF8F
+    “强化骷髅”后，道士可同时/FFFABF8F
+    召唤两个身穿重盔、佩带腰刀/FFFABF8F
+    的强化骷髅，打怪对敌，威力/FFFABF8F
+    无比。/FFFABF8F
+    需要等级42/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="凤灵之子" psx="81" psy="407">
+  enter
+    普通技能/ff85cddc
+    道士的最顶级召唤技能。修习/FFFABF8F
+    “凤灵之子”后，道士可召唤/FFFABF8F
+    一只火凤凰作为战斗宠物，伤/FFFABF8F
+    害极高，且为远程攻击，对目/FFFABF8F
+    造成高额伤害/FFFABF8F
+    需要等级45/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    不能使用技能丹升级/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="心灵召唤" psx="2" psy="224">
+  enter
+    普通技能/ff85cddc
+    道士的高级控制技能。能自由/FFFABF8F
+    控制自己的召唤宠物，可以让/FFFABF8F
+    宠物锁定攻击目标，也能迅速/FFFABF8F
+    将宠物召回到自己身边。心灵/FFFABF8F
+    的力量是无穷的，它能使使你/FFFABF8F
+    和你的宠物配合无间。/FFFABF8F
+    需要等级42/FF87C23A
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="遁地" psx="162" psy="336">
+  enter
+    普通技能/ff85cddc
+    道士的高级逃逸技能。可瞬间/FFFABF8F
+    遁入地下，然后在屏幕之内鼠/FFFABF8F
+    标所指的点出现。如果鼠标所/FFFABF8F
+    指的点为障碍物或已经被占，/FFFABF8F
+    则技能使用失效。/FFFABF8F
+    古之奇术，借地遁形。练有此/FFFABF8F
+    技能的道士穿越魔山怪海，如/FFFABF8F
+    履平地。/FFFABF8F
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+  	<Skill name="真气附体" psx="160" psy="222">
+  enter
+    普通技能/ff85cddc
+    道士的高级辅助技能。使用可/FFFABF8F
+    以大幅提高角色的防御和魔法/FFFABF8F
+    防御，对自身使用，还可以额/FFFABF8F
+    外提高一定道术，等级越高，/FFFABF8F
+    增加的防御和魔防，道术增加/FFFABF8F
+    的越多，效果比神圣战甲术和/FFFABF8F
+    幽灵盾更好/FFFABF8F
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name="铁血神技道" psx="82" psy="222">
+  enter
+    顶级技能/ff85cddc
+    道士的顶级连击技能。由怒意/FFFABF8F
+    八卦,锁心咒,夺命连环符,乾/FFFABF8F
+    坤飞剑组成。/FFFABF8F
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="骷髅囚笼" psx="0" psy="225">
+  enter
+    上仙特权技能/ff85cddc
+
+    此技能永不开放/FFFABF8F
+    
+  </Skill>
+	<Skill name="寒冰风暴" psx="0" psy="112">
+  enter
+    上仙特权技能/ff85cddc
+
+    此技能永不开放/FFFABF8F
+  </Skill>
+	<Skill name="战争旋风" psx="79" psy="476">
+  enter
+    上仙特权技能/ff85cddc
+
+    此技能永不开放/FFFABF8F
+  </Skill>
+	<Skill name="小火球" psx="162" psy="1632">
+  enter
+    普通技能/ff85cddc
+    法师的入门基本魔法。杀伤力/FFFABF8F
+    会随着训练等级的提高而提升，/FFFABF8F
+    但不能绕过障碍物进行攻击。/FFFABF8F
+    1级：需要等级7/FF87C23A
+    2级：需要等级11/FF87C23A
+    3级：需要等级16/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="抗拒火环" psx="83" psy="1632">
+  enter
+    普通技能/ff85cddc
+    法师的防近身攻击魔法。利用/FFFABF8F
+    自己最熟悉的火系魔法，把被/FFFABF8F
+    烈火灼烧的炙热气团发散出去，/FFFABF8F
+    将所有接近自己的生物都远远/FFFABF8F
+    推开。/FFFABF8F
+    1级：需要等级12/FF87C23A
+    2级：需要等级15/FF87C23A
+    3级：需要等级19/FF87C23A
+    preSkill=小火球
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="抗拒火环骑战" psx="94" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的防近身攻击魔法。利用/FFFABF8F
+    自己最熟悉的火系魔法，把被/FFFABF8F
+    烈火灼烧的炙热气团发散出去，/FFFABF8F
+    将所有接近自己的生物都远远/FFFABF8F
+    推开。/FFFABF8F
+    1级：需要等级12/FF87C23A
+    2级：需要等级15/FF87C23A
+    3级：需要等级19/FF87C23A
+    preSkill=小火球
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="诱惑之光" psx="2" psy="1576">
+  enter
+    普通技能/ff85cddc
+    法师用来驯服怪物的初级魔法。/FFFABF8F
+    不过这个魔法既能让怪物变成/FFFABF8F
+    乖巧的宠物，也能令它们变成/FFFABF8F
+    狂暴的恶魔。/FFFABF8F
+    1级：需要等级13/FF87C23A
+    2级：需要等级18/FF87C23A
+    3级：需要等级24/FF87C23A
+    preSkill=抗拒火环
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="地狱火焰" psx="83" psy="1519">
+  enter
+    普通技能/ff85cddc
+    法师可以学习的第一个大范围/FFFABF8F
+    攻击魔法。向前挥出一堵火焰/FFFABF8F
+    墙，同时攻击面前五格内的敌/FFFABF8F
+    人。/FFFABF8F
+    1级：需要等级16/FF87C23A
+    2级：需要等级21/FF87C23A
+    3级：需要等级26/FF87C23A
+    preSkill=诱惑之光
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="雷电术" psx="2" psy="1464">
+  enter
+    普通技能/ff85cddc
+    法师的初级电系攻击魔法。指/FFFABF8F
+    尖发出微弱的电光，诱发天空/FFFABF8F
+    落下一道巨大的闪电，直接劈/FFFABF8F
+    向对手。/FFFABF8F
+    1级：需要等级17/FF87C23A
+    2级：需要等级20/FF87C23A
+    3级：需要等级23/FF87C23A
+    preSkill=地狱火焰
+    此技能不可与冰箭术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="雷电术骑战" psx="272" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的初级电系攻击魔法。指/FFFABF8F
+    尖发出微弱的电光，诱发天空/FFFABF8F
+    落下一道巨大的闪电，直接劈/FFFABF8F
+    向对手。/FFFABF8F
+    1级：需要等级17/FF87C23A
+    2级：需要等级20/FF87C23A
+    3级：需要等级23/FF87C23A
+    preSkill=地狱火焰
+    此技能不可与冰箭术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰箭术" psx="162" psy="1464">
+  enter
+    普通技能/ff85cddc
+    法师的初级冰系攻击魔法。战/FFFABF8F
+    斗中可召唤一柱冰箭从空中激/FFFABF8F
+    射而下，坚冰贯穿敌人躯体，/FFFABF8F
+    而后冰融于水四散无踪。/FFFABF8F
+    1级：需要等级17/FF87C23A
+    2级：需要等级20/FF87C23A
+    3级：需要等级23/FF87C23A
+    preSkill=地狱火焰
+    此技能不可与雷电术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰箭术骑战" psx="272" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的初级冰系攻击魔法。战/FFFABF8F
+    斗中可召唤一柱冰箭从空中激/FFFABF8F
+    射而下，坚冰贯穿敌人躯体，/FFFABF8F
+    而后冰融于水四散无踪。/FFFABF8F
+    1级：需要等级17/FF87C23A
+    2级：需要等级20/FF87C23A
+    3级：需要等级23/FF87C23A
+    preSkill=地狱火焰
+    此技能不可与雷电术同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="瞬间移动" psx="83" psy="1408">
+  enter
+    普通技能/ff85cddc
+    法师穿梭时空的魔法。利用强/FFFABF8F
+    大魔力打乱空间，把自己随机/FFFABF8F
+    传送到某个地点，但过于频繁/FFFABF8F
+    的使用会使自己陷入原地打转/FFFABF8F
+    的不利局面。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级22/FF87C23A
+    3级：需要等级25/FF87C23A
+    preSkill=雷电术/冰箭术
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="火炎刀" psx="162" psy="1296">
+  enter
+    普通技能/ff85cddc
+    小火球加强后的魔法攻击技能。/FFFABF8F
+    随训练等级的升高，火炎刀的/FFFABF8F
+    杀伤力会大幅度加强。/FFFABF8F
+    1级：需要等级19/FF87C23A
+    2级：需要等级23/FF87C23A
+    3级：需要等级25/FF87C23A
+    preSkill=瞬间移动
+    此技能不可与风火轮同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="风火轮" psx="83" psy="1296">
+  enter
+    普通技能/ff85cddc
+    法师的基本防护魔法。风借火力，/FFFABF8F
+    火乘风行，风火交融后绕身体急/FFFABF8F
+    速旋转，试图近身攻击者将被风/FFFABF8F
+    火之势重创而退。/FFFABF8F
+    1级：需要等级21/FF87C23A
+    2级：需要等级25/FF87C23A
+    3级：需要等级28/FF87C23A
+    preSkill=瞬间移动
+    此技能不可与火炎刀同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="爆裂火焰" psx="162" psy="1184">
+  enter
+    普通技能/ff85cddc
+    超大范围的火系攻击魔法。除/FFFABF8F
+    了灼伤外，急速膨胀爆炸的火/FFFABF8F
+    焰可以在一瞬间将周围空气燃/FFFABF8F
+    尽，一定范围内的生物因窒息/FFFABF8F
+    而无法躲避下一次的进攻。/FFFABF8F
+    1级：需要等级22/FF87C23A
+    2级：需要等级27/FF87C23A
+    3级：需要等级31/FF87C23A
+    preSkill=火炎刀/风火轮
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="火墙" psx="83" psy="1184">
+  enter
+    普通技能/ff85cddc
+    法师的中级群体攻击魔法。在/FFFABF8F
+    地面上产生一道火墙，使踏入/FFFABF8F
+    的敌人受到伤害。火墙中的温/FFFABF8F
+    度奇高，可以给所有受到攻击/FFFABF8F
+    的生物造成平常两到三倍强的/FFFABF8F
+    伤害。/FFFABF8F
+    1级：需要等级24/FF87C23A
+    2级：需要等级29/FF87C23A
+    3级：需要等级33/FF87C23A
+    preSkill=爆裂火焰
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="火墙骑战" psx="450" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的中级群体攻击魔法。在/FFFABF8F
+    地面上产生一道火墙，使踏入/FFFABF8F
+    的敌人受到伤害。火墙中的温/FFFABF8F
+    度奇高，可以给所有受到攻击/FFFABF8F
+    的生物造成平常两到三倍强的/FFFABF8F
+    伤害。/FFFABF8F
+    1级：需要等级24/FF87C23A
+    2级：需要等级29/FF87C23A
+    3级：需要等级33/FF87C23A
+    preSkill=爆裂火焰
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="疾光电影" psx="162" psy="1073">
+  enter
+    普通技能/ff85cddc
+    法师的中级电系攻击魔法。高/FFFABF8F
+    级法师可以将隐藏在体内的电/FFFABF8F
+    系元素召唤出来，向对手发出/FFFABF8F
+    一道强烈的电光，威力远胜雷/FFFABF8F
+    电术。/FFFABF8F
+    1级：需要等级26/FF87C23A
+    2级：需要等级29/FF87C23A
+    3级：需要等级32/FF87C23A
+    preSkill=火墙
+    此技能不可与冰龙破同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰龙破" psx="3" psy="1128">
+  enter
+    普通技能/ff85cddc
+    法师的中级冰系攻击魔法。将/FFFABF8F
+    法力阴凝成冰，冰魂雪魄化为/FFFABF8F
+    一道冰龙直冲而出，所到之处，/FFFABF8F
+    寸草不生。/FFFABF8F
+    1级：需要等级26/FF87C23A
+    2级：需要等级29/FF87C23A
+    3级：需要等级32/FF87C23A
+    preSkill=火墙
+    此技能不可与疾光电影同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="玄冰刃" psx="2" psy="1016">
+  enter
+    普通技能/ff85cddc
+    法师的中级冰系群体攻击魔法。/FFFABF8F
+    在四面受敌时召唤出玄冰刃，/FFFABF8F
+    刹那间冰刃由地底刺透而出，/FFFABF8F
+    强大的穿透力将重创四周敌人。/FFFABF8F
+    1级：需要等级29/FF87C23A
+    2级：需要等级31/FF87C23A
+    3级：需要等级33/FF87C23A
+    preSkill=疾光电影/冰龙破
+    此技能不可与地狱雷光同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="地狱雷光" psx="162" psy="904">
+  enter
+    普通技能/ff85cddc
+    法师的中级电系群体攻击魔法。/FFFABF8F
+    这种魔法能够召唤出一股强力/FFFABF8F
+    的雷光风暴，伤害所有围在身/FFFABF8F
+    边的敌人，缺点是对单人伤害/FFFABF8F
+    较小且较耗MP。/FFFABF8F
+    1级：需要等级30/FF87C23A
+    2级：需要等级32/FF87C23A
+    3级：需要等级34/FF87C23A
+    preSkill=疾光电影/冰龙破
+    此技能不可与玄冰刃同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="法之魄" psx="162" psy="512">
+  enter
+    普通技能/ff85cddc
+    学会全新技能“法之魄”将使/FFFABF8F
+    法师在打怪时有几率获得双倍/FFFABF8F
+    经验。并且获得双倍经验的几/FFFABF8F
+    率将随技能等级的提高而增长。/FFFABF8F
+    较小且较耗MP。/FFFABF8F
+    需要等级30/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="魔法盾" psx="2" psy="904">
+  enter
+    普通技能/ff85cddc
+    法师的高级防御魔法。在身体/FFFABF8F
+    周围产生一个盾形防护场，可/FFFABF8F
+    降低物理攻击和魔法攻击对施/FFFABF8F
+    法者的伤害。/FFFABF8F
+    1级：需要等级31/FF87C23A
+    2级：需要等级34/FF87C23A
+    3级：需要等级38/FF87C23A
+    preSkill=地狱雷光/玄冰刃
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="魔法盾骑战" psx="2" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的高级防御魔法。在身体/FFFABF8F
+    周围产生一个盾形防护场，可/FFFABF8F
+    降低物理攻击和魔法攻击对施/FFFABF8F
+    法者的伤害。/FFFABF8F
+    1级：需要等级31/FF87C23A
+    2级：需要等级34/FF87C23A
+    3级：需要等级38/FF87C23A
+    preSkill=地狱雷光/玄冰刃
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="圣言术" psx="82" psy="792">
+  enter
+    普通技能/ff85cddc
+    继诱惑之光之后专门针对不死/FFFABF8F
+    系怪物的高级精神攻击魔法。/FFFABF8F
+    虽然看似不如诱惑之光激烈，/FFFABF8F
+    但高级圣言术却可以对不死系/FFFABF8F
+    怪物一击必杀。/FFFABF8F
+    1级：需要等级32/FF87C23A
+    2级：需要等级35/FF87C23A
+    3级：需要等级39/FF87C23A
+    preSkill=魔法盾  
+    enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="五雷轰" psx="2" psy="792">
+  enter
+    普通技能/ff85cddc
+    法师的高级电系群体攻击魔法。/FFFABF8F
+    飙举电至，无坚不摧，战斗时/FFFABF8F
+    可召唤多道雷电同时劈下，在/FFFABF8F
+    群体战争中将发挥骇人的杀伤/FFFABF8F
+    力。/FFFABF8F
+    1级：需要等级34/FF87C23A
+    2级：需要等级36/FF87C23A
+    3级：需要等级39/FF87C23A
+    preSkill=圣言术
+    此技能不可与冰咆哮同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="兽灵术" psx="162" psy="401">
+  enter
+    普通技能/ff85cddc
+    法师的高级召唤技能。学习该/FFFABF8F
+    技能以后，法师随手即可召唤/FFFABF8F
+    到4级宠物，而且宠物的最高等/FFFABF8F
+    级可以练到9级。/FFFABF8F
+    1级：需要等级34/FF87C23A
+    2级：需要等级38/FF87C23A
+    3级：需要等级41/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰咆哮" psx="162" psy="736">
+  enter
+    普通技能/ff85cddc
+    法师的高级冰系攻击魔法。/FFFABF8F
+    3*3的范围内所有生物都会受/FFFABF8F
+    到漫天冰霜敲击所造成的伤害，/FFFABF8F
+    并伴有冰冻的效果。/FFFABF8F
+    1级：需要等级35/FF87C23A
+    2级：需要等级37/FF87C23A
+    3级：需要等级40/FF87C23A
+    preSkill=圣言术
+    此技能不可与五雷轰同时修炼/FFFF00FF
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰旋风" psx="82" psy="680">
+  enter
+    普通技能/ff85cddc
+    法师的高级冰系攻击魔法。挥/FFFABF8F
+    手而出的风刀霜剑化为旋风对/FFFABF8F
+    大范围敌人进行袭击，被卷入/FFFABF8F
+    旋风的敌人会有短暂停滞，魔/FFFABF8F
+    法师随即可对敌人进行连续的/FFFABF8F
+    群体攻击。/FFFABF8F
+    1级：需要等级37/FF87C23A
+    2级：需要等级39/FF87C23A
+    3级：需要等级42/FF87C23A
+    preSkill=五雷轰
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰火之怒" psx="80" psy="575">
+  enter
+    高级技能/ff85cddc
+    法师高级群攻魔法。拥有冰火/FFFABF8F
+    双重伤害，并且范围更大，伤/FFFABF8F
+    害更高，技能伤害范围最高可/FFFABF8F
+    达5*5范围，且中心伤害最高/FFFABF8F
+    范围伤害衰减。/FFFABF8F
+    学习等级45级/FF87C23A
+    preSkill=五雷轰
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="风影盾" psx="2" psy="344">
+  enter
+    普通技能/ff85cddc
+    法师的高级防御魔法。调动风/FFFABF8F
+    的力量，让气流围绕自己形成/FFFABF8F
+    一个旋转的气场，从而提高自/FFFABF8F
+    身的魔法闪避和物理闪避。/FFFABF8F
+    需要等级39/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="狂龙紫电" psx="82" psy="288">
+  enter
+    普通技能/ff85cddc
+    法师的超级电系攻击魔法。催/FFFABF8F
+    动强大的魔法力，直指天际，/FFFABF8F
+    召唤出紫龙环绕攻击对象，盘/FFFABF8F
+    旋而下，然后霹雳电光从天而/FFFABF8F
+    降，轰然炸裂，威力无比，号/FFFABF8F
+    称独步传世大陆的最强魔法。/FFFABF8F
+    1级：需要等级40/FF87C23A
+    2级：需要等级41/FF87C23A
+    3级：需要等级43/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="狂龙紫电骑战" psx="180" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的超级电系攻击魔法。催/FFFABF8F
+    动强大的魔法力，直指天际，/FFFABF8F
+    召唤出紫龙环绕攻击对象，盘/FFFABF8F
+    旋而下，然后霹雳电光从天而/FFFABF8F
+    降，轰然炸裂，威力无比，号/FFFABF8F
+    称独步传世大陆的最强魔法。/FFFABF8F
+    1级：需要等级40/FF87C23A
+    2级：需要等级41/FF87C23A
+    3级：需要等级43/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+  	<Skill name="偷天换日" psx="80" psy="172">
+  enter
+    被动技能/ff85cddc
+    法师的超级辅助被动技能。当/FFFABF8F
+    角色生命值低于一定百分比时/FFFABF8F
+    自动触发一个幻影分身，分身/FFFABF8F
+    继承主体一定属性，主体受到/FFFABF8F
+    伤害可以转移一定百分比给分/FFFABF8F
+    身。技能等级越高转移效果越/FFFABF8F
+    好。/FFFABF8F	
+    1级：需要等级40/FF87C23A
+    2级：需要等级41/FF87C23A
+    3级：需要等级43/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+  	<Skill name="铁血神技法" psx="0" psy="63">
+  enter
+    顶级技能/ff85cddc
+    魔法师顶级连击技能。由降/FFFABF8F
+    龙诀,幻影一击,雷神风暴,/FFFABF8F
+    地火焚天组成。/FFFABF8F
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="化身蝙蝠" psx="162" psy="232">
+  enter
+    普通技能/ff85cddc
+    法师的高级变身魔法。施法者/FFFABF8F
+    变化为蝙蝠，飞行一定距离到/FFFABF8F
+    达指定的位置，怪物们的铁桶/FFFABF8F
+    阵将不会再困你一刻，伤你分/FFFABF8F
+    毫。穿越障碍，飞檐走壁，如/FFFABF8F
+    履平地。/FFFABF8F
+    需要等级42/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="化身蝙蝠骑战" psx="359" psy="2">
+  enter
+    普通技能/ff85cddc
+    法师的高级变身魔法。施法者/FFFABF8F
+    变化为蝙蝠，飞行一定距离到/FFFABF8F
+    达指定的位置，怪物们的铁桶/FFFABF8F
+    阵将不会再困你一刻，伤你分/FFFABF8F
+    毫。穿越障碍，飞檐走壁，如/FFFABF8F
+    履平地。/FFFABF8F
+    需要等级42/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="流星火雨" psx="162" psy="120">
+  enter
+    普通技能/ff85cddc
+    法师的超级群体攻击魔法。可/FFFABF8F
+    向特定范围施展，同时攻击多/FFFABF8F
+    个目标，流星闪耀，火雨天降，/FFFABF8F
+    给敌人造成巨大伤害。绚丽的/FFFABF8F
+    魔法效果是流星火雨的一大特/FFFABF8F
+    色，它也是高阶法师迅速获取/FFFABF8F
+    经验值的利器，超级法师的标/FFFABF8F
+    志。/FFFABF8F
+    1级：需要等级43/FF87C23A
+    2级：需要等级45/FF87C23A
+    3级：需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="魔魂术" psx="82" psy="64">
+  enter
+    普通技能/ff85cddc
+    法师的吸取性魔法。每击败一/FFFABF8F
+    个怪物，就有一定概率吸收跟/FFFABF8F
+    死亡怪物等级对应的MP。灭魂/FFFABF8F
+    吸魔，战意不绝。会魔魂术的/FFFABF8F
+    法师，战斗力更持久，轻轻松/FFFABF8F
+    松，胜人一筹。/FFFABF8F
+    1级：需要等级43/FF87C23A
+    2级：需要等级45/FF87C23A
+    3级：需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="怒斩天下">
+    战士主体带战士分身的组合
+    绝技。以怒气驾驭武器，可
+    隔空攻击敌人，气势万千，
+    睥睨天下，故名怒斩天下。
+    此技能威力巨大，隔空攻击
+    效果更是令战士如虎添翼。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="天怒惊雷">
+    魔法师主体带魔法师分身的
+    组合绝技。怒雷之闪电球从
+    天而降，一旦触碰地面则电
+    光四射，威力无比，故名“
+    天怒惊雷”。此技能比独步
+    传世大陆的流星火雨更胜一
+    筹，实为魔法师杀敌打怪的
+    最佳技能。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="天女散花咒">
+    道士主体带道士分身的组合
+    绝技。符咒飞出之后，在命
+    中第一个目标之后折射攻击
+    多个目标，目标受到符咒伤
+    害和超级绿毒伤害。符咒划
+    过天际如同天女散花，故而
+    得名。此技能弥补了道士无
+    群体攻击技能的缺憾。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="迷光烈焰">
+    战士和魔法师的组合绝技。
+    战士释放无边气劲，成六道
+    迷光压迫敌人的活动空间；
+    法师再以无上法力凭空爆出
+    烈焰，给敌人重创，故名迷
+    光烈焰。此技能为物理攻击
+    和魔法攻击的组合，被攻击
+    者避无可避，如陷噩梦中。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="火毒攻心剑">
+    战士和道士的组合绝技。在
+    战士强大武力和道士强大精
+    神力驱使下，带着绿色毒焰
+    的毒剑从天而降，地面炸裂
+    开，毒雾弥漫令敌人受到毒
+    剑物理攻击和毒雾的毒咒双
+    重伤害。此技能霸道无比，
+    毒性之强令闻者变色。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="神之召唤">
+    魔法师和道士的组合绝技。
+    在魔法师诡异的诱惑法力和
+    道士惊人的召唤力呼唤之下
+    ，破坏力惊人的魔王将现身
+    战场，用强大的攻击力给周
+    围的敌人以重创。此技能的
+    召唤力几乎可以通神，故名
+    “神之召唤”。
+    1级 : 需要分身等级42
+    2级 : 需要分身等级45
+    3级 : 需要分身等级48
+  </Skill>
+	<Skill name="元神初级剑法">
+    战士的入门剑术，修炼完成
+    后总计可提高9点准确。
+    1级 : 需要等级7
+    2级 : 需要等级11
+    3级 : 需要等级16
+    大师级：需要天人一重
+    宗师级：需要天人二重	
+    权威级：需要天人三重
+    王者级：需要天人四重
+  </Skill>
+	<Skill name="元神攻杀剑法">
+    战士向剑客迈进的进阶剑术
+    。可以使战士物理攻击的破
+    坏力得到成倍提升。此技能
+    不可与血影刀法和残影刀法
+    同时修炼。
+    1级 : 需要等级19
+    2级 : 需要等级22
+    3级 : 需要等级24
+    大师级：需要天人一重
+    宗师级：需要天人二重	
+    权威级：需要天人三重
+    王者级：需要天人四重
+  </Skill>
+	<Skill name="元神护身真气">
+    战士的基本防御技能。
+    生命值和防御能力由此提升
+    。在战斗中，护身真气可以
+    持续吸收敌人攻击，使防
+    御能力和生命值得到更大幅
+    度提升。
+    1级 : 需要等级19
+    2级 : 需要等级23
+    3级 : 需要等级26
+    大师级：需要天人四重
+    宗师级：需要天人五重	
+    权威级：需要天人六重
+    王者级：需要天人七重
+  </Skill>
+	<Skill name="元神刺杀剑术">
+    战士成为剑客的标志。它能
+    大幅度提高攻击的破坏力，
+    隔位攻击效果更是法师的噩
+    梦，令对手闻风丧胆。
+    1级 : 需要等级25
+    2级 : 需要等级27
+    3级 : 需要等级29
+    大师级：需要天人四重
+    宗师级：需要天人五重	
+    权威级：需要天人六重
+    王者级：需要天人七重
+  </Skill>
+	<Skill name="元神抱月刀">
+    战士的群体攻击技能。刀锋
+    环扫360度，周身滴水不透
+    ，即使十面受袭也可刀刀攻
+    敌要害。此技能不可与半月
+    弯刀同时修炼。
+    1级 : 需要等级27
+    2级 : 需要等级30
+    3级 : 需要等级33
+    大师级：需要天人六重
+    宗师级：需要天人七重	
+    权威级：需要天人八重
+    王者级：需要天人九重
+  </Skill>
+	<Skill name="元神半月弯刀">
+    战士的群体攻击技能。以气
+    凝聚于刀身，随刀锋挥出，
+    可伤及身前半圆内五名敌人
+    ；因刀锋形似半月而得名，
+    攻击效果十分华丽。此技能
+    不可与抱月刀同时修炼。
+    1级 : 需要等级28
+    2级 : 需要等级31
+    3级 : 需要等级34
+    大师级：需要天人六重
+    宗师级：需要天人七重	
+    权威级：需要天人八重
+    王者级：需要天人九重
+  </Skill>
+	<Skill name="元神野蛮冲撞">
+    天下至刚的外家功夫，凝聚
+    全身的劲道，将敌人强行撞
+    开。
+    1级 : 需要等级30
+    2级 : 需要等级34
+    3级 : 需要等级39
+    大师级：需要天人七重
+    宗师级：需要天人八重	
+    权威级：需要天人九重
+    王者级：需要天人十重
+  </Skill>
+	<Skill name="元神战魂真悟">
+    此技能将使战士在打怪时有
+    机会获得双倍经验，并且获
+    得双倍经验的几率将随技能
+    等级的提高而增长。
+    需要等级30
+    按技能经验值升级技能等级
+  </Skill>
+	<Skill name="元神烈火剑法">
+    到目前为止战士的最高级剑
+    法。剑生烈焰，霸道无双，
+    招发必取人命，。此技能不
+    可与雷霆剑同时修炼。
+    1级 : 需要等级35
+    2级 : 需要等级37
+    3级 : 需要等级40
+    大师级：需要天人十重
+    宗师级：需要天人十二重	
+    权威级：需要天人十四重
+    王者级：需要天人十六重
+  </Skill>
+	<Skill name="元神雷霆剑">
+    战士唯一的魔法攻击剑术，
+    堪与烈火剑法媲美。将全身
+    真气聚于剑尖，雷霆万钧之
+    势横空劈出，剑身电光四射
+    ，有如雷裂长空，见者无不
+    动容。此技能不可与烈火剑
+    法同时修炼。
+    1级 : 需要等级34
+    2级 : 需要等级36
+    3级 : 需要等级39
+    大师级：需要天人十重
+    宗师级：需要天人十二重	
+    权威级：需要天人十四重
+    王者级：需要天人十六重
+  </Skill>
+	<Skill name="元神破击剑法">
+    战士的高级特效剑术。可以
+    让神圣战甲、幽灵盾的防御
+    加成效果消失，护身真气消
+    失。攻击时刀光表现猛烈，
+    在被击破防御的人身上还会
+    出现盾被击碎的效果。
+    需要等级40
+    技能等级越高，消除对方防
+    御加成效果的几率越大。
+    大师级：需要天人十三重
+    宗师级：需要天人十五重	
+    权威级：需要天人十七重
+    王者级：需要天人十九重
+  </Skill>
+	<Skill name="元神突斩">
+    战士的连击剑术。面对等级
+    低于自己的对手可以向前突
+    进，同时进行连续攻击，刀
+    光剑影中将对手撞开并造成
+    重创。
+    需要等级41
+    3个技能等级。按技能经验
+    值升级技能等级，技能等级
+    越高，将对手撞开得越远。
+  </Skill>
+	<Skill name="元神破盾斩">
+    战士的高级特效剑术。可以
+    无视对方的高级防护魔法，
+    破除魔法盾、风影盾、金刚
+    护体产生的防御加成效果。    
+    技能等级越高，消除对方防
+    御加成效果的几率越大
+    需要等级42
+    大师级：需要天人十三重
+    宗师级：需要天人十五重	
+    权威级：需要天人十七重
+    王者级：需要天人十九重
+  </Skill>
+	<Skill name="元神金刚护体">
+    战士的高级防护技能。损耗
+    大量MP，一定时间内大幅度
+    增加自身的物理防御和魔法
+    防御能力，具有近乎于变态
+    的防御效果。
+    需要等级45
+    大师级：需要天人十七重
+    宗师级：需要天人二十重	
+    权威级：需要天人二十三重
+    王者级：需要天人二十六重
+  </Skill>
+	<Skill name="元神移形换影">
+    战士的挪移技能。可瞬间到
+    达屏幕以内鼠标所指的点。
+    如果鼠标所指的点为障碍物
+    或已经被占，则技能使用失
+    效。移形换位，神出鬼没。
+    此技能攻可出其不意，退可
+    留存实力，非常实用。
+    1级 : 需要等级42
+    2级 : 需要等级45
+    3级 : 需要等级47
+  </Skill>
+	<Skill name="元神治疗术">
+    道士的入门基本技能。可施
+    放出如星光闪耀的温暖光线
+    ，为笼罩在其中的人类疗伤
+    ，可以说是人们在战场上最
+    常见也最想见到的光芒。
+    1级 : 需要等级7
+    2级 : 需要等级11
+    3级 : 需要等级16 
+    大师级：需要天人1重
+    宗师级：需要天人2重
+    权威级：需要天人3重
+    王者级：需要天人4重
+  </Skill>
+	<Skill name="元神精神战法">
+    道士的物理攻击辅助技能。
+    可以提高道士物理攻击的命
+    中率，总计提高9点。
+    1级 : 需要等级9
+    2级 : 需要等级13
+    3级 : 需要等级19 
+    大师级：需要天人1重
+    宗师级：需要天人2重	
+    权威级：需要天人3重
+    王者级：需要天人4重
+  </Skill>
+	<Skill name="元神施毒术">
+    非常普通但是非常神奇的道
+    士技能，可大幅降低对手的
+    防御或生命值。此技能不可
+    与诅咒术同时修炼。
+    1级 : 需要等级14
+    2级 : 需要等级17
+    3级 : 需要等级20 
+    大师级：需要天人2重
+    宗师级：需要天人3重	
+    权威级：需要天人4重
+    王者级：需要天人5重
+  </Skill>
+	<Skill name="元神诅咒术">
+    跟施毒术并列的技能。通过
+    强大精神力量的影响，被施
+    咒对象的防御与魔法值都将
+    同时降低。此技能不可与施
+    毒术同时修炼。
+    1级 : 需要等级14
+    2级 : 需要等级17
+    3级 : 需要等级20 
+    大师级：需要天人2重
+    宗师级：需要天人3重	
+    权威级：需要天人4重
+    王者级：需要天人5重
+  </Skill>
+	<Skill name="元神灵魂道符">
+    道士的基本魔法攻击技能。
+    和火球术类似的远程法术，
+    通过驱使护身符来攻击敌人
+    ，此法术不可绕开障碍物。
+    1级 : 需要等级18
+    2级 : 需要等级21
+    3级 : 需要等级24
+    大师级：需要天人3重
+    宗师级：需要天人4重	
+    权威级：需要天人5重
+    王者级：需要天人6重
+  </Skill>
+	<Skill name="元神骷髅召唤术">
+    道士的基本召唤技能。通过
+    强大的精神力，使用护身符
+    召唤来自地狱的骷髅，召唤
+    出的骷髅将成为道士最忠实
+    的随从，不死不休。此技能
+    不可与赶尸同时修炼。
+    1级 : 需要等级19
+    2级 : 需要等级23
+    3级 : 需要等级26
+    大师级：需要天人3重
+    宗师级：需要天人4重	
+    权威级：需要天人5重
+    王者级：需要天人6重
+  </Skill>
+	<Skill name="元神幽灵盾">
+    道士的魔法防御技能。通过
+    召唤“玄武”神兽，为自己
+    和周围的战友们增加抵抗魔
+    法攻击的能力。道术越高，
+    增加魔法防御的时间也就越
+    长。
+    1级 : 需要等级22
+    2级 : 需要等级24
+    3级 : 需要等级26
+    大师级：需要天人4重
+    宗师级：需要天人5重	
+    权威级：需要天人6重
+    王者级：需要天人7重
+  </Skill>
+	<Skill name="元神神圣战甲术">
+    道士的物理防御技能。通过
+    召唤“青龙”神兽，道士可
+    以让自己和战友的肉体更加
+    强健，能抵御更强的物理攻
+    击。对于使用直接物理攻击
+    的绝大多数怪物特别有效。
+    1级 : 需要等级25
+    2级 : 需要等级27
+    3级 : 需要等级29
+    大师级：需要天人6重
+    宗师级：需要天人7重	
+    权威级：需要天人8重
+    王者级：需要天人9重
+  </Skill>
+	<Skill name="元神狮子吼">
+    道士的防近身攻击技能。路
+    见不平狮子吼，用丹田真气
+    将面前的敌人远远推开，使
+    敌人无法近身攻击。
+    1级 : 需要等级26
+    2级 : 需要等级30
+    3级 : 需要等级35
+    大师级：需要天人7重
+    宗师级：需要天人8重	
+    权威级：需要天人9重
+    王者级：需要天人10重
+  </Skill>
+	<Skill name="元神道心清明">
+    学会“道心清明”将使道士
+    在打怪时有几率获得双倍经
+    验，并且获得双倍经验的几
+    率将随技能等级的提高而增
+    长。
+    需要等级30
+    按技能经验值升级技能等级
+  </Skill>
+	<Skill name="元神召唤神兽">
+    道士的高级召唤技能。通过
+    强大的精神力，能够召唤一
+    只喷火攻击、法力强大的神
+    兽作自己的随从，神兽是很
+    多高级怪物的克星。
+    1级 : 需要等级35
+    2级 : 需要等级37
+    3级 : 需要等级40
+    大师级：需要天人7重
+    宗师级：需要天人9重	
+    权威级：需要天人11重
+    王者级：需要天人13重
+  </Skill>
+	<Skill name="元神神光术">
+    道士的解救技能。可解除一
+    些负面属性的魔法，如敌对
+    玩家的诅咒，怪物的石化。
+    需要等级36
+    3个技能等级。按技能经验
+    值升级技能等级，技能等级
+    越高，解除诅咒和石化的几
+    率越大。
+  </Skill>
+	<Skill name="元神解毒术">
+    道士的解救技能。可解除一
+    些负面属性的魔法，如一定
+    范围内玩家的中毒状态。
+    需要等级40
+    3个技能等级。按技能经验
+    值升级技能等级，技能等级
+    越高，解除中毒状态的几率
+    越大。
+  </Skill>
+	<Skill name="元神幽冥火咒">
+    道士的高级魔法攻击技能。
+    作为魔法攻击和物理攻击都
+    较弱的道士来说，学会此项
+    技能后，将拥有比灵魂道符
+    更加强大的符咒，魔法攻击
+    力大幅提升，堪比魔法师强
+    大的闪电。
+    需要等级43
+    大师级：需要天人15重
+    宗师级：需要天人18重	
+    权威级：需要天人21重
+    王者级：需要天人24重
+  </Skill>
+	<Skill name="元神强化骷髅术">
+    道士的最高级召唤技能。修
+    习“强化骷髅”后，道士可
+    同时召唤两个身穿重盔、佩
+    带腰刀的强化骷髅，打怪对
+    敌，威力无比。 
+    需要等级46
+    大师级：需要天人17重
+    宗师级：需要天人20重	
+    权威级：需要天人23重
+    王者级：需要天人26重
+  </Skill>
+	<Skill name="元神遁地">
+    道士的高级逃逸技能。可瞬
+    间遁入地下，然后在屏幕之
+    内鼠标所指的点出现。如果
+    鼠标所指的点为障碍物或已
+    经被占，则技能使用失效。
+    古之奇术，借地遁形。练有
+    此技能的道士穿越魔山怪海
+    ，如履平地。
+    1级 : 需要等级43
+    2级 : 需要等级45
+    3级 : 需要等级47
+  </Skill>
+	<Skill name="元神小火球">
+    法师的入门基本魔法。杀伤
+    力会随着训练等级的提高而
+    提升，但不能绕过障碍物进
+    行攻击。
+    1级 : 需要等级7
+    2级 : 需要等级11
+    3级 : 需要等级16 
+    大师级：需要天人1重
+    宗师级：需要天人2重
+    权威级：需要天人3重
+    王者级：需要天人4重
+  </Skill>
+	<Skill name="元神抗拒火环">
+    法师的防近身攻击魔法。利
+    用自己最熟悉的火系魔法，
+    把被烈火灼烧的炙热气团发
+    散出去，将所有接近自己的
+    生物都远远推开。
+    1级 : 需要等级12
+    2级 : 需要等级15
+    3级 : 需要等级19
+    大师级：需要天人1重
+    宗师级：需要天人2重	
+    权威级：需要天人3重
+    王者级：需要天人4重
+  </Skill>
+	<Skill name="元神雷电术">
+    法师的初级电系攻击魔法。
+    指尖发出微弱的电光，诱发
+    天空落下一道巨大的闪电，
+    直接劈向对手。此技能不可
+    与冰箭术同时修炼。
+    1级 : 需要等级17
+    2级 : 需要等级20
+    3级 : 需要等级23
+    大师级：需要天人6重
+    宗师级：需要天人7重	
+    权威级：需要天人8重
+    王者级：需要天人9重
+  </Skill>
+	<Skill name="元神冰箭术">
+    法师的初级冰系攻击魔法。
+    战斗中可召唤一柱冰箭从空
+    中激射而下，坚冰贯穿敌人
+    躯体，而后冰融于水四散无
+    踪。此技能不可与雷电术同
+    时修炼。
+    1级 : 需要等级17
+    2级 : 需要等级20
+    3级 : 需要等级23
+    大师级：需要天人6重/FF87C23A
+    宗师级：需要天人7重/FF87C23A	
+    权威级：需要天人8重/FF87C23A
+    王者级：需要天人9重/FF87C23A
+  </Skill>
+	<Skill name="元神法之魄">
+    学会全新技能“法之魄”将
+    使法师在打怪时有几率获得
+    双倍经验。并且获得双倍经
+    验的几率将随技能等级的提
+    高而增长。
+    需要等级30
+    按技能经验值升级技能等级
+  </Skill>
+	<Skill name="元神魔法盾">
+    法师的高级防御魔法。在身
+    体周围产生一个盾形防护场
+    ，可降低物理攻击和魔法攻
+    击对施法者的伤害。
+    1级 : 需要等级31
+    2级 : 需要等级34
+    3级 : 需要等级38
+    大师级：需要天人9重
+    宗师级：需要天人11重	
+    权威级：需要天人13重
+    王者级：需要天人15重
+  </Skill>
+	<Skill name="元神狂龙紫电">
+    法师的超级电系攻击魔法。
+    催动强大的魔法力，直指天
+    际，召唤出紫龙环绕攻击对
+    象，盘旋而下，然后霹雳电
+    光从天而降，轰然炸裂，威
+    力无比，号称独步传世大陆
+    的最强魔法。
+    需要等级45
+    大师级：需要天人15重
+    宗师级：需要天人18重	
+    权威级：需要天人21重
+    王者级：需要天人24重
+  </Skill>
+	<Skill name="元神化身蝙蝠">
+    法师的高级变身魔法。施法
+    者变化为蝙蝠，飞行一定距
+    离到达指定的位置，怪物们
+    的铁桶阵将不会再困你一刻
+    伤你分毫。穿越障碍，飞檐
+    走壁，如履平地。
+    需要等级42
+    按技能经验值升级技能等级
+  </Skill>
+	<Skill name="强化火球术">
+    由囚禁心魔而领悟的强化火
+    球，出手便根据等级有多个
+    火球连发，威力强大。
+    第一重 : 需要等级41
+    第二重 : 需要等级44
+    第三重 : 需要等级46
+    第四重 : 需要等级47
+    第五重 : 需要等级49
+  </Skill>
+	<Skill name="强化攻杀剑法">
+    由囚禁心魔而领悟的强化攻
+    杀剑法，根据等级不同，会
+    有不同的刀光，威猛无比。
+    第一重 : 需要等级41
+    第二重 : 需要等级44
+    第三重 : 需要等级46
+    第四重 : 需要等级47
+    第五重 : 需要等级49
+  </Skill>
+	<Skill name="强化施毒术">
+    由囚禁心魔而领悟的强化施
+    毒术，根据等级的不同会出
+    现不同的毒咒效果，造成剧
+    烈减血。
+    第一重 : 需要等级41
+    第二重 : 需要等级44
+    第三重 : 需要等级46
+    第四重 : 需要等级47
+    第五重 : 需要等级49
+  </Skill>
+	<Skill name="元神爆裂火焰">
+    超大范围的火系攻击魔法。
+    除了灼伤外，急速膨胀爆炸
+    的火焰可以在一瞬间将周围
+    空气燃尽，一定范围内的生
+    物因窒息而无法躲避下一次
+    的进攻。   
+    大师级：需要天人7重/FF87C23A
+    宗师级：需要天人9重/FF87C23A	
+    权威级：需要天人11重/FF87C23A
+    王者级：需要天人13重/FF87C23A
+  </Skill>
+	<Skill name="元神风影盾">
+    法师的高级防御魔法。调动
+    风的力量，让气流围绕自己
+    形成一个旋转的气场，从而
+    提高自身的魔法闪避和物理
+    闪避。
+    需要等级40
+    大师级：需要天人13重/FF87C23A
+    宗师级：需要天人15重/FF87C23A	
+    权威级：需要天人17重/FF87C23A
+    王者级：需要天人19重/FF87C23A
+  </Skill>
+	<Skill name="金刚净化" psx="48" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，在你维持金刚护体的/FFFABF8F
+    周期中，当你受到的总伤害达/FFFABF8F
+    到一定量时，净化将有概率清/FFFABF8F
+    除你身上所有的中毒效果。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级	/FF87C23A
+    王者级 : 需要灵兽等级80级/FF87C23A
+    已学会金刚护体、护身真气?
+  enter
+    可通过技能书学习/FFFFFF00
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="破灭斩" psx="226" psy="94">
+  enter
+	骑战技能/ff85cddc
+	骑战中，你的攻杀剑法或残影/FFFABF8F
+	刀法或血影刀法有概率会额外/FFFABF8F
+	附带一定比例的破盾伤害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会攻杀剑法或残影或血影刀法、破盾斩?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+</Skill>
+	<Skill name="影袭杀" psx="404" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你成功施放移形换影/FFFABF8F
+    后，有概率会触发影袭杀效果，/FFFABF8F
+    对当前目标额外造成一定比例/FFFABF8F
+    的伤害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会移形换影、半月弯刀或抱月刀?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="火焰盾" psx="48" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，当你被攻击时，你的/FFFABF8F
+    魔法盾有概率会自动触发抗拒/FFFABF8F
+    火环效果，将攻击者推开。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会魔法盾、抗拒火环?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="天雷落" psx="226" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你的狂龙紫电击中敌/FFFABF8F
+    人时，有概率会自动附加雷电/FFFABF8F
+    术或冰箭术一定比例的额外伤/FFFABF8F
+    害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会狂龙紫电、雷电术或者冰箭术?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="天雷落" psx="226" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你的狂龙紫电击中敌/FFFABF8F
+    人时，有概率会自动附加雷电/FFFABF8F
+    术或冰箭术一定比例的额外伤/FFFABF8F
+    害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会狂龙紫电、雷电术或者冰箭术?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="火蝙蝠" psx="404" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你施放化身蝙蝠时，/FFFABF8F
+    有概率在身后留下一道火墙，/FFFABF8F
+    对追逐敌对玩家造成一定比例/FFFABF8F
+    的伤害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会化身蝙蝠、火墙?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="狂狮盾" psx="48" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，当你被攻击时，你的/FFFABF8F
+    神圣战甲术有概率会自动触发/FFFABF8F
+    狮子吼效果，将攻击者推开。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A
+    已学会神圣战甲、狮子吼?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="幽灵击" psx="226" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你的幽冥火咒击中敌/FFFABF8F
+    人时，有概率会自动附加灵魂/FFFABF8F
+    道符一定比例的额外伤害。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A
+    已学会幽冥火咒、灵魂道符?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="兽神变" psx="404" psy="94">
+  enter
+    骑战技能/ff85cddc
+    骑战中，你的宠物有概率进入/FFFABF8F
+    兽神变状态。该状态下，宠物/FFFABF8F
+    攻击力大幅度提升。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会召唤神兽、强化骷髅?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标可关闭技能效果/FFFFFF00
+  </Skill>
+	<Skill name="绝对防御_0" psx="137" psy="186">
+  enter
+    骑战技能/ff85cddc
+    使用该技能后，你将进入“绝/FFFABF8F
+    对防御”状态，该状态下，您/FFFABF8F
+    受到不超出该状态最大承受力/FFFABF8F
+    的伤害时将不减损HP。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会金刚净化、破灭斩?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="绝对防御_1" psx="137" psy="186">
+  enter
+    骑战技能/ff85cddc
+    使用该技能后，你将进入“绝/FFFABF8F
+    对防御”状态，该状态下，您/FFFABF8F
+    受到不超出该状态最大承受力/FFFABF8F
+    的伤害时将不减损HP。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会火焰盾、天雷落?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="绝对防御_2" psx="137" psy="186">
+  enter
+    骑战技能/ff85cddc
+    使用该技能后，你将进入“绝/FFFABF8F
+    对防御”状态，该状态下，您/FFFABF8F
+    受到不超出该状态最大承受力/FFFABF8F
+    的伤害时将不减损HP。/FFFABF8F
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级30级/FF87C23A
+    专家 : 需要灵兽等级40级/FF87C23A
+    大师级 : 需要灵兽等级50级/FF87C23A	
+    宗师级 : 需要灵兽等级60级/FF87C23A	
+    权威级 : 需要灵兽等级70级/FF87C23A	
+    王者级 : 需要灵兽等级80级/FF87C23A	
+    已学会狂狮盾、幽灵击?
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="龙啸九天" psx="0" psy="306">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用翱风斩后一定时/FFFABF8F
+    间内可使用该技能。以消耗自/FFFABF8F
+    身当前血量的10%为代价对周/FFFABF8F
+    围敌人造成重力、沉默效果，/FFFABF8F
+    并对其造成伤害。/FFFABF8F
+
+    初级 : 需要灵兽等级30级/FF87C23A
+    中级 : 需要灵兽等级40级/FF87C23A
+    高级 : 需要灵兽等级50级/FF87C23A
+    专家 : 需要灵兽等级60级/FF87C23A
+    大师级 : 需要灵兽等级90级/FF87C23A	
+    宗师级 : 需要灵兽等级100级/FF87C23A	
+    权威级 : 需要灵兽等级110级/FF87C23A	
+    王者级 : 需要灵兽等级120级/FF87C23A
+    已学会绝对防御?
+  enter
+    可通过技能书学习/FFFFFF00	
+  </Skill>
+	<Skill name="奔雷诀" psx="0" psy="6">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用纵雷诀后一定时/FFFABF8F
+    间内触发该状态。该状态下可/FFFABF8F
+    无限次使用奔雷诀，每次使用/FFFABF8F
+    消耗当前魔法值的10%，但每/FFFABF8F
+    次伤害递减。/FFFABF8F
+    初级 : 需要灵兽等级30级/FF87C23A
+    中级 : 需要灵兽等级40级/FF87C23A
+    高级 : 需要灵兽等级50级/FF87C23A
+    专家 : 需要灵兽等级60级/FF87C23A
+    大师级 : 需要灵兽等级90级/FF87C23A	
+    宗师级 : 需要灵兽等级100级/FF87C23A	
+    权威级 : 需要灵兽等级110级/FF87C23A	
+    王者级 : 需要灵兽等级120级/FF87C23A
+    已学会绝对防御?
+  enter
+    可通过技能书学习/FFFFFF00	
+  </Skill>
+	<Skill name="魔舞吞噬" psx="0" psy="110">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用毒凌波后一定时/FFFABF8F
+    间内可使用该技能。该技能可/FFFABF8F
+    将道士所有宠物拉至指定地点/FFFABF8F
+    并以吞噬毒凌为代价自爆，对/FFFABF8F
+    周围身中毒凌波的玩家造成大/FFFABF8F
+    量伤害。/FFFABF8F
+    初级 : 需要灵兽等级30级/FF87C23A
+    中级 : 需要灵兽等级40级/FF87C23A
+    高级 : 需要灵兽等级50级/FF87C23A
+    专家 : 需要灵兽等级60级/FF87C23A
+    大师级 : 需要灵兽等级90级/FF87C23A	
+    宗师级 : 需要灵兽等级100级/FF87C23A	
+    权威级 : 需要灵兽等级110级/FF87C23A	
+    王者级 : 需要灵兽等级120级/FF87C23A
+    已学会绝对防御?
+  enter
+    可通过技能书学习/FFFFFF00	
+  </Skill>
+	<Skill name="翱风斩" psx="81" psy="306">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用该技能可以瞬间/FFFABF8F
+    近身，重创原本位于远处的对/FFFABF8F
+    手！风驰电掣，迅猛制敌。/FFFABF8F
+    进阶专精后，骑战技能威力得/FFFABF8F
+    到提升，在对目标造成伤害后/FFFABF8F
+    ，目标血量越低触发致死效果/FFFABF8F
+    的几率越高/FFFABF8F    
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级35级/FF87C23A
+    专家 : 需要灵兽等级50级/FF87C23A
+    大师级 : 需要灵兽等级80级/FF87C23A
+    宗师级 : 需要灵兽等级120级/FF87C23A
+    权威级 : 需要灵兽等级150级/FF87C23A
+    王者级 : 需要灵兽等级180级/FF87C23A	
+  enter
+    龙啸九天前置技能/FFFFFF00
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="纵雷诀" psx="161" psy="6">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用该技能可以在千/FFFABF8F
+    军万马中快速突围，并对追击/FFFABF8F
+    者造成致使伤害！雷霆万钧，/FFFABF8F
+    进退自如。/FFFABF8F
+    进阶专精后，骑战技能威力得/FFFABF8F
+    到提升，在对目标造成伤害后/FFFABF8F
+    ，目标血量越低触发致死效果/FFFABF8F
+    的几率越高/FFFABF8F    
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级35级/FF87C23A
+    专家 : 需要灵兽等级50级/FF87C23A
+    大师级 : 需要灵兽等级80级/FF87C23A
+	宗师级 : 需要灵兽等级120级/FF87C23A
+    权威级 : 需要灵兽等级150级/FF87C23A
+    王者级 : 需要灵兽等级180级/FF87C23A	
+  enter
+    奔雷诀前置技能/FFFFFF00
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="毒凌波" psx="160" psy="167">
+  enter
+    骑战技能/ff85cddc
+    骑战中，使用该技能可瞬间造/FFFABF8F
+    成致命道术伤害以及百分比持/FFFABF8F
+    续伤害！扭转战局，乾坤一击。/FFFABF8F
+    进阶专精后，骑战技能威力得/FFFABF8F
+    到提升，在对目标造成伤害后/FFFABF8F
+    ，目标血量越低触发致死效果/FFFABF8F
+    的几率越高/FFFABF8F    
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级35级/FF87C23A
+    专家 : 需要灵兽等级50级/FF87C23A
+    大师级 : 需要灵兽等级80级/FF87C23A
+    宗师级 : 需要灵兽等级120级/FF87C23A
+    权威级 : 需要灵兽等级150级/FF87C23A
+    王者级 : 需要灵兽等级180级/FF87C23A	
+  enter
+    魔舞吞噬前置技能/FFFFFF00
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="终极连击" psx="226" psy="277">
+  enter
+    被动骑战技能/ff85cddc
+    骑战中，使用终结技能————赤/FFFABF8F
+    莲破邪和灭炎吼时，在怒气值/FFFABF8F
+    超过50%时，必定会触发终极/FFFABF8F
+    连击————保留一定数量的连击/FFFABF8F
+    点，为下一次终结技能提供巨/FFFABF8F
+    大伤害。/FFFABF8F
+    进阶专精后，骑战技能威力得/FFFABF8F
+    到提升，在对目标造成伤害后/FFFABF8F
+    ，目标血量越低触发致死效果/FFFABF8F
+    的几率越高/FFFABF8F    
+    初级 : 需要灵兽等级10级/FF87C23A
+    中级 : 需要灵兽等级20级/FF87C23A
+    高级 : 需要灵兽等级35级/FF87C23A
+    专家 : 需要灵兽等级50级/FF87C23A
+    大师级 : 需要灵兽等级80级/FF87C23A
+    宗师级 : 需要灵兽等级120级/FF87C23A
+    权威级 : 需要灵兽等级150级/FF87C23A
+    王者级 : 需要灵兽等级180级/FF87C23A	
+  enter
+    被动技能，不能设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="兽化战" psx="0" psy="476">
+  enter
+    普通技能/ff85cddc
+    此技能永不开放/FFFABF8F
+  </Skill>
+	<Skill name="兽化法" psx="160" psy="112">
+  enter
+    普通技能/ff85cddc
+    此技能永不开放/FFFABF8F
+  </Skill>
+	<Skill name="兽化道" psx="161" psy="281">
+  enter
+    普通技能/ff85cddc
+    此技能永不开放/FFFABF8F
+  </Skill>
+	<Skill name="抗烈火剑法">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分烈火剑法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗雷霆剑">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分雷霆剑法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗血影刀法">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分血影刀法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗攻杀剑法">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分攻杀剑法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗残影刀法">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分残影刀法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗灵魂道符">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分灵魂道符造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗幽冥火咒">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分幽冥火咒造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗小火球">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分小火球造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗地狱火焰">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分地狱火焰造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗雷电术">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分雷电术造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗冰箭术">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分冰箭术造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗流星火雨">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分流星火雨造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗火炎刀">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分火炎刀造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗爆裂火焰">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分爆裂火焰造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗冰龙破">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分冰龙破造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗疾光电影">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分疾光电影造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗玄冰刃">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分玄冰刃造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗地狱雷光">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分地狱雷光造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗冰咆哮">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分冰咆哮造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗五雷轰">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分五雷轰造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗冰旋风">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分冰旋风造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗狂龙紫电">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分狂龙紫电造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗怒斩天下">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分怒斩天下造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗天怒惊雷">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分天怒惊雷造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗天女散花咒">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分天女散花咒造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗火毒攻心剑">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分火毒攻心剑造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗迷光烈焰">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分迷光烈焰造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗强化攻杀剑法">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分强化攻杀剑法造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗强化火球术">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分强化火球术造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗强化施毒术">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分强化施毒术造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗翱风斩">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分翱风斩造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗毒凌波">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分毒凌波造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗纵雷诀">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分纵雷诀造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗猛击">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分猛击造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗吐炎">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分吐炎造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗破魔">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分破魔造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗赤莲破邪">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分赤莲破邪造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗乱舞">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分乱舞造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗灭炎吼">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分灭炎吼造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗妖炎禁制">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分妖炎禁制造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="抗火焰猛击">
+  enter
+    魂佑技能/ff85cddc
+    魂佑灵兽以兽魂形式附体于主/FFFABF8F
+    体时几率触发，触发后抵消一/FFFABF8F
+    部分火焰猛击造成的伤害。/FFFABF8F
+    初级 : 1 级魂佑灵兽可领悟/FF87C23A
+    中级 : 20级魂佑灵兽可领悟/FF87C23A
+    高级 : 40级魂佑灵兽可领悟/FF87C23A
+    专家 : 60级魂佑灵兽可领悟/FF87C23A	
+  enter
+  add
+  enter
+    鼠标右键点击图标可转换或遗/FFFFFF00
+    忘该技能/FFFFFF00
+  </Skill>
+	<Skill name="元神神魂融合">
+    内敛与外现元神融合后，将
+    进入神魂融合状态并获得“
+    神魂值”。
+    内敛元神等级越高，神魂融
+    合后融合元神增加的血量越
+    多，增加的攻击也越高。
+    初级: 需要天元心法20重
+    中级: 需要天元心法25重
+    高级: 需要天元心法30重
+    专家级：需要天元心法35重
+  </Skill>
+	<Skill name="元神灵魂锁链">
+    可将融合元神所受到的部分
+    伤害转移给本体角色，减少
+    融合元神受到的伤害。
+    初级最多转移20%伤害；
+    中级最多转移30%伤害；
+    高级最多转移40%伤害；
+    专家级最多转移50%伤害；
+    初级: 需要天元心法30重
+    中级: 需要天元心法35重
+    高级: 需要天元心法40重
+    专家级：需要天元心法45重
+  </Skill>
+	<Skill name="元神神魂爆破">
+    融合元神在对其他融合元神
+    造成伤害时，可同时消耗对
+    方的“神魂值”，当对方神
+    魂值减少为0时则立刻退出
+    神魂融合状态，失去神魂融
+    合获得的额外属性。
+    初级: 需要天元心法40重
+    中级: 需要天元心法45重
+    高级: 需要天元心法50重
+    专家级：需要天元心法55重        
+  </Skill>
+	<Skill name="元神翱风斩">
+    威力强大的元神骑战技能。
+    主体释放骑战技能时，元神
+    会自动对目标释放该技能。
+    初级 : 需要3转仙兽等级20
+    中级 : 需要3转仙兽等级80
+    高级 : 需要3转仙兽等级120
+    专家 : 需要3转仙兽等级150
+  </Skill>
+	<Skill name="元神纵雷诀">
+    威力强大的元神骑战技能。
+    主体释放骑战技能时，元神
+    会自动对目标释放该技能。
+    初级 : 需要3转仙兽等级20
+    中级 : 需要3转仙兽等级80
+    高级 : 需要3转仙兽等级120
+    专家 : 需要3转仙兽等级150
+  </Skill>
+	<Skill name="元神毒凌波">
+    威力强大的元神骑战技能。
+    主体释放骑战技能时，元神
+    会自动对目标释放该技能。
+    初级 : 需要3转仙兽等级20
+    中级 : 需要3转仙兽等级80
+    高级 : 需要3转仙兽等级120
+    专家 : 需要3转仙兽等级150
+  </Skill>
+	<Skill name="猛击" psx="162" psy="618">
+  enter
+    普通技能/ff85cddc
+    妖士入门近战攻击技能。该技能可/FFFABF8F
+    在普通攻击基础上附加一定伤害。/FFFABF8F
+    初级：需要等级7/FF87C23A
+    中级：需要等级9/FF87C23A
+    高级：需要等级11/FF87C23A
+    专家级：需要等级13/FF87C23A
+    大师级：需要妖王1重/FF87C23A
+    宗师级：需要妖王3重/FF87C23A	
+    权威级：需要妖王5重/FF87C23A
+    王者级：需要妖王7重/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="破魔" psx="83" psy="618">
+  enter
+    连击技能/ff85cddc
+    妖士中距离攻击技能。每3秒可/FFFABF8F
+    自动释放一次，击中目标则连击/FFFABF8F
+    点+1，破魔最多只能积攒一个连/FFFABF8F
+    击点，连击点可以为未来的终结/FFFABF8F
+    技能提供巨大伤害。/FFFABF8F
+    破魔有一定概率触发妖士炙热效/FFFABF8F
+    果，炙热效果持续3秒，在炙热/FFFABF8F
+    状态下，妖士能使用吐炎技能。/FFFABF8F
+    初级：需要等级19级/FF87C23A
+    中级：需要等级23级/FF87C23A
+    高级：需要等级27级/FF87C23A
+    专家级：需要等级31级/FF87C23A
+    大师级：需要等级妖王2重/FF87C23A
+    宗师级：需要等级妖王6重/FF87C23A	
+    权威级：需要等级妖王10重/FF87C23A
+    王者级：需要等级妖王14重/FF87C23A
+  enter
+    需先学会猛击技能/FFFFFF00
+  enter  
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="乱舞" psx="2" psy="114">
+  enter
+    连击技能/ff85cddc
+    妖士近距离范围伤害技能。妖士/FFFABF8F
+    可在吐炎后5秒内释放该技能，/FFFABF8F
+    释放该技能后，击中目标则连击/FFFABF8F
+    点+1，该技能持续5秒钟，乱舞/FFFABF8F
+    的伤害随着时间的增长而显著/FFFABF8F
+    增长。/FFFABF8F
+    初级：需要等级46级/FF87C23A
+    中级：需要等级51级/FF87C23A
+    高级：需要等级56级/FF87C23A
+    专家级：需要等级61级/FF87C23A
+    大师级：需要等级妖王23重/FF87C23A
+    宗师级：需要等级妖王32重/FF87C23A	
+    权威级：需要等级妖王42重/FF87C23A
+    王者级：需要等级妖王52重/FF87C23A
+  enter
+  	需先学会赤莲破邪技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="吐炎" psx="2" psy="562">
+  enter
+    连击技能/ff85cddc
+    妖士远距离攻击技能。妖士在炙/FFFABF8F
+    热效果下可自动释放一次，击中/FFFABF8F
+    目标则连击点+1，并且炙热效果/FFFABF8F
+    同时消失。吐炎可积攒多个连击/FFFABF8F
+    点，连击点可以为未来的终结技/FFFABF8F
+    能提供巨大伤害。/FFFABF8F
+    初级：需要等级26级/FF87C23A
+    中级：需要等级31级/FF87C23A
+    高级：需要等级36级/FF87C23A
+    专家级：需要等级41级/FF87C23A
+    大师级：需要等级妖王3重/FF87C23A
+    宗师级：需要等级妖王8重/FF87C23A	
+    权威级：需要等级妖王13重/FF87C23A
+    王者级：需要等级妖王18重/FF87C23A
+  enter
+  	需先学会破魔技能/FFFFFF00	
+  enter	
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="火焰猛击" psx="2" psy="450">
+  enter
+    普通技能/ff85cddc
+    妖士中距离攻击技能。妖士每隔一/FFFABF8F
+    定时间可自动释放该技能，击中目/FFFABF8F
+    标则造成巨大的致命伤害。/FFFABF8F
+    初级：需要等级30级/FF87C23A
+    中级：需要等级35级/FF87C23A
+    高级：需要等级40级/FF87C23A
+    专家级：需要等级46级/FF87C23A
+    大师级：需要等级妖王4重/FF87C23A
+    宗师级：需要等级妖王9重/FF87C23A	
+    权威级：需要等级妖王14重/FF87C23A
+    王者级：需要等级妖王19重/FF87C23A
+  enter
+  	需先学会吐炎技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="追炎" psx="83" psy="506">
+  enter
+    连击技能/ff85cddc
+    妖士冲锋近身技能。妖士把力量专/FFFABF8F
+    注于一点，直线冲向敌人，造成一/FFFABF8F
+    定伤害，如果比对方等级高，还能/FFFABF8F
+    造成1秒的定身效果。/FFFABF8F
+    初级：需要等级23级/FF87C23A
+    中级：需要等级26级/FF87C23A
+    高级：需要等级31级/FF87C23A
+    专家级：需要等级36级/FF87C23A
+  enter
+  	需先学会破魔技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="神行" psx="83" psy="394">
+  enter
+    普通技能/ff85cddc
+    妖士的加速技能。使用后，妖士的/FFFABF8F
+    移动速度大幅提升，妖士在战场上/FFFABF8F
+    近可攻，退可守。/FFFABF8F
+    初级：需要等级25级/FF87C23A
+    中级：需要等级28级/FF87C23A
+    高级：需要等级33级/FF87C23A
+    专家级：需要等级38级/FF87C23A
+  enter
+  	需先学会追炎技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+    <Skill name="赤莲破邪" psx="2" psy="282">
+  enter
+    终结技能/ff85cddc
+    妖士中远距离攻击技能。妖士凌空/FFFABF8F
+    而起，对敌人致命一击，造成恐怖/FFFABF8F
+    的伤害。连击点越多，伤害越高。/FFFABF8F
+    该技能为终结技能，即使用该技能/FFFABF8F
+    后，消耗自身积攒的所有连击点。/FFFABF8F
+    初级：需要等级35级/FF87C23A
+    中级：需要等级40级/FF87C23A
+    高级：需要等级45级/FF87C23A
+    专家级：需要等级50级/FF87C23A
+    大师级：需要等级妖王5重/FF87C23A
+    宗师级：需要等级妖王11重/FF87C23A	
+    权威级：需要等级妖王17重/FF87C23A
+    王者级：需要等级妖王23重/FF87C23A
+  enter
+  	需先学会火焰猛击技能/FFFFFF00	
+  enter	
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>	
+    <Skill name="灭炎吼" psx="2" psy="2">
+  enter
+    终结技能/ff85cddc
+    妖士范围伤害技能。妖士仰天狂啸，/FFFABF8F
+    顿时地动山摇，强大的音波攻击迫/FFFABF8F
+    使周围的敌人颤抖，同时对其造成/FFFABF8F
+    恐怖的伤害。连击点越多，灭炎吼/FFFABF8F
+    伤害越高。/FFFABF8F
+    使用该技能后，消耗自身积攒的所/FFFABF8F
+    有连击点。/FFFABF8F
+    初级：需要等级48级/FF87C23A
+    中级：需要等级53级/FF87C23A
+    高级：需要等级58级/FF87C23A
+    专家级：需要等级63级/FF87C23A
+    大师级：需要等级妖王24重/FF87C23A
+    宗师级：需要等级妖王33重/FF87C23A	
+    权威级：需要等级妖王43重/FF87C23A
+    王者级：需要等级妖王53重/FF87C23A
+  enter
+  	需先学会乱舞技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="炎遁" psx="162" psy="450">
+  enter
+    普通技能/ff85cddc
+    妖士的高级飞行技能。可瞬间隐形，/FFFABF8F
+    然后在屏幕之内鼠标所指地点出现。/FFFABF8F
+    如果鼠标所指地点为障碍物或者已/FFFABF8F
+    经被占，则技能使用失效。/FFFABF8F
+    初级：需要等级46级/FF87C23A
+    中级：需要等级51级/FF87C23A
+    高级：需要等级56级/FF87C23A
+    专家级：需要等级61级/FF87C23A
+  enter
+  	需先学会追炎技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="兽化妖" psx="80" psy="192">
+  enter
+    普通技能/ff85cddc
+    勇士与魂佑灵兽心灵相通，能/FFFABF8F
+    使魂佑灵兽魂化附体的技能。/FFFABF8F
+    技能等级越高，附体后属性提/FFFABF8F
+    升越明显。                /FFFABF8F
+    根据各职业对兽化技能的体悟/FFFABF8F
+    不同，魂佑附体的效果也会各/FFFABF8F
+    有侧重。                  /FFFABF8F
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    魂佑附体下进行战斗可以获得/FFFFFF00	
+    技能经验                  /FFFFFF00
+    </Skill>
+    <Skill name="神圣护盾" psx="81" psy="113">
+  enter
+    普通技能/ff85cddc
+    勇士与魂佑灵兽心灵相通，能/FFFABF8F
+    使魂佑灵兽魂化附体的技能。/FFFABF8F
+    技能等级越高，附体后属性提/FFFABF8F
+    升越明显。                /FFFABF8F
+    根据各职业对兽化技能的体悟/FFFABF8F
+    不同，魂佑附体的效果也会各/FFFABF8F
+    有侧重。                  /FFFABF8F
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    魂佑附体下进行战斗可以获得/FFFFFF00	
+    技能经验                  /FFFFFF00
+    </Skill>
+    <Skill name="铁血神技妖" psx="162" psy="114">
+  enter
+    普通技能/ff85cddc
+    勇士与魂佑灵兽心灵相通，能/FFFABF8F
+    使魂佑灵兽魂化附体的技能。/FFFABF8F
+    技能等级越高，附体后属性提/FFFABF8F
+    升越明显。                /FFFABF8F
+    根据各职业对兽化技能的体悟/FFFABF8F
+    不同，魂佑附体的效果也会各/FFFABF8F
+    有侧重。                  /FFFABF8F
+    1级 : 需要等级43/FF87C23A
+    2级 : 需要等级45/FF87C23A
+    3级 : 需要等级47/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    魂佑附体下进行战斗可以获得/FFFFFF00	
+    技能经验                  /FFFFFF00
+    </Skill>
+	<Skill name="妖炎禁制" psx="83" psy="282">
+  enter
+    陷阱技能/ff85cddc
+    妖士范围伤害技能。妖士利用强大/FFFABF8F
+    的心灵力量在其目光所及范围内形/FFFABF8F
+    成一个陷阱禁制，靠近该禁制的敌/FFFABF8F
+    人会引爆该禁制，身中禁制的敌人/FFFABF8F
+    移动、飞行时就会受到伤害。/FFFABF8F
+    身中妖炎禁制期间，可以引爆其它/FFFABF8F
+    禁制，但是不会受别的妖炎禁制的/FFFABF8F
+    影响。/FFFABF8F
+    初级：需要等级45级/FF87C23A
+    中级：需要等级47级/FF87C23A
+    高级：需要等级49级/FF87C23A
+    专家级：需要等级52级/FF87C23A
+    大师级：需要等级妖王28重/FF87C23A
+    宗师级：需要等级妖王38重/FF87C23A	
+    权威级：需要等级妖王48重/FF87C23A
+    王者级：需要等级妖王58重/FF87C23A
+  enter
+  	需先学会火焰猛击技能/FFFFFF00	
+  	不能与虚弱禁制一起学习/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="虚弱禁制" psx="162" psy="282">
+  enter
+    陷阱技能/ff85cddc
+    妖士范围减蓝技能。妖士利用强大/FFFABF8F
+    的心灵力量在其目光所及范围内形/FFFABF8F
+    成一个陷阱禁制，靠近该禁制的敌/FFFABF8F
+    人会引爆该禁制，身中禁制的敌人/FFFABF8F
+    移动、飞行时就会不断减魔法值。/FFFABF8F
+    身中虚弱禁制期间，可以引爆其它/FFFABF8F
+    禁制，但是不会受别的虚弱禁制的/FFFABF8F
+    影响。/FFFABF8F
+    初级：需要等级45级/FF87C23A
+    中级：需要等级47级/FF87C23A
+    高级：需要等级49级/FF87C23A
+    专家级：需要等级52级/FF87C23A
+    大师级：需要等级妖王28重/FF87C23A
+    宗师级：需要等级妖王38重/FF87C23A	
+    权威级：需要等级妖王48重/FF87C23A
+    王者级：需要等级妖王58重/FF87C23A
+  enter
+  	需先学会火焰猛击技能/FFFFFF00	
+  	不能与妖炎禁制一起学习/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    鼠标单击图标设置技能快捷键/FFFFFF00
+    </Skill>
+	<Skill name="追踪" psx="59" psy="2">
+  enter
+    攻击型被动技能/ff85cddc
+    增加妖士的命中。/FFFABF8F
+    初级：需要妖丹等级7级/FF87C23A
+    中级：需要妖丹等级9级/FF87C23A
+    高级：需要妖丹等级11级/FF87C23A
+    专家级：需要妖丹等级13级/FF87C23A
+    大师级：需要等级妖王丹1重/FF87C23A
+    宗师级：需要等级妖王丹3重/FF87C23A	
+    权威级：需要等级妖王丹5重/FF87C23A
+    王者级：需要等级妖王丹7重/FF87C23A    
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="折射" psx="115" psy="83">
+  enter
+    攻击型被动技能/ff85cddc
+    妖士使用单体攻击命中敌人时，会额/FFFABF8F
+    外折射一定比例的伤害给另一半，即/FFFABF8F
+    击中主体就折射伤害给元神，击中元/FFFABF8F
+    神就折射伤害给主体。/FFFABF8F
+    初级：需要妖丹等级19级/FF87C23A
+    中级：需要妖丹等级23级/FF87C23A
+    高级：需要妖丹等级27级/FF87C23A
+    专家级：需要妖丹等级31级/FF87C23A
+    大师级：需要等级妖王丹3重/FF87C23A
+    宗师级：需要等级妖王丹10重/FF87C23A	
+    权威级：需要等级妖王丹15重/FF87C23A
+    王者级：需要等级妖王丹20重/FF87C23A     
+  enter
+  	需先学会追踪技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="孤立" psx="227" psy="83">
+  enter
+    攻击型被动技能/ff85cddc
+    增加妖士对元神的直接伤害。但从/FFFABF8F
+    主体折射给元神的间接伤害不受孤/FFFABF8F
+    立的影响。/FFFABF8F
+    初级：需要妖丹等级26级/FF87C23A
+    中级：需要妖丹等级31级/FF87C23A
+    高级：需要妖丹等级36级/FF87C23A
+    专家级：需要妖丹等级41级/FF87C23A
+    大师级：需要等级妖王丹5重/FF87C23A
+    宗师级：需要等级妖王丹18重/FF87C23A	
+    权威级：需要等级妖王丹23重/FF87C23A
+    王者级：需要等级妖王丹28重/FF87C23A 
+  enter
+  	需先学会折射、朱雀内甲技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="虚弱打击" psx="282" psy="2">
+  enter
+	  攻击型被动技能/ff85cddc
+    妖士使用单体攻击时有一定概率使/FFFABF8F
+    敌人虚弱，被虚弱的敌人被攻击时/FFFABF8F
+    会受到额外的虚弱伤害，虚弱状态/FFFABF8F
+    持续10秒。/FFFABF8F
+    初级：需要妖丹等级30级/FF87C23A
+    中级：需要妖丹等级35级/FF87C23A
+    高级：需要妖丹等级40级/FF87C23A
+    专家级：需要妖丹等级48级/FF87C23A
+    大师级：需要等级妖王丹7重/FF87C23A
+    宗师级：需要等级妖王丹23重/FF87C23A	
+    权威级：需要等级妖王丹33重/FF87C23A
+    王者级：需要等级妖王丹52重/FF87C23A 
+  enter
+  	需先学会孤立技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="熔岩爆发" psx="338" psy="83">
+  enter
+    攻击型被动技能/ff85cddc
+    增加妖士暴击概率。/FFFABF8F
+    初级：需要妖丹等级35级/FF87C23A
+    中级：需要妖丹等级40级/FF87C23A
+    高级：需要妖丹等级45级/FF87C23A
+    专家级：需要妖丹等级50级/FF87C23A
+    大师级：需要等级妖王丹9重/FF87C23A
+    宗师级：需要等级妖王丹28重/FF87C23A	
+    权威级：需要等级妖王丹40重/FF87C23A
+    王者级：需要等级妖王丹60重/FF87C23A 
+  enter
+  	需先学会虚弱打击技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="怒火" psx="394" psy="2">
+  enter
+    攻击型被动技能/ff85cddc
+    增加破魔触发炙热效果的概率/FFFABF8F
+    初级：需要妖丹等级36级/FF87C23A
+    中级：需要妖丹等级42级/FF87C23A
+    高级：需要妖丹等级48级/FF87C23A
+    专家级：需要妖丹等级52级/FF87C23A
+    大师级：需要等级妖王丹11重/FF87C23A
+    宗师级：需要等级妖王丹30重/FF87C23A	
+    权威级：需要等级妖王丹55重/FF87C23A
+    王者级：需要等级妖王丹68重/FF87C23A 
+  enter
+  	需先学会熔岩爆发技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="嗜血" psx="507" psy="2">
+  enter
+    攻击型被动技能/ff85cddc
+    妖士使用单体攻击技能时有一定的/FFFABF8F
+    概率吸血。/FFFABF8F
+    初级：需要妖丹等级37级/FF87C23A
+    中级：需要妖丹等级43级/FF87C23A
+    高级：需要妖丹等级49级/FF87C23A
+    专家级：需要妖丹等级53级/FF87C23A
+    大师级：需要等级妖王丹13重/FF87C23A
+    宗师级：需要等级妖王丹35重/FF87C23A	
+    权威级：需要等级妖王丹58重/FF87C23A
+    王者级：需要等级妖王丹75重/FF87C23A 
+  enter
+  	需先学会怒火技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="协调" psx="618" psy="2">
+  enter
+    攻击型被动技能/ff85cddc
+    使用吐炎时，有一定概率额外增加一个/FFFABF8F
+    连击点，连击点总数量不能超过自身最/FFFABF8F
+    大连击点数。/FFFABF8F
+    初级：需要妖丹等级40级/FF87C23A
+    中级：需要妖丹等级46级/FF87C23A
+    高级：需要妖丹等级52级/FF87C23A
+    专家级：需要妖丹等级56级/FF87C23A
+    大师级：需要等级妖王丹15重/FF87C23A
+    宗师级：需要等级妖王丹40重/FF87C23A	
+    权威级：需要等级妖王丹62重/FF87C23A
+    王者级：需要等级妖王丹88重/FF87C23A 
+  enter
+  	需先学会嗜血技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="定身" psx="730" psy="83">
+  enter
+    攻击型被动技能/ff85cddc
+    妖士使用单体技能时有一定概率使对/FFFABF8F
+    手定身一定时间，被定身时，不能移动，/FFFABF8F
+    但是可以释放大部分技能，被定身者在/FFFABF8F
+    未来10内不可被该技能重复定身。/FFFABF8F
+    初级：需要妖丹等级42级/FF87C23A
+    中级：需要妖丹等级48级/FF87C23A
+    高级：需要妖丹等级55级/FF87C23A
+    专家级：需要妖丹等级60级/FF87C23A
+    大师级：需要等级妖王丹17重/FF87C23A
+    宗师级：需要等级妖王丹50重/FF87C23A	
+    权威级：需要等级妖王丹70重/FF87C23A
+    王者级：需要等级妖王丹90重/FF87C23A
+  enter
+  	需先学会协调、绝处逢生技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="毁灭" psx="842" psy="83">
+  enter
+    攻击型被动技能/ff85cddc
+    有一定概率削弱对方的减伤技能，包括/FFFABF8F
+    护身真气、金刚护体、魔法盾和斗转。/FFFABF8F
+    初级：需要妖丹等级48级/FF87C23A
+    中级：需要妖丹等级53级/FF87C23A
+    高级：需要妖丹等级58级/FF87C23A
+    专家级：需要妖丹等级63级/FF87C23A
+    大师级：需要等级妖王丹23重/FF87C23A
+    宗师级：需要等级妖王丹52重/FF87C23A	
+    权威级：需要等级妖王丹77重/FF87C23A
+    王者级：需要等级妖王丹99重/FF87C23A
+  enter
+  	需先学会定身技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="炎甲" psx="59" psy="162">
+  enter
+    防御型被动技能/ff85cddc
+    增加妖士的物理防御和魔法防御。/FFFABF8F
+		初级：需要妖丹等级7级/FF87C23A
+    中级：需要妖丹等级9级/FF87C23A
+    高级：需要妖丹等级11级/FF87C23A
+    专家级：需要妖丹等级13级/FF87C23A
+    大师级：需要等级妖王丹1重/FF87C23A
+    宗师级：需要等级妖王丹3重/FF87C23A	
+    权威级：需要等级妖王丹5重/FF87C23A
+    王者级：需要等级妖王丹7重/FF87C23A
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="朱雀内甲" psx="170" psy="162">
+  enter
+    防御型被动技能/ff85cddc
+    妖士最重要的防御技能，抵挡一定比例/FFFABF8F
+    的外来伤害。/FFFABF8F
+    初级：需要妖丹等级9级/FF87C23A
+    中级：需要妖丹等级23级/FF87C23A
+    高级：需要妖丹等级27级/FF87C23A
+    专家级：需要妖丹等级31级/FF87C23A
+    大师级：需要等级妖王丹3重/FF87C23A
+    宗师级：需要等级妖王丹10重/FF87C23A	
+    权威级：需要等级妖王丹15重/FF87C23A
+    王者级：需要等级妖王丹20重/FF87C23A 
+  enter
+  	需先学会炎甲技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="妖魂" psx="338" psy="162">
+  enter
+    防御型被动技能/ff85cddc
+    增加妖士对怪物（包括虎王、骷髅等）/FFFABF8F
+    的防御能力，以及打怪获得的经验。/FFFABF8F
+    初级：需要妖丹等级26级/FF87C23A
+    中级：需要妖丹等级31级/FF87C23A
+    高级：需要妖丹等级36级/FF87C23A
+    专家级：需要妖丹等级41级/FF87C23A
+  enter
+  	需先学会炎甲技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="以牙还牙" psx="450" psy="162">
+  enter
+    防御型被动技能/ff85cddc
+    妖士有一定的概率把所受到的攻击按/FFFABF8F
+    一定百分比反弹回去。/FFFABF8F
+    初级：需要妖丹等级30级/FF87C23A
+    中级：需要妖丹等级35级/FF87C23A
+    高级：需要妖丹等级40级/FF87C23A
+    专家级：需要妖丹等级48级/FF87C23A
+    大师级：需要等级妖王丹5重/FF87C23A
+    宗师级：需要等级妖王丹18重/FF87C23A	
+    权威级：需要等级妖王丹23重/FF87C23A
+    王者级：需要等级妖王丹28重/FF87C23A 
+  enter
+  	需先学会妖魂技能/FFFFFF00	
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="避魔" psx="450" psy="83">
+  enter
+    妖丹技能/ff85cddc
+    增加妖士的魔法躲避。/FFFABF8F
+    初级：需要妖丹等级35级/FF87C23A
+    中级：需要妖丹等级40级/FF87C23A
+    高级：需要妖丹等级45级/FF87C23A
+    专家级：需要妖丹等级50级/FF87C23A
+    大师级：需要等级妖王丹9重/FF87C23A
+    宗师级：需要等级妖王丹28重/FF87C23A	
+    权威级：需要等级妖王丹40重/FF87C23A
+    王者级：需要等级妖王丹60重/FF87C23A 
+  enter
+  	需先学会以牙还牙技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="急速闪避" psx="619" psy="83">
+  enter
+    妖丹技能/ff85cddc
+    增加妖士的物理躲避。/FFFABF8F
+    初级：需要妖丹等级37级/FF87C23A
+    中级：需要妖丹等级43级/FF87C23A
+    高级：需要妖丹等级49级/FF87C23A
+    专家级：需要妖丹等级53级/FF87C23A
+    大师级：需要等级妖王丹13重/FF87C23A
+    宗师级：需要等级妖王丹35重/FF87C23A	
+    权威级：需要等级妖王丹58重/FF87C23A
+    王者级：需要等级妖王丹75重/FF87C23A 
+  enter
+  	需先学会避魔技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="朱雀护佑" psx="562" psy="163">
+  enter
+    防御型被动技能/ff85cddc
+    有一定概率免疫部分异常状态（麻痹、/FFFABF8F
+   	冰冻、重力、沉默），触发后持续免疫/FFFABF8F
+    该状态5秒。/FFFABF8F
+    初级：需要妖丹等级40级/FF87C23A
+    中级：需要妖丹等级46级/FF87C23A
+    高级：需要妖丹等级52级/FF87C23A
+    专家级：需要妖丹等级56级/FF87C23A
+    大师级：需要等级妖王丹15重/FF87C23A
+    宗师级：需要等级妖王丹40重/FF87C23A	
+    权威级：需要等级妖王丹62重/FF87C23A
+    王者级：需要等级妖王丹88重/FF87C23A 
+  enter
+  	需先学会急速闪避技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="绝处逢生" psx="730" psy="163">
+  enter
+    防御型被动技能/ff85cddc
+    当妖士受到伤害超过自身30%血量时，/FFFABF8F
+    有一定概率免疫此次伤害。/FFFABF8F
+		初级：需要妖丹等级42级/FF87C23A
+    中级：需要妖丹等级48级/FF87C23A
+    高级：需要妖丹等级55级/FF87C23A
+    专家级：需要妖丹等级60级/FF87C23A
+    大师级：需要等级妖王丹17重/FF87C23A
+    宗师级：需要等级妖王丹50重/FF87C23A	
+    权威级：需要等级妖王丹70重/FF87C23A
+    王者级：需要等级妖王丹99重/FF87C23A 
+  enter
+  	需先学会朱雀护佑技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="磐石之坚" psx="842" psy="163">
+  enter
+    防御型被动技能/ff85cddc
+    妖士有一定概率抵挡推动效果。/FFFABF8F
+		初级：需要妖丹等级48级/FF87C23A
+    中级：需要妖丹等级53级/FF87C23A
+    高级：需要妖丹等级58级/FF87C23A
+    专家级：需要妖丹等级63级/FF87C23A
+    大师级：需要等级妖王丹23重/FF87C23A
+    宗师级：需要等级妖王丹52重/FF87C23A	
+    权威级：需要等级妖王丹77重/FF87C23A
+    王者级：需要等级妖王丹99重/FF87C23A 
+  enter
+  	需先学会绝处逢生技能/FFFFFF00
+  enter
+    可通过技能书学习/FFFFFF00	
+    </Skill>
+	<Skill name="八方分影斩" psx="81" psy="365">
+  enter
+    此技能永不开放
+  </Skill>
+	<Skill name="强袭烈焰盾" psx="81" psy="1">
+  enter
+    此技能永不开放
+  </Skill>
+	<Skill name="乾坤挪移咒" psx="81" psy="170">
+  enter
+    此技能永不开放
+  </Skill>
+	<Skill name="飞将">
+  enter
+  主宰者连击技能/ff85cddc 
+  战士主宰者连击技能。由三个/FFFABF8F 
+  小技能组合而成的威力巨大的/FFFABF8F 
+  连击技能。/FFFABF8F 
+  enter 
+  鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="突袭">
+  enter
+  主宰者小连击技能/ff85cddc 
+  战士主宰者小连击技能。战士/FFFABF8F 
+  发动全身力量冲刺突袭对手，/FFFABF8F 
+  令对手一段时间不能移动和/FFFABF8F 
+  飞行。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="烈风">
+  enter
+  主宰者小连击技能/ff85cddc 
+  战士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对自己周围一格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="横扫">
+  enter
+  主宰者小连击技能/ff85cddc 
+  战士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对自己周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="冰雪">
+  enter
+  主宰者连击技能/ff85cddc 
+  法师主宰者连击技能。由三个/FFFABF8F 
+  小技能组合而成的威力巨大的/FFFABF8F 
+  连击技能。/FFFABF8F 
+  enter 
+  鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="冰晶">
+  enter
+  主宰者小连击技能/ff85cddc 
+  法师主宰者小连击技能。法师/FFFABF8F 
+  凝聚全身寒冰力量冰冻对手，/FFFABF8F 
+  令对手一段时间不能移动和/FFFABF8F 
+  飞行。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="冰封">
+  enter
+  主宰者小连击技能/ff85cddc 
+  法师主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对冰封路径上的敌人造成/FFFABF8F 
+  较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="暴雪">
+  enter
+  主宰者小连击技能/ff85cddc 
+  法师主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="毒计">
+  enter
+  主宰者连击技能/ff85cddc 
+  道士主宰者连击技能。由三个/FFFABF8F 
+  小技能组合而成的威力巨大的/FFFABF8F 
+  连击技能。/FFFABF8F 
+  enter 
+  鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="毒雾">
+  enter
+  主宰者小连击技能/ff85cddc 
+  道士主宰者小连击技能。道士/FFFABF8F 
+  唤醒全身剧毒力量注入对手，/FFFABF8F 
+  令对手一段时间不能移动和/FFFABF8F 
+  飞行。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="心兽">
+  enter
+  主宰者小连击技能/ff85cddc 
+  道士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对心兽路径上的敌人造成/FFFABF8F 
+  较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="毒阵">
+  enter
+  主宰者小连击技能/ff85cddc 
+  道士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="威武">
+  enter
+  主宰者连击技能/ff85cddc 
+  妖士主宰者连击技能。由三个/FFFABF8F 
+  小技能组合而成的威力巨大的/FFFABF8F 
+  连击技能。/FFFABF8F 
+  enter 
+  鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="降临">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。妖士/FFFABF8F 
+  召唤缘故图腾力量震慑对手，/FFFABF8F 
+  令对手一段时间不能移动和/FFFABF8F 
+  飞行。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="血路">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对血路路径上的敌人造成/FFFABF8F 
+  较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+	<Skill name="旋风">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  不能设置技能快捷键/FFFFFF00
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+    <Skill name="皓月斩">
+    enter
+    铁血神技技能/ff85cddc
+    战士强大的铁血神技，强大的/FFFABF8F
+    剑气冲向目标，目标后方直线/FFFABF8F
+    范围内的目标也均会受到伤害/FFFABF8F
+    技能等级越高，剑气距离越远/FFFABF8F
+    enter
+    1重：王城勇士9级/FF87C23A
+    2重：抚夷校尉1级/FF87C23A
+    3重：抚夷校尉6级/FF87C23A
+    4重：远征先锋2级/FF87C23A
+    5重：魔域护军3级/FF87C23A	
+    6重：魔域护军5级/FF87C23A	
+    7重：魔域护军7级/FF87C23A	
+    8重：魔域护军9级/FF87C23A	
+    9重：铁血军候2级/FF87C23A	
+    10重：铁血军候4级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="追魂刺">
+    enter
+    铁血神技技能/ff85cddc
+    战士强大的铁血神技，剑气护/FFFABF8F
+    体向前冲锋，对目标会造成伤/FFFABF8F
+    害，并对军衔低于自己的角色/FFFABF8F
+    有推动作用，技能等级越高，/FFFABF8F
+    冲锋距离越远。/FFFABF8F
+    enter
+    1重：抚夷校尉6级/FF87C23A
+    2重：抚夷校尉9级/FF87C23A
+    3重：远征先锋2级/FF87C23A
+    4重：远征先锋7级/FF87C23A
+    5重：魔域护军3级/FF87C23A	
+    6重：魔域护军5级/FF87C23A	
+    7重：魔域护军7级/FF87C23A	
+    8重：魔域护军9级/FF87C23A	
+    9重：铁血军候2级/FF87C23A	
+    10重：铁血军候4级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="神圣一击">
+    enter
+    铁血神技技能/ff85cddc
+    战士强大的铁血神技，将蛮荒/FFFABF8F
+    之力注入武器，腾冲跃起劈向/FFFABF8F
+    目标，造成致命伤害，该技能/FFFABF8F
+    运用得当，可无视一切防御。/FFFABF8F
+    enter
+    1重：远征先锋2级/FF87C23A
+    2重：远征先锋7级/FF87C23A
+    3重：魔域护军3级/FF87C23A
+    4重：魔域护军8级/FF87C23A
+    5重：铁血军侯4级/FF87C23A	
+    6重：铁血军侯6级/FF87C23A	
+    7重：铁血军侯8级/FF87C23A	
+    8重：破军都尉1级/FF87C23A	
+    9重：破军都尉3级/FF87C23A	
+    10重：破军都尉5级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="旋天破风斩">
+    enter
+    铁血神技技能/ff85cddc
+    战士强大的铁血神技，挥舞兵/FFFABF8F
+    器，形成一道旋风围绕，划破/FFFABF8F
+    长空，破风而啸，可对自身周/FFFABF8F
+    围5X5 范围内的目标造成多次/FFFABF8F
+    伤害，靠近者非死即伤！/FFFABF8F
+    enter
+    1重：远征先锋7级/FF87C23A
+    2重：魔域护军3级/FF87C23A
+    3重：魔域护军8级/FF87C23A
+    4重：铁血军侯9级/FF87C23A
+    5重：破军都尉5级/FF87C23A	
+    6重：破军都尉7级/FF87C23A	
+    7重：破军都尉9级/FF87C23A	
+    8重：游骑将军2级/FF87C23A	
+    9重：游骑将军4级/FF87C23A	
+    10重：游骑将军6级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="降龙诀">
+    enter
+    铁血神技技能/ff85cddc
+    法师强大的铁血神技，将魔法/FFFABF8F
+    汇于掌间，冰龙怒意出击，击/FFFABF8F
+    中目标并对其后方直线范围内/FFFABF8F
+    的目标造成大量伤害，技能等/FFFABF8F
+    级越高，攻击距离越远。/FFFABF8F
+    enter
+    1重：王城勇士9级/FF87C23A
+    2重：抚夷校尉1级/FF87C23A
+    3重：抚夷校尉6级/FF87C23A
+    4重：远征先锋2级/FF87C23A
+    5重：魔域护军3级/FF87C23A	
+    6重：魔域护军5级/FF87C23A	
+    7重：魔域护军7级/FF87C23A	
+    8重：魔域护军9级/FF87C23A	
+    9重：铁血军候2级/FF87C23A	
+    10重：铁血军候4级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="幻影一击">
+    enter
+    铁血神技技能/ff85cddc
+    法师强大的铁血神技，夺人心/FFFABF8F
+    魄的幻影，一旦碰触如无形魔/FFFABF8F
+    爪束缚，轻者灵魂出窍，重则/FFFABF8F
+    魂飞魄散。/FFFABF8F
+    enter
+    1重：抚夷校尉6级/FF87C23A
+    2重：抚夷校尉9级/FF87C23A
+    3重：远征先锋2级/FF87C23A
+    4重：远征先锋7级/FF87C23A
+    5重：魔域护军3级/FF87C23A	
+    6重：魔域护军5级/FF87C23A	
+    7重：魔域护军7级/FF87C23A	
+    8重：魔域护军9级/FF87C23A	
+    9重：铁血军候2级/FF87C23A	
+    10重：铁血军候4级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="雷神风暴">
+    enter
+    铁血神技技能/ff85cddc
+    法师强大的铁血神技，该技能/FFFABF8F
+    可谓法师将雷电元素发挥到极/FFFABF8F
+    致的上乘法术，引天雷咆啸，/FFFABF8F
+    无情摧毁一切障碍，修炼得当/FFFABF8F
+    犹如神助，可无视一切防御。/FFFABF8F
+    enter
+    1重：远征先锋2级/FF87C23A
+    2重：远征先锋7级/FF87C23A
+    3重：魔域护军3级/FF87C23A
+    4重：魔域护军8级/FF87C23A
+    5重：铁血军侯4级/FF87C23A	
+    6重：铁血军侯6级/FF87C23A	
+    7重：铁血军侯8级/FF87C23A	
+    8重：破军都尉1级/FF87C23A	
+    9重：破军都尉3级/FF87C23A	
+    10重：破军都尉5级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="地火焚天">
+    enter
+    铁血神技技能/ff85cddc
+    法师强大的铁血神技，召唤地/FFFABF8F
+    狱之火破地而出，在目标周围/FFFABF8F
+    5X5 范围形成法阵，法阵内目/FFFABF8F
+    标均会受到伤害，法阵消失前/FFFABF8F
+    还会产生一次爆破伤害。/FFFABF8F
+    enter
+    1重：远征先锋7级/FF87C23A
+    2重：魔域护军3级/FF87C23A
+    3重：魔域护军8级/FF87C23A
+    4重：铁血军侯9级/FF87C23A
+    5重：破军都尉5级/FF87C23A	
+    6重：破军都尉7级/FF87C23A	
+    7重：破军都尉9级/FF87C23A	
+    8重：游骑将军2级/FF87C23A	
+    9重：游骑将军4级/FF87C23A	
+    10重：游骑将军6级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="怒意八卦">
+   enter
+   铁血神技技能/ff85cddc
+   道士强大的铁血神技，双手推/FFFABF8F
+   出一个八卦轮盘，击中目标并/FFFABF8F
+   对其后方直线范围内的目标造/FFFABF8F
+   成大量伤害，技能等级越高，/FFFABF8F
+   攻击距离越远。/FFFABF8F
+   enter
+   1重：王城勇士9级/FF87C23A
+   2重：抚夷校尉1级/FF87C23A
+   3重：抚夷校尉6级/FF87C23A
+   4重：远征先锋2级/FF87C23A
+   5重：魔域护军3级/FF87C23A	
+   6重：魔域护军5级/FF87C23A	
+   7重：魔域护军7级/FF87C23A	
+   8重：魔域护军9级/FF87C23A	
+   9重：铁血军候2级/FF87C23A	
+   10重：铁血军候4级/FF87C23A	
+   enter
+   可通过技能书学习/FFFFFF00	
+  </Skill>
+  <Skill name="锁心咒">
+   enter
+   铁血神技技能/ff85cddc
+   道士强大的铁血神技，灵魂之/FFFABF8F
+   术，命中目标后，会造成敌人/FFFABF8F
+   迷失心智，束手就擒，所谓攻/FFFABF8F
+   人攻心，该技能可谓道士灵魂/FFFABF8F
+   修炼的大乘之法。/FFFABF8F
+   enter
+   1重：抚夷校尉6级/FF87C23A
+   2重：抚夷校尉9级/FF87C23A
+   3重：远征先锋2级/FF87C23A
+   4重：远征先锋7级/FF87C23A
+   5重：魔域护军3级/FF87C23A	
+   6重：魔域护军5级/FF87C23A	
+   7重：魔域护军7级/FF87C23A	
+   8重：魔域护军9级/FF87C23A	
+   9重：铁血军候2级/FF87C23A	
+   10重：铁血军候4级/FF87C23A	
+    enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="夺命连环符">
+   enter
+   铁血神技技能/ff85cddc
+   道士强大的铁血神技，靠灵魂/FFFABF8F
+   之力发动连环攻击，三道火符/FFFABF8F
+   飞速击出，所到之处无坚不摧/FFFABF8F
+   对敌人造成致命伤害，所有防/FFFABF8F
+   御化为虚无。/FFFABF8F
+   enter
+    1重：远征先锋2级/FF87C23A
+    2重：远征先锋7级/FF87C23A
+    3重：魔域护军3级/FF87C23A
+    4重：魔域护军8级/FF87C23A
+    5重：铁血军侯4级/FF87C23A	
+    6重：铁血军侯6级/FF87C23A	
+    7重：铁血军侯8级/FF87C23A	
+    8重：破军都尉1级/FF87C23A	
+    9重：破军都尉3级/FF87C23A	
+    10重：破军都尉5级/FF87C23A	
+   enter
+    可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="乾坤飞剑">
+   enter
+   铁血神技技能/ff85cddc
+   道士强大的铁血神技，可谓道/FFFABF8F
+   士剑术的至高境界，万气自生/FFFABF8F
+   剑冲废穴，剑阵环绕周身，意/FFFABF8F
+   念所指，万剑归宗，剑雨所到/FFFABF8F
+   之处寸草不生，目标 5X5范围/FFFABF8F
+   内均会受到连续伤害。/FFFABF8F
+   enter
+    1重：远征先锋7级/FF87C23A
+    2重：魔域护军3级/FF87C23A
+    3重：魔域护军8级/FF87C23A
+    4重：铁血军侯9级/FF87C23A
+    5重：破军都尉5级/FF87C23A	
+    6重：破军都尉7级/FF87C23A	
+    7重：破军都尉9级/FF87C23A	
+    8重：游骑将军2级/FF87C23A	
+    9重：游骑将军4级/FF87C23A	
+    10重：游骑将军6级/FF87C23A	
+   enter
+   可通过技能书学习/FFFFFF00
+  </Skill>
+  <Skill name="鬼影斩">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+  <Skill name="疾风刃">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+  <Skill name="劈星斩">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>  
+  <Skill name="朱雀之怒">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+  <Skill name="地狱裂隙">
+  enter
+  主宰者小连击技能/ff85cddc 
+  妖士主宰者小连击技能。该技/FFFABF8F 
+  能会对目标造成巨大伤害，同/FFFABF8F 
+  时会对目标周围两格的敌人造/FFFABF8F 
+  成较大伤害。/FFFABF8F 
+  enter 
+  可以和另外两个小连击技能调/FFFFFF00
+  换位置。/FFFFFF00
+  </Skill>
+  
+  <Skill name = "结义传送">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    中级：结义关系达到义结金兰/FF87C23A
+    高级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "结义召唤">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "其利断金">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "情深意重">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "情比金坚">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "齐心协力">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "情浓于血">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+    <Skill name = "生死与共">
+  enter
+    结义技能/ff85cddc
+    自身受到伤害由15X15内的结/FFFABF8F
+    义兄弟共同分担，持续3秒，/FFFABF8F
+    CD30分钟/FFFABF8F
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+    初级：结义关系达到义结金兰/FF87C23A
+  enter
+    鼠标单击图标设置技能快捷键/FFFFFF00
+  </Skill>
+	<Skill name="兽袭" psx="162" psy="1010">
+  enter
+    万兽谱骑术/ff85cddc
+    万兽谱中记载的攻击型骑术/FFFABF8F
+    万兽谱中记载着彻底激发灵兽潜力的秘术/FFFABF8F
+    习得此技者，犹如野兽之力加身/FFFABF8F
+    在骑战时可爆发出更强大的攻击力/FFFABF8F
+    骑术等级越高额外增加攻击力效果越强/FFFABF8F
+    初中级：需要万兽谱达到10级/FF87C23A
+    高   级：需要万兽谱达到17级/FF87C23A	
+    专家级：需要万兽谱达到24级/FF87C23A
+    大师级：需要万兽谱达到31级/FF87C23A
+  enter
+    可使用兽谱技能丹提升等级/FFFFFF00	
+  </Skill>
+	<Skill name="灵巧" psx="162" psy="1010">
+  enter
+    万兽谱骑术/ff85cddc
+    万兽谱中记载的防御型骑术/FFFABF8F
+    记载着的上古神兽的步伐精妙绝伦，习得此术/FFFABF8F
+    可以让你骑战时获得更高的躲避和魔法躲避加成/FFFABF8F
+    使你可以更加自如的穿梭于战场/FFFABF8F
+    骑术等级越高躲避和魔法躲避效果越强/FFFABF8F
+    初中级：需要万兽谱达到15级/FF87C23A
+    高   级：需要万兽谱达到22级/FF87C23A	
+    专家级：需要万兽谱达到29级/FF87C23A
+    大师级：需要万兽谱达到37级/FF87C23A
+  enter
+    可使用兽谱技能丹提升等级/FFFFFF00	
+  </Skill>
+	<Skill name="野性" psx="162" psy="1010">
+  enter
+    万兽谱骑术/ff85cddc
+    万兽谱中记载的攻击型骑术/FFFABF8F
+    野兽锐利的目光能够洞察敌人的每一处破绽/FFFABF8F
+    野性的加持，可以让你的骑战攻击更容易穿/FFFABF8F
+    透敌人的护甲，造成致命的伤害/FFFABF8F
+    骑术等级越高忽视目标防御概率越高/FFFABF8F
+    初中级：需要万兽谱达到20级/FF87C23A
+    高   级：需要万兽谱达到27级/FF87C23A	
+    专家级：需要万兽谱达到35级/FF87C23A
+    大师级：需要万兽谱达到41级/FF87C23A
+  enter
+    可使用兽谱技能丹提升等级/FFFFFF00	
+  </Skill>
+	<Skill name="霸体" psx="162" psy="1010">
+  enter
+    万兽谱骑术/ff85cddc
+    万兽谱中记载的防御型骑术/FFFABF8F
+    野性的力量可以让你暂时忘记疼痛，习得此/FFFABF8F
+    术可以让你拥有抵消敌人伤害的能力/FFFABF8F
+    骑术等级越高免伤效果越强/FFFABF8F
+    初中级：需要万兽谱达到25级/FF87C23A
+    高   级：需要万兽谱达到32级/FF87C23A	
+    专家级：需要万兽谱达到38级/FF87C23A
+    大师级：需要万兽谱达到45级/FF87C23A
+  enter
+    可使用兽谱技能丹提升等级/FFFFFF00	
+  </Skill>
+	<Skill name="噬血" psx="162" psy="1010">
+  enter
+    万兽谱骑术/ff85cddc
+    万兽谱中记载的高级骑术/FFFABF8F
+    野兽嗜血的本性附着于武器上，骑战时/FFFABF8F
+    释放主战技能有概率吸取敌人的生命值，/FFFABF8F
+    骑术等级越高触发吸血概率越高。/FFFABF8F
+    初中级：需要万兽谱达到30级/FF87C23A
+    高   级：需要万兽谱达到36级/FF87C23A	
+    专家级：需要万兽谱达到42级/FF87C23A
+    大师级：需要万兽谱达到48级/FF87C23A
+  enter
+    可使用兽谱技能丹提升等级/FFFFFF00	
+  </Skill>
+</SkillHelper>

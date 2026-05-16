@@ -1,0 +1,14 @@
+[setup]
+stepcount = 5
+title = "新手任务--武官之心"
+ID = 27
+stepaim1 = "去找<中州老兵/@@goto 0 老兵 468,226>打听事情"
+stepaim2 = "去<将军坟东/@@goplace 0 774,395>杀5只尸卫"
+stepaim3 = "还要杀@PI0个尸卫"
+stepaim4 = "任务完成！去找<中州老兵/@@goto 0 老兵 468,226>"
+stepaim5 = "找<中州武馆/@@goplace 0 548,195>武馆教头聊聊"
+stepDESC1 = "<color=graygolden 任务目的：><出门/@@goplace SH003 18,31>去找<中州老兵/@@goto 0 老兵 468,226>打听事情\<color=graygolden 任务奖励：>  \</@@!PIC 治疗神水>  </@@!PIC 回城神石>\<color=graygolden 任务介绍:>\老婆真是有本事，每天都能找到不同的人给我送餐饭。不管\怎么说，还是感谢你跑这么一趟。请稍等一下，我看你是个\勇者，不如帮我做件事情，只要成功，绝对名利双收。你去\找中州广场上的老兵，他会告诉你具体内容的。"
+stepDESC2 = "<color=graygolden 任务目的：>去<将军坟东/@@goplace 0 777,393>杀5只尸卫后找<中州老兵/@@goto 0 老兵 468,226>\<color=graygolden 任务奖励：>		</@@!PIC2 10,951>经验：200000	\<color=graygolden 任务介绍:>\快去将军坟东杀5只尸卫吧，王城的百姓盼望着你胜利归来。"
+stepDESC3 = "<color=graygolden 任务目的：>去<将军坟东/@@goplace 0 777,393>杀5只尸卫后找<中州老兵/@@goto 0 老兵 468,226>\<color=graygolden 任务奖励：>		</@@!PIC2 10,951>经验：200000	\<color=graygolden 任务介绍:>\还要杀@PI0只尸卫"
+stepDESC4 = "<color=graygolden 任务目的：>去<将军坟东/@@goplace 0 777,393>杀5只尸卫后找<中州老兵/@@goto 0 老兵 468,226>\<color=graygolden 任务奖励：>		</@@!PIC2 10,951>经验：200000	\<color=graygolden 任务介绍:>\恭喜，圆满完成任务！快用刚才给你的回城神石传送回来吧！"
+stepDESC5 = "<color=graygolden 任务目的：>去<中州武馆/@@goplace 0 548,195>给<武馆教头/@@goto SH003 武馆教头 19,19>传达口信\<color=graygolden 任务奖励：>		</@@!PIC2 10,951>经验：200000	初级武器：1个\<color=graygolden 任务介绍:>\你竟然安全地回来了？看来你真是一位勇士啊！回去告诉武\馆教头吧，他会给你奖励的。"

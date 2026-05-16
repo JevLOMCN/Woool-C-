@@ -1,0 +1,7 @@
+[@OnDeath]
+#act
+ADDNAMELIST ªπªÍ Ø
+movr deathid $mapid
+movr deathx $posx
+movr deathy $posy
+close

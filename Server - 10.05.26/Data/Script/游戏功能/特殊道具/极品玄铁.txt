@@ -1,0 +1,203 @@
+[@main]
+请提供您要升级的首饰
+#act
+putitem 请放入手饰: @upgradeweapon
+
+[@upgradeweapon]
+#if
+us_damagedura 1
+#act
+call @zuo
+
+[@zuo]
+#if
+check job 1
+#act
+call @daoshi
+#elseact
+#if
+check job 2
+#act
+call @fashi
+#elseact
+#if
+check job 0
+call @wushi
+
+[@daoshi]
+#if
+checkex $ui_stdmode = 15
+#act 
+call @dtoukui
+#elseact
+#if
+checkex $ui_stdmode = 22
+#act
+call @djiezhi
+#elseact
+#if
+checkex $ui_stdmode = 23
+#act
+call @djiezhi
+#elseact
+#if
+checkex $ui_stdmode = 20
+#act
+call @dxianglian
+#elseact
+#if
+checkex $ui_stdmode = 19
+#act
+call @dxianglian
+#elseact
+#if
+checkex $ui_stdmode = 26
+#act
+call @dshouzuo
+
+[@dtoukui]
+#act
+US_UPGRADE "sc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@djiezhi]
+#act
+US_UPGRADE "sc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@dxianglian]
+#act
+US_UPGRADE "sc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@dshouzuo]
+#act
+US_UPGRADE "sc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@fashi]
+#if
+checkex $ui_stdmode = 15
+#act 
+call @ftoukui
+#elseact
+#if
+checkex $ui_stdmode = 22
+#act
+call @fjiezhi
+#elseact
+#if
+checkex $ui_stdmode = 23
+#act
+call @fjiezhi
+#elseact
+#if
+checkex $ui_stdmode = 20
+#act
+call @fxianglian
+#elseact
+#if
+checkex $ui_stdmode = 19
+#act
+call @fxianglian
+#elseact
+#if
+checkex $ui_stdmode = 26
+#act
+call @fshouzuo
+
+[@ftoukui]
+#act
+US_UPGRADE "mc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@fjiezhi]
+#act
+US_UPGRADE "mc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@fxianglian]
+#act
+US_UPGRADE "mc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@fshouzuo]
+#act
+US_UPGRADE "mc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+
+[@wushi]
+#if
+checkex $ui_stdmode = 15
+#act 
+call @wtoukui
+#elseact
+#if
+checkex $ui_stdmode = 22
+#act
+call @wjiezhi
+#elseact
+#if
+checkex $ui_stdmode = 23
+#act
+call @wjiezhi
+#elseact
+#if
+checkex $ui_stdmode = 20
+#act
+call @wxianglian
+#elseact
+#if
+checkex $ui_stdmode = 19
+#act
+call @wxianglian
+#elseact
+#if
+checkex $ui_stdmode = 26
+#act
+call @wshouzuo
+
+[@wtoukui]
+#act
+US_UPGRADE "dc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@wjiezhi]
+#act
+US_UPGRADE "dc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@wxianglian]
+#act
+US_UPGRADE "dc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+
+[@wshouzuo]
+#act
+US_UPGRADE "dc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>

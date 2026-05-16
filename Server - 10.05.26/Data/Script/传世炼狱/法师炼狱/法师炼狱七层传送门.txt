@@ -1,0 +1,11 @@
+[@main]
+#if
+checkflag 7
+#act
+clrflag 7
+systemmsg "恭喜勇士<$username>成功杀死七层守护者,进入了炼狱下一层"
+move 180 110 20
+close
+#elsesay
+你还没有杀死守护者,不能继续前进\
+<晕/@exit>\\

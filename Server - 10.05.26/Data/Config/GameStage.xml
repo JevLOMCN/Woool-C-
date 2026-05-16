@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="gb2312"?>
+<GameStage>
+
+<!-- 【参数配置说明】
+cur_stage ：当前阶段参数	(支持变量)
+cur_day：	开区天数		(支持变量)
+self_lv：	自身等级		(支持变量)
+
+day：		此阶段第几天开启
+maxlevel：	此阶段最高等级
+
+-->
+
+	<StageVar cur_stage="<$GameStage.CurStage>" cur_day="<$GameStage.CurDay>" self_lv="<$level>" />
+
+	<Stage id="1" name="阶段一" day ="1" maxlevel="0">
+		<Content name="禁地" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="197" desc="技能书"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+		<Content name="炼狱魔境四层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+		<Content name="勇士屠龙" looks="28000">
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="藏宝图" looks="821">
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="661" desc="宝石"/>
+			<Item looks="1060" desc="圣灵精华"/>
+		</Content>
+		<Content name="珍宝值" looks="303">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="183" desc="回城卷轴"/>
+			<Item looks="179" desc="祝福神油"/>
+		</Content>
+		<Content name="镖车护送" looks="303">
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="王城诏令" looks="791">
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="七星珠" looks="516">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="宝地使者" looks="28000">
+			<Item looks="197" desc="高级技能书"/>
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="羽翼" looks="30065">
+			<Item looks="30065" desc="羽翼"/>
+		</Content>
+	</Stage>
+
+	<Stage id="2" name="阶段二" day ="4" maxlevel="6">
+		<Content name="落霞夺宝" looks="303">
+			<Item looks="197" desc="高级技能书"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+		<Content name="打造命运" looks="30">
+			<Item looks="30" desc="命运"/>
+		</Content>
+		<Content name="炼狱魔境七层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+	</Stage>
+
+	<Stage id="3" name="阶段三" day ="7" maxlevel="0">
+		<Content name="深渊要塞" looks="28000">
+			<Item looks="26907" desc="活动积分"/>
+		</Content>
+		<Content name="通天塔" looks="28000">
+			<Item looks="197" desc="高级技能书"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="24" desc="装备"/>
+		</Content>
+		<Content name="怪物攻城" looks="28000">
+			<Item looks="197" desc="高级技能书"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="24" desc="装备"/>
+		</Content>
+		<Content name="炼狱魔境八层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+	</Stage>
+
+	<Stage id="4" name="阶段四" day ="14" maxlevel="0">
+		<Content name="盾牌" looks="28000">
+			<Item looks="1166" desc="中州铸造师处打造"/>
+		</Content>
+	</Stage>
+
+	<Stage id="5" name="阶段五" day ="30" maxlevel="0">
+		<Content name="沙城争霸" looks="28000">
+			<Item looks="26" desc="前100天攻沙总积分最高的行会会长奖励屠龙刀1把，每周城主奖励限时封号等"/>
+		</Content>
+		<Content name="灵犀仙岛" looks="28000">
+			<Item looks="811" desc="灵兽"/>
+		</Content>
+		<Content name="炼狱魔境9层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+		<Content name="铁血魔城" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="铁血魔宫" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+		</Content>
+		<Content name="攻打铁血魔城" looks="487">
+			<Item looks="487" desc="魔魂令牌"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+	</Stage>
+	<Stage id="6" name="阶段六" day ="60" maxlevel="0">
+		<Content name="声望兑换使者" looks="28000">
+			<Item looks="282" desc="装备兑换声望(中州464，214)"/>
+			<Item looks="223" desc="超级太阳神水"/>
+		</Content>
+		<Content name="龙穴争压战" looks="28000">
+			<Item looks="1225" desc="骑战技能残章、主战技能"/>
+			<Item looks="151" desc="装备"/>
+		</Content>
+		<Content name="修罗天界" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="苍茫秘境宝地" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="炼狱魔境10层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+	</Stage>
+	<Stage id="7" name="阶段七" day ="90" maxlevel="0">
+		<Content name="魔王宝地" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+		<Content name="魔域" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+		<Content name="宝地六层" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+		<Content name="宝石镶嵌" looks="28000">
+			<Item looks="28000" desc="中州宝石镶嵌师"/>
+		</Content>
+	</Stage>
+	<Stage id="8" name="阶段八" day ="120" maxlevel="0">
+		<Content name="深渊王座地图" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+		<Content name="特戒宝地一层" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+		<Content name="特戒融合功能" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+	</Stage>
+	<Stage id="9" name="阶段九" day ="150" maxlevel="0">
+		<Content name="魔王宝地二层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="宝地七层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="法宝" looks="25900">
+			<Item looks="26904" desc="法宝升级强化"/>
+		</Content>
+	</Stage>
+
+	<Stage id="10" name="阶段十" day ="180" maxlevel="0">
+		<Content name="特戒宝地二层" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="修罗神界地图" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="魔龙副本" looks="28000">
+			<Item looks="26904" desc="大量金币"/>
+			<Item looks="26907" desc="大量经验"/>
+			<Item looks="610" desc="装备"/>
+		</Content>
+		<Content name="天地宝石" looks="28000">
+			<Item looks="722" desc="宝石升级"/>
+		</Content>
+		<Content name="盾牌神石" looks="28000">
+			<Item looks="1166" desc="盾牌等级拓展"/>
+		</Content>
+	</Stage>
+	<Stage id="10" name="阶段十一" day ="210" maxlevel="0">
+		<Content name="敬请期待" looks="28000">
+			<Item looks="28000" desc=""/>
+		</Content>
+	</Stage>
+</GameStage>

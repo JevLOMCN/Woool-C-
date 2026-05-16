@@ -1,0 +1,43 @@
+# ----[ Visual Studio ]------- #
+__pycache__/
+*.suo
+*.ncb
+*.plg
+*.opt
+*.aps
+*.aps
+*.sdf
+*.opensdf
+*.exp
+*.idb
+*.ilk
+*.pdb
+*.chw
+
+# -------------[ OS generated ]------------------------ #
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+*.unsuccessfulbuild
+*.FileListAbsolute.txt
+
+# -------------[ make files ]------------------------ #
+*.o
+*.d
+*.a
+*.s
+*.lo
+
+*.log
+*.obj
+*.tlog
+*.map
+*.pdb
+*.idb
+*.lastbuildstate
+
+**/Debug/
+**/Release/
+**/.vs

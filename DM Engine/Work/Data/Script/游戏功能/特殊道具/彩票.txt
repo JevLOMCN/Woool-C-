@@ -1,0 +1,321 @@
+[@彩票]
+#if
+random 2
+#act
+us_delete
+systemmsgex $CC_RED $username  "你没有中奖。"
+close
+#if
+random 2
+#act
+us_delete
+systemmsgex $CC_RED $username  "你没有中奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+givegold 500
+systemmsgex $CC_RED $username  "你中了6等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000
+systemmsgex $CC_RED $username  "恭喜你中了5等奖。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 100000
+systemmsgex $CC_RED $username  "恭喜你中了4等奖。"
+scrollmsg "正是太幸运了，<$username>买彩票中了四等奖，奖金10万。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 1000000
+systemmsgex $CC_RED $username  "恭喜你中了3等奖。"
+scrollmsg "正是太幸运了，<$username>买彩票中了三等奖，奖金100万。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 3000000
+systemmsgex $CC_RED $username  "恭喜你中了2等奖。"
+scrollmsg "正是太幸运了，<$username>买彩票中了二等奖，奖金300万。"
+close
+#if
+random 2
+#act
+us_delete
+givegold 10000000
+systemmsgex $CC_RED $username  "恭喜你中了1等奖。"
+scrollmsg "正是太幸运了，<$username>买彩票中了一等奖，奖金1000万。"
+close
+#elseact
+us_delete
+systemmsgex $CC_RED $username  "你没有中奖。"
+close

@@ -1,0 +1,17 @@
+[@styles]
+#if
+US_CHECKANDUPTODATE
+#act
+setprivateshopstyle $_param0
+#end
+#act
+close
+
+[@bannercolor]
+#if
+US_CHECKANDUPTODATE
+#act
+setprivateshopflag $_param0
+#end
+#act
+close

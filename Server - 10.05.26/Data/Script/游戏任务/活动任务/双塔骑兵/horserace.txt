@@ -1,0 +1,238 @@
+[start1]
+#act
+timerstart 1
+systemmsg $username "计时开始!"
+
+[start2]
+#act
+timerstart 2
+systemmsg $username "计时开始!"
+
+[start3]
+#act
+timerstart 3
+systemmsg $username "计时开始!"
+
+[start4]
+#act
+timerstart 4
+systemmsg $username "计时开始!"
+
+
+[endpoint1]
+#if
+checkex $horserace.player1name = $username
+#act
+timerstop 1
+systemmsg "玩家<$username>在第一跑马道的成绩为<$timer1time>秒"
+movr horserace.player1name 0
+movr horserace.raceway1 0
+call @checkin1
+move 258 130 140
+#elseif
+checkex $horserace.player2name = $username
+#act
+timerstop 2
+systemmsg "玩家<$username>在第二跑马道的成绩为<$timer2time>秒"
+movr horserace.player2name 0
+movr horserace.raceway2 0
+call @checkin2
+move 258 130 140
+#elseif
+checkex $horserace.player3name = $username
+#act
+timerstop 3
+systemmsg "玩家<$username>在第三跑马道的成绩为<$timer3time>秒"
+movr horserace.player3name 0
+movr horserace.raceway3 0
+call @checkin3
+move 258 130 140
+#elseif
+checkex $horserace.player4name = $username
+#act
+timerstop 4
+systemmsg "玩家<$username>在第四跑马道的成绩为<$timer4time>秒"
+movr horserace.player4name 0
+movr horserace.raceway4 0
+call @checkin4
+move 258 130 140
+#end
+
+[endpoint2]
+#act
+call @endpoint1
+
+[endpoint3]
+#act
+call @endpoint1
+[endpoint4]
+#act
+call @endpoint1
+[endpoint5]
+#act
+call @endpoint1
+[endpoint6]
+#act
+call @endpoint1
+[endpoint7]
+#act
+call @endpoint1
+[endpoint8]
+#act
+call @endpoint1
+[endpoint9]
+#act
+call @endpoint1
+[endpoint10]
+#act
+call @endpoint1
+[endpoint11]
+#act
+call @endpoint1
+[endpoint12]
+#act
+call @endpoint1
+[endpoint13]
+#act
+call @endpoint1
+[endpoint14]
+#act
+call @endpoint1
+[endpoint15]
+#act
+call @endpoint1
+[endpoint16]
+#act
+call @endpoint1
+[endpoint17]
+#act
+call @endpoint1
+[endpoint18]
+#act
+call @endpoint1
+[endpoint19]
+#act
+call @endpoint1
+[endpoint20]
+#act
+call @endpoint1
+[endpoint21]
+#act
+call @endpoint1
+[endpoint22]
+#act
+call @endpoint1
+
+[endpoint23]
+#act
+call @endpoint1
+[endpoint24]
+#act
+call @endpoint1
+[endpoint25]
+#act
+call @endpoint1
+[endpoint26]
+#act
+call @endpoint1
+[endpoint27]
+#act
+call @endpoint1
+
+
+[@checkin1]
+#if
+checkex $timer1time < $horserace.besttime 
+#act
+movr horserace.besttime $timer1time
+movr horserace.bestplayer $username
+close
+return
+
+[@checkin2]
+checkex $timer2time < $horserace.besttime
+#act
+movr horserace.besttime $timer2time
+movr horserace.bestplayer $username
+close
+return
+
+[@checkin3]
+checkex $timer3time < $horserace.besttime 
+#act
+movr horserace.besttime $timer3time
+movr horserace.bestplayer $username
+close
+return
+
+[@checkin4]
+checkex $timer4time < $horserace.besttime 
+#act
+movr horserace.besttime $timer4time
+movr horserace.bestplayer $username
+close
+return
+
+
+[@awardprize]
+#if
+humonline $horserace.bestplyaer
+#act
+movr horserace.raceway1 0
+movr horserace.raceway2 0
+movr horserace.raceway3 0
+movr horserace.raceway4 0
+movr horserace.player1name 0
+movr horserace.player2name 0
+movr horserace.player3name 0
+movr horserace.player4name 0
+timerstop 1
+timerstop 2
+timerstop 3
+timerstop 4
+multimaphumteleport 258 258 16 469 222
+showpage $horserace.bestplyaer @pay
+#elseact
+movr horserace.raceway1 0
+movr horserace.raceway2 0
+movr horserace.raceway3 0
+movr horserace.raceway4 0
+movr horserace.player1name 0
+movr horserace.player2name 0
+movr horserace.player3name 0
+movr horserace.player4name 0
+timerstop 1
+timerstop 2
+timerstop 3
+timerstop 4
+multimaphumteleport 258 258 16 469 222
+
+[@pay]
+#switch
+random 2 4
+#case:2
+#act
+givegold 100000
+scrollmsg "玩家<$horserace.bestplayer>在骑兵竞技赛中成绩排名第一,用时为<$horserace.besttime>秒.奖金100000"
+#case:3
+#act
+giveexp 1000000
+scrollmsg "玩家<$horserace.bestplayer>在骑兵竞技赛中成绩排名第一,用时为<$horserace.besttime>秒.奖经验值1000000"
+#case:4
+give 回城石 1
+scrollmsg "玩家<$horserace.bestplayer>在骑兵竞技赛中成绩排名第一,用时为<$horserace.besttime>秒.奖回城石一颗"
+close
+#end
+
+[@initialization]
+#act
+movr horserace.raceway1 0
+movr horserace.raceway2 0
+movr horserace.raceway3 0
+movr horserace.raceway4 0
+movr horserace.player1name 0
+movr horserace.player2name 0
+movr horserace.player3name 0
+movr horserace.player4name 0
+movr horserace.besttime 130
+movr horserace.bestplayer 0

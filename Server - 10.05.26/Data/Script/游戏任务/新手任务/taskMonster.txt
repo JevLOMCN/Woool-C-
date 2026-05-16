@@ -1,0 +1,33 @@
+[@gunquan]
+#if
+CHECKMAP 53
+checkbagitem 结婚戒指 1
+CHECKTASKSTEP 11 = 4
+#act
+give 结婚戒指
+modifytask 11 5
+#elseif
+CHECKMAP 16
+checkbagitem 结婚戒指 1
+CHECKTASKSTEP 24 = 4
+#act
+give 结婚戒指
+modifytask 24 5
+
+[@shiwei]
+#if
+CHECKMAP 47
+CHECKTASKSTEP 27 = 3
+#act
+SetTaskValue 27 I0 - 1
+#if
+CheckTaskValue 27 I0 = 0
+#act
+modifytask 27 4
+#if
+CHECKMAP 43
+checkbagitem 传世史记 1
+CHECKTASKSTEP 28 = 2
+#act
+give 传世史记
+modifytask 28 3

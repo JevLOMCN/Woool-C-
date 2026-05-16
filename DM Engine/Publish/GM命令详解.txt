@@ -1,0 +1,135 @@
+请注意 -----//为注释，后面的文字为提示,不需要输入
+
+使用@管理 ---------------进入GM模式
+再次使用@管理 ---------------退出GM模式
+
+
+RELOADCONFIG----------重载文件
+
+
+@RELOADCONFIG  serverconfig    //重载服务器配置
+@RELOADCONFIG  item   //重载物品数据库
+@RELOADCONFIG  monster   //重载怪物数据库
+@RELOADCONFIG  skill   //重载技能数据库
+@RELOADSCRIPT     脚本名        //重载脚本
+@RELOADTASK //重新加载任务数据文件
+@RELOADNOTICE    //重载登录提示公告
+
+@REST     //宠物行动或者休息
+
+
+@GIVE  物品名  //制造物品
+
+@HOME   // 回城
+
+@MAPMOVE    地图编号  //移动到地图
+
+@GIVEEXP    经验数量  //给予经验
+
+
+@LEVELUP    等级    //提升等级
+
+@SETLEVELUP    等级    //设置等级
+
+@TAKEYUANBAO   人物名   //拿走元宝
+
+@GIVEGOLD      人物名  //给予金币
+
+@GIVEYUANBAO      人物名  //给予元宝 
+
+@MONGEN     地图编号    X    Y   范围   延时   //刷怪    
+
+@不死   //进入或者取消不死状态
+
+@无敌 //进入或者取消无敌状态
+
+@一击必杀    //进入或者退出一击必杀模式
+
+
+@LISTMAPINFO   //当前地图信息
+
+
+
+@LISTSERVERINFO   //服务器信息
+
+@SETACTIONDELAY    //设置动作延时
+
+@SHOWACTIONDELAY   //显示动作延时
+
+@NOTICEMODE    //进入或者取消消息模式
+
+=================沙巴克=================
+@STARTSABUKWAR    //开始攻城
+
+@STOPSABUKWAR     //停止攻城
+
+@OPENSABUKDOOR   //打开城门
+
+@CLOSESABUKDOOR   //关上城门
+
+@REPAIRSABUKDOOR   //修复城门
+
+=============================================
+@CREATEGUILD 行会名 //创建行会
+
+@SETSABUKOWNER     行会名   //设置为沙巴克
+
+
+
+@ADDATTACKREQUEST   行会名   添加行会攻城请求 
+
+@SUPERHIDE       //进入或者隐身状态
+
+
+@SHOWINFO   人物名     //显示人物基本信息
+
+
+@BAN     人物名          //禁止或者解除发言
+
+
+@RELOADTOPLIST        //重载天下第一
+
+
+@DMOVE    //  使用特装移动，比如移动戒指
+
+@SEARCHING    人物名       //查询某人的位置
+
+
+@ALLOWSPECIALPOWER     //允许天地合一
+
+@REFUSESPECIALPOWER     //关闭天地合一
+
+@USESPECIALPOWER     //组队移动
+
+@RELOADCMDLIST    //重载常规或者GM命令列表
+
+@RELOADMAGIC   //重新加载技能
+
+@RELOADAUTOSCRIPT   //重新加载AUTOSPRIT自动脚本
+
+@LISTMAPFLAG     //当前地图标识
+
+
+============================================
+@SETMAGICLEVEL 技能名 等级 // 修改GM自己技能等级
+@SETMAGICLEVEL 玩家名 技能名 等级 // 修改指定玩家技能等级
+@ADDMAGIC 技能名 // 添加技能
+@REMOVEMAGIC 技能名 // 删除技能
+
+=============================================
+@MONGEN 名称 地图ID 坐标X 坐标Y 随机范围  数量 脚本页	//刷怪
+@mongen 黑袍修罗长老10 16 457 213 1001 25
+
+@mongen 滚刀手 53 130 305 20 1000
+@mongen 铁血魔王 16 349 331 20 1000
+
+
+@mongen 滚刀手 53 215 290 10 200
+@mongen 滚刀手 53 211 202 10 200
+@mongen 滚刀手 53 282 197 10 200
+@mongen 滚刀手 53 283 278 10 200
+
+@mongen 滚刀手 16 388 139 10 200
+@mongen 滚刀手 16 548 147 10 200
+@mongen 滚刀手 16 553 308 10 200
+@mongen 滚刀手 16 392 303 10 200

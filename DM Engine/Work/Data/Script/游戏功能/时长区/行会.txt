@@ -1,0 +1,7 @@
+[@Help]
+#json3
+<color=orange 创建行会需要到皇宫中向国王申请。>\
+<color=orange 创建行会需要消耗100万金币以及一个战斗号角。>\
+<color=orange 战斗号角可以在商城购买。>\
+<color=orange 行会通灵塔有海量属性加成。>
+#end

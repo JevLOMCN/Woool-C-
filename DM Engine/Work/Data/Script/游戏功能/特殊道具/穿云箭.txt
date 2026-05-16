@@ -1,0 +1,17 @@
+[@main]
+#if
+IsGuildMaster
+#act
+us_damagedura 1
+inputtext 请输入行会成员玩家名: 16 @查看信息
+#elseact
+systemmsgex $CC_SPECIAL $username "你不是行会老大不能使用穿云箭！"
+
+[@查看信息]
+#if
+humonline $inputtext
+IsGuildMember $inputtext
+#act
+ArrowMove $inputtext $mapid  $posx $posy
+#elseact
+systemmsgex $CC_SPECIAL $username "查看信息失败，对方不在线！"

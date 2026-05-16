@@ -1,0 +1,4 @@
+[@main]
+#act
+move 286 223 213
+close

@@ -1,0 +1,45 @@
+[@落霞岛_炼药1]
+可以完成的任务：\
+<新手任务--打听交易/@_RW_fulfilTaskDesp3>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp3]
+年轻人，谢谢你帮我的忙呢！你找我有什么事情吗？\
+<打听交易/@_RW_fulfilTask3>                <没事/@exit>
+
+[@_RW_fulfilTask3]
+#ACT
+CompleteTask 8
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 9
+systemmsg $username "您成功增加了300金币。"
+#SAY
+想跟玩家交易的话，需要跟对方面对面站到一起，并且对方\
+要是和平攻击模式才可以哦。如果觉得这么作麻烦的话，也\
+可以直接右键点对方的头像进行交易操作。\
+你现在去首饰店掌柜那里看看，他会教你如何摆摊的。\
+<离开/@exit>
+
+[@海角_炼药1]
+可以完成的任务：\
+<新手任务--打听交易/@_RW_fulfilTaskDesp16>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp16]
+年轻人，谢谢你帮我的忙呢！你找我有什么事情吗？\
+<打听交易/@_RW_fulfilTask16_16>                <没事/@exit>
+
+[@_RW_fulfilTask16_16]
+#ACT
+CompleteTask 21
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 22
+systemmsg $username "您成功增加了300金币。"
+#SAY
+想跟玩家交易的话，需要跟对方面对面站到一起，并且对方\
+要是和平攻击模式才可以哦。如果觉得这么作麻烦的话，也\
+可以直接右键点对方的头像进行交易操作。\
+你现在去首饰店掌柜那里看看，他会教你如何摆摊的。\
+<离开/@exit>

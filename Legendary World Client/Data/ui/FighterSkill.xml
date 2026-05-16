@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "SkillWnd">	
+	<BackTexture index= "4900" />	
+  <Offset x = "0" y = "0" align = "Center" />
+  <Script file="Skill.lua" /> 
+  <Scripts>
+  	<OnClose>
+  		CloseWindow("SkillWnd")
+  	</OnClose> 
+  </Scripts> 
+   
+  <Button name="LeftUpButton">
+  	<Offset x="243" y="126" /> 
+  	<NormalTexture index="0" /> 
+  	<HighlightTexture index="907" /> 
+  	<PushedTexture index="908" /> 
+  	<Scripts>  	
+  		<OnClick>
+  			LeftPageUp()
+  		</OnClick>	
+  	</Scripts>
+  </Button> 
+  
+  <Button name="LeftDownButton">
+  	<Offset x="243" y="270" /> 
+  	<NormalTexture index="0" /> 
+  	<HighlightTexture index="909" /> 
+  	<PushedTexture index="910" /> 
+  	<Scripts>  	
+   		<OnClick>
+  			LeftPageDown()
+  		</OnClick>	
+  	</Scripts>
+  </Button>  
+  
+  <Button name="RightUpButton">
+  	<Offset x="452" y="126" /> 
+  	<NormalTexture index="0" /> 
+  	<HighlightTexture index="907" /> 
+  	<PushedTexture index="908" /> 
+  	<Scripts>  	
+  		<OnClick>
+  			RightPageUp()
+  		</OnClick>		
+  	</Scripts>
+  </Button>  
+  
+  <Button name="RightDownButton">
+  	<Offset x="452" y="270" /> 
+  	<NormalTexture index="0" /> 
+  	<HighlightTexture index="909" /> 
+  	<PushedTexture index="910" /> 
+  	<Scripts>  
+  		<OnClick>
+  			RightPageDown()
+  		</OnClick>		
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton1">
+  	<Offset x="284" y="86" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(0)
+  		</OnUpdate> 
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton2">
+  	<Offset x="284" y="86" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(1)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton3">
+  	<Offset x="284" y="120" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(2)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton4">
+  	<Offset x="284" y="154" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(3)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton5">
+  	<Offset x="284" y="188" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(4)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton6">
+  	<Offset x="284" y="222" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(5)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton7">
+  	<Offset x="284" y="256" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(6)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Button name="RightSkillButton8">
+  	<Offset x="284" y="290" />   	
+  	<Tips text="单击设置该技能的快捷键"/> 
+		<Scripts>
+  		<OnUpdate>
+  			GetRightSkillButton(7)
+  		</OnUpdate>
+  	</Scripts>
+  </Button>
+  
+  <Scroll name="RightPagePos"/>
+  
+  <Tip name="SkillTip" />
+  
+  <Page name="FighterSkill0">
+  		
+  </Page>
+  <Page name="FighterSkill1">
+  	
+  </Page>
+  <Page name="FighterSkill2">
+  	
+  </Page>
+  <Page name="FighterSkill3">
+  	
+  </Page>  
+</Window>

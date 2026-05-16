@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<!--
+		layer	0：在人物纸娃娃后面，1：在人物纸娃娃前面
+		eff		1：如果是alhpa则不绘制
+		bSou	1：魂佑时画的特效
+	-->
+	<PetAvtar id="1">
+		<Avtar layer="0" texpack="17" texid="889" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="888" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="887" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42215" rm="1" eff="0" bSou="1" x="173" y="108"/>
+	</PetAvtar>
+	<PetAvtar id="2">
+		<Avtar layer="0" texpack="17" texid="889" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="888" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23340" rm="0" eff="0" bSou="0" x="290" y="240"/>
+		<Avtar layer="1" texpack="3" texid="23351" rm="1" eff="1" bSou="0" x="174" y="113"/>
+		<Avtar layer="1" texpack="17" texid="42215" rm="1" eff="0" bSou="1" x="173" y="108"/>
+	</PetAvtar>
+	<PetAvtar id="3">
+		<Avtar layer="0" texpack="17" texid="895" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="894" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="893" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42200" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="4">
+		<Avtar layer="0" texpack="17" texid="895" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="894" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23342" rm="0" eff="0" bSou="0" x="230" y="215"/>
+		<Avtar layer="1" texpack="3" texid="23353" rm="1" eff="1" bSou="0" x="132" y="92"/>
+		<Avtar layer="1" texpack="17" texid="42200" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="5">
+		<Avtar layer="0" texpack="17" texid="892" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="891" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="890" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42219" rm="1" eff="0" bSou="1" x="139" y="86"/>
+	</PetAvtar>
+	<PetAvtar id="6">
+		<Avtar layer="0" texpack="17" texid="892" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="891" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23341" rm="0" eff="0" bSou="0" x="255" y="225"/>
+		<Avtar layer="1" texpack="3" texid="23352" rm="1" eff="1" bSou="0" x="140" y="100"/>
+		<Avtar layer="1" texpack="17" texid="42219" rm="1" eff="0" bSou="1" x="139" y="86"/>
+	</PetAvtar>
+	<PetAvtar id="7">
+		<Avtar layer="0" texpack="17" texid="918" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="17" texid="917" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="921" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="922" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="920" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="919" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42203" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="8">
+		<Avtar layer="0" texpack="17" texid="918" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="17" texid="917" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="921" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="922" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="920" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="919" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23344" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23345" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23355" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42203" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="9">
+		<Avtar layer="0" texpack="17" texid="927" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="17" texid="926" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="930" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="931" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="929" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="928" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42203" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="10">
+		<Avtar layer="0" texpack="17" texid="927" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="17" texid="926" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="930" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="931" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="929" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="928" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23344" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23345" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23355" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42203" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="11">
+		<Avtar layer="1" texpack="17" texid="901" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="900" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42205" rm="1" eff="0" bSou="1" x="-1" y="-5"/>
+	</PetAvtar>
+	<PetAvtar id="12">
+		<Avtar layer="1" texpack="17" texid="901" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23343" rm="0" eff="0" bSou="0" x="255" y="225"/>
+		<Avtar layer="1" texpack="3" texid="23354" rm="1" eff="58" bSou="0" x="135" y="100"/>
+		<Avtar layer="1" texpack="17" texid="42205" rm="1" eff="0" bSou="1" x="-1" y="-5"/>
+	</PetAvtar>
+	<PetAvtar id="13">
+		<Avtar layer="0" texpack="17" texid="949" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="951" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42204" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="14">
+		<Avtar layer="0" texpack="17" texid="949" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="3" texid="23346" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23347" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23357" rm="1" eff="1" bSou="0" x="35" y="5"/>
+		<Avtar layer="1" texpack="17" texid="42204" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="15">
+		<Avtar layer="0" texpack="17" texid="960" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="961" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="42204" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="16">
+		<Avtar layer="0" texpack="17" texid="960" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="3" texid="23348" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23347" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23349" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23357" rm="1" eff="1" bSou="0" x="35" y="5"/>
+		<Avtar layer="1" texpack="17" texid="42204" rm="1" eff="0" bSou="1" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="17">
+		<Avtar layer="1" texpack="17" texid="1100" rm="0" eff="0" bSou="0" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="18">
+		<Avtar layer="0" texpack="17" texid="1110" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="1111" rm="0" eff="0" bSou="0" x="0" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="19">
+		<Avtar layer="0" texpack="17" texid="1106" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="3" texid="27563" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="0" texpack="3" texid="27562" rm="1" eff="1" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="17" texid="1107" rm="0" eff="0" bSou="0" x="20" y="0"/>
+	</PetAvtar>
+	<PetAvtar id="20">
+		<Avtar layer="1" texpack="3" texid="40034" rm="0" eff="0" bSou="0" x="90" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40036" rm="1" eff="1" bSou="0" x="30" y="-10"/>
+	</PetAvtar>
+	<PetAvtar id="21">
+		<Avtar layer="1" texpack="3" texid="40035" rm="0" eff="0" bSou="0" x="100" y="40"/>
+		<Avtar layer="1" texpack="3" texid="40037" rm="1" eff="1" bSou="0" x="34" y="5"/>
+	</PetAvtar>
+	<PetAvtar id="22">
+		<Avtar layer="1" texpack="17" texid="26500" rm="0" eff="0" bSou="0" x="110" y="30"/>
+		<Avtar layer="1" texpack="17" texid="26503" rm="1" eff="1" bSou="0" x="172" y="95"/>
+	</PetAvtar>
+	<PetAvtar id="23">
+		<Avtar layer="1" texpack="17" texid="26501" rm="0" eff="0" bSou="0" x="110" y="30"/>
+		<Avtar layer="1" texpack="17" texid="26503" rm="1" eff="1" bSou="0" x="172" y="95"/>
+	</PetAvtar>
+	<PetAvtar id="24">
+		<Avtar layer="1" texpack="17" texid="26502" rm="0" eff="0" bSou="0" x="110" y="30"/>
+		<Avtar layer="1" texpack="17" texid="26503" rm="1" eff="1" bSou="0" x="172" y="95"/>
+	</PetAvtar>
+	<PetAvtar id="25">
+		<Avtar layer="0" texpack="3" texid="40273" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40272" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40274" rm="1" eff="1" bSou="0" x="168" y="92"/>
+	</PetAvtar>
+	<PetAvtar id="26">
+		<Avtar layer="0" texpack="3" texid="40276" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40275" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40277" rm="1" eff="1" bSou="0" x="168" y="92"/>
+	</PetAvtar>
+	<PetAvtar id="27">
+		<Avtar layer="0" texpack="3" texid="40279" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40278" rm="0" eff="0" bSou="0" x="100" y="30"/>
+		<Avtar layer="1" texpack="3" texid="40271" rm="1" eff="1" bSou="0" x="168" y="92"/>
+	</PetAvtar>
+	<PetAvtar id="28">
+		<Avtar layer="0" texpack="17" texid="26505" rm="0" eff="0" bSou="0" x="-120" y="-60"/>
+		<Avtar layer="1" texpack="17" texid="26506" rm="0" eff="0" bSou="0" x="-135" y="-60"/>
+		<Avtar layer="1" texpack="17" texid="26507" rm="1" eff="1" bSou="0" x="-135" y="-60"/>
+	</PetAvtar>
+	<PetAvtar id="29">
+		<Avtar layer="0" texpack="3" texid="40283" rm="0" eff="0" bSou="0" x="35" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="40284" rm="0" eff="0" bSou="0" x="35" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="40285" rm="1" eff="0" bSou="0" x="35" y="-70"/>
+	</PetAvtar>
+	<PetAvtar id="30">
+		<Avtar layer="0" texpack="3" texid="5796" rm="0" eff="0" bSou="0" x="35" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="5797" rm="0" eff="0" bSou="0" x="35" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="5798" rm="1" eff="0" bSou="0" x="35" y="-70"/>
+	</PetAvtar>
+	<PetAvtar id="31">
+		<Avtar layer="0" texpack="3" texid="40085" rm="0" eff="0" bSou="0" x="-10" y="-58"/>
+		<Avtar layer="1" texpack="3" texid="40086" rm="0" eff="0" bSou="0" x="-10" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="40087" rm="1" eff="1" bSou="0" x="-10" y="-70"/>
+	</PetAvtar>
+	<PetAvtar id="32">
+		<Avtar layer="0" texpack="3" texid="40089" rm="0" eff="0" bSou="0" x="-20" y="-58"/>
+		<Avtar layer="1" texpack="3" texid="40090" rm="0" eff="0" bSou="0" x="-20" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="40091" rm="1" eff="1" bSou="0" x="-20" y="-70"/>
+	</PetAvtar>
+	<PetAvtar id="33">
+		<Avtar layer="0" texpack="3" texid="40077" rm="0" eff="0" bSou="0" x="-20" y="-58"/>
+		<Avtar layer="1" texpack="3" texid="40078" rm="0" eff="0" bSou="0" x="-20" y="-70"/>
+		<Avtar layer="1" texpack="3" texid="40079" rm="0" eff="1" bSou="0" x="-20" y="-70"/>
+	</PetAvtar>
+	<PetAvtar id="34">
+		<Avtar layer="0" texpack="3" texid="40069" rm="0" eff="0" bSou="0" x="140" y="32"/>
+		<Avtar layer="1" texpack="3" texid="40070" rm="0" eff="0" bSou="0" x="140" y="20"/>
+		<Avtar layer="0" texpack="3" texid="40071" rm="1" eff="1" bSou="0" x="257" y="169"/>
+		<Avtar layer="1" texpack="3" texid="40072" rm="1" eff="1" bSou="0" x="140" y="20"/>
+	</PetAvtar>
+	<PetAvtar id="36">
+		<Avtar layer="0" texpack="3" texid="40062" rm="0" eff="0" bSou="0" x="80" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="40063" rm="0" eff="0" bSou="0" x="80" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="40064" rm="1" eff="1" bSou="0" x="80" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="37">
+		<Avtar layer="0" texpack="3" texid="40055" rm="0" eff="0" bSou="0" x="90" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="40056" rm="0" eff="0" bSou="0" x="90" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="40057" rm="1" eff="1" bSou="0" x="90" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="38">
+		<Avtar layer="0" texpack="3" texid="40041" rm="0" eff="0" bSou="0" x="80" y="-20"/>
+		<Avtar layer="1" texpack="3" texid="40042" rm="0" eff="0" bSou="0" x="80" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="40043" rm="1" eff="1" bSou="0" x="80" y="-30"/>
+	</PetAvtar>
+	<PetAvtar id="39">
+		<Avtar layer="0" texpack="3" texid="40049" rm="0" eff="0" bSou="0" x="80" y="-20"/>
+		<Avtar layer="1" texpack="3" texid="40050" rm="0" eff="0" bSou="0" x="80" y="-30"/>
+	</PetAvtar>
+	<PetAvtar id="40">
+		<Avtar layer="0" texpack="3" texid="40014" rm="0" eff="0" bSou="0" x="90" y="62"/>
+		<Avtar layer="1" texpack="3" texid="40015" rm="0" eff="0" bSou="0" x="90" y="50"/>
+		<Avtar layer="1" texpack="3" texid="40016" rm="1" eff="1" bSou="0" x="90" y="50"/>
+	</PetAvtar>
+	<PetAvtar id="41">
+		<Avtar layer="1" texpack="17" texid="902" rm="0" eff="0" bSou="0" x="0" y="0"/>
+		<Avtar layer="1" texpack="3" texid="23343" rm="0" eff="0" bSou="0" x="255" y="225"/>
+		<Avtar layer="1" texpack="3" texid="23354" rm="1" eff="58" bSou="0" x="135" y="100"/>
+	</PetAvtar>
+	<PetAvtar id="42">
+		<Avtar layer="0" texpack="3" texid="39900" rm="0" eff="0" bSou="0" x="528" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="39901" rm="0" eff="0" bSou="0" x="528" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="39902" rm="1" eff="1" bSou="0" x="528" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="43">
+		<Avtar layer="0" texpack="3" texid="39907" rm="0" eff="0" bSou="0" x="80" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="39908" rm="0" eff="0" bSou="0" x="80" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="39909" rm="1" eff="1" bSou="0" x="80" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="44">
+		<Avtar layer="0" texpack="3" texid="39914" rm="0" eff="0" bSou="0" x="40" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="39915" rm="0" eff="0" bSou="0" x="40" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="39916" rm="1" eff="1" bSou="0" x="40" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="45">
+		<Avtar layer="0" texpack="3" texid="39921" rm="0" eff="0" bSou="0" x="80" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="39922" rm="0" eff="0" bSou="0" x="80" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="46">
+		<Avtar layer="0" texpack="3" texid="39927" rm="0" eff="0" bSou="0" x="40" y="-50"/>
+		<Avtar layer="0" texpack="3" texid="39929" rm="1" eff="1" bSou="0" x="40" y="-50"/>
+		<Avtar layer="1" texpack="3" texid="39928" rm="0" eff="0" bSou="0" x="40" y="-50"/>
+		<Avtar layer="1" texpack="3" texid="39930" rm="1" eff="1" bSou="0" x="40" y="-50"/>
+	</PetAvtar>
+	<PetAvtar id="47">
+		<Avtar layer="0" texpack="3" texid="39935" rm="0" eff="0" bSou="0" x="40" y="-50"/>
+		<Avtar layer="1" texpack="3" texid="39936" rm="0" eff="0" bSou="0" x="40" y="-50"/>
+	</PetAvtar>
+	<PetAvtar id="48">
+		<Avtar layer="0" texpack="3" texid="39941" rm="0" eff="0" bSou="0" x="56" y="-40"/>
+		<Avtar layer="1" texpack="3" texid="39942" rm="0" eff="0" bSou="0" x="56" y="-40"/>
+	</PetAvtar>
+	<PetAvtar id="49">
+		<Avtar layer="0" texpack="3" texid="39947" rm="0" eff="0" bSou="0" x="50" y="-30"/>
+		<Avtar layer="1" texpack="3" texid="39948" rm="0" eff="0" bSou="0" x="50" y="-30"/>
+	</PetAvtar>
+	<PetAvtar id="50">
+		<Avtar layer="0" texpack="3" texid="39953" rm="0" eff="0" bSou="0" x="60" y="-20"/>
+		<Avtar layer="1" texpack="3" texid="39954" rm="0" eff="0" bSou="0" x="60" y="-20"/>
+	</PetAvtar>
+	<PetAvtar id="51">
+		<Avtar layer="0" texpack="3" texid="39959" rm="0" eff="0" bSou="0" x="30" y="-50"/>
+		<Avtar layer="1" texpack="3" texid="39960" rm="0" eff="0" bSou="0" x="30" y="-60"/>
+		<Avtar layer="1" texpack="3" texid="39961" rm="1" eff="1" bSou="0" x="30" y="-60"/>
+	</PetAvtar>
+	<PetAvtar id="52">
+		<Avtar layer="0" texpack="3" texid="39966" rm="1" eff="1" bSou="0" x="140" y="-10"/>
+		<Avtar layer="1" texpack="3" texid="39967" rm="1" eff="1" bSou="0" x="140" y="-10"/>
+	</PetAvtar>
+	<PetAvtar id="53">
+		<Avtar layer="0" texpack="3" texid="39972" rm="0" eff="1" bSou="0" x="54" y="-48"/>
+	    	<Avtar layer="1" texpack="3" texid="39973" rm="0" eff="1" bSou="0" x="54" y="-48"/>
+	</PetAvtar>
+	<PetAvtar id="54">
+		<Avtar layer="0" texpack="3" texid="39978" rm="0" eff="1" bSou="0" x="30" y="-50"/>
+	    	<Avtar layer="1" texpack="3" texid="39979" rm="0" eff="1" bSou="0" x="30" y="-50"/>
+	</PetAvtar>
+	<PetAvtar id="55">
+		<Avtar layer="0" texpack="3" texid="39984" rm="0" eff="0" bSou="0" x="30" y="-50"/>
+	    	<Avtar layer="1" texpack="3" texid="39985" rm="0" eff="0" bSou="0" x="30" y="-50"/>
+		<Avtar layer="1" texpack="3" texid="39986" rm="1" eff="1" bSou="0" x="30" y="-50"/>
+	</PetAvtar>
+	<RidePet ids="6,7,8,9,10,11" avtar="1"/>
+	<RidePet ids="46,47,48,62" avtar="2"/>
+	<RidePet ids="14,15,16,17,18,19" avtar="3"/>
+	<RidePet ids="52,53,54,65,70" avtar="4"/>
+	<RidePet ids="24,25,26,27,28,29" avtar="5"/>
+	<RidePet ids="49,50,51,63" avtar="6"/>
+	<RidePet ids="33" avtar="7"/>
+	<RidePet ids="55,66" avtar="8"/>
+	<RidePet ids="34" avtar="9"/>
+	<RidePet ids="56" avtar="10"/>
+	<RidePet ids="36" avtar="11"/>
+	<RidePet ids="58,64" avtar="12"/>
+	<RidePet ids="37" avtar="13"/>
+	<RidePet ids="59,67" avtar="14"/>
+	<RidePet ids="38" avtar="15"/>
+	<RidePet ids="60" avtar="16"/>
+	<RidePet ids="39" avtar="17"/>
+	<RidePet ids="68,69" avtar="18"/>
+	<RidePet ids="71,72" avtar="19"/>
+	<RidePet ids="78,81" avtar="20"/>
+	<RidePet ids="79,82" avtar="21"/>
+	<RidePet ids="86,89" avtar="22"/>
+	<RidePet ids="87,90" avtar="23"/>
+	<RidePet ids="88,91" avtar="24"/>
+	<RidePet ids="92,95" avtar="25"/>
+	<RidePet ids="93,96" avtar="26"/>
+	<RidePet ids="94,97" avtar="27"/>
+	<RidePet ids="98" avtar="28"/>
+	<RidePet ids="99,100" avtar="29"/>
+	<RidePet ids="101,102" avtar="30"/>
+	<RidePet ids="107" avtar="31"/>
+	<RidePet ids="108" avtar="32"/>
+	<RidePet ids="109" avtar="33"/>
+	<RidePet ids="110" avtar="34"/>
+	<RidePet ids="112,113" avtar="36"/>
+	<RidePet ids="114" avtar="37"/>
+	<RidePet ids="119" avtar="38"/>
+	<RidePet ids="120" avtar="39"/>
+	<RidePet ids="121" avtar="40"/>
+	<RidePet ids="105" avtar="41"/>
+	<RidePet ids="122" avtar="42"/>
+	<RidePet ids="123,124" avtar="43"/>
+	<RidePet ids="125" avtar="44"/>
+	<RidePet ids="126" avtar="45"/>
+	<RidePet ids="127" avtar="46"/>
+	<RidePet ids="128" avtar="47"/>
+	<RidePet ids="129" avtar="48"/>
+	<RidePet ids="130" avtar="49"/>
+	<RidePet ids="131" avtar="50"/>
+	<RidePet ids="132" avtar="51"/>
+	<RidePet ids="133" avtar="52"/>
+	<RidePet ids="134" avtar="53"/>
+	<RidePet ids="135" avtar="54"/>
+	<RidePet ids="136" avtar="55"/>
+</CFG>

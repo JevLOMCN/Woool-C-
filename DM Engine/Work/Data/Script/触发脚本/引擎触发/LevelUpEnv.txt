@@ -1,0 +1,48 @@
+[@LevelUp]
+#if
+hasmaster
+checkex level < 28
+#act
+call @levelup1
+#elseact
+leaveteacher
+close
+
+[@levelup1]
+#switch
+valueof $level
+#case:22
+#act
+givecredit 1
+addteachercredit 1
+close
+#case:23
+#act
+addteachercredit 1
+close
+#case:24
+#act
+givecredit 1
+addteachercredit 1
+close
+#case:25
+#act
+addteachercredit 1
+close
+#case:26
+#act
+givecredit 1
+addteachercredit 1
+close
+#case:27
+#act
+givecredit 2
+addteachercredit 2
+close
+#case:28
+#act
+givecredit 1
+addteachercredit 2
+leaveteacher
+close
+#end

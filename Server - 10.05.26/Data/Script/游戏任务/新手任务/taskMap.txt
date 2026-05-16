@@ -1,0 +1,5 @@
+[@start27]
+#if
+CHECKTASKSTEP 27 = 2
+#act
+modifytask 27 3

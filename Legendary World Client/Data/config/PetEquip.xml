@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<PetEquip>
+	<EquipStrengthen>
+		<Strengthen id="1" type="1" format="(%d/%d) 生命值 +%d"/>
+		<Strengthen id="2" type="1" format="(%d/%d) 魔法值 +%d"/>
+		<Strengthen id="3" type="1" format="(%d/%d) 神圣攻击 +%d"/>
+		<Strengthen id="4" type="1" format="(%d/%d) 神圣暴击等级 +%d"/>
+		<Strengthen id="5" type="1" format="(%d/%d) 神圣免伤等级 +%d"/>
+		<Strengthen id="6" type="1" format="(%d/%d) 骑战技能附带神圣基础伤害 +%d"/>
+	</EquipStrengthen>
+
+	<EquipSuitName>
+		<SuitName shape="12">
+			<EquipName pos="0" name="神兽御饰"/>
+			<EquipName pos="1" name="神兽御缰"/>
+			<EquipName pos="2" name="神兽御铁"/>
+			<EquipName pos="3" name="神兽御鞍"/>
+			<EquipName pos="4" name="神兽御铠"/>
+			<EquipName pos="5" name="神兽御镫"/>
+		</SuitName>
+	</EquipSuitName>
+
+	<EquipWashLevelName>
+		<LevelName level="1" name="普通"/>
+		<LevelName level="2" name="高级"/>
+		<LevelName level="3" name="极品"/>
+		<LevelName level="4" name="仙灵"/>
+		<LevelName level="5" name="天绝"/>
+		<LevelName level="6" name="神玄"/>
+		<LevelName level="7" name="圣灭"/>
+		<LevelName level="8" name="鸿蒙"/>
+		<LevelName level="9" name="驭神"/>
+		<LevelName level="10" name="空寂"/>
+	</EquipWashLevelName>
+</PetEquip>

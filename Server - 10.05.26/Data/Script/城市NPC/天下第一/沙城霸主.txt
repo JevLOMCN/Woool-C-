@@ -1,0 +1,3 @@
+[@main]
+城主名字:<COLOR=GREEN <$sabukmaster_name>> 性别:<COLOR=GREEN <$sabukmaster_sex><$sabukmaster_class> >级别:<$sabukmaster_level>级.\
+城主宣言:\

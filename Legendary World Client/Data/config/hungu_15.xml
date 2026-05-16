@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<soulbones>
+		<soulbone name="头部">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="脊椎">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="身体">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="左手">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="右手">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="左腿">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="右腿">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="左脚">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="右脚">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+</soulbones>

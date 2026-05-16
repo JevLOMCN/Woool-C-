@@ -1,0 +1,1085 @@
+#include "StdAfx.h"
+#include ".\scriptnpc.h"
+#include ".\gameworld.h"
+#include "humanplayer.h"
+#include "cmdproc.h"
+#include "npcmanager.h"
+#include "itemmanager.h"
+#include "sandcity.h"
+#include "GuildEx.h"
+#include "Server.h"
+#include "scriptobject.h"
+#include "scriptelement.h"
+#include <rapidjson/document.h>
+#include <rapidjson/writer.h>
+#include <rapidjson/stringbuffer.h>
+#include <string>  
+#include <cctype>
+
+CScriptNpc::CScriptNpc(void)
+{
+	m_szName[0] = 0;
+	m_pSellGoodsList = nullptr;
+	m_iSellListCount = 0;
+	Clean();
+	m_fBuyPercent = 1.0f;
+	m_fSellPercent = 0.5f;
+	m_xQProcess.create(CGameWorld::GetInstance()->GetNpcQueue());
+}
+
+CScriptNpc::~CScriptNpc(void)
+{
+}
+
+VOID CScriptNpc::Clean()
+{
+	CAliveObject::Clean();
+	if (m_pSellGoodsList)
+	{
+		NpcGoodsList* pNext = nullptr;
+		while (m_pSellGoodsList)
+		{
+			pNext = m_pSellGoodsList->pNext;
+
+			NpcGoodsItemList* pNextItem = nullptr;
+			while (m_pSellGoodsList->pItemList)
+			{
+				pNextItem = m_pSellGoodsList->pItemList->pNext;
+
+				CNpcManager::GetInstance()->FreeGoodsItemList(m_pSellGoodsList->pItemList);
+				m_pSellGoodsList->pItemList = pNextItem;
+			}
+
+			CNpcManager::GetInstance()->FreeGoodsList(m_pSellGoodsList);
+			m_pSellGoodsList = pNext;
+		}
+		m_pSellGoodsList = nullptr;
+	}
+}
+
+BOOL CScriptNpc::Init(UINT dbid, const char* pszName, int view, int x, int y, DWORD mapid, CScriptObject* pScriptObject/* CScriptPage * pPage*/)
+{
+	m_pSellGoodsList = nullptr;
+	m_pScriptObject = pScriptObject;
+	setXY(x, y);
+	SetMapId(mapid);
+	SetDirection((e_direction)(5 + Getrand(3)));
+	m_nView = view;
+	m_StoreId = dbid | 0x70000000;
+	if (*pszName == '*')
+	{
+		pszName++;
+		m_fSandCityMerchant = TRUE;
+	}
+	else
+		m_fSandCityMerchant = FALSE;
+	o_strncpy(m_szName, pszName, 31);
+	o_strncpy(m_szLongName, m_szName, 31);
+	m_fChanged = FALSE;
+	Goods* pGoodList = nullptr;
+	if (m_pScriptObject && m_pScriptObject->getGoodsList() && m_pScriptObject->getGoodsList()->getList())
+	{
+		pGoodList = m_pScriptObject->getGoodsList()->getList();//pPage->GetGoodsList();
+	}
+	if (pGoodList != nullptr)
+	{
+		if (!InitGoods(pGoodList))
+			return FALSE;
+		LoadItems();
+	}
+	m_tmrUpdateItem.Savetime();
+	m_dwTimeOut = 0;
+	m_bIsNpc = TRUE;
+	return TRUE;
+}
+
+BOOL CScriptNpc::InitGoods(tagGoods* pGoodsList)
+{
+	tagGoods* p = pGoodsList;
+	if (p == nullptr) return FALSE;
+
+	NpcGoodsList* pGoodsListTail = nullptr;
+	ITEMCLASS* pItemClass = nullptr;
+
+	for (p = pGoodsList; p != nullptr; p = p->pNext)
+	{
+		if (m_pSellGoodsList == nullptr)
+		{
+			m_pSellGoodsList = CNpcManager::GetInstance()->AllocGoodsList();
+			assert(m_pSellGoodsList != nullptr);
+			pGoodsListTail = m_pSellGoodsList;
+		}
+		else
+		{
+			if (pGoodsListTail)
+			{
+				pGoodsListTail->pNext = CNpcManager::GetInstance()->AllocGoodsList();
+				pGoodsListTail = pGoodsListTail->pNext;
+			}
+		}
+
+		if (pGoodsListTail)
+		{
+			pGoodsListTail->defaultcount = p->wCount;
+			pGoodsListTail->refreshtime = p->wRefreshTime;
+			o_strncpy(pGoodsListTail->szTemplate, p->szName, 31);
+
+			pItemClass = CItemManager::GetInstance()->GetItemClassByName(pGoodsListTail->szTemplate);
+			if (pItemClass == nullptr)
+				continue;
+
+			pGoodsListTail->dwTemplatePrice = ROUND(m_fBuyPercent * pItemClass->nPrice);
+		}
+	}
+	return TRUE;
+}
+
+VOID CScriptNpc::QueryTalk(CHumanPlayer* pPlayer)
+{
+	if (!m_bTalk) return;
+	QuerySelectLink(pPlayer, nullptr);
+}
+
+BOOL CScriptNpc::OnPageShow(CScriptTarget* pTarget, CScriptView* pView, const char* pszPage)
+{
+	return TRUE;
+}
+
+VOID CScriptNpc::QuerySelectLink(CHumanPlayer* pPlayer, const char* pLink, BOOL bHumanQuery)
+{
+	if (pLink != nullptr)
+	{
+		if (_stricmp(pLink, "@exit") == 0)
+		{
+			SendClosePage(pPlayer);
+			return;
+		}
+		else if (_strnicmp(pLink, "@AttackRequestPage", 18) == 0)
+		{
+			char szbuffer[2096];
+			UINT id = StringToInteger(pLink + 18);
+			sprintf(szbuffer, "%s/", m_szName);
+			int len = static_cast<int>(strlen(szbuffer));
+			int length = CSandCity::GetInstance()->PrePareAttackRequestPage(id, szbuffer + len);
+			pPlayer->SendMsg(GetId(), 0x283, 0, 0, 0, (LPVOID)szbuffer, length + len);
+			return;
+		}
+	}
+	if (this->m_pScriptObject && this->m_pScriptObject->IsBigBox())
+	{
+		CScriptObject* pLeftPage = this->m_pScriptObject->GetLeftPage();
+		if (pLink == nullptr)
+		{
+			if (!Execute(pPlayer->GetScriptTarget(), pLink, 1, 0x10))
+			{
+				SendClosePage(pPlayer);
+				return;
+			}
+			CSe_Page* pPage = pLeftPage != nullptr ? pLeftPage->GetPage("@main") : nullptr;
+			if (pPage)
+			{
+				if (!Execute(pPlayer->GetScriptTarget(), pPage, 0, 0x11))
+				{
+					SendClosePage(pPlayer);
+					return;
+				}
+			}
+		}
+		else
+		{
+			CSe_Page* pPage = m_pScriptObject->GetPage(pLink);
+			if (pPage)
+			{
+				if (!Execute(pPlayer->GetScriptTarget(), pPage, 0, 0x10))
+				{
+					SendClosePage(pPlayer);
+					return;
+				}
+			}
+			else
+			{
+				pPage = pLeftPage != nullptr ? pLeftPage->GetPage(pLink) : nullptr;
+				if (pPage)
+				{
+					if (!Execute(pPlayer->GetScriptTarget(), pPage, 0, 0x11))
+					{
+						SendClosePage(pPlayer);
+						return;
+					}
+				}
+				else
+				{
+					if (!Execute(pPlayer->GetScriptTarget(), pLink, 0, 0x11))
+					{
+						SendClosePage(pPlayer);
+						return;
+					}
+				}
+			}
+		}
+	}
+	else
+	{
+		if (!Execute(pPlayer->GetScriptTarget(), pLink, bHumanQuery))
+		{
+			SendClosePage(pPlayer);
+			return;
+		}
+	}
+
+	if (pLink != nullptr)
+	{
+		if (_stricmp(pLink, "@s_repair") == 0)
+		{
+			pPlayer->SetSystemFlag(SF_SPECIALREPAIR, TRUE);
+			pPlayer->SendMsg(GetId(), 0x29c, 0, 0, 0, nullptr);
+		}
+		else if (_stricmp(pLink, "@repair") == 0)
+		{
+			pPlayer->SetSystemFlag(SF_SPECIALREPAIR, FALSE);
+			pPlayer->SendMsg(GetId(), 0x29c, 0, 0, 0, nullptr);
+		}
+		else if (_stricmp(pLink, "@buy") == 0)
+			SendGoodsList(pPlayer);
+		else if (_stricmp(pLink, "@sell") == 0)
+			pPlayer->SendMsg(GetId(), 0x286, 0, 0, 0);
+		else if (_stricmp(pLink, "@getback") == 0)
+			pPlayer->SendBank(GetId());
+		else if (_stricmp(pLink, "@storage") == 0)
+			pPlayer->SendMsg(GetId(), 0x2bc, 0, 0, 0);
+	}
+}
+
+static thread_local char gs_Temp[65535];
+int CScriptNpc::ProcPageVars(CHumanPlayer* pPlayer, char* pszPage, int size, int maxsize)
+{
+	int tptr = 0;
+	gs_Temp[0] = 0;
+
+	char tempcmd[200] = "";
+	int cmdptr = 0;
+	BOOL bGetCommand = FALSE;
+	for (int i = 0; i < size; i++)
+	{
+		if (pszPage[i] == '<' && pszPage[i + 1] == '$')
+		{
+			//处理
+			bGetCommand = TRUE;
+			cmdptr = 0;
+			continue;
+		}
+		if (bGetCommand && pszPage[i] == '>')
+		{
+			bGetCommand = FALSE;
+			tempcmd[cmdptr] = 0;
+			gs_Temp[tptr] = 0;
+			char* p = (char*)pPlayer->GetScriptVarValue(tempcmd + 1);
+			strcat(gs_Temp, p);
+			tptr += (int)strlen(p);
+			continue;
+		}
+		if (!bGetCommand)
+			gs_Temp[tptr++] = pszPage[i];
+		else
+			tempcmd[cmdptr++] = pszPage[i];
+	}
+	gs_Temp[tptr] = 0;
+	tptr = tptr > maxsize ? maxsize : tptr;
+	o_strncpy(pszPage, gs_Temp, tptr);
+	return tptr;
+}
+
+//关闭NPC对话框
+VOID CScriptNpc::SendClosePage(CHumanPlayer* pPlayer)
+{
+	pPlayer->SendMsg(GetId(), 0x284, 0, 0, 0, nullptr);
+}
+
+NpcGoodsList* CScriptNpc::FindGoodsList(const char* pszName)
+{
+	NpcGoodsList* pList = nullptr;
+	int namelen = (int)strlen(pszName);
+	for (pList = m_pSellGoodsList; pList != nullptr; pList = pList->pNext)
+	{
+		if (strcmp(pList->szTemplate, pszName) == 0)
+			return pList;
+	}
+	return nullptr;
+}
+
+NpcGoodsList* CScriptNpc::FindGoodsList(ITEM& item)
+{
+	NpcGoodsList* pList = nullptr;
+	char szName[30];
+	o_strncpy(szName, item.baseitem.szName, 14);
+	for (pList = m_pSellGoodsList; pList != nullptr; pList = pList->pNext)
+	{
+		if (strcmp(szName, pList->szTemplate) == 0)
+			return pList;
+	}
+	return nullptr;
+}
+
+BOOL CScriptNpc::AddItem(ITEM& item)
+{
+	NpcGoodsItemList* pItemList = CNpcManager::GetInstance()->AllocGoodsItemList();
+	if (pItemList == nullptr)return FALSE;
+	pItemList->item = item;
+	pItemList->dwPutTime = timeGetTime();
+	NpcGoodsList* pList = FindGoodsList(item);
+	if (pList && pList->defaultcount == 0)
+		return CItemManager::GetInstance()->DeleteItem(item.dwMakeIndex);
+	if (pList == nullptr)
+	{
+		pList = CNpcManager::GetInstance()->AllocGoodsList();
+		if (pList == nullptr)
+		{
+			CNpcManager::GetInstance()->FreeGoodsItemList(pItemList);
+			return FALSE;
+		}
+		o_strncpy(pList->szTemplate, item.baseitem.szName, 14);
+#ifdef	_DEBUG
+		PRINT(SUCCESS_GREEN, "szTemplate的名字:%s\n", pList->szTemplate);
+#endif
+		pList->dwTemplatePrice = ROUND(m_fBuyPercent * item.baseitem.nPrice);
+		pList->refreshtime = 10;
+		pList->defaultcount = 1; // 1表示不是NPC本身卖的物品 0表示是买的时候创建的.
+		pList->dwLastRefreshTime = pItemList->dwPutTime;
+		if (this->m_pSellGoodsList)
+			pList->pNext = this->m_pSellGoodsList;
+		this->m_pSellGoodsList = pList;
+	}
+	if (pList->pItemList == nullptr)
+		pList->pItemList = pItemList;
+	else
+	{
+		pItemList->pNext = pList->pItemList;
+		pList->pItemList = pItemList;
+	}
+	pList->currentcount++;
+	return TRUE;
+}
+
+VOID CScriptNpc::SendGoodsList(CHumanPlayer* pPlayer)
+{
+	char szBuffer[4096];
+	memset(szBuffer, 0, sizeof(szBuffer));
+	char* p = szBuffer;
+	int count = 0;
+	for (NpcGoodsList* pList = m_pSellGoodsList; pList != nullptr; pList = pList->pNext)
+	{
+		if (pList->dwTemplatePrice > 100000 || pList->dwTemplatePrice == 0)
+			continue;
+		size_t len = strlen(pList->szTemplate);
+		if (len < 4) continue;
+		if (containschar(pList->szTemplate)) continue;
+		sprintf(p, "%s/%u/%u/%u/", pList->szTemplate, pList->defaultcount != 0, pList->dwTemplatePrice, pList->currentcount);
+		p += strlen(p);
+		count++;
+	}
+	*p = 0;
+	pPlayer->SendMsg(GetId(), 0x285, count, 0, 0, (LPVOID)szBuffer, (int)(p - szBuffer));
+}
+
+bool CScriptNpc::containschar(const std::string& str)
+{
+	for (char c : str) {
+		if (c == '�')
+			return true; // 找到非标准字符, 返回true  
+	}
+	return false; // 未找到非标准字符, 返回false  
+}
+
+VOID CScriptNpc::SendGoodsItemList(CHumanPlayer* pPlayer, const char* pTemplate, int ptr)
+{
+	ITEM item;
+	o_strncpy(item.baseitem.szName, pTemplate, 14);
+	NpcGoodsList* pList = FindGoodsList(item);
+	if (pList == nullptr)return;
+
+	NpcGoodsItemList* pItemList = pList->pItemList;
+	CDQueue<ITEM, 10> queue;
+	ITEMCLIENT items[10];
+	int i = 0;
+	for (i = 0; i < 10; i++)
+	{
+		if (pItemList == nullptr)
+			break;
+		items[i] = *(ITEMCLIENT*)&pItemList->item;
+		pItemList = pItemList->pNext;
+	}
+
+	if (i == 0)return;
+	pPlayer->SendMsg(GetId(), 0x28c, i, 0, 0, (LPVOID)items, sizeof(ITEMCLIENT) * i);
+}
+
+VOID CScriptNpc::Update()
+{
+	DWORD dwCurTime = timeGetTime();
+	if (m_tmrUpdateItem.IsTimeOut(m_dwTimeOut))
+	{
+		if (m_dwTimeOut == 0)m_dwTimeOut = Getrand(9000) + 1000;
+		m_tmrUpdateItem.Savetime();
+
+		NpcGoodsList* pList = m_pSellGoodsList;
+		while (pList)
+		{
+			if (pList->defaultcount > 1)
+			{
+				if (pList->currentcount < pList->defaultcount)
+				{
+					ITEM item;
+					if (CItemManager::GetInstance()->MakeupTemplateItem(pList->szTemplate, item))
+					{
+						int count = pList->defaultcount - pList->currentcount;
+						for (int i = 0; i < count; i++)
+						{
+							CItemManager::GetInstance()->IdentItem(item);
+							NpcGoodsItemList* pItemNode = CNpcManager::GetInstance()->AllocGoodsItemList();
+							if (pItemNode == nullptr)
+							{
+								CItemManager::GetInstance()->DeleteItem(item.dwMakeIndex);
+							}
+							else
+							{
+								pItemNode->dwPutTime = timeGetTime();
+								pItemNode->item = item;
+								pItemNode->pNext = pList->pItemList;
+								pList->pItemList = pItemNode;
+								pList->currentcount++;
+								if (!m_fChanged)m_fChanged = TRUE;
+							}
+						}
+					}
+				}
+			}
+			pList = pList->pNext;
+		}
+		if (m_fChanged)
+			SaveItems();
+	}
+	CAliveObject::Update();
+}
+
+BOOL CScriptNpc::BeAttack(CAliveObject* pAttacker, int nDamage)
+{
+	Say("%s 伤害 %d !", pAttacker->GetName(), nDamage);
+	return FALSE;
+}
+
+DWORD CScriptNpc::GetItemSellPrice(ITEM& item)
+{
+	if (this->m_pScriptObject == nullptr || !m_pScriptObject->IsItemTradeble(item.baseitem.btStdMode))
+		return 0;
+	//	fixme:使用标准的物品价格计算公式~
+	return ROUND(m_fSellPercent * item.baseitem.nPrice);
+}
+
+DWORD CScriptNpc::GetItemBuyPrice(ITEM& item)
+{
+	char szName[32];
+	o_strncpy(szName, item.baseitem.szName, item.baseitem.btNameLength);
+	NpcGoodsList* pList = FindGoodsList(szName);
+	if (pList)
+		return ROUND(pList->dwTemplatePrice);
+	else
+		return ROUND(m_fBuyPercent * item.baseitem.nPrice);
+}
+
+DWORD CScriptNpc::GetItemRepairPrice(CHumanPlayer* pPlayer, ITEM& item)
+{
+	if (CItemManager::GetInstance()->ItemLimited(item, IL_NOREPAIR))return 0xffffffff;
+	if (m_pScriptObject == nullptr)return 0xffffffff;
+	if (!m_pScriptObject->IsItemTradeble(item.baseitem.btStdMode))
+		return 0xffffffff;
+	DWORD dwMoney = GetItemBuyPrice(item);
+	if (item.baseitem.wMaxDura == 0)
+		item.baseitem.wMaxDura = item.wMaxDura;
+	if (item.wMaxDura == 0)
+		return 0xffffffff;
+	if (item.wCurDura > item.wMaxDura)
+		return 0xffffffff;
+	FLOAT frate = (FLOAT)(item.wMaxDura - item.wCurDura) / item.baseitem.wMaxDura;
+	if (pPlayer->IsSystemFlagSeted(SF_SPECIALREPAIR))
+		dwMoney = ROUND(dwMoney * frate);
+	else
+		dwMoney = ROUND(dwMoney * frate) / 2;
+	return dwMoney;
+}
+
+BOOL CScriptNpc::RepairItem(CHumanPlayer* pPlayer, ITEM& item)
+{
+	if (m_pScriptObject == nullptr || !m_pScriptObject->IsItemTradeble(item.baseitem.btStdMode))
+		return FALSE;
+	DWORD dwMoney = GetItemRepairPrice(pPlayer, item);
+	if (dwMoney == 0xffffffff || dwMoney == 0)return FALSE;
+	if (dwMoney > pPlayer->GetMoney(MT_GOLD))
+	{
+		pPlayer->SaySystem("钱不够,无法修理!");
+		return FALSE;
+	}
+	pPlayer->CostMoney(MT_GOLD, dwMoney, FALSE);
+	if (this->IsSandCityMerchant())
+	{
+		CSandCity::GetInstance()->AddIncoming(dwMoney);
+	}
+	if (!pPlayer->IsSystemFlagSeted(SF_SPECIALREPAIR))
+	{
+		FLOAT frate = (FLOAT)(item.wMaxDura - item.wCurDura) / item.wMaxDura;
+		WORD wDecDura = static_cast<WORD>(1000 * frate);
+		if (wDecDura > item.wMaxDura)item.wMaxDura = 1;
+		item.wMaxDura -= wDecDura;
+	}
+	item.wCurDura = item.wMaxDura;
+	CItemManager::GetInstance()->AddItemModifyFlag(item, ITEMMODIFY_DURACHANGED);
+	pPlayer->SendMsg(pPlayer->GetMoney(MT_GOLD), SM_REPAIROK, item.wCurDura, item.wMaxDura, 0);
+	return TRUE;
+}
+
+BOOL CScriptNpc::SellItem(CHumanPlayer* pPlayer, ITEM& item)
+{
+	ITEM bitem = item;
+	DWORD dwPrice = GetItemSellPrice(item);
+	if (item.IsBind())
+	{
+		pPlayer->SaySystem("该物品已绑定不能被卖出!");
+		return FALSE;
+	}
+	if (CItemManager::GetInstance()->ItemLimited(item, IL_NOSELL))
+	{
+		pPlayer->SaySystem("该物品不能被卖出!");
+		return FALSE;
+	}
+	if (m_pScriptObject == nullptr || !m_pScriptObject->IsItemTradeble(item.baseitem.btStdMode))
+	{
+		pPlayer->SaySystem("本店不收该物品!");
+		return FALSE;
+	}
+	if (this->IsSandCityMerchant() && pPlayer->GetGuild() != nullptr && pPlayer->GetGuild() == CSandCity::GetInstance()->GetOwnerGuild())
+	{
+		dwPrice = ROUND(dwPrice * ((FLOAT)CSandCity::GetInstance()->GetTexRate() / 100));
+	}
+	if (pPlayer->TestAddMoney(MT_GOLD, dwPrice))
+	{
+		//	删除背包物品
+		if (pPlayer->DeleteBagItem(bitem.dwMakeIndex))
+		{
+			//	把物品加入到NPC的物品表中
+			if (AddItem(bitem))
+			{
+				CItemManager::GetInstance()->UpdateItemOwner(0, bitem.dwMakeIndex, IDF_NPC, 0);
+				pPlayer->AddGold(dwPrice, FALSE);
+				m_fChanged = TRUE;
+				return TRUE;
+			}
+			else
+				pPlayer->AddBagItem(bitem, TRUE, FALSE, FALSE);
+		}
+		else
+			pPlayer->SaySystem("该物品比较特殊, 无法卖掉!");
+	}
+	else
+		pPlayer->SaySystem("您无法再携带更多的钱了!");
+	return FALSE;
+}
+
+BOOL CScriptNpc::QueryItemList(CHumanPlayer* pPlayer, const char* pszItemName, int ptr)
+{
+	NpcGoodsList* pList = FindGoodsList(pszItemName);
+	if (pList == nullptr || pList->defaultcount == 0)return FALSE;
+	NpcGoodsItemList* pItemList = pList->pItemList;
+	if (pItemList == nullptr)return FALSE;
+	int count = 0;
+	ITEMCLIENT items[10];
+	int scount = 0;
+	if (ptr >= pList->currentcount)
+		ptr = 0;
+	while (pItemList)
+	{
+		count++;
+		if (count > ptr)
+		{
+			items[scount] = *(ITEMCLIENT*)&pItemList->item;
+			items[scount].baseitem.nPrice = GetItemValue(pItemList->item, pList->dwTemplatePrice);
+			scount++;
+			if (scount >= 10)
+				break;
+		}
+		pItemList = pItemList->pNext;
+	}
+	if (scount == 0)return FALSE;
+	pPlayer->SendMsg(GetId(), 0x28c, scount, ptr, 0, (LPVOID)items, sizeof(ITEMCLIENT) * scount);
+	return TRUE;
+}
+
+DWORD CScriptNpc::GetItemValue(ITEM& item, DWORD dwBasePrice)
+{
+	if (item.baseitem.wMaxDura == 0)return dwBasePrice;
+	if (item.wMaxDura == 0)return 0;
+	dwBasePrice = (item.wMaxDura == item.baseitem.wMaxDura) ? dwBasePrice : ROUND(dwBasePrice * ((FLOAT)item.wMaxDura / item.baseitem.wMaxDura));
+	dwBasePrice = (item.wCurDura == item.wMaxDura) ? dwBasePrice : ROUND(dwBasePrice * ((FLOAT)item.wCurDura / item.wMaxDura));
+	return dwBasePrice;
+}
+
+BOOL CScriptNpc::BuyItem(CHumanPlayer* pPlayer, const char* pszName, DWORD dwMakeIndex, DWORD& dwErrorCode)
+{
+	CItemBox& box = pPlayer->GetBag();
+	dwErrorCode = 0;
+	if (box.GetFree() <= 0)
+	{
+		pPlayer->SaySystem( "背包满了, 无法购买物品!" );
+		dwErrorCode = 2;
+		return FALSE;
+	}
+	else
+	{
+		ITEM item;
+		NpcGoodsList* pList = FindGoodsList(pszName);
+		if (pList == nullptr)return FALSE;
+		if (pList->defaultcount == 0)
+		{
+			if (CItemManager::GetInstance()->MakeupTemplateItem(pszName, item))
+			{
+				DWORD dwPrice = GetItemValue(item, pList->dwTemplatePrice);
+				if (this->IsSandCityMerchant() && pPlayer->GetGuild() != nullptr && pPlayer->GetGuild() == CSandCity::GetInstance()->GetOwnerGuild())
+				{
+					dwPrice = ROUND(dwPrice * ((FLOAT)CSandCity::GetInstance()->GetRebate() / 100));
+				}
+				if (dwPrice > pPlayer->GetMoney(MT_GOLD))
+				{
+					pPlayer->SaySystem( "对不起, 您没有足够的钱来购买这个物品!" );
+					dwErrorCode = 3;
+					return FALSE;
+				}
+				else
+				{
+					if (!pPlayer->CanBearItem(item))
+					{
+						pPlayer->SaySystem( "对不起, 您的负重已经满了, 无法再购买更多的东西!" );
+						dwErrorCode = 2;
+						return FALSE;
+					}
+					CItemManager::GetInstance()->IdentItem(item);
+					if (!pPlayer->AddBagItem(item, FALSE, TRUE))
+					{
+						pPlayer->SaySystem( "对不起, 您的背包无法装更多的东西了!" );
+						CItemManager::GetInstance()->DeleteItem(item.dwMakeIndex);
+						dwErrorCode = 2;
+						return FALSE;
+					}
+					pPlayer->CostMoney(MT_GOLD, dwPrice, TRUE);
+					if (this->IsSandCityMerchant())
+					{
+						CSandCity::GetInstance()->AddIncoming(dwPrice);
+					}
+					return TRUE;
+				}
+			}
+			else
+			{
+				pPlayer->SaySystem( "对不起, 该物品是样品, 尚无存货!" );
+				dwErrorCode = 0;
+			}
+		}
+		else
+		{
+			NpcGoodsItemList* pItemList = pList->pItemList;
+			NpcGoodsItemList* pLastItemList = pItemList;
+			while (pItemList)
+			{
+				if (pItemList->item.dwMakeIndex == dwMakeIndex)
+				{
+					break;
+				}
+				pLastItemList = pItemList;
+				pItemList = pItemList->pNext;
+			}
+			if (pItemList == nullptr)
+			{
+				dwErrorCode = 1;
+				return FALSE;
+			}
+			if (pItemList != nullptr)
+			{
+				if (!pPlayer->CanBearItem(pItemList->item))
+				{
+					pPlayer->SaySystem( "对不起, 您的负重已经满了, 无法再购买更多的东西!" );
+					dwErrorCode = 2;
+					return FALSE;
+				}
+				DWORD dwPrice = GetItemValue(pItemList->item, pList->dwTemplatePrice);
+				if (this->IsSandCityMerchant() && pPlayer->GetGuild() != nullptr && pPlayer->GetGuild() == CSandCity::GetInstance()->GetOwnerGuild())
+				{
+					dwPrice = ROUND(dwPrice * ((FLOAT)CSandCity::GetInstance()->GetRebate() / 100));
+				}
+				if (dwPrice > pPlayer->GetMoney(MT_GOLD))
+				{
+					pPlayer->SaySystem( "对不起, 您没有足够的钱来购买这个物品!" );
+					dwErrorCode = 3;
+					return FALSE;
+				}
+				else
+				{
+					if (!pPlayer->AddBagItem(pItemList->item, FALSE, TRUE))
+					{
+						pPlayer->SaySystem( "对不起, 您的背包无法装更多的东西了!" );
+						dwErrorCode = 2;
+						return FALSE;
+					}
+					pPlayer->CostMoney(MT_GOLD, dwPrice, FALSE);
+					if (this->IsSandCityMerchant())
+					{
+						CSandCity::GetInstance()->AddIncoming(dwPrice);
+					}
+					DeleteNpcGoodsItemList(pList, pItemList);
+					if (pList->pItemList == nullptr)
+					{
+						//	如果是玩家卖进去的, 就删除这个结点～～
+						if (pList->defaultcount == 1)
+						{
+							DeleteNpcGoodsList(pList);
+						}
+						else
+						{
+							ITEM item;
+							if (CItemManager::GetInstance()->MakeupTemplateItem(pList->szTemplate, item))
+							{
+								for (int i = 0; i < pList->defaultcount; i++)
+								{
+									CItemManager::GetInstance()->IdentItem(item);
+									NpcGoodsItemList* pItemNode = CNpcManager::GetInstance()->AllocGoodsItemList();
+									if (pItemNode == nullptr)
+									{
+										CItemManager::GetInstance()->DeleteItem(item.dwMakeIndex);
+									}
+									else
+									{
+										pItemNode->dwPutTime = timeGetTime();
+										pItemNode->item = item;
+										pItemNode->pNext = pList->pItemList;
+										pList->pItemList = pItemNode;
+										pList->currentcount++;
+									}
+								}
+							}
+						}
+						pPlayer->SendMsg(GetId(), 0x28c, 0, 0, 0, nullptr, 0);
+					}
+					m_fChanged = TRUE;
+					return TRUE;
+				}
+			}
+		}
+	}
+	return FALSE;
+}
+
+VOID CScriptNpc::DeleteNpcGoodsList(NpcGoodsList* pList)
+{
+	NpcGoodsList* pList1 = nullptr;
+	if (pList == m_pSellGoodsList)
+	{
+		m_pSellGoodsList = pList->pNext;
+		CNpcManager::GetInstance()->FreeGoodsList(pList);
+		return;
+	}
+	for (pList1 = m_pSellGoodsList; pList1 != nullptr; pList1 = pList1->pNext)
+	{
+		if (pList1->pNext == pList)
+		{
+			pList1->pNext = pList->pNext;
+			CNpcManager::GetInstance()->FreeGoodsList(pList);
+			return;
+		}
+	}
+}
+
+VOID CScriptNpc::DeleteNpcGoodsItemList(NpcGoodsList* pList, NpcGoodsItemList* pItemList)
+{
+	if (pItemList == pList->pItemList)
+	{
+		pList->pItemList = pItemList->pNext;
+		CNpcManager::GetInstance()->FreeGoodsItemList(pItemList);
+		pList->currentcount--;
+		return;
+	}
+	NpcGoodsItemList* pItemList1 = nullptr;
+	for (pItemList1 = pList->pItemList; pItemList1 != nullptr; pItemList1 = pItemList1->pNext)
+	{
+		if (pItemList1->pNext == pItemList)
+		{
+			pItemList1->pNext = pItemList->pNext;
+			CNpcManager::GetInstance()->FreeGoodsItemList(pItemList);
+			pList->currentcount--;
+			return;
+		}
+	}
+}
+
+static char szTempBuffer[65536];
+VOID CScriptNpc::SaveItems()
+{
+	if (!m_fChanged)return;
+	char szFilename[1024];
+	sprintf(szFilename, ".\\Data\\Market_Save\\Market_%08x.dat", m_StoreId);
+	FILE* fp = fopen(szFilename, "wb");
+	if (fp == nullptr)
+	{
+		PRINT(ERROR_RED, "存储 %s 商店信息出错~\n", szFilename);
+		return;
+	}
+	xPacket packet(szTempBuffer, 65536);
+	NpcGoodsList* pList = this->m_pSellGoodsList;
+	while (pList)
+	{
+		if (pList->defaultcount != 0)
+		{
+			NpcGoodsItemList* pItemList = pList->pItemList;
+			while (pItemList)
+			{
+				if (!packet.push((LPVOID)&pItemList->item, sizeof(ITEM)))
+				{
+					fwrite((LPVOID)packet.getbuf(), packet.getsize(), 1, fp);
+					packet.clear();
+					packet.push((LPVOID)&pItemList->item, sizeof(ITEM));
+				}
+				pItemList = pItemList->pNext;
+			}
+		}
+		pList = pList->pNext;
+	}
+	if (packet.getsize() > 0)
+		fwrite((LPVOID)packet.getbuf(), packet.getsize(), 1, fp);
+	fclose(fp);
+	m_fChanged = FALSE;
+}
+
+static ITEM	items_t[100];
+VOID CScriptNpc::LoadItems()
+{
+	char szFilename[1024] = { 0 };
+	//market_%08x.dat其中%08x表示以十六进制形式输出一个 8 位宽度的数值, 
+	//sprintf( szFilename, ".\\data\\Market_Save\\market_%08x.dat", m_StoreId );
+	//PRINT(ERROR_RED, "读取 %s 商店信息~\n", szFilename);
+	FILE* fp = fopen(szFilename, "rb");
+	if (fp == nullptr) return;
+	int size = _GetFileSize(fp);
+	size /= sizeof(ITEM);
+	while (size > 100)
+	{
+		size -= 100;
+		fread((void*)items_t, sizeof(ITEM) * 100, 1, fp);
+		for (int i = 0; i < 100; i++)
+		{
+			if (CItemManager::GetInstance()->IsTempItem(items_t[i].dwMakeIndex))
+				CItemManager::GetInstance()->IdentItem(items_t[i]);
+			AddItem(items_t[i]);
+		}
+	}
+	if (size > 0)
+	{
+		fread((void*)items_t, sizeof(ITEM) * size, 1, fp);
+		for (int i = 0; i < size; i++)
+		{
+			if (CItemManager::GetInstance()->IsTempItem(items_t[i].dwMakeIndex))
+				CItemManager::GetInstance()->IdentItem(items_t[i]);
+			AddItem(items_t[i]);
+		}
+	}
+	fclose(fp);
+}
+
+VOID CScriptNpc::OnEnterMap(CLogicMap* pMap)
+{
+	CAliveObject::OnEnterMap(pMap);
+}
+
+static thread_local char g_szTempBuffer[65536];
+using namespace rapidjson;
+VOID CScriptNpc::SendMerChantJsonMsg(CScriptTarget* pTarget, const char* pWords, UINT nType)
+{
+	CScriptTargetForPlayer* pPTarget = (CScriptTargetForPlayer*)pTarget;
+	if (!pPTarget) return;
+	CHumanPlayer* pPlayer = pPTarget->GetOwner();
+	if (!pPlayer) return;
+	switch (nType)
+	{
+	case 0:
+		SendDayExpMain(pPlayer, pWords); // 每日经验-主界面
+	break;
+	case 1:
+		SendDayExpHelp(pPlayer, pWords); // 每日经验-帮助
+	break;
+	case 2:
+		SendActivityMain(pPlayer, pWords); // 活动主页
+	break;
+	case 3:
+		SendCreateGuildHelp(pPlayer, pWords); //创建行会帮助
+	break;
+	case 100:
+		SendCustomUIWnd(pPlayer, pWords); //发送自定义UI消息
+	}
+}
+
+VOID CScriptNpc::SendDayExpMain(CHumanPlayer* pPlayer, const char* pWords)
+{
+	Document doc;
+	doc.Parse(pWords);
+	if (doc.HasParseError()) return;
+
+	xPacket packet(g_szTempBuffer, 65535);
+	const char* s1C = "expback2020";
+	packet.push(s1C);
+	packet.push(2);
+	int nValue = 0x01;
+	packet.push((LPVOID)&nValue, 4);
+	packet.push(doc["注意事项"].GetString());
+	packet.push(1);
+	nValue = 0x07;
+	packet.push((LPVOID)&nValue, 4);
+	nValue = doc["今日可以获得经验下限"].GetInt();
+	packet.push((LPVOID)&nValue, 4);
+	nValue = doc["今日可以获得经验上限"].GetInt();
+	packet.push((LPVOID)&nValue, 4);
+	nValue = doc["今日可追赶经验"].GetInt();
+	packet.push((LPVOID)&nValue, 4);
+	nValue = doc["累积可追赶经验"].GetInt();
+	packet.push((LPVOID)&nValue, 4);
+	packet.push(8);
+	nValue = doc["开服天数"].GetInt();
+	packet.push((LPVOID)&nValue, 4);
+	pPlayer->SendMsg(pPlayer->GetId(), 0xa02, 0, 0, 0, (LPVOID)packet.getbuf(), packet.getsize());
+}
+
+VOID CScriptNpc::SendDayExpHelp(CHumanPlayer* pPlayer, const char* pWords)
+{
+	Document doc;
+	doc.Parse(pWords);
+	if (doc.HasParseError()) return;
+
+	xPacket packet(g_szTempBuffer, 65535);
+	const char* s1C = "expback2020";
+	packet.push(s1C);
+	packet.push(1);
+	int nValue = 0x02;
+	packet.push((LPVOID)&nValue, 1);
+	nValue = 0x01;
+	packet.push((LPVOID)&nValue, 4);
+	packet.push(doc["帮助说明"].GetString());
+	packet.push(1);
+	pPlayer->SendMsg(pPlayer->GetId(), 0xa02, 0, 0, 0, (LPVOID)packet.getbuf(), packet.getsize());
+}
+
+VOID CScriptNpc::SendActivityMain(CHumanPlayer* pPlayer, const char* pWords)
+{
+	Document doc;
+	doc.Parse(pWords);
+	if (doc.HasParseError()) return;
+
+	xPacket packet(g_szTempBuffer, 65535);
+	int nValue = 0x00;
+	packet.push((LPVOID)&nValue, 2);
+
+	int nDayActivity = doc["今日活跃度"].GetInt();
+	packet.push((LPVOID)&nDayActivity, 4);
+
+	int nWeekActivity = doc["本周累计活跃度"].GetInt();
+	packet.push((LPVOID)&nWeekActivity, 4);
+
+	int nBoxCount = doc["宝箱"].Size();
+	packet.push((LPVOID)&nBoxCount, 4);
+
+	for (int i = 0; i < nBoxCount; i++)
+	{
+		const rapidjson::Value& box = doc["宝箱"][i];
+		const char* szReward = box["奖励"].GetString();
+		packet.push(szReward);
+		packet.push(1);
+	}
+	packet.push(4);
+	packet.push((LPVOID)&nBoxCount, 4);
+	for (int i = 0; i < nBoxCount; i++)
+	{
+		const rapidjson::Value& box = doc["宝箱"][i];
+		int nStatus = box["状态"].GetInt();
+		packet.push((LPVOID)&nStatus, 4);
+	}
+	packet.push((LPVOID)&nBoxCount, 4);
+	for (int i = 0; i < nBoxCount; i++)
+	{
+		const rapidjson::Value& box = doc["宝箱"][i];
+		int nRequire = box["需求"].GetInt();
+		packet.push((LPVOID)&nRequire, 4);
+	}
+
+	int nTaskCount = doc["任务"].Size();
+	packet.push((LPVOID)&nTaskCount, 4);
+
+	for (int i = 0; i < nTaskCount; i++)
+	{
+		const rapidjson::Value& task = doc["任务"][i];
+		const char* szName = task["名称"].GetString();
+		packet.push(szName);
+		packet.push(1);
+	}
+	packet.push((LPVOID)&nTaskCount, 4);
+	for (int i = 0; i < nTaskCount; i++)
+	{
+		const rapidjson::Value& task = doc["任务"][i];
+		int nCount = task["次数"].GetInt();
+		packet.push((LPVOID)&nCount, 4);
+	}
+
+	pPlayer->SendMsg(pPlayer->GetId(), 0x836, 0, 0, 0, (LPVOID)packet.getbuf(), packet.getsize());
+}
+
+VOID CScriptNpc::SendCreateGuildHelp(CHumanPlayer* pPlayer, const char* pWords)
+{
+	xPacket packet(g_szTempBuffer, 65535);
+	const char* s1C = "guildmgr";
+	packet.push(s1C);
+	packet.push(1);
+	packet.push(1);
+	int nValue = 0x01;
+	packet.push((LPVOID)&nValue, 4);
+	packet.push(pWords);
+	packet.push(21);
+	pPlayer->SendMsg(pPlayer->GetId(), 0xa02, 0, 0, 0, (LPVOID)packet.getbuf(), packet.getsize());
+}
+
+VOID CScriptNpc::SendCustomUIWnd(CHumanPlayer* pPlayer, const char* pWords)
+{
+	Document doc;
+	doc.Parse(pWords);
+	if (doc.HasParseError()) return;
+
+	xPacket packet(g_szTempBuffer, 65535);
+	const char* pszWndName = doc["WndName"].GetString();
+	packet.push(pszWndName);
+	packet.push(1);
+	int pMsgType = doc["MsgType"].GetInt();
+	packet.push((LPVOID)&pMsgType, 1);
+
+	int nListStrCount = doc["StrList"].Size();
+	packet.push((LPVOID)&nListStrCount, 4);
+	char szFinal[512];
+	for (int i = 0; i < nListStrCount; i++)
+	{
+		const rapidjson::Value& task = doc["StrList"][i];
+		const char* pszStr = task.GetString();
+		ProcFmtText(pszStr, szFinal, 512, pPlayer->GetScriptTarget());
+		packet.push(szFinal);
+		packet.push(1);
+	}
+
+	int nListIntCount = doc["NumList"].Size();
+	packet.push((LPVOID)&nListIntCount, 4);
+	for (int i = 0; i < nListIntCount; i++)
+	{
+		const rapidjson::Value& task = doc["NumList"][i];
+		int pInt = task.GetInt();
+		packet.push(&pInt, 4);
+	}
+	packet.push(12);
+	pPlayer->SendMsg(pPlayer->GetId(), 0xa02, 0, 0, 0, (LPVOID)packet.getbuf(), packet.getsize());
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="gb2312"?>
+<wenpei>
+	<type id="金">
+		<piece id="1" subtype="主纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="2" subtype="主纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="3" subtype="主纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="4" subtype="精纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="5" subtype="精纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="6" subtype="精纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="7" subtype="边纹" level="1" property="fy" value="5"  absorb="1"/>
+		<piece id="8" subtype="边纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="9" subtype="边纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="10" subtype="底纹" level="1" property="fy" value="5"  absorb="1"/>
+		<piece id="11" subtype="底纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="12" subtype="底纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="61" subtype="精纹" level="3" property="gj" value="100" absorb="0" addName = "扭转乾坤"/>
+		<piece id="62" subtype="边纹" level="3" property="fy" value="100" absorb="3" addName = "重获新生"/>
+		<piece id="68" subtype="精纹" level="3" property="gj" value="30" absorb="0"/>
+		<piece id="78" subtype="底纹" level="3" property="fy" value="90" absorb="0"/>
+		<piece id="99" subtype="主纹" level="3" property="gj" value="500" absorb="0" extra = "1"/>
+		<piece id="80" subtype="精纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="81" subtype="底纹" level="3" property="fy" value="500" absorb="3" extra = "1"/>
+		<piece id="82" subtype="边纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="102" subtype="底纹" level="3" property="fy" value="700" absorb="3"/>
+		
+	</type>
+	<type id="木">
+		<piece id="13" subtype="主纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="14" subtype="主纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="15" subtype="主纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="16" subtype="精纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="17" subtype="精纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="18" subtype="精纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="19" subtype="边纹" level="1" property="fy" value="5"  absorb="1"/>
+		<piece id="20" subtype="边纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="21" subtype="边纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="22" subtype="底纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="23" subtype="底纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="24" subtype="底纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="69" subtype="精纹" level="3" property="gj" value="40" absorb="0"/>
+		<piece id="74" subtype="底纹" level="3" property="fy" value="50" absorb="0"/>
+		<piece id="83" subtype="主纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="84" subtype="精纹" level="3" property="gj" value="500" absorb="0" extra = "1"/>
+		<piece id="85" subtype="底纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="86" subtype="边纹" level="3" property="fy" value="500" absorb="3" extra = "1"/>
+	</type>
+	<type id="土">
+		<piece id="25" subtype="主纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="26" subtype="主纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="27" subtype="主纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="28" subtype="精纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="29" subtype="精纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="30" subtype="精纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="31" subtype="边纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="32" subtype="边纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="33" subtype="边纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="34" subtype="底纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="35" subtype="底纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="36" subtype="底纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="66" subtype="边纹" level="3" property="fy" value="60" absorb="2"/>
+		<piece id="70" subtype="精纹" level="3" property="gj" value="50" absorb="0"/>
+		<piece id="77" subtype="底纹" level="3" property="fy" value="80" absorb="0"/>
+		<piece id="87" subtype="主纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="88" subtype="精纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="89" subtype="底纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="90" subtype="边纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+	</type>
+	<type id="水">
+		<piece id="37" subtype="主纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="38" subtype="主纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="39" subtype="主纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="40" subtype="精纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="41" subtype="精纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="42" subtype="精纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="43" subtype="边纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="44" subtype="边纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="45" subtype="边纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="46" subtype="底纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="47" subtype="底纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="48" subtype="底纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="72" subtype="精纹" level="3" property="gj" value="90" absorb="0"/>
+		<piece id="75" subtype="底纹" level="3" property="fy" value="60" absorb="0"/>
+		<piece id="79" subtype="主纹" level="3" property="gj" value="30" absorb="0"/>
+		<piece id="91" subtype="主纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="92" subtype="精纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="93" subtype="底纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="94" subtype="边纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+	</type>
+	<type id="火">
+		<piece id="49" subtype="主纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="50" subtype="主纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="51" subtype="主纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="52" subtype="精纹" level="1" property="gj" value="5" absorb="0"/>
+		<piece id="53" subtype="精纹" level="2" property="gj" value="10" absorb="0"/>
+		<piece id="54" subtype="精纹" level="3" property="gj" value="15" absorb="0"/>
+		<piece id="55" subtype="边纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="56" subtype="边纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="57" subtype="边纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="58" subtype="底纹" level="1" property="fy" value="5" absorb="1"/>
+		<piece id="59" subtype="底纹" level="2" property="fy" value="10" absorb="2"/>
+		<piece id="60" subtype="底纹" level="3" property="fy" value="15" absorb="3"/>
+		<piece id="63" subtype="主纹" level="3" property="gj" value="100" absorb="0" addName = "鸿运齐天"/>
+		<piece id="64" subtype="底纹" level="3" property="fy" value="100" absorb="3" addName = "救世明王"/>
+		<piece id="65" subtype="边纹" level="3" property="fy" value="30" absorb="0"/>
+		<piece id="67" subtype="主纹" level="3" property="gj" value="70" absorb="0"/>
+		<piece id="71" subtype="精纹" level="3" property="gj" value="70" absorb="0"/>
+		<piece id="73" subtype="底纹" level="3" property="fy" value="40" absorb="0"/>
+		<piece id="76" subtype="底纹" level="3" property="fy" value="70" absorb="0"/>
+		<piece id="95" subtype="主纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="96" subtype="精纹" level="3" property="gj" value="200" absorb="0" extra = "1"/>
+		<piece id="97" subtype="底纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="98" subtype="边纹" level="3" property="fy" value="200" absorb="3" extra = "1"/>
+		<piece id="100" subtype="主纹" level="3" property="gj" value="700" absorb="0"/>
+		<piece id="101" subtype="精纹" level="3" property="gj" value="700" absorb="0"/>
+		<piece id="103" subtype="边纹" level="3" property="fy" value="700" absorb="3"/>
+	</type>
+</wenpei>

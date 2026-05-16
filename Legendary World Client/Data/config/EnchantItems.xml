@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<EnchantItems>
+	<enchant id="16769" name="战刃" desc="强化你的剑气，使你释放隔位刺杀时造成的伤害提高，提升等级可以额外提高伤害" maxlevel="4" effect="1" icon="40457" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16770" name="聚气" desc="刺杀剑术击中敌人有概率使自身会获得一个状态，状态达到三层后，下一次刺杀攻击必定暴击，切换目标后状态重置，升级可以提升触发概率" maxlevel="4" effect="0" icon="40420" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16771" name="噬魂" desc="剑气穿透敌人的护甲，使目标短时间内物理防御力降低，提升等级可以额外提高削弱物理防御力的效果" maxlevel="4" effect="0" icon="40448" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16772" name="屠戮" desc="刺杀剑术对召唤的宠物攻击无视其防御，该符文无法升级" maxlevel="4" effect="0" icon="40451" exp="500" career="0">
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16773" name="烈焰" desc="提高对元素之力的掌控，使烈火剑法/雷霆剑对普通怪物的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40426" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16774" name="爆裂" desc="更强的元素力量从武器中爆发，使烈火剑法/雷霆剑对敌方角色造成更大的伤害，提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40399" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16775" name="穿刺" desc="火焰和雷电能够穿透敌人的护甲，有概率忽视目标一定量的物理防御力，提升等级可以提高触发概率和忽视物理防御的效果" maxlevel="4" effect="0" icon="40402" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16776" name="重伤" desc="烈火剑法/雷霆剑有概率对敌人造成重伤效果，使其短时间内回血速度降低；提升等级可以提高触发概率和降低回血速度的效果" maxlevel="4" effect="1" icon="40460" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16777" name="狂暴" desc="将烈火和雷电控制于爆发的一瞬间，当提升烈火剑法/雷霆剑的暴击伤害；提升等级可以提高暴击伤害效果" maxlevel="4" effect="0" icon="40422" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16778" name="暴怒" desc="将自身的怒气汇入剑气之中，自身的生命值越低烈火剑法/雷霆剑的伤害越高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40398" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16779" name="闪避" desc="金刚护体额外提高物理闪避；提升等级可以提高闪避效果" maxlevel="4" effect="0" icon="40443" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16780" name="强壮" desc="金刚护体额外增加生命上限；提升等级可以提高生命上限" maxlevel="4" effect="0" icon="40440" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16781" name="强韧" desc="强化金刚护体效果，可以承受更多的伤害；提升等级可以承受更多伤害" maxlevel="4" effect="0" icon="40416" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16782" name="迅捷" desc="金刚护体额外提高魔法躲避;提升等级可以提高躲避效果" maxlevel="4" effect="0" icon="40453" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16783" name="滋养" desc="提高治疗术的治愈效果；提升等级可以调高治疗效果" maxlevel="4" effect="1" icon="40463" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16784" name="凝神" desc="治疗术对召唤兽使用时治疗效果增强；提升等级可以提高治疗效果" maxlevel="4" effect="1" icon="40434" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16785" name="延绵" desc="以道术驱法，延长治疗术的持续时间；提升等级可以额外延长持续时间" maxlevel="4" effect="1" icon="40455" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16786" name="联结" desc="施放治疗术时有概率使自身同时释放一个治疗术效果；提升等级可以提高触发概率" maxlevel="4" effect="1" icon="40425" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16787" name="急救" desc="治疗术对目标血量低于30%的目标治疗效果加强；提升等级可以额外提高效果" maxlevel="4" effect="1" icon="40415" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16788" name="净化" desc="治疗术可以对不死生物释放造成伤害" maxlevel="1" effect="0" icon="40419" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16789" name="专注" desc="用精神力强化道符，提升灵魂道符对普通怪物的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40462" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16790" name="凋死" desc="将毒咒打入灵魂道符之中，命中敌人后有几率给目标释放一个施毒术效果；提升等级可以提高触发概率和毒素效果" maxlevel="4" effect="1" icon="40404" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16791" name="圣灵" desc="强大的精神力释放于灵魂道符中，使道符的威力剧增，使灵魂道符对敌对玩家的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40446" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16792" name="诛心" desc="灵魂道符可以爆发出更强的威力，对敌人的暴击伤害提高；提升等级可以提高暴击伤害" maxlevel="4" effect="1" icon="40461" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16793" name="会心" desc="灵魂直击敌人心腹，提高道符的暴击概率；提升等级可以提高暴击概率" maxlevel="4" effect="0" icon="40413" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16794" name="强体" desc="提升召唤物的生命值；提升等级可以额外提高生命值" maxlevel="4" effect="1" icon="40438" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16795" name="石肤" desc="提升召唤物的双抗；提升等级可以额外提高双抗" maxlevel="4" effect="1" icon="40447" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16796" name="狂心" desc="提高召唤物的攻击；提升等级可以额外提高伤害效果" maxlevel="4" effect="1" icon="40423" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16797" name="生命连接" desc="召唤物可以额外分担主体受到的伤害；提升等级可以提高分担效果" maxlevel="4" effect="1" icon="40444" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16798" name="暴雷" desc="法术中融合元素之力，使雷电术/冰箭术对所有怪物的伤害效果；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40397" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16799" name="静心" desc="释放雷电术/冰箭术时有几率使下一个雷电术/冰箭术伤害提升且不消耗魔法；提升等级可以提高概率和伤害效果" maxlevel="4" effect="0" icon="40418" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16800" name="天赋" desc="激发自身的潜能，使雷电术/冰箭术对敌对玩家的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40450" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16801" name="雷暴" desc="释放雷电术/冰箭术时，触发暴击的概率提高；提升等级可以额外提高暴击率" maxlevel="4" effect="0" icon="40424" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16802" name="致命" desc="释放雷电术/冰箭术时发生暴击时，暴击伤害提高；提升等级可以额外提高暴击伤害" maxlevel="4" effect="1" icon="40459" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16803" name="暗影" desc="不稳定的暗影能量附着于魔法盾，魔法盾被击破后有一定几率爆炸，对身边敌方单位造成范围伤害；提升等级可以提高爆炸概率和伤害效果" maxlevel="4" effect="1" icon="40396" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16804" name="防护" desc="魔法盾被击破后有一定几率会出现一个有暗影能量汇聚的持续短时间的魔法盾，临时魔法盾可以被击破或者自动消失；提升等级可以调高触发概率和持续时间" maxlevel="4" effect="0" icon="40407" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16805" name="魔心" desc="降低释放魔法盾的魔法消耗；提升等级可以额外降低魔法值消耗" maxlevel="4" effect="0" icon="40432" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16806" name="贯注" desc="暗影能量固化魔法盾，使魔法盾不容易被破；提升等级可以额外降低被破盾概率" maxlevel="4" effect="0" icon="40410" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16807" name="斗气" desc="魔法盾被击破后有概率增加一定量的元气值；提升等级可以提高增加元气值量" maxlevel="4" effect="0" icon="40405" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16808" name="冰封领域" desc="强化自身对冰系魔法的掌控能力，增加技能的影响范围；该技能无法升级" maxlevel="4" effect="0" icon="40400" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16809" name="寒霜" desc="降低释放技能所需要的魔法值；升级可以降低更多魔法消耗" maxlevel="4" effect="0" icon="40411" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16810" name="冰刃" desc="将冰系魔法施展的根据杀伤力，提高技能所造成的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40401" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16811" name="盛焰" desc="以强劲魔法力催动火焰，提高火墙的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40445" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16812" name="蓄谋" desc="源源不断的发力灌输于火焰之中，提高火墙的持续时间；提升等级可以延长更多时间" maxlevel="4" effect="0" icon="40452" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16813" name="魔焰" desc="释放火墙时有几率释放黑色的地狱烈焰，地狱烈焰有概率会灼伤玩家魔法值；提升等级可以提高触发概率和魔法值" maxlevel="4" effect="1" icon="40433" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16814" name="火焰掌控" desc="降低释放技能所需要的魔法值；提升等级可以降低更多魔法值" maxlevel="4" effect="0" icon="40414" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16815" name="锋利" desc="打磨剑锋，释放出更强的剑气，提高破盾斩的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40408" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16816" name="破败" desc="剑气交错能够渗入防护法术之内，提高破盾斩的破盾成功率；提升等级可以额外提高破盾成功率" maxlevel="4" effect="0" icon="40435" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16817" name="斩魂" desc="剑气直击灵魂，破盾斩有概率可以扣除对方一定的魔法值百分比；提升等级可以提高触发概率和魔法值扣除比例" maxlevel="4" effect="1" icon="40456" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16818" name="破甲" desc="剑气划破护甲，破盾成功会在短时间内降低目标的物理防御；提升等级可以提高降低物理防御值" maxlevel="4" effect="1" icon="40436" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16819" name="魔火" desc="魔性的气息强化火咒的效果，提高幽冥火咒对所有目标的伤害；提升等级可以提高伤害量" maxlevel="4" effect="0" icon="40462" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16820" name="蚀骨" desc="幽冥火咒中融合毒咒命中目标时有概率会对目标释放一个施毒术；提升等级提高触发概率" maxlevel="4" effect="0" icon="40404" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16821" name="渗透" desc="强大的精神力注入火咒之中，提高幽冥火咒度普通怪物的伤害；提升等级可以提高伤害" maxlevel="4" effect="0" icon="40446" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16822" name="狂咒" desc="将精神力融入火咒，并且在短时间内爆发，提高幽冥火咒的暴击伤害；提升等级可以额外提高暴击伤害" maxlevel="4" effect="1" icon="40461" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16823" name="幽泉" desc="集中精神力，提高幽冥火咒的暴击概率；提升等级可以额外提高暴击概率" maxlevel="4" effect="1" icon="40413" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16824" name="蒸腾" desc="暗影能量提高流星火雨的伤害；提升等级可以额外提高伤害量" maxlevel="4" effect="1" icon="40445" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16825" name="升腾" desc="提高流星火雨的持续时间；提升等级可以提高持续时间" maxlevel="4" effect="0" icon="40452" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16826" name="魔雨" desc="释放流星火雨使有概率出现黑色的地狱烈焰，造成伤害的同时有概率减少目标的魔法值；提升等级增加触发概率和减少魔法值效果" maxlevel="4" effect="1" icon="40433" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16827" name="轻灵" desc="降低释放技能所需要的魔法值，提升等级可以提高降低魔法值量" maxlevel="4" effect="0" icon="40414" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16828" name="龙腾" desc="增强狂龙紫电的伤害能力，提升等级可以增加伤害效果" maxlevel="4" effect="0" icon="40429" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16829" name="龙之怒" desc="增强狂龙紫电的爆发力，提高其暴击伤害；提升等级可以增加暴击伤害效果" maxlevel="4" effect="1" icon="40431" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16830" name="龙吟" desc="使狂龙紫电带有短时间的腐蚀能力，有概率使敌方目标魔法防御降低；提升等级可以增加触发概率和魔法防御降低效果" maxlevel="4" effect="0" icon="40430" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16831" name="龙附" desc="掌控元素之力，释放狂龙紫电后有概率使下一个狂龙紫电必定暴击；提升等级可以提高触发概率" maxlevel="4" effect="1" icon="40428" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16832" name="苦痛" desc="提高施毒术的伤害和防御降低效果；提升等级可以提高伤害和防御降低效果" maxlevel="4" effect="0" icon="40421" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16833" name="清心" desc="施展施毒术有概率不消耗魔法值，提升等级可以提高概率" maxlevel="4" effect="0" icon="40442" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16834" name="凋零" desc="现在施展施毒术会有一个初始伤害，提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40403" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16835" name="夺魂" desc="受施毒术影响的目标在扣除生命值时有概率同时损失魔法值" maxlevel="4" effect="0" icon="40406" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16836" name="迅敏" desc="风影盾可以额外提升闪避值；提升等级可以额外提高闪避值" maxlevel="4" effect="0" icon="40454" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16837" name="灵敏" desc="风影盾可以额外提升魔法躲避值；提升等级可以额外提高魔法躲避值" maxlevel="4" effect="0" icon="40427" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16838" name="护身" desc="风影盾可以额外提升毒躲避；提升等级可以额外提高毒躲避" maxlevel="4" effect="0" icon="40412" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16839" name="速救" desc="风影盾充斥的能量，有几率在风影盾被击破时给释放者回复一定量的生命值；提升等级可以提高触发概率和生命回复量" maxlevel="4" effect="1" icon="40449" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16840" name="破绽" desc="成功使用野蛮冲撞撞击目标后会使目标暴露弱点，使其受到下一次攻击伤害提升；提升等级增加伤害提升效果" maxlevel="4" effect="0" icon="40437" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16841" name="金刚" desc="成功使用野蛮冲撞撞击目标后，使自身获得伤害减免的状态；提升等级可以提高伤害减免效果" maxlevel="4" effect="0" icon="40417" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16842" name="战神" desc="战神附体，使野蛮冲撞增加1格距离；该技能无法升级" maxlevel="1" effect="0" icon="40458" exp="500" career="0">
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16843" name="轻咒" desc="释放诅咒术有一定概率不消耗魔法值；提升等级可以提高触发概率" maxlevel="4" effect="0" icon="40441" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16844" name="强咒" desc="强化诅咒效果，延长诅咒术的时间；提升等级可以额外增加持续时间" maxlevel="4" effect="0" icon="40439" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16845" name="腐蚀" desc="增强诅咒术降低防御的效果，升级可以提高降低防御的效果" maxlevel="4" effect="0" icon="40409" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16981" name="狂莲" desc="提升赤莲破邪技能伤害，升级可以额外提升伤害效果" maxlevel="4" effect="0" icon="40521" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16982" name="幸运" desc="释放赤莲邪破时有概率返回1个连击点，升级可以额外提升返还概率" maxlevel="4" effect="0" icon="40524" exp="500" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16983" name="识破" desc="提升赤莲邪破的暴击概率，升级可以额外提升概率" maxlevel="4" effect="0" icon="40523" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16984" name="妖之怒" desc="提升赤莲邪破的暴击伤害，升级可以额外提升伤害效果" maxlevel="4" effect="1" icon="40525" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16985" name="灭神打击" desc="赤莲邪破有概率使目标重伤，使目标短时间内的恢复效果降低，升级可以额外提升概率和恢复降低效果" maxlevel="4" effect="1" icon="40522" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16986" name="横扫" desc="倾斜自身妖力，提升乱舞伤害，升级可以提升伤害能力" maxlevel="4" effect="0" icon="40527" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16987" name="铁壁" desc="乱舞持续期间提高自身的免伤效果，升级可以提升免伤效果" maxlevel="4" effect="0" icon="40529" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16988" name="割裂" desc="乱舞有概率使目标受到一个持续伤害效果，升级可以提升概率和持续伤害效果" maxlevel="4" effect="0" icon="40526" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16989" name="破釜沉舟" desc="乱舞持续时间内，使自身受到的伤害效果提高，但是提高乱舞的伤害能力，升级可以额外提升伤害和受伤效果" maxlevel="4" effect="1" icon="40528" exp="1000" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16990" name="湮灭" desc="妖力附身，提升灭炎吼伤害，升级可以额外提升伤害" maxlevel="4" effect="0" icon="40533" exp="500" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16991" name="裂魂" desc="灭炎吼有概率会在造成伤害的同时降低目标的蓝，升级可以提升减蓝效果" maxlevel="4" effect="0" icon="40530" exp="500" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16992" name="神力附体" desc="灭炎吼有概率短时间提升自身的伤害能力，升级可以提升伤害效果 " maxlevel="4" effect="1" icon="40531" exp="500" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16993" name="颤栗" desc="灭炎吼有概率震慑目标，使目标一定时间内攻击力降低，升级可以提升概率和攻击力降低效果" maxlevel="4" effect="0" icon="40532" exp="500" career="3">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16994" name="飘忽" desc="增加炎遁的范围1格，该技能符文无法升级" maxlevel="4" effect="0" icon="40535" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16995" name="鬼变" desc="减少炎遁需要消耗的魔法值，升级可以额外降低魔法值消耗" maxlevel="4" effect="0" icon="40534" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16996" name="炎盾" desc="释放炎遁后有概率一定时间内减少自身受到伤害，升级可以提升概率和减伤效果" maxlevel="4" effect="1" icon="40536" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16997" name="灵魂烈焰" desc="触发禁制造成的伤害同时会降低目标的魔法值，升级可以提升减蓝效果 " maxlevel="4" effect="0" icon="40537" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16998" name="炙魂" desc="禁制渗透灵魂，使目标有概率受到额外的伤害，升级可以提升概率和伤害力" maxlevel="4" effect="0" icon="40540" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16999" name="灭魂" desc="妖族的禁止震慑目标心灵，使目标伤害能力降低，提升等级可以提高降低目标伤害能力的效果" maxlevel="4" effect="1" icon="40538" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17000" name="妖之领域" desc="禁制范围增大1格，该技能符文无法升级" maxlevel="4" effect="1" icon="40539" exp="500" career="3">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17347" name="元神战刃" desc="强化你的剑气，使你释放隔位刺杀时造成的伤害提高，提升等级可以额外提高伤害" maxlevel="4" effect="0" icon="40457" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17348" name="元神聚气" desc="刺杀剑术击中敌人有概率使自身会获得一个状态，状态达到三层后，下一次刺杀攻击必定暴击，切换目标后状态重置，升级可以提升触发概率" maxlevel="4" effect="1" icon="40420" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17349" name="元神噬魂" desc="剑气穿透敌人的护甲，使目标短时间内物理防御力降低，提升等级可以额外提高削弱物理防御力的效果" maxlevel="4" effect="0" icon="40448" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17350" name="元神屠戮" desc="刺杀剑术对召唤的宠物攻击无视其防御，该符文无法升级" maxlevel="4" effect="0" icon="40451" exp="500" career="0">
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17351" name="元神烈焰" desc="提高对元素之力的掌控，使烈火剑法/雷霆剑对普通怪物的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40426" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17352" name="元神爆裂" desc="更强的元素力量从武器中爆发，使烈火剑法/雷霆剑对敌方角色造成更大的伤害，提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40399" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17353" name="元神穿刺" desc="火焰和雷电能够穿透敌人的护甲，有概率忽视目标一定量的物理防御力，提升等级可以提高触发概率和忽视物理防御的效果" maxlevel="4" effect="0" icon="40402" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17354" name="元神重伤" desc="烈火剑法/雷霆剑有概率对敌人造成重伤效果，使其短时间内回血速度降低；提升等级可以提高触发概率和降低回血速度的效果" maxlevel="4" effect="1" icon="40460" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17355" name="元神狂暴" desc="将烈火和雷电控制于爆发的一瞬间，当提升烈火剑法/雷霆剑的暴击伤害；提升等级可以提高暴击伤害效果" maxlevel="4" effect="0" icon="40422" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17356" name="元神暴怒" desc="将自身的怒气汇入剑气之中，自身的生命值越低烈火剑法/雷霆剑的伤害越高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40398" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17357" name="元神闪避" desc="金刚护体额外提高物理闪避；提升等级可以提高闪避效果" maxlevel="4" effect="0" icon="40443" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17358" name="元神强壮" desc="金刚护体额外增加生命上限；提升等级可以提高生命上限" maxlevel="4" effect="0" icon="40440" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17359" name="元神强韧" desc="强化金刚护体效果，可以承受更多的伤害；提升等级可以承受更多伤害" maxlevel="4" effect="0" icon="40416" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17360" name="元神迅捷" desc="金刚护体额外提高魔法躲避;提升等级可以提高躲避效果" maxlevel="4" effect="0" icon="40453" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17361" name="元神滋养" desc="提高治疗术的治愈效果；提升等级可以调高治疗效果" maxlevel="4" effect="1" icon="40463" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17362" name="元神凝神" desc="治疗术对召唤兽使用时治疗效果增强；提升等级可以提高治疗效果" maxlevel="4" effect="1" icon="40434" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17363" name="元神延绵" desc="以道术驱法，延长治疗术的持续时间；提升等级可以额外延长持续时间" maxlevel="4" effect="1" icon="40455" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17364" name="元神联结" desc="施放治疗术时有概率使自身同时释放一个治疗术效果；提升等级可以提高触发概率" maxlevel="4" effect="1" icon="40425" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17365" name="元神急救" desc="治疗术对目标血量低于30%的目标治疗效果加强；提升等级可以额外提高效果" maxlevel="4" effect="1" icon="40415" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17366" name="元神净化" desc="治疗术可以对不死生物释放造成伤害" maxlevel="1" effect="0" icon="40419" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17367" name="元神专注" desc="用精神力强化道符，提升灵魂道符对普通怪物的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40462" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17368" name="元神凋死" desc="将毒咒打入灵魂道符之中，命中敌人后有几率给目标释放一个施毒术效果；提升等级可以提高触发概率和毒素效果" maxlevel="4" effect="2" icon="40404" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17369" name="元神圣灵" desc="强大的精神力释放于灵魂道符中，使道符的威力剧增，使灵魂道符对敌对玩家的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40446" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17370" name="元神诛心" desc="灵魂道符可以爆发出更强的威力，对敌人的暴击伤害提高；提升等级可以提高暴击伤害" maxlevel="4" effect="1" icon="40461" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17371" name="元神会心" desc="灵魂直击敌人心腹，提高道符的暴击概率；提升等级可以提高暴击概率" maxlevel="4" effect="0" icon="40413" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17372" name="元神强体" desc="提升召唤物的生命值；提升等级可以额外提高生命值" maxlevel="4" effect="1" icon="40438" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17373" name="元神石肤" desc="提升召唤物的双抗；提升等级可以额外提高双抗" maxlevel="4" effect="1" icon="40447" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17374" name="元神狂心" desc="提高召唤物的攻击；提升等级可以额外提高伤害效果" maxlevel="4" effect="1" icon="40423" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17375" name="元神生命连接" desc="召唤物可以额外分担主体受到的伤害；提升等级可以提高分担效果" maxlevel="4" effect="1" icon="40444" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17376" name="元神暴雷" desc="法术中融合元素之力，使雷电术/冰箭术对所有怪物的伤害效果；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40397" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17377" name="元神静心" desc="释放雷电术/冰箭术时有几率使下一个雷电术/冰箭术伤害提升且不消耗魔法；提升等级可以提高概率和伤害效果" maxlevel="4" effect="0" icon="40418" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17378" name="元神天赋" desc="激发自身的潜能，使雷电术/冰箭术对敌对玩家的伤害提高；提升等级可以提高伤害效果" maxlevel="4" effect="1" icon="40450" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17379" name="元神雷暴" desc="释放雷电术/冰箭术时，触发暴击的概率提高；提升等级可以额外提高暴击率" maxlevel="4" effect="0" icon="40424" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17380" name="元神致命" desc="释放雷电术/冰箭术时发生暴击时，暴击伤害提高；提升等级可以额外提高暴击伤害" maxlevel="4" effect="1" icon="40459" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17381" name="元神暗影" desc="不稳定的暗影能量附着于魔法盾，魔法盾被击破后有一定几率爆炸，对身边敌方单位造成范围伤害；提升等级可以提高爆炸概率和伤害效果" maxlevel="4" effect="1" icon="40396" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17382" name="元神防护" desc="魔法盾被击破后有一定几率会出现一个有暗影能量汇聚的持续短时间的魔法盾，临时魔法盾可以被击破或者自动消失；提升等级可以调高触发概率和持续时间" maxlevel="4" effect="0" icon="40407" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17383" name="元神魔心" desc="降低释放魔法盾的魔法消耗；提升等级可以额外降低魔法值消耗" maxlevel="4" effect="0" icon="40432" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17384" name="元神贯注" desc="暗影能量固化魔法盾，使魔法盾不容易被破；提升等级可以额外降低被破盾概率" maxlevel="4" effect="0" icon="40410" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17385" name="元神斗气" desc="魔法盾被击破后有概率增加一定量的元气值；提升等级可以提高增加元气值量" maxlevel="4" effect="0" icon="40405" exp="500" career="1">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17386" name="元神锋利" desc="打磨剑锋，释放出更强的剑气，提高破盾斩的伤害；提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40408" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17387" name="元神破败" desc="剑气交错能够渗入防护法术之内，提高破盾斩的破盾成功率；提升等级可以额外提高破盾成功率" maxlevel="4" effect="0" icon="40435" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17388" name="元神斩魂" desc="剑气直击灵魂，破盾斩有概率可以扣除对方一定的魔法值百分比；提升等级可以提高触发概率和魔法值扣除比例" maxlevel="4" effect="1" icon="40456" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17389" name="元神破甲" desc="剑气划破护甲，破盾成功会在短时间内降低目标的物理防御；提升等级可以提高降低物理防御值" maxlevel="4" effect="1" icon="40436" exp="1000" career="0">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17390" name="元神魔火" desc="魔性的气息强化火咒的效果，提高幽冥火咒对所有目标的伤害；提升等级可以提高伤害量" maxlevel="4" effect="0" icon="40462" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17391" name="元神蚀骨" desc="幽冥火咒中融合毒咒命中目标时有概率会对目标释放一个施毒术；提升等级提高触发概率" maxlevel="4" effect="0" icon="40404" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17392" name="元神渗透" desc="强大的精神力注入火咒之中，提高幽冥火咒度普通怪物的伤害；提升等级可以提高伤害" maxlevel="4" effect="0" icon="40446" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17393" name="元神狂咒" desc="将精神力融入火咒，并且在短时间内爆发，提高幽冥火咒的暴击伤害；提升等级可以额外提高暴击伤害" maxlevel="4" effect="1" icon="40461" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17394" name="元神幽泉" desc="集中精神力，提高幽冥火咒的暴击概率；提升等级可以额外提高暴击概率" maxlevel="4" effect="1" icon="40413" exp="1000" career="2">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17395" name="元神龙腾" desc="增强狂龙紫电的伤害能力，提升等级可以增加伤害效果" maxlevel="4" effect="0" icon="40429" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17396" name="元神龙之怒" desc="增强狂龙紫电的爆发力，提高其暴击伤害；提升等级可以增加暴击伤害效果" maxlevel="4" effect="1" icon="40431" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17397" name="元神龙吟" desc="使狂龙紫电带有短时间的腐蚀能力，有概率使敌方目标魔法防御降低；提升等级可以增加触发概率和魔法防御降低效果" maxlevel="4" effect="0" icon="40430" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17398" name="元神龙附" desc="掌控元素之力，释放狂龙紫电后有概率使下一个狂龙紫电必定暴击；提升等级可以提高触发概率" maxlevel="4" effect="1" icon="40428" exp="1000" career="1">
+		<level maxexp="12000"/>
+		<level maxexp="24000"/>
+		<level maxexp="40000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17399" name="元神苦痛" desc="提高施毒术的伤害和防御降低效果；提升等级可以提高伤害和防御降低效果" maxlevel="4" effect="0" icon="40421" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17400" name="元神清心" desc="施展施毒术有概率不消耗魔法值，提升等级可以提高概率" maxlevel="4" effect="0" icon="40442" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17401" name="元神凋零" desc="现在施展施毒术会有一个初始伤害，提升等级可以提高伤害效果" maxlevel="4" effect="0" icon="40403" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17402" name="元神夺魂" desc="受施毒术影响的目标在扣除生命值时有概率同时损失魔法值" maxlevel="4" effect="0" icon="40406" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17403" name="元神破绽" desc="成功使用野蛮冲撞撞击目标后会使目标暴露弱点，使其受到下一次攻击伤害提升；提升等级增加伤害提升效果" maxlevel="4" effect="0" icon="40437" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17404" name="元神金刚" desc="成功使用野蛮冲撞撞击目标后，使自身获得伤害减免的状态；提升等级可以提高伤害减免效果" maxlevel="4" effect="0" icon="40417" exp="500" career="0">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17405" name="元神战神" desc="战神附体，使野蛮冲撞增加1格距离；该技能无法升级" maxlevel="1" effect="0" icon="40458" exp="500" career="0">
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17406" name="元神轻咒" desc="释放诅咒术有一定概率不消耗魔法值；提升等级可以提高触发概率" maxlevel="4" effect="0" icon="40441" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17407" name="元神强咒" desc="强化诅咒效果，延长诅咒术的时间；提升等级可以额外增加" maxlevel="4" effect="0" icon="40439" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="17408" name="元神腐蚀" desc="增强诅咒术降低防御的效果，升级可以提高降低防御的效果" maxlevel="4" effect="0" icon="40409" exp="500" career="2">
+		<level maxexp="2000"/>
+		<level maxexp="4000"/>
+		<level maxexp="8000"/>
+		<level maxexp="0"/>
+	</enchant>
+	<enchant id="16762" name="暗影精华" desc="可以用作符文融合" maxlevel="1" effect="0" icon="661" exp="200">
+	</enchant>
+	<enchant id="16951" name="储能灵丹" desc="蕴含技能符文经验" maxlevel="1" effect="0" icon="30905" exp="0">
+	</enchant>
+</EnchantItems>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<!-- ==================================== ResourcesWar ============================================================  -->
+	<ResourcesWar mapcode="lqzc01" zbc="lqzczb01" name="龙泉1" texid="26566" day="1,3,5" xgmin="0" xgmax="0" levelmin="368" levelmax="368" x="282" y="130" flagx="362" flagy="90">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="45点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*10"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="lqzc02" zbc="lqzczb02" name="龙泉2" texid="26567" day="1,3,5" xgmin="0" xgmax="0" levelmin="368" levelmax="368" x="90" y="143" flagx="110" flagy="113">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="45点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*10"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="lqzc03" zbc="lqzczb03" name="龙泉3" texid="26568" day="1,3,5" xgmin="0" xgmax="0" levelmin="368" levelmax="368" x="188" y="125" flagx="228" flagy="90">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="45点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*10"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="mszc01" zbc="mszczb01" name="明朔1" texid="26569" day="1,3,5" xgmin="0" xgmax="0" levelmin="270" levelmax="350" x="306" y="358" flagx="338" flagy="295">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="15点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*4"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="mszc02" zbc="mszczb02" name="明朔2" texid="26570" day="1,3,5" xgmin="0" xgmax="0" levelmin="270" levelmax="350" x="366" y="314" flagx="425" flagy="266">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="15点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*4"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="nyzc01" zbc="nyzczb01" name="宁远1" texid="26571" day="1,3,5" xgmin="0" xgmax="0" levelmin="330" levelmax="368" x="222" y="376" flagx="270" flagy="322">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="30点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*6"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="nyzc02" zbc="nyzczb02" name="宁远2" texid="26572" day="1,3,5" xgmin="0" xgmax="0" levelmin="330" levelmax="368" x="50" y="260" flagx="66" flagy="245">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="30点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*6"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="nyzc03" zbc="nyzczb03" name="宁远3" texid="26573" day="1,3,5" xgmin="0" xgmax="0" levelmin="330" levelmax="368" x="60" y="328" flagx="165" flagy="325">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="30点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*6"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="tqzc01" zbc="tqzczb01" name="天启" texid="26574" day="1,3,5" xgmin="10" xgmax="36" levelmin="368" levelmax="368" x="338" y="182" flagx="398" flagy="155">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="75点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*14"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="ymzc01" zbc="ymzczb01" name="云墨" texid="26575" day="1,3,5" xgmin="0" xgmax="0" levelmin="171" levelmax="281" x="458" y="270" flagx="482" flagy="242">
+		<tips color="FFFFFF" val="资源产量："/>
+		<tips color="FFFF00" val="10点"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周一、周三、周五19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="沧蓝晶石*2"/>
+	</ResourcesWar>
+	<ResourcesWar mapcode="qyzc" zbc="qyzczb" name="庆阳" texid="26577" day="6" xgmin="0" xgmax="0" levelmin="171" levelmax="368" x="286" y="236" flagx="327" flagy="206">
+		<tips color="FFFFFF" val="进入时间："/>
+		<tips color="FFFF00" val="周六19:00-20:00"/>
+		<tips color="FFFF00" val="enter"/>
+		<tips color="FFFFFF" val="必定产出："/>
+		<tips color="00FF00" val="天之流金装备或者三级沧蓝晶石"/>
+	</ResourcesWar>
+	<!--ResourcesWar mapcode="lqzc01" name="中间" texid="26576" output="365/天" leveltype="1" levelmin="1" levelmax="5" x="152" y="204" flagx="227" flagy="236"/-->
+	<!-- ==================================== ResourcesWar ============================================================  -->
+	<!-- ==================================== Treasures ============================================================  -->
+	<Treasures name="庆阳红秘宝" type="0"/>
+	<Treasures name="庆阳黄秘宝" type="1"/>
+	<Treasures name="庆阳蓝秘宝" type="2"/>
+	<!-- ==================================== Treasures ============================================================  -->
+	
+	<!-- ==================================== 进入霸州说明 ============================================================  -->
+	<EnterBaZhou name="逆鳞龙穴探险" tips="逆鳞乃逆鳞龙穴的主宰者，逆鳞龙穴探险可以获得丰厚的奖励！"/>
+	<EnterBaZhou name="资源争夺战" tips="参加资源争夺战，占领资源点可以获得行会资源；资源前10的行会成员还可以参加周六庆阳夺宝；月度排行前10行会可以获得丰厚奖励！"/>
+	<!-- ==================================== 进入霸州说明 ============================================================  -->
+	<!-- ==================================== 进入霸州小贴士 ============================================================  -->
+	<BaZhouTips tips="小贴士：在霸州才能组建战队！"/>
+
+	<!-- ==================================== 进入霸州小贴士 ============================================================  -->
+	<!-- ==================================== BaZhouCulture ============================================================  -->
+	<!--
+	<BaZhouCulture type="1" title="碧空城">
+		<Tips1>
+			<tips name="@@main" value="{color=FFFFFF 这是一块饱经风霜的石碑，经历了大陆最重要的历史}
+									  \{color=FFFFFF 你还可以在大陆的其他地方查看更多资料}"/>
+		</Tips1>
+		<Tips2>
+			<tips name="@@main" value="{color=FFFFFF 这是一块饱经风霜的石碑，经历了大陆最重要的历史}
+									  \{color=FFFFFF 你还可以在大陆的其他地方查看更多资料}"/>
+		</Tips2>
+		<Tips3>
+			<tips name="@@main" value="{逆鳞圣物:逆鳞一族的历史/@@NiLinHoly}
+									  \{邪龙逆鳞雕像:邪龙逆鳞的介绍/@@DragonNiLin}"/>
+			<tips name="@@NiLinHoly" value="{color=FFFF00 逆鳞圣物:逆鳞一族的历史}
+									  \{color=white 逆鳞圣物:逆鳞一族的历史}
+									  \{返回/@@main}"/>
+			<tips name="@@DragonNiLin" value="{color=FFFF00 邪龙逆鳞雕像:邪龙逆鳞的介绍}
+									  \{color=white 邪龙逆鳞雕像:邪龙逆鳞的介绍}
+									  \{返回/@@main}"/>
+		</Tips3>
+	</BaZhouCulture>
+	-->
+	<!-- ==================================== BaZhouCulture ============================================================  -->
+</CFG>

@@ -1,0 +1,126 @@
+<wooolroad>
+	<Single>
+		<Type id="wlrd">
+			<wooolroad index="100000" name="完成5个日常任务" 
+				desccolor1="yellow" desc1="日常任务可以前往中州广场的任务仙子处接取" 
+				desccolor2="yellow" desc2="完成日常任务可以获得大量经验和镇灵符" 
+				reward="超级天山雪莲*1,超级深海灵礁*1,月光宝盒(小)"/>
+			<wooolroad index="100001" name="发布1次悬赏任务" 
+				desccolor1="yellow" desc1="悬赏任务可以前往中州广场的幽影阁门人处发布" 
+				desccolor2="yellow" desc2="发布悬赏任务可以获得大量经验，甚至有概率获得稀有装备" 
+				reward="铜锤级别武器"/>
+			<wooolroad index="100002" name="实力提升至35级" 
+				desccolor1="yellow" desc1="通过完成主线任务可以获得大量经验" 
+				desccolor2="yellow" desc2="通过完成日常任务可以获得大量经验" 
+				reward="飞行靴*20,超级冰泉圣水和逆魔级别护腕"/>
+			<wooolroad index="100003" name="参与一次凡人宝地" 
+				desccolor1="yellow" desc1="到达30级可通过中州广场的宝地使者可以进入凡人宝地" 
+				desccolor2="yellow" desc2="凡人宝地怪物会掉落技能书和装备" 
+				reward="职业主战技能书和逆魔级别鞋子"/>
+			<wooolroad index="100004" name="护送1次镖车护送" 
+				desccolor1="yellow" desc1="在中州(414，268)镖师处护送经验镖车" 
+				desccolor2="yellow" desc2="完成活跃度可以领取免费护镖令" 
+				desccolor3="yellow" desc3="攻击其他镖车可以获取镖车物资" 
+				reward="超级天山雪莲*1,超级深海灵礁*1,月光宝盒(小)"/>
+			<wooolroad index="100005" name="添加一个玩家为好友" 
+				desccolor1="yellow" desc1="打开社交界面(快捷键Ctrl+I)在人脉页签下可以添加好友" 
+				reward="飞行靴*10"/>
+			<wooolroad index="100006" name="成功挖掘5次藏宝图" 
+				desccolor1="yellow" desc1="击败怪物可以获得藏宝图" 
+				desccolor2="yellow" desc2="使用宝藏可以获得大量经验" 
+				reward="超级天山雪莲*1,超级深海灵礁*1,白银宝藏*1"/>
+			<wooolroad index="100007" name="开启羽翼功能" 
+				desccolor1="yellow" desc1="将角色等级提升至38级可以开启羽翼" 
+				desccolor2="yellow" desc2="吸收幻翎之羽可以提升羽翼等级" 
+				desccolor3="yellow" desc3="幻翎之羽可以通过挑战神威狱获得" 
+				reward="幻翎之羽*5"/>
+			<wooolroad index="100008" name="成功开启一个神秘灵匣" 
+				desccolor1="yellow" desc1="神秘灵匣可以击败怪物获得" 
+				desccolor2="yellow" desc2="开启神秘灵匣的钥匙可以在商城购买" 
+				desccolor3="yellow" desc3="开启神秘灵匣可以获得勋章和金条等稀有道具" 
+				reward="神秘钥匙*1"/>
+			<wooolroad index="100009" name="实力提升至40级" 
+				desccolor1="yellow" desc1="完成主线任务和日常任务可以获得大量经验" 
+				desccolor2="yellow" desc2="护送经验镖车和发布悬赏任务可以获得大量经验" 
+				reward="镇灵符*3"/>
+			<wooolroad index="100010" name="开启镇魔功能" 
+				desccolor1="yellow" desc1="将角色等级提升至40级可以开启镇魔" 
+				desccolor2="yellow" desc2="镇魔使用的镇灵符可以通过完成日常任务等途径获得" 
+				reward="镇灵符*3"/>
+			<wooolroad index="100011" name="加入行会" 
+				desccolor1="yellow" desc1="可以通过聊天频道发布信息加入行会" 
+				desccolor2="yellow" desc2="加入行会可以让你有更好的游戏体验" 
+				reward="逆魔级别首饰"/>
+			<wooolroad index="100012" name="释放1次月光宝盒经验" 
+				desccolor1="yellow" desc1="月光宝盒可以在角色获得经验时自动存储经验" 
+				desccolor2="yellow" desc2="经验存储满后可以在中州（747，225）江湖百晓生处释放经验给自己本体或者元神" 
+				reward="治疗神水"/>
+			<wooolroad index="100013" name="参与一次心魔乱中州活动" 
+				desccolor1="yellow" desc1="周二和周日晚上19点可以在幻境中州参加" 
+				desccolor2="yellow" desc2="参加心魔乱中州可以获得大量的经验" 
+				reward="超级太阳神水*1"/>
+			<wooolroad index="100014" name="开启技能符文" 
+				desccolor1="yellow" desc1="将角色等级提升至42级可以开启技能符文" 
+				desccolor2="yellow" desc2="击败幻境的精英怪物可以获得职业之魂和暗影精华" 
+				desccolor3="yellow" desc3="使用暗影精华和职业之魂融合可以获得技能符文" 
+				desccolor4="yellow" desc4="吸收暗影精华或技能符文可以提升已经习得的符文等级" 
+				reward="储能灵丹*1"/>
+			<wooolroad index="100015" name="参与1次幻境战役" 
+				desccolor1="yellow" desc1="每天上午11点到12点，晚上21点到22点开启活动" 
+				desccolor2="yellow" desc2="参与幻境战役可以获得镇灵符和暗影精华" 
+				desccolor3="yellow" desc3="在庆功殿找幻境战役指挥使可了解战役情况" 
+				reward="护灵石"/>
+			<wooolroad index="100016" name="组队战斗" 
+				desccolor1="yellow" desc1="点击界面“社交”按钮可以进行组队操作" 
+				desccolor2="yellow" desc2="组队可以使你的战斗更加轻松" 
+				reward="治疗神水*1"/>
+			<wooolroad index="100017" name="参与落霞夺宝" 
+				desccolor1="yellow" desc1="落霞夺宝每周一，三，五晚上20点-21点举行" 
+				desccolor2="yellow" desc2="前往落霞岛250，250英雄试练使者处了解详情" 
+				reward="飞行靴*10"/>
+			<wooolroad index="100018" name="成功挖掘一次埋藏的宝藏" 
+				desccolor1="yellow" desc1="每周一，三，四，五，六中午12：00——12：30，晚上18：00~18：30举行" 
+				desccolor2="yellow" desc2="加入行会才能参与宝藏挖掘，挖掘宝藏可以获得大量经验和恢复类道具" 
+				reward="逆魔级别衣服"/>
+			<wooolroad index="100019" name="成功通关神威狱第一层" 
+				desccolor1="yellow" desc1="通过中州魔法阵祭祀可以传送至神威狱" 
+				desccolor2="yellow" desc2="神威狱的怪物会掉落高级技能书和高级装备" 
+				desccolor3="yellow" desc3="使用镇魔神符可以有效提高挑战神威狱的效率" 
+				reward="幸运符*2"/>
+			<wooolroad index="100020" name="使用玉净瓶捕获本命心魔" 
+				desccolor1="yellow" desc1="在幻境地图可以找到本命心魔" 
+				desccolor2="yellow" desc2="击败本命心魔后使用玉净瓶可以捕获" 
+				reward="月光宝盒(大)"/>
+			<wooolroad index="100021" name="用技能融合获得技能符文" 
+				desccolor1="yellow" desc1="技能融合需要暗影精华和职业之魂" 
+				desccolor2="yellow" desc2="职业之魂可以击败幻境的精英怪物获得" 
+				reward="储能灵丹*1"/>
+			<wooolroad index="100022" name="学习烈火或神兽或魔法盾" 
+				desccolor1="yellow" desc1="高级技能可以大幅提升自身战斗力" 
+				desccolor2="yellow" desc2="可以在宝地二（40级以上玩家可以进入）击败怪物获得" 
+				reward="强化技能灵丹*1"/>
+			<wooolroad index="100023" name="实力提升至43级" 
+				desccolor1="yellow" desc1="完成主线任务和日常任务可以获得大量经验" 
+				desccolor2="yellow" desc2="护送经验镖车和发布悬赏任务可以获得大量经验" 
+				reward="元神雷电术或元神抱月刀或元神灵魂幽灵盾"/>
+			<wooolroad index="100024" name="将羽翼升级之蓝冰之焱" 
+				desccolor1="yellow" desc1="吸收幻翎之羽可以提升羽翼等级" 
+				desccolor2="yellow" desc2="幻翎之羽可以通过挑战神威狱获得" 
+				reward="幻翎之羽*10"/>
+			<wooolroad index="100025" name="对武器附魔黑暗攻击" 
+				desccolor1="yellow" desc1="在中州（423,47）铸造师处可以铸造黑暗攻击" 
+				desccolor2="yellow" desc2="可以使用装有心魔的玉净瓶增加武器的临时属性" 
+				reward="玉净瓶*1"/>
+			<wooolroad index="100026" name="将任意技能符文升至2级" 
+				desccolor1="yellow" desc1="吸收暗影精华或者技能符文可以提升技能符文等级" 
+				desccolor2="yellow" desc2="通过暗影精华和职业之魂可以合成技能符文" 
+				reward="镇灵符*3"/>
+			<wooolroad index="100027" name="两个部位镇魔+1" 
+				desccolor1="yellow" desc1="使用镇灵符可以进行镇魔" 
+				desccolor2="yellow" desc2="镇灵符可以通过完成日常任务等途径获得" 
+				reward="镇灵符*3"/>
+		</Type>
+	</Single>
+	<Complex>
+	</Complex>
+</wooolroad>

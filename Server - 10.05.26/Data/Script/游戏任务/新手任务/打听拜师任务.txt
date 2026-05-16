@@ -1,0 +1,40 @@
+[@落霞岛_书店1]
+#SAY
+可以完成的任务：\
+<新手任务--打听拜师/@_RW_fulfilTaskDesp5>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp5]
+年轻人，谢谢你帮我的忙呢！你找我有什么事情吗？\
+<打听拜师/@_RW_fulfilTask5_5>                <没事/@exit>
+
+[@_RW_fulfilTask5_5]
+#ACT
+CompleteTask 6
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 7
+systemmsg $username "您成功增加了300金币。"
+#SAY
+你可以在新手向导或者中州武馆教头处拜师，点击“拜师”\
+选项后输入师父的名字就可以了，前提是师父必须到场。\
+你现在去服装店老板那里看看，他会教你如何结婚的。\
+<离开/@exit>
+
+[@海角_书店10]
+可以完成的任务：\
+<新手任务--打听拜师/@_RW_fulfilTaskDesp15>\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp15]
+#ACT
+CompleteTask 19
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 20
+systemmsg $username "您成功增加了300金币。"
+#SAY
+你可以在新手向导或者中州武馆教头处拜师，点击“拜师”\
+选项后输入师父的名字就可以了，前提是师父必须到场。\
+你现在去服装店老板那里看看，他会教你如何结婚的。\
+<离开/@exit>

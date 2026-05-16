@@ -1,0 +1,178 @@
+[@main]
+#if
+issabukowner
+#act
+goto @main1
+#elsesay
+这个城堡的库存货币是<$SABUKTOTALGOLD金币, 今天的收入是 \
+<$SABUKTODAYINCOME>金币.\
+<关闭/@exit>
+
+[@main1]
+这个城堡的库存货币是<$SABUKTOTALGOLD>金币, 今天的收入是 \
+<$SABUKTODAYINCOME>金币.\
+<取回资金/@d_withdrawal>    <存储资金/@d_receipts>\
+<申请城主雕像/@diaoxiang>  <编辑行会宣言/@xuanyan>\
+<开关城门命令/@treatdoor>  \
+<城门城墙维修命令/@repaircastle>\
+<门卫的命令/@guardcmd>   <修改沙城折扣率/@sabukcess>\
+<关闭/@exit>
+
+[@d_withdrawal]
+#if
+issabukowner
+#act
+GETSABUKGOLD $SABUKTOTALGOLD
+#say
+你取走了<$SABUKTOTALGOLD>金币\
+<返回/@main1>
+
+[@d_receipts]
+#if
+issabukowner
+#act
+inputtext 输入你想要存储的资金 7 @guildgold
+
+[@guildgold]
+#if
+checkex gold > $inputtext
+#act
+PUTSABUKGOLD $inputtext
+#say
+你存储了<$inputtext>金币\
+<返回/@main1>
+#elsesay
+你的金币不够\
+<返回/@main1>
+
+[@diaoxiang]
+#if
+issabukowner
+#act
+goto @diaoxiangok
+#elsesay
+对不起，你还没有申请沙城城主雕像，请先申请雕像！\
+
+[@diaoxiangok]
+#if
+setsabukmaster
+#say
+申请沙城主雕像成功!\
+#elsesay
+你已经申请过沙城城主雕像.\
+
+[@treatdoor]
+当前大门是<$SABUKDOORSTATE>状态.\\
+<关闭大门./@closemaindoor>\
+<打开大门./@openmaindoor>\
+<返回/@main1>\
+
+[@closemaindoor]
+大门被关闭了.\\
+<返回/@treatdoor>\
+#act
+SABUKDOOR 0
+
+[@openmaindoor]
+大门被打开了.\\
+<返回/@treatdoor>\
+#act
+SABUKDOOR 1
+
+[@repaircastle]
+你想去哪里修理 ?\\
+<修理大门./@repairdoor>\
+<修理城墙./@repairwalls>\
+<返回/@main>\
+
+[@repairdoor]
+#if
+checkex gold > 100000
+#act
+takegold 100000
+REPAIRMAINDOOR
+#say
+大门修理好了.\
+<关闭/@exit>
+#elsesay
+您没有足够的金币来修理大门.\
+<关闭/@exit>
+
+[@repairwalls]
+<修理左城墙./@repairleftwall>\
+<修理中城墙./@repaircenterwall>\
+<修理右城墙./@repairrightwall>\
+<返回/@repaircastle>\
+
+[@repairleftwall]
+#if
+checkex gold > 200000
+#act
+takegold 200000
+repairwall 1
+#say
+左城墙修理好了.\
+<关闭/@exit>
+#elsesay
+您没有足够的金币来修理城墙.\
+<关闭/@exit>
+
+[@repaircenterwall]
+#if
+checkex gold > 200000
+#act
+takegold 200000
+repairwall 2
+#say
+中城墙修理好了.\
+<关闭/@exit>
+#elsesay
+您没有足够的金币来修理城墙.\
+<关闭/@exit>
+
+[@repairrightwall]
+#if
+checkex gold > 200000
+#act
+takegold 200000
+repairwall 3
+#say
+右城墙修理好了.\
+<关闭/@exit>
+#elsesay
+您没有足够的金币来修理城墙.\
+<关闭/@exit>
+
+[@guardcmd]
+请对卫士指定你的命令.\\
+<雇佣弓箭手./@hirearchers>\
+<改变攻击命令./@commandorder>\
+<返回/@main>\
+
+[@hirearchers]
+
+[@commandorder]
+
+[@d_guildlogo]
+
+[@sabukcess]
+#if
+issabukowner
+#act
+inputtext 请输入你要调整的沙城折扣率(最高为30%) 2 @changecess
+
+[@changecess]
+#if
+issabukowner
+checkex $inputtext < 31
+#act
+SETSABUKREBATE $inputtext
+#say
+沙城折扣率调整成功\
+你设置的沙城折扣率为<$inputtext>%\
+<返回/@main>\
+#elsesay
+你输入的数值过高\
+<返回/@main>\
+
+

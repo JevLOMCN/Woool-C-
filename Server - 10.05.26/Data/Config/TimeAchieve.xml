@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="gb2312"?>
+<TimeAchieve>
+	<JobShowProps job="0">
+		<ShowProp name="gj" show_name="攻击"/>
+		<ShowProp name="mfgj" show_name="魔法"/>
+		<ShowProp name="dsgj" show_name="道术"/>
+		<ShowProp name="fy" show_name="防御"/>
+		<ShowProp name="mffy" show_name="魔防"/>
+		<ShowProp name="hp" show_name="生命"/>
+	</JobShowProps>
+	<JobShowProps job="1">
+		<ShowProp name="gj" show_name="攻击"/>
+		<ShowProp name="mfgj" show_name="魔法"/>
+		<ShowProp name="dsgj" show_name="道术"/>
+		<ShowProp name="fy" show_name="防御"/>
+		<ShowProp name="mffy" show_name="魔防"/>
+		<ShowProp name="hp" show_name="生命"/>	
+	</JobShowProps>
+	<JobShowProps job="2">
+		<ShowProp name="gj" show_name="攻击"/>
+		<ShowProp name="mfgj" show_name="魔法"/>
+		<ShowProp name="dsgj" show_name="道术"/>
+		<ShowProp name="fy" show_name="防御"/>
+		<ShowProp name="mffy" show_name="魔防"/>
+		<ShowProp name="hp" show_name="生命"/>	
+	</JobShowProps>
+	<AchieveLevel max_exp = "100">	<!-- 成就0级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="0" value_2="0"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="0" value_2="0"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="0" value_2="0"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "300">	<!-- 成就1级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="15" value_2="15"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="5" value_2="5"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="10" value_2="10"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "500">	<!-- 成就2级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="15" value_2="15"/>
+		  <Prop name="gj" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="5" value_2="5"/>
+		  <Prop name="mfgj" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="10" value_2="10"/>
+		  <Prop name="dsgj" value_1="0" value_2="1"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "1000">	<!-- 成就3级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="15" value_2="15"/>
+		  <Prop name="gj" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="5" value_2="5"/>
+		  <Prop name="mfgj" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="10" value_2="10"/>
+		  <Prop name="dsgj" value_1="0" value_2="2"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "1500">	<!-- 成就4级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="30" value_2="30"/>
+		  <Prop name="gj" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="10" value_2="10"/>
+		  <Prop name="mfgj" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="20" value_2="20"/>
+		  <Prop name="dsgj" value_1="0" value_2="2"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "2000">	<!-- 成就5级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="30" value_2="30"/>
+		  <Prop name="gj" value_1="0" value_2="2"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="10" value_2="10"/>
+		  <Prop name="mfgj" value_1="0" value_2="2"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="20" value_2="20"/>
+		  <Prop name="dsgj" value_1="0" value_2="2"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "2600">	<!-- 成就5-6级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="45" value_2="45"/>
+		  <Prop name="gj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="15" value_2="15"/>
+		  <Prop name="mfgj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="30" value_2="30"/>
+		  <Prop name="dsgj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="1"/>
+		  <Prop name="mffy" value_1="0" value_2="1"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "3200">	<!-- 成就6-7级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="45" value_2="45"/>
+		  <Prop name="gj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="15" value_2="15"/>
+		  <Prop name="mfgj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="30" value_2="30"/>
+		  <Prop name="dsgj" value_1="0" value_2="3"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "3900">	<!-- 成就7-8级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="60" value_2="60"/>
+		  <Prop name="gj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="20" value_2="20"/>
+		  <Prop name="mfgj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="40" value_2="40"/>
+		  <Prop name="dsgj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="2"/>
+		  <Prop name="mffy" value_1="0" value_2="2"/>
+		</Jobprop>
+	</AchieveLevel>
+	<AchieveLevel max_exp = "4700">	<!-- 成就8-9级 --> 
+		<Jobprop job="0">
+		  <Prop name="hp" value_1="60" value_2="60"/>
+		  <Prop name="gj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="3"/>
+		  <Prop name="mffy" value_1="0" value_2="3"/>
+		</Jobprop>
+		<Jobprop job="1">
+		  <Prop name="hp" value_1="20" value_2="20"/>
+		  <Prop name="mfgj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="3"/>
+		  <Prop name="mffy" value_1="0" value_2="3"/>
+		</Jobprop>
+		<Jobprop job="2">
+		  <Prop name="hp" value_1="40" value_2="40"/>
+		  <Prop name="dsgj" value_1="0" value_2="4"/>
+		  <Prop name="fy" value_1="0" value_2="3"/>
+		  <Prop name="mffy" value_1="0" value_2="3"/>
+		</Jobprop>
+	</AchieveLevel>
+	<!--综合-->
+	<Achieve id="100" name="驰骋天涯" max_exp="1" group="0" point="5" />
+	<Achieve id="200" name="黄金宝马" max_exp="1" group="1" point="5" />
+	<Achieve id="300" name="默默无闻" max_exp="10" group="2" point="5" />
+	<Achieve id="400" name="小有名气" max_exp="500" group="2" point="5" />
+	<Achieve id="500" name="名声在外" max_exp="2000" group="2" point="5" />
+	<Achieve id="501" name="仰慕已久" max_exp="5000" group="2" point="5" />
+	<Achieve id="502" name="闻名遐迩" max_exp="10000" group="2" point="5" />
+	<Achieve id="503" name="名满天下" max_exp="20000" group="2" point="10" />
+	<Achieve id="504" name="名垂青史" max_exp="40000" group="2" point="20" />
+	<Achieve id="1300" name="生死不渝" max_exp="0" group="3" point="10" />
+	<Achieve id="2900" name="登堂入室" max_exp="10" group="4" point="5" />
+	<Achieve id="3000" name="出入由心" max_exp="20" group="4" point="5" />
+	<Achieve id="3100" name="天地造化" max_exp="30" group="4" point="5" />
+	<Achieve id="3200" name="生死轮回" max_exp="50" group="4" point="5" />
+	<Achieve id="3301" name="顿悟解脱" max_exp="55" group="4" point="5" />
+	<Achieve id="3302" name="上德无为" max_exp="60" group="4" point="10" />
+	<Achieve id="3303" name="出神入化" max_exp="65" group="4" point="15" />
+	<Achieve id="3304" name="无上武念" max_exp="71" group="4" point="20" />
+	<Achieve id="4100" name="才疏学浅" max_exp="1" group="4" point="5" />
+	<Achieve id="4200" name="精益求精" max_exp="5" group="4" point="5" />
+	<Achieve id="4300" name="炉火纯青" max_exp="10" group="4" point="5" />
+	<Achieve id="4400" name="登峰造极(一)" max_exp="1" group="4" point="5" />
+	<Achieve id="4401" name="登峰造极(二)" max_exp="5" group="4" point="10" />
+	<Achieve id="4402" name="登峰造极(三)" max_exp="10" group="4" point="20" />
+	<Achieve id="4403" name="鬼斧神工" max_exp="0" group="4" point="20" />
+	<Achieve id="4500" name="浅尝辄止" max_exp="1" group="1" point="5" />
+	<Achieve id="4501" name="食髓知味" max_exp="10" group="1" point="5" />
+	<Achieve id="4502" name="欲罢不能" max_exp="100" group="1" point="10" />
+	<Achieve id="5300" name="王城新兵" max_exp="1" group="5" point="5" />
+	<Achieve id="5400" name="王城老兵" max_exp="10" group="5" point="5" />
+	<Achieve id="5500" name="王城勇士" max_exp="20" group="5" point="5" />
+	<Achieve id="5600" name="王城猛士" max_exp="50" group="5" point="5" />
+	<Achieve id="5700" name="王城校尉" max_exp="100" group="5" point="5" />
+	<Achieve id="5800" name="王城先锋" max_exp="200" group="5" point="5" />
+	<Achieve id="5900" name="王城护军" max_exp="500" group="5" point="10" />
+	<Achieve id="5901" name="王城军侯" max_exp="1000" group="5" point="20" />
+	<Achieve id="5902" name="王城都尉" max_exp="2000" group="5" point="20" />
+	<Achieve id="5903" name="王城将军" max_exp="5000" group="5" point="20" />
+	<Achieve id="9500" name="满载而归(一)" max_exp="1" group="6" point="5" />
+	<Achieve id="9600" name="满载而归(二)" max_exp="5" group="6" point="5" />
+	<Achieve id="9700" name="满载而归(三)" max_exp="10" group="6" point="5" />
+	<Achieve id="9800" name="满载而归(四)" max_exp="20" group="6" point="5" />
+	<Achieve id="9801" name="满载而归(五)" max_exp="30" group="6" point="5" />
+	<Achieve id="9802" name="满载而归(六)" max_exp="40" group="6" point="5" />
+	<Achieve id="9803" name="满载而归(七)" max_exp="50" group="6" point="5" />
+	<Achieve id="9804" name="满载而归(八)" max_exp="60" group="6" point="5" />
+	<Achieve id="9805" name="满载而归(九)" max_exp="70" group="6" point="5" />
+	<Achieve id="9806" name="满载而归(十)" max_exp="80" group="6" point="5" />
+	<Achieve id="9900" name="锦衣玉食(一)" max_exp="1" group="7" point="5" />
+	<Achieve id="10000" name="锦衣玉食(二)" max_exp="5" group="7" point="5" />
+	<Achieve id="10100" name="锦衣玉食(三)" max_exp="10" group="7" point="5" />
+	<Achieve id="10200" name="锦衣玉食(四)" max_exp="20" group="7" point="5" />
+	<Achieve id="10201" name="锦衣玉食(五)" max_exp="30" group="7" point="5" />
+	<Achieve id="10202" name="锦衣玉食(六)" max_exp="40" group="7" point="5" />
+	<Achieve id="10203" name="锦衣玉食(七)" max_exp="50" group="7" point="5" />
+	<Achieve id="10204" name="锦衣玉食(八)" max_exp="60" group="7" point="5" />
+	<Achieve id="10205" name="锦衣玉食(九)" max_exp="70" group="7" point="5" />
+	<Achieve id="10206" name="锦衣玉食(十)" max_exp="80" group="7" point="5" />
+	<Achieve id="10500" name="首开纪录" max_exp="1" group="8" point="5" />
+	<Achieve id="10600" name="任务新秀" max_exp="10" group="8" point="5" />
+	<Achieve id="10700" name="任务老手" max_exp="20" group="8" point="5" />
+	<Achieve id="10800" name="任务先锋" max_exp="50" group="8" point="5" />
+	<Achieve id="10900" name="任务高手" max_exp="100" group="8" point="5" />
+	<Achieve id="10901" name="任务专家" max_exp="200" group="8" point="5" />
+	<Achieve id="10902" name="任务大师" max_exp="500" group="8" point="5" />
+	<Achieve id="10903" name="任务宗师" max_exp="1000" group="8" point="10" />
+	<Achieve id="10904" name="任务权威" max_exp="2000" group="8" point="10" />
+	<Achieve id="10905" name="任务王者" max_exp="5000" group="8" point="20" />
+	<Achieve id="11000" name="探索矿洞" max_exp="0" group="9" point="5" />
+	<Achieve id="11100" name="探索机关洞" max_exp="0" group="9" point="5" />
+	<Achieve id="11200" name="探索将军坟" max_exp="0" group="9" point="5" />
+	<Achieve id="11300" name="探索逆魔古刹" max_exp="0" group="9" point="5" />
+	<Achieve id="11400" name="探索蛇魔殿" max_exp="0" group="9" point="5" />
+	<Achieve id="11500" name="探索禁地" max_exp="0" group="9" point="5" />
+	<Achieve id="11600" name="炼狱魔境" max_exp="1" group="10" point="5" />
+	<Achieve id="18000" name="职业炼狱" max_exp="1" group="10" point="5" />
+
+	<!--人脉-->
+	<Achieve id="600" name="传音入密" max_exp="1" group="1" point="5" />
+	<Achieve id="700" name="振聋发聩" max_exp="10" group="1" point="5" />
+	<Achieve id="800" name="大狮子吼" max_exp="50" group="1" point="10" />
+	<Achieve id="801" name="千里传音" max_exp="200" group="1" point="20" />
+	<Achieve id="900" name="萍水相逢" max_exp="1" group="4" point="5" />
+	<Achieve id="1000" name="左右逢源" max_exp="10" group="4" point="5" />
+	<Achieve id="1100" name="高朋满座" max_exp="50" group="4" point="10" />
+	<Achieve id="1200" name="三教九流" max_exp="1" group="11" point="5" />
+	<Achieve id="1400" name="谦谦君子" max_exp="1" group="12" point="5" />
+	<Achieve id="1500" name="礼尚往来" max_exp="1" group="13" point="5" />
+	<Achieve id="1600" name="待价而沽" max_exp="1" group="14" point="5" />
+	<Achieve id="1700" name="百年好合" max_exp="1" group="15" point="5" />
+	<Achieve id="1800" name="义结金兰" max_exp="1" group="16" point="5" />
+	<Achieve id="1900" name="萍水相逢" max_exp="100" group="4" point="5" />
+	<Achieve id="2000" name="君子之交" max_exp="200" group="4" point="5" />
+	<Achieve id="2100" name="相见恨晚" max_exp="500" group="4" point="5" />
+	<Achieve id="2200" name="策马同游" max_exp="1000" group="4" point="5" />
+	<Achieve id="2201" name="肝胆相照" max_exp="2000" group="4" point="5" />
+	<Achieve id="2202" name="金兰之契" max_exp="5000" group="4" point="5" />
+	<Achieve id="2203" name="莫逆之交" max_exp="10000" group="4" point="10" />
+	<Achieve id="2204" name="生死不离" max_exp="20000" group="4" point="10" />
+	<Achieve id="2205" name="山盟海誓" max_exp="50000" group="4" point="20" />
+	<Achieve id="2206" name="海枯石烂" max_exp="100000" group="4" point="20" />
+	<Achieve id="2300" name="萍水相逢·礼物" max_exp="1" group="17" point="5" />
+	<Achieve id="2400" name="君子之交·礼物" max_exp="10" group="17" point="5" />
+	<Achieve id="2401" name="相见恨晚·礼物" max_exp="20" group="17" point="5" />
+	<Achieve id="2402" name="策马同游·礼物" max_exp="50" group="17" point="5" />
+	<Achieve id="2403" name="肝胆相照·礼物" max_exp="100" group="17" point="5" />
+	<Achieve id="2404" name="金兰之契·礼物" max_exp="200" group="17" point="5" />
+	<Achieve id="2405" name="莫逆之交·礼物" max_exp="500" group="17" point="10" />
+	<Achieve id="2406" name="生死不离·礼物" max_exp="1000" group="17" point="10" />
+	<Achieve id="2407" name="山盟海誓·礼物" max_exp="2000" group="17" point="20" />
+	<Achieve id="2408" name="海枯石烂·礼物" max_exp="5000" group="17" point="20" />
+	<Achieve id="2500" name="萍水相逢·结义" max_exp="100" group="4" point="5" />
+	<Achieve id="2600" name="君子之交·结义" max_exp="200" group="4" point="5" />
+	<Achieve id="2700" name="相见恨晚·结义" max_exp="500" group="4" point="5" />
+	<Achieve id="2800" name="策马同游·结义" max_exp="1000" group="4" point="5" />
+	<Achieve id="2801" name="肝胆相照·结义" max_exp="2000" group="4" point="5" />
+	<Achieve id="2802" name="金兰之契·结义" max_exp="5000" group="4" point="5" />
+	<Achieve id="2803" name="莫逆之交·结义" max_exp="10000" group="4" point="10" />
+	<Achieve id="2804" name="生死不离·结义" max_exp="20000" group="4" point="10" />
+	<Achieve id="2805" name="山盟海誓·结义" max_exp="50000" group="4" point="20" />
+	<Achieve id="2806" name="海枯石烂·结义" max_exp="100000" group="4" point="20" />
+
+	<!--装备-->
+	<Achieve id="4600" name="一帆风顺" max_exp="1" group="1" point="5" />
+	<Achieve id="4700" name="十全十美" max_exp="10" group="1" point="5" />
+	<Achieve id="4800" name="百炼成钢" max_exp="100" group="1" point="5" />
+	<Achieve id="4801" name="千载难逢" max_exp="1000" group="1" point="10" />
+	<Achieve id="4802" name="万事大吉" max_exp="10000" group="1" point="20" />
+	<Achieve id="13200" name="通灵显圣(一)" max_exp="1" group="18" point="5" />
+	<Achieve id="13300" name="通灵显圣(二)" max_exp="5" group="18" point="5" />
+	<Achieve id="13400" name="通灵显圣(三)" max_exp="10" group="18" point="5" />
+	<Achieve id="13401" name="通灵显圣(四)" max_exp="20" group="18" point="5" />
+	<Achieve id="13402" name="通灵显圣(五)" max_exp="50" group="18" point="5" />
+	<Achieve id="13403" name="通灵显圣(六)" max_exp="100" group="18" point="5" />
+	<Achieve id="13404" name="通灵显圣(七)" max_exp="200" group="18" point="5" />
+	<Achieve id="13405" name="通灵显圣(八)" max_exp="300" group="18" point="5" />
+	<Achieve id="13406" name="通灵显圣(九)" max_exp="500" group="18" point="10" />
+	<Achieve id="13407" name="通灵显圣(十)" max_exp="1000" group="18" point="10" />
+	<Achieve id="17800" name="勋章菜鸟" max_exp="2" group="4" point="5" />
+	<Achieve id="17900" name="勋章新秀" max_exp="5" group="4" point="5" />
+	<Achieve id="17901" name="勋章老手" max_exp="10" group="4" point="5" />
+	<Achieve id="18100" name="极品强化(一)" max_exp="1" group="19" point="5" />
+	<Achieve id="18101" name="极品强化(二)" max_exp="5" group="19" point="5" />
+	<Achieve id="18102" name="极品强化(三)" max_exp="10" group="19" point="5" />
+	<Achieve id="18103" name="极品强化(四)" max_exp="20" group="19" point="5" />
+	<Achieve id="18104" name="极品强化(五)" max_exp="50" group="19" point="5" />
+	<Achieve id="18105" name="极品强化(六)" max_exp="100" group="19" point="5" />
+	<Achieve id="18106" name="极品强化(七)" max_exp="200" group="19" point="5" />
+	<Achieve id="18107" name="极品强化(八)" max_exp="300" group="19" point="5" />
+	<Achieve id="18200" name="命运(一)" max_exp="1" group="20" point="5" />
+	<Achieve id="18201" name="命运(二)" max_exp="5" group="20" point="5" />
+	<Achieve id="18202" name="命运(三)" max_exp="10" group="20" point="5" />
+	<Achieve id="18203" name="命运(四)" max_exp="20" group="20" point="5" />
+	<Achieve id="18204" name="命运(五)" max_exp="50" group="20" point="5" />
+	<Achieve id="18205" name="命运(六)" max_exp="100" group="20" point="5" />
+	<Achieve id="18206" name="命运(七)" max_exp="200" group="20" point="5" />
+	<Achieve id="18207" name="命运(八)" max_exp="300" group="20" point="5" />
+	<Achieve id="18300" name="训马菜鸟" max_exp="1" group="21" point="5" />
+	<Achieve id="18301" name="训马新秀" max_exp="5" group="21" point="5" />
+	<Achieve id="18302" name="训马老手" max_exp="10" group="21" point="5" />
+	<Achieve id="18303" name="训马先锋" max_exp="20" group="21" point="5" />
+	<Achieve id="18304" name="训马高手" max_exp="50" group="21" point="5" />
+	<Achieve id="18305" name="抓马专家" max_exp="100" group="21" point="5" />
+	<Achieve id="19300" name="火眼金睛(一)" max_exp="1" group="22" point="5" />
+	<Achieve id="19301" name="火眼金睛(二)" max_exp="10" group="22" point="5" />
+	<Achieve id="19302" name="火眼金睛(三)" max_exp="100" group="22" point="5" />
+	<Achieve id="19303" name="火眼金睛(四)" max_exp="500" group="22" point="5" />
+	<Achieve id="19304" name="火眼金睛(五)" max_exp="1000" group="22" point="5" />
+	<Achieve id="19305" name="火眼金睛(六)" max_exp="2000" group="22" point="5" />
+	<Achieve id="19306" name="火眼金睛(七)" max_exp="5000" group="22" point="5" />
+	<Achieve id="19307" name="火眼金睛(八)" max_exp="10000" group="22" point="5" />
+
+	<!--活动-->
+	<Achieve id="4900" name="镖卒" max_exp="1" group="23" point="5" />
+	<Achieve id="5000" name="镖头" max_exp="5" group="23" point="5" />
+	<Achieve id="5100" name="镖师" max_exp="20" group="23" point="5" />
+	<Achieve id="5200" name="镖王" max_exp="50" group="23" point="10" />
+	<Achieve id="5201" name="镖圣" max_exp="200" group="23" point="20" />
+	<Achieve id="5202" name="镖神" max_exp="1000" group="23" point="20" />
+	<Achieve id="6000" name="寻宝菜鸟" max_exp="1" group="24" point="5" />
+	<Achieve id="6100" name="寻宝新秀" max_exp="10" group="24" point="5" />
+	<Achieve id="6200" name="寻宝老手" max_exp="20" group="24" point="5" />
+	<Achieve id="6300" name="寻宝先锋" max_exp="50" group="24" point="5" />
+	<Achieve id="6400" name="寻宝高手" max_exp="100" group="24" point="5" />
+	<Achieve id="6401" name="寻宝专家" max_exp="200" group="24" point="10" />
+	<Achieve id="6402" name="寻宝大师" max_exp="500" group="24" point="20" />
+	<Achieve id="6403" name="寻宝宗师" max_exp="1000" group="24" point="20" />
+	<Achieve id="6404" name="寻宝权威" max_exp="2000" group="24" point="20" />
+	<Achieve id="6405" name="寻宝王者" max_exp="5000" group="24" point="5" />
+	<Achieve id="8500" name="七星珠菜鸟" max_exp="1" group="25" point="5" />
+	<Achieve id="8600" name="七星珠新秀" max_exp="5" group="25" point="5" />
+	<Achieve id="8700" name="七星珠老手" max_exp="10" group="25" point="5" />
+	<Achieve id="8800" name="七星珠先锋" max_exp="20" group="25" point="5" />
+	<Achieve id="8900" name="七星珠高手" max_exp="50" group="25" point="5" />
+	<Achieve id="8901" name="七星珠专家" max_exp="100" group="25" point="5" />
+	<Achieve id="8902" name="七星珠大师" max_exp="200" group="25" point="5" />
+	<Achieve id="8903" name="七星珠宗师" max_exp="300" group="25" point="5" />
+	<Achieve id="8904" name="七星珠权威" max_exp="500" group="25" point="10" />
+	<Achieve id="8905" name="七星珠王者" max_exp="1000" group="25" point="20" />
+	<Achieve id="9000" name="活跃菜鸟" max_exp="1" group="26" point="5" />
+	<Achieve id="9100" name="活跃新秀" max_exp="5" group="26" point="5" />
+	<Achieve id="9200" name="活跃老手" max_exp="10" group="26" point="5" />
+	<Achieve id="9300" name="活跃先锋" max_exp="20" group="26" point="5" />
+	<Achieve id="9400" name="活跃高手" max_exp="50" group="26" point="5" />
+	<Achieve id="9401" name="活跃专家" max_exp="100" group="26" point="5" />
+	<Achieve id="9402" name="活跃大师" max_exp="200" group="26" point="5" />
+	<Achieve id="9403" name="活跃宗师" max_exp="300" group="26" point="5" />
+	<Achieve id="9404" name="活跃权威" max_exp="500" group="26" point="10" />
+	<Achieve id="9405" name="活跃王者" max_exp="1000" group="26" point="20" />
+	<Achieve id="10300" name="落霞先锋" max_exp="1" group="10" point="5" />
+	<Achieve id="10400" name="宝盒终结者" max_exp="1" group="1" point="50" />
+	<Achieve id="18900" name="魔龙宝盒终结者" max_exp="1" group="27" point="50" />
+	<Achieve id="19000" name="魔龙宝箱采集者" max_exp="1" group="28" point="5" />
+	<Achieve id="19001" name="魔龙宝箱采集专家" max_exp="10" group="28" point="5" />
+	<Achieve id="19002" name="魔龙宝箱采集大师" max_exp="50" group="28" point="5" />
+	<Achieve id="19003" name="魔龙宝箱采集宗师" max_exp="100" group="28" point="5" />
+	<Achieve id="19100" name="屠龙勇者" max_exp="1" group="29" point="5" />
+	<Achieve id="19101" name="屠龙高手" max_exp="10" group="29" point="5" />
+	<Achieve id="19102" name="屠龙专家" max_exp="50" group="29" point="5" />
+	<Achieve id="19103" name="屠龙大师" max_exp="100" group="29" point="5" />
+	<Achieve id="19104" name="屠龙宗师" max_exp="500" group="29" point="5" />
+	<Achieve id="19200" name="要塞勇者" max_exp="1" group="30" point="5" />
+	<Achieve id="19201" name="要塞掌控" max_exp="10" group="30" point="5" />
+	<Achieve id="19202" name="要塞称霸" max_exp="100" group="30" point="5" />
+
+	<!--PVE-->
+	<Achieve id="11700" name="尸王挑战者" max_exp="1" group="31" point="5" />
+	<Achieve id="11701" name="尸王扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="11702" name="尸王猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="11703" name="尸王终结者" max_exp="100" group="31" point="5" />
+	<Achieve id="11800" name="机关巨兽挑战者" max_exp="1" group="31" point="10" />
+	<Achieve id="11801" name="机关巨兽扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="11802" name="机关巨兽猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="11803" name="机关巨兽终结者" max_exp="100" group="31" point="5" />
+	<Achieve id="11900" name="尸霸挑战者" max_exp="1" group="31" point="10" />
+	<Achieve id="11901" name="尸霸扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="11902" name="尸霸猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="11903" name="尸霸终结者" max_exp="100" group="31" point="10" />
+	<Achieve id="12000" name="三头蛇王挑战者" max_exp="1" group="31" point="5" />
+	<Achieve id="12001" name="三头蛇王扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="12002" name="三头蛇王猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="12003" name="三头蛇王终结者" max_exp="100" group="31" point="10" />
+	<Achieve id="12100" name="逆魔挑战者" max_exp="1" group="31" point="5" />
+	<Achieve id="12101" name="逆魔扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="12102" name="逆魔猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="12103" name="逆魔终结者" max_exp="100" group="31" point="10" />
+	<Achieve id="12200" name="禁地魔王挑战者" max_exp="1" group="31" point="5" />
+	<Achieve id="12201" name="禁地魔王扫荡者" max_exp="5" group="31" point="5" />
+	<Achieve id="12202" name="禁地魔王猎杀者" max_exp="20" group="31" point="5" />
+	<Achieve id="12203" name="禁地魔王终结者" max_exp="100" group="31" point="10" />
+	<Achieve id="13500" name="刀犬猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="13501" name="刀犬克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="13502" name="刀犬终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="13600" name="棍犬猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="13601" name="棍犬克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="13602" name="棍犬终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="13700" name="鱼人猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="13701" name="鱼人克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="13702" name="鱼人终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="13800" name="巨猿猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="13801" name="巨猿克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="13802" name="巨猿终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="13900" name="沙雕猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="13901" name="沙雕克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="13902" name="沙雕终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14000" name="沙蝎猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14001" name="沙蝎克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14002" name="沙蝎终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14100" name="尸卫猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14101" name="尸卫克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14102" name="尸卫终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14200" name="尸卫勇士猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14201" name="尸卫勇士克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14202" name="尸卫勇士终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14300" name="尸卫战将猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14301" name="尸卫战将克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14302" name="尸卫战将终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14400" name="僵尸猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14401" name="僵尸克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14402" name="僵尸终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14500" name="铜人猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14501" name="铜人克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14502" name="铜人终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14600" name="青铜兽猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14601" name="青铜兽克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14602" name="青铜兽终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14700" name="滚刀手猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14701" name="滚刀手克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14702" name="滚刀手终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14800" name="圣甲虫猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14801" name="圣甲虫克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14802" name="圣甲虫终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="14900" name="红蛇妖猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="14901" name="红蛇妖克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="14902" name="红蛇妖终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15000" name="黑蛇妖猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15001" name="黑蛇妖克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15002" name="黑蛇妖终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15100" name="地下小鬼猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15101" name="地下小鬼克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15102" name="地下小鬼终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15200" name="逆魔卫士猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15201" name="逆魔卫士克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15202" name="逆魔卫士终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15300" name="逆魔雕像猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15301" name="逆魔雕像克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15302" name="逆魔雕像终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15400" name="毒妖猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15401" name="毒妖克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15402" name="毒妖终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15500" name="藤妖猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15501" name="藤妖克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15502" name="藤妖终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15600" name="血魔猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15601" name="血魔克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15602" name="血魔终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15603" name="火烈鸟猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15604" name="火烈鸟克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15605" name="火烈鸟终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15606" name="兽骑兵猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15607" name="兽骑兵克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15608" name="兽骑兵终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15609" name="召魂使猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15610" name="召魂使克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15611" name="召魂使终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15612" name="鬼方火卒猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15613" name="鬼方火卒克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15614" name="鬼方火卒终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15615" name="猛魔枪卒猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15616" name="猛魔枪卒克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15617" name="猛魔枪卒终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15618" name="地火兽弓箭手猎人" max_exp="500" group="31" point="5" />
+	<Achieve id="15619" name="地火兽弓箭手克星" max_exp="2000" group="31" point="20" />
+	<Achieve id="15620" name="地火兽弓箭手终结者" max_exp="10000" group="31" point="50" />
+	<Achieve id="15700" name="天降横财-铜锤(一)" max_exp="1" group="32" point="5" />
+	<Achieve id="15701" name="天降横财-铜锤(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="15702" name="天降横财-铜锤(三)" max_exp="10" group="32" point="5" />
+	<Achieve id="15800" name="天降横财-魔法权杖(一)" max_exp="1" group="32" point="10" />
+	<Achieve id="15801" name="天降横财-魔法权杖(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="15802" name="天降横财-魔法权杖(三)" max_exp="10" group="32" point="10" />
+	<Achieve id="15900" name="天降横财-无极(一)" max_exp="1" group="32" point="5" />
+	<Achieve id="15901" name="天降横财-无极(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="15902" name="天降横财-无极(三)" max_exp="10" group="32" point="10" />
+	<Achieve id="16000" name="天降横财-裁决(一)" max_exp="1" group="32" point="5" />
+	<Achieve id="16001" name="天降横财-裁决(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="16002" name="天降横财-裁决(三)" max_exp="10" group="32" point="5" />
+	<Achieve id="16100" name="天降横财-骨玉(一)" max_exp="1" group="32" point="10" />
+	<Achieve id="16101" name="天降横财-骨玉(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="16102" name="天降横财-骨玉(三)" max_exp="10" group="32" point="10" />
+	<Achieve id="16200" name="天降横财-龙纹(一)" max_exp="1" group="32" point="5" />
+	<Achieve id="16201" name="天降横财-龙纹(二)" max_exp="5" group="32" point="5" />
+	<Achieve id="16202" name="天降横财-龙纹(三)" max_exp="10" group="32" point="10" />
+	<Achieve id="16300" name="天降横财-圣战" max_exp="1" group="33" point="5" />
+	<Achieve id="16400" name="天降横财-法神" max_exp="1" group="33" point="5" />
+	<Achieve id="16500" name="天降横财-天尊" max_exp="1" group="33" point="5" />
+	<Achieve id="16501" name="天降横财-神武" max_exp="1" group="33" point="5" />
+	<Achieve id="16502" name="天降横财-幻魔" max_exp="1" group="33" point="5" />
+	<Achieve id="16503" name="天降横财-天玄" max_exp="1" group="33" point="5" />
+	<Achieve id="16504" name="天降横财-战神" max_exp="1" group="33" point="5" />
+	<Achieve id="16505" name="天降横财-魔神" max_exp="1" group="33" point="5" />
+	<Achieve id="16506" name="天降横财-道神" max_exp="1" group="33" point="5" />
+	<Achieve id="16507" name="天降横财-血煞" max_exp="1" group="33" point="5" />
+	<Achieve id="16508" name="天降横财-魔雷" max_exp="1" group="33" point="5" />
+	<Achieve id="16509" name="天降横财-幽泉" max_exp="1" group="33" point="5" />
+	<Achieve id="16600" name="捉襟见肘" max_exp="10000" group="32" point="5" />
+	<Achieve id="16700" name="省吃俭用" max_exp="50000" group="32" point="5" />
+	<Achieve id="16701" name="小有积蓄" max_exp="100000" group="32" point="5" />
+	<Achieve id="16702" name="百忍成金" max_exp="500000" group="32" point="5" />
+	<Achieve id="16703" name="千金家财" max_exp="1000000" group="32" point="5" />
+	<Achieve id="16704" name="腰缠万贯" max_exp="10000000" group="32" point="10" />
+	<Achieve id="16705" name="金玉满堂" max_exp="100000000" group="32" point="10" />
+	<Achieve id="16800" name="伐木菜鸟" max_exp="1" group="34" point="5" />
+	<Achieve id="16900" name="伐木新秀" max_exp="10" group="34" point="5" />
+	<Achieve id="17000" name="伐木老手" max_exp="20" group="34" point="5" />
+	<Achieve id="17100" name="伐木先锋" max_exp="50" group="34" point="5" />
+	<Achieve id="17200" name="伐木高手" max_exp="100" group="34" point="5" />
+	<Achieve id="17201" name="伐木专家" max_exp="200" group="34" point="5" />
+	<Achieve id="17202" name="伐木大师" max_exp="500" group="34" point="5" />
+	<Achieve id="17203" name="伐木宗师" max_exp="1000" group="34" point="5" />
+	<Achieve id="17204" name="伐木权威" max_exp="2000" group="34" point="10" />
+	<Achieve id="17205" name="伐木王者" max_exp="5000" group="34" point="10" />
+	<Achieve id="17300" name="采矿菜鸟" max_exp="1" group="35" point="5" />
+	<Achieve id="17400" name="采矿新秀" max_exp="10" group="35" point="5" />
+	<Achieve id="17500" name="采矿老手" max_exp="20" group="35" point="5" />
+	<Achieve id="17600" name="采矿先锋" max_exp="50" group="35" point="5" />
+	<Achieve id="17700" name="采矿高手" max_exp="100" group="35" point="5" />
+	<Achieve id="17701" name="采矿专家" max_exp="200" group="35" point="5" />
+	<Achieve id="17702" name="采矿大师" max_exp="500" group="35" point="5" />
+	<Achieve id="17703" name="采矿宗师" max_exp="1000" group="35" point="5" />
+	<Achieve id="17704" name="采矿权威" max_exp="2000" group="35" point="10" />
+	<Achieve id="17705" name="采矿王者" max_exp="5000" group="35" point="10" />
+	<Achieve id="18400" name="天降横财-小极品(一)" max_exp="1" group="36" point="5" />
+	<Achieve id="18401" name="天降横财-小极品(二)" max_exp="5" group="36" point="5" />
+	<Achieve id="18402" name="天降横财-小极品(三)" max_exp="10" group="36" point="5" />
+	<Achieve id="18403" name="天降横财-小极品(四" max_exp="20" group="36" point="5" />
+	<Achieve id="18404" name="天降横财-小极品(五" max_exp="50" group="36" point="5" />
+	<Achieve id="18405" name="天降横财-小极品(六)" max_exp="100" group="36" point="5" />
+	<Achieve id="18406" name="天降横财-小极品(七)" max_exp="200" group="36" point="5" />
+	<Achieve id="18407" name="天降横财-小极品(八)" max_exp="300" group="36" point="5" />
+	<Achieve id="18500" name="珍宝满仓(一)" max_exp="1" group="37" point="5" />
+	<Achieve id="18600" name="珍宝满仓(二)" max_exp="5" group="37" point="5" />
+	<Achieve id="18700" name="珍宝满仓(三)" max_exp="20" group="37" point="5" />
+	<Achieve id="18800" name="珍宝满仓(四)" max_exp="100" group="37" point="5" />
+	<Achieve id="18801" name="珍宝满仓(五)" max_exp="500" group="37" point="5" />
+	<Achieve id="18802" name="珍宝满仓(六)" max_exp="1000" group="37" point="5" />
+	<Achieve id="18803" name="珍宝满仓(七)" max_exp="2000" group="37" point="5" />
+	<Achieve id="18804" name="珍宝满仓(八)" max_exp="3000" group="37" point="5" />
+
+	<!--PVP-->
+	<Achieve id="12300" name="第一滴血" max_exp="1" group="38" point="5" />
+	<Achieve id="12301" name="大杀特杀" max_exp="5" group="38" point="5" />
+	<Achieve id="12302" name="暴走" max_exp="10" group="38" point="5" />
+	<Achieve id="12303" name="无人可挡" max_exp="50" group="38" point="5" />
+	<Achieve id="12304" name="主宰比赛" max_exp="100" group="38" point="5" />
+	<Achieve id="12305" name="像神一样" max_exp="500" group="38" point="5" />
+	<Achieve id="12306" name="超神" max_exp="1000" group="38" point="5" />
+	<Achieve id="12400" name="制霸天下" max_exp="0" group="39" point="20" />
+	<Achieve id="12500" name="望而生畏" max_exp="0" group="40" point="5" />
+	<Achieve id="12600" name="天降横财-裁决(一)" max_exp="1" group="41" point="5" />
+	<Achieve id="12601" name="天降横财-裁决(二)" max_exp="5" group="41" point="5" />
+	<Achieve id="12602" name="天降横财-裁决(三)" max_exp="10" group="41" point="5" />
+	<Achieve id="12700" name="天降横财-骨玉(一)" max_exp="1" group="41" point="5" />
+	<Achieve id="12701" name="天降横财-骨玉(二)" max_exp="5" group="41" point="5" />
+	<Achieve id="12702" name="天降横财-骨玉(三)" max_exp="10" group="41" point="5" />
+	<Achieve id="12800" name="天降横财-龙纹(一)" max_exp="1" group="41" point="5" />
+	<Achieve id="12801" name="天降横财-龙纹(二)" max_exp="5" group="41" point="5" />
+	<Achieve id="12802" name="天降横财-龙纹(三)" max_exp="10" group="41" point="5" />
+	<Achieve id="12900" name="劫富济贫-圣战" max_exp="1" group="42" point="5" />
+	<Achieve id="13000" name="劫富济贫-法神" max_exp="1" group="42" point="5" />
+	<Achieve id="13100" name="劫富济贫-天尊" max_exp="1" group="42" point="5" />
+	<Achieve id="13101" name="劫富济贫-神武" max_exp="1" group="42" point="5" />
+	<Achieve id="13102" name="劫富济贫-幻魔" max_exp="1" group="42" point="5" />
+	<Achieve id="13103" name="劫富济贫-天玄" max_exp="1" group="42" point="5" />
+	<Achieve id="13104" name="劫富济贫-战神" max_exp="1" group="42" point="5" />
+	<Achieve id="13105" name="劫富济贫-魔神" max_exp="1" group="42" point="5" />
+	<Achieve id="13106" name="劫富济贫-道神" max_exp="1" group="42" point="5" />
+	<Achieve id="13107" name="劫富济贫-血煞" max_exp="1" group="42" point="5" />
+	<Achieve id="13108" name="劫富济贫-魔雷" max_exp="1" group="42" point="5" />
+	<Achieve id="13109" name="劫富济贫-幽泉" max_exp="1" group="42" point="5" />
+</TimeAchieve>

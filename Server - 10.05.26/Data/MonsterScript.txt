@@ -1,0 +1,11 @@
+#怪名=出生触发,切换目标触发,被杀触发,受伤触发,死亡触发
+丛林豹1=@leopard.leopard1
+丛林豹2=@leopard.leopard2
+丛林豹3=@leopard.leopard3
+丛林豹4=@leopard.leopard4
+丛林豹5=@leopard.leopard5
+丛林豹6=@leopard.leopard6
+丛林豹7=@leopard.leopard7
+#任务
+棍犬=,,,,@taskMonster.gunquan
+尸卫=,,,,@taskMonster.shiwei

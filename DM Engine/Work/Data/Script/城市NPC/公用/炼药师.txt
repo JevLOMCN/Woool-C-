@@ -1,0 +1,99 @@
+[@main]
+我们道士啊，就是心灵手巧。想当年我是有名的药师呢！\
+对了，你来炼什么东西啊？ \\
+<可接任务/@_RW_entry>\
+<制作物品/@makedrug>\
+<炼药说明/@helpmakedrug>\
+<制偶说明/@askmakedrug>\
+<打听/@ask>和铁血魔城有关的最新消息\
+<关闭选单/@exit>
+
+[@_RW_entry]
+#ifone
+CHECKTASKSTEP 2 = 1
+CHECKTASKSTEP 2 = 2
+CHECKTASKSTEP 8 = 1
+#act
+CALL @鱼人的阴谋任务.落霞岛_炼药
+#ifone
+CHECKTASKSTEP 15 = 1
+CHECKTASKSTEP 15 = 2
+CHECKTASKSTEP 21 = 1
+#act
+CALL @鱼人的阴谋任务.海角_炼药
+
+
+[@makedrug]
+请选择你要制作的物品。\
+对了，需要的材料你带齐了吧？\\
+<返回/@main>
+
+[@helpmakedrug]
+这里可以炼的药只有两种。\\
+<绿色毒药/@helpdrug1>的功能\
+<红色毒药/@helpdrug2>的功能\
+<绿色毒药/@helpmakedrug1>的原料\
+<红色毒药/@helpmakedrug2>的原料\
+<返回/@main>
+
+[@helpdrug1]
+道士用绿色毒药施毒时，敌人中毒会减掉体力。\\
+<返回/@helpmakedrug>
+
+[@helpdrug2]
+道士用红色毒药施毒时，敌人中毒会降低防御能力。\\
+<返回/@helpmakedrug>
+
+[@helpmakedrug1]
+制作绿色毒药(少量)的原料是： <果实/@helpitem_1> 1个，\
+牙齿 2个,<蟾酥/@helpitem_3> 1个,叶子 3个。\
+制作绿色毒药(中量)的原料是： <果实/@helpitem_1> 2个，\
+牙齿 4个,<蟾酥/@helpitem_3> 2个,叶子 6个。\
+制作绿色毒药(大量)的原料是： <果实/@helpitem_1> 3个，\
+牙齿 6个,<蟾酥/@helpitem_3> 3个,叶子 9个。\
+<返回/@helpmakedrug>
+
+[@helpmakedrug2]
+制作红色毒药(少量)的原料是： <蛆卵/@helpitem_2> 1个, 蝎尾\
+1个,<蟾酥/@helpitem_3> 1个,叶子 4个。\
+制作红色毒药(中量)的原料是： <蛆卵/@helpitem_2> 2个, 蝎尾\
+2个,<蟾酥/@helpitem_3> 2个,叶子 8个。\
+制作红色毒药(大量)的原料是： <蛆卵/@helpitem_2> 3个, 蝎尾\
+3个,<蟾酥/@helpitem_3> 3个,叶子 12个。\
+<返回/@helpmakedrug>
+
+[@askmakedrug]
+这里可以炼的药只有两种。\\
+<雄稻草人偶/@askdrug1>的作用\
+<雌稻草人偶/@askdrug2>的作用\
+<雄稻草人偶/@askmakedrug1>的原料\
+<雌稻草人偶/@askmakedrug2>的原料\
+<返回/@main>
+
+[@askdrug1]
+道士用雄稻草人偶诅咒时，敌人中毒会降低魔力值。\\
+<返回/@askmakedrug>
+
+[@askdrug2]
+道士用雌稻草人偶诅咒时，敌人中毒会减掉魔法防御能力。\\
+<返回/@askmakedrug>
+
+[@askmakedrug1]
+制作雄稻草人偶(小)的原料是:木材3个,蟾酥2个,\
+蝎尾1个,叶子1个。\
+制作雄稻草人偶(中)的原料是:木材6个,蟾酥4个,\
+蝎尾2个,叶子2个。\
+制作雄稻草人偶(大)的原料是:木材9个,蟾酥6个,\
+蝎尾3个,叶子3个。\
+<返回/@askmakedrug>
+
+[@askmakedrug2]
+制作雌稻草人偶(小)的原料是:木材2个，蟾酥2个，\
+蛆卵2个，牙齿1个。\
+制作雌稻草人偶(中)的原料是:木材4个，蟾酥4个，\
+蛆卵4个，牙齿2个。\
+制作雌稻草人偶(大)的原料是:木材6个，蟾酥6个，\
+蛆卵6个，牙齿3个。\
+<返回/@askmakedrug>
+
+[@ask]

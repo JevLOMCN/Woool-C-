@@ -1,0 +1,35 @@
+[@main]
+我在这里帮助那些愿意赎罪的恶人，\
+洗脱罪名后就可以在城里自由进出。\
+记住——赎罪的前提是要有声望值。\
+用一点声望值可洗去一点PK值!\\
+<我要洗红名/@xihongming>  <检测PK值/@CHECKPK>\
+
+<关闭/@exit>
+
+[@xihongming]
+#if
+checkex credit > 0
+checkex pkpoint > 0
+#act
+goto @xihongming1
+#elsesay
+你的声望值不够或PK值不够!\\
+
+<返回/@main>
+
+[@xihongming1]
+#act
+takecredit 1
+decpkpoint 1
+#say
+我帮你洗去了一点PK值!\\
+
+<返回/@main>
+
+
+[@CHECKPK]
+你的PK值是<color=green <$pkpoint>>点!\\ 
+
+<关闭/@exit>
+

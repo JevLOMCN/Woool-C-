@@ -1,0 +1,68 @@
+[@落霞岛_衣服]
+#IF
+CHECKTASKSTEP 7 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听结婚/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 12 = 2
+#ACT
+CALL @求婚的勇气任务.落霞岛_衣服1
+#ELSEIF
+CHECKTASKSTEP 13 = 1
+#ACT
+CALL @王都送信任务.落霞岛_衣服2
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+年轻人，是书店老板让你来的吧，他刚才还在我面前夸你能\
+干呢！你找我有什么事情吗？\
+<打听结婚/@_RW_fulfilTask1_1>                <没事/@exit>
+
+[@_RW_fulfilTask1_1]
+#ACT
+CompleteTask 7
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 8
+systemmsg $username "您成功增加了300金币。"
+#SAY
+想结婚的话，要经历重重考验才行。\
+到机关洞中找到红娘，她会帮助你完成结婚任务的。\
+你现在去炼药师那里看看，他会教你如何交易的。\
+<离开/@exit>
+
+[@海角_衣服]
+#IF
+CHECKTASKSTEP 20 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听结婚/@_RW_fulfilTaskDesp10>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 25 = 2
+#ACT
+CALL @求婚的勇气任务.海角_衣服1
+#ELSEIF
+CHECKTASKSTEP 26 = 1
+#ACT
+CALL @王都送信任务.海角_衣服2
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp10]
+#ACT
+CompleteTask 20
+GIVEEXP 4200
+GIVEGOLD 300
+AddTask 21
+systemmsg $username "您成功增加了300金币。"
+#SAY
+想结婚的话，要经历重重考验才行。\
+到机关洞中找到红娘，她会帮助你完成结婚任务的。\
+你现在去炼药师那里看看，他会教你如何交易的。\
+<离开/@exit>

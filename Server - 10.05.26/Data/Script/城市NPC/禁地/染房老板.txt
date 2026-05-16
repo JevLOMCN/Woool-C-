@@ -1,0 +1,210 @@
+[@main]
+欢迎光临。觉得衣服的颜色很单调吧！\
+我这里可以把它染成好看的颜色。\
+不过有一点要提醒，得在3D模式下才能\
+正常显示你染的颜色。\
+你准备要染色了吗？\
+<是的/@main2>\
+<不是/@exit>
+
+[@main2]
+您想把衣服染成什么颜色？\
+每次染色的价钱是2000金币。\
+<翠绿/@mf1>，<深红/@mf2>，<天蓝/@mf3>，<银灰/@mf4>，<紫罗兰/@mf5>，\
+<咖啡色/@mf6>，<绛红/@mf7>，<蓝灰/@mf8>，<青蓝/@mf9>，<橘黄/@mf10>，\
+<黑色/@mf11>，<湖蓝/@mf12>，<深绿/@mf13>，<白色/@mf14>，<紫黑/@mf15>\\
+<关 闭/@exit>
+
+[@mf1]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 1
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf2]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 2
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf3]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 3
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf4]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 4
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf5]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 5
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf6]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 6
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf7]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 7
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf8]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 8
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf9]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 9
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf10]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 10
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf11]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 11
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf12]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 12
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf13]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 13
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>
+
+[@mf14]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 14
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+
+[@mf15]
+#if
+checkex gold > 2000
+#act
+takegold 2000
+CHANGEDRESSCOLOR 15
+#say
+您的衣服已经染好了。\\
+<关 闭/@exit>
+#elsesay
+穷鬼,没钱也想赶时髦!\\
+<关 闭/@exit>

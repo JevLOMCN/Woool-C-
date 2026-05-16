@@ -1,0 +1,17 @@
+[@magic]
+#if
+US_CHECKANDUPTODATE
+#act
+changefont $_param0
+#end
+#act
+close
+
+[@fontcolor]
+#if
+US_CHECKANDUPTODATE
+#act
+changefontcolor $_param0
+#end
+#act
+close

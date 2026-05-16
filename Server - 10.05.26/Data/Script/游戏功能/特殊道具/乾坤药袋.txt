@@ -1,0 +1,133 @@
+[@main]
+#if
+us_damagedura 1
+#act
+systemmsg $username "注意：每次使用乾坤药袋，不管是否捆绑物品都会减少一次可使用次数！"
+goto @main1
+
+[@main1]
+#if
+US_CHECKPACKITEMNAME 强效太阳神水
+checkbagitem 强效太阳神水 6
+#act
+takebagitem 强效太阳神水 6
+give 强效太阳水药袋 1
+close
+#elseact
+goto @main2
+
+[@main2]
+#if
+US_CHECKPACKITEMNAME 治疗药水
+checkbagitem 治疗药水 6
+#act
+takebagitem 治疗药水 6
+give 治疗药水袋 1
+close
+#elseact
+goto @main3
+
+[@main3]
+#if
+US_CHECKPACKITEMNAME 超级金创药
+checkbagitem 超级金创药 6
+#act
+takebagitem 超级金创药 6
+give 超级金创药袋 1
+close
+#elseact
+goto @main4
+
+[@main4]
+#if
+US_CHECKPACKITEMNAME 超级魔法药
+checkbagitem 超级魔法药 6
+#act
+takebagitem 超级魔法药 6
+give 超级魔法药袋 1
+close
+#elseact
+goto @main5
+
+[@main5]
+#if
+US_CHECKPACKITEMNAME 特级魔法药包
+checkbagitem 特级魔法药包 6
+#act
+takebagitem 特级魔法药包 6
+give 特级魔法药袋 1
+close
+#elseact
+goto @main6
+
+[@main6]
+#if
+US_CHECKPACKITEMNAME 特级金创药包
+checkbagitem 特级金创药包 6
+#act
+takebagitem 特级金创药包 6
+give 特级金创药袋 1
+close
+#elseact
+goto @main7
+
+[@main7]
+#if
+US_CHECKPACKITEMNAME 魔法药(中)包
+checkbagitem 魔法药(中)包 6
+#act
+takebagitem 魔法药(中)包 6
+give 中包魔法药袋 1
+close
+#elseact
+goto @main8
+
+[@main8]
+#if
+US_CHECKPACKITEMNAME 金创药(中)包
+checkbagitem 金创药(中)包 6
+#act
+takebagitem 金创药(中)包 6
+give 中包金创药袋 1
+close
+#elseact
+goto @main9
+
+
+[@main9]
+#if
+US_CHECKPACKITEMNAME 金创药(小)包
+checkbagitem 金创药(小)包 6
+#act
+takebagitem 金创药(小)包 6
+give 小包金创药袋 1
+close
+#elseact
+goto @main10
+
+[@main10]
+#if
+US_CHECKPACKITEMNAME 魔法药(小)包
+checkbagitem 魔法药(小)包 6
+#act
+takebagitem 魔法药(小)包 6
+give 小包魔法药袋 1
+close
+#elseact
+goto @main11
+
+[@main11]
+#if
+US_CHECKPACKITEMNAME 太阳神水
+checkbagitem 太阳神水 6
+#act
+takebagitem 太阳神水 6
+give 太阳水药袋 1
+close
+#elseact
+goto @noitem
+
+[@noitem]
+#act
+systemmsg $username "你没有需要捆绑的物品或要捆绑的物品不够6个！"
+systemmsg $username "提示：使用乾坤药袋只能捆绑强效太阳神水、太阳神水、治疗药水、金创药包和魔法药包."

@@ -1,0 +1,8 @@
+[@main]
+你想知道最近沙城的攻城战役吗?\ \ 
+<查看/@aboutwar>
+
+[@aboutwar]
+◆最近的攻城战役预告:\
+战役开始时间：<$SABUKWARDATE> 开始。\ 
+<◆详细攻城时间表/@AttackRequestPage>

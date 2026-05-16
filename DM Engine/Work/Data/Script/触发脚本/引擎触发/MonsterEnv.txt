@@ -1,0 +1,51 @@
+[@OnDeath]
+#if
+ISNEXTDAY $ZhenBaoTime
+#act
+movr ZhenBaoTime $NOWTIMESTAMP
+MOVR ZhenBaoStar 0
+MOVR ZhenBaoExp 0
+MOVR ZhenBaoExpMax 100000
+#if
+checkex level >= 10
+#act
+inc ZhenBaoExp 10
+#elseact
+close
+#if
+checkex $ZhenBaoExp >= 100000
+checkex $ZhenBaoExpMax = 100000
+#act
+INC ZhenBaoStar 1
+MOVR ZhenBaoExp 0
+MOVR ZhenBaoExpMax 200000
+#elseif
+checkex $ZhenBaoExp >= 200000
+checkex $ZhenBaoExpMax = 200000
+#act
+INC ZhenBaoStar 1
+MOVR ZhenBaoExp 0
+MOVR ZhenBaoExpMax 300000
+#elseif
+checkex $ZhenBaoExp >= 300000
+checkex $ZhenBaoExpMax = 300000
+#act
+INC ZhenBaoStar 1
+MOVR ZhenBaoExp 0
+MOVR ZhenBaoExpMax 400000
+#elseif
+checkex $ZhenBaoExp >= 400000
+checkex $ZhenBaoExpMax = 400000
+#act
+INC ZhenBaoStar 1
+MOVR ZhenBaoExp 0
+MOVR ZhenBaoExpMax 500000
+#elseif
+checkex $ZhenBaoExp >= 500000
+checkex $ZhenBaoExpMax = 500000
+#act
+INC ZhenBaoStar 1
+MOVR ZhenBaoExpMax 500000
+#elseact
+SENDTREASUREINFO $ZhenBaoExp $ZhenBaoExpMax $ZhenBaoStar
+close

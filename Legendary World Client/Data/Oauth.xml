@@ -1,0 +1,9 @@
+﻿<service>
+	<channel name='std'>
+		<client_id>o4xojydzwbvnlxe90fjchkx6wpogodpy</client_id>
+		<login_url>http://open.17qiqu.com/sdgoauth/userlogin</login_url>
+		<redirect_url>http://open.17qiqu.com/sdgoauth/userlogin</redirect_url>
+		<client_id_secret></client_id_secret>
+		<plt></plt>
+	</channel>
+</service>

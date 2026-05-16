@@ -1,0 +1,28 @@
+[@main]
+你要进入炼狱的更深层吗？\
+按照你职业的不同，所走的道路也不相同，\
+不过最终的终点是相同的。你准备好了吗？\
+<我准备好了，前进/@go>\
+<离开炼狱/@freegoout>\
+<还没准备好，等等/@exit>
+
+[@go]
+#IF
+CHECK JOB 0
+#ACT
+MOVE 165 70 123
+close
+#IF
+CHECK JOB 1
+#ACT
+MOVE 166 41 76
+close
+#if
+CHECK JOB 2
+#ACT
+MOVE 167 111 50
+close
+[@freegoout]
+#ACT
+MAPMOVE 16
+close

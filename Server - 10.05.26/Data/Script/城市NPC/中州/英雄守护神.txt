@@ -1,0 +1,1598 @@
+[@main]
+年轻的英雄啊，你能够在这里找到我，足以证明我们之\
+间有缘。既然有缘相遇，就让我来帮助你实现一个心愿吧。\
+说吧，你想要实现什么样的愿望？\\
+<我要财富/@Treasure>  <我要经验/@Experience>  <我要武器/@Weapon>\
+<我要战袍/@Clothing>  <我要饰品/@Adornment>  <我要升级/@Level>\
+<我要宝石/@Gold>\<我要放弃愿望/@Giveup>\
+<真的这么厉害？我看是假的吧……/@exit>
+
+[@Treasure]
+哦，你想要财富啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、20万金币；二、30万金币；三、50万金币；\
+四、80万金币；五、 1根金条；六、 1块金砖\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantTreasure>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_Treasure>
+
+[@HowFindLongZhu]
+“一星珠”散落在各大地表\
+“二星珠”散落在将军坟\
+“三星珠”散落在逆魔古刹\
+“四星珠”散落在机关洞\
+“五星珠”散落在蛇洞\
+“六星珠”散落在通天塔\
+“七星珠”散落在铁血魔城\
+你现在已经知道了七颗龙珠的秘密，快去找到它们，实现你的愿望吧！\
+<离开/@exit>
+
+[@IWantTreasure]
+你已经许过愿望了，快去寻找龙珠吧！\\
+<离开/@exit>
+
+[@IGet7LongZhu_Treasure]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @givemoney
+#elsesay
+你的龙珠还没有收集！\\
+
+[@givemoney]
+#if
+random 2
+#say
+你真幸运,获得了200000金币!\\
+#act
+givegold 200000
+#elseact
+goto @gold30W
+
+[@gold30W]
+#if
+random 2
+#say
+你真幸运,获得了300000金币!\\
+#act
+givegold 300000
+#elseact
+goto @gold50W
+
+[@gold50W]
+#if
+random 2
+#say
+你真幸运,获得了500000金币!\\
+#act
+givegold 500000
+#elseact
+goto @gold80W
+
+[@gold80W]
+#if
+random 2
+#say
+你真幸运,获得了800000金币!\\
+#act
+givegold 800000
+#elseact
+goto @gold100W
+
+[@gold100W]
+#if
+random 2
+#say
+你真幸运,获得了一根金条!\\
+#act
+give 金条 1
+#elseact
+give 金砖 1
+#say
+你真幸运,获得了一根金砖!\\
+<离开/@exit>
+
+[@Experience]
+哦，你想要经验啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、 10万经验；二、 20万经验；三、 40万经验；\
+四、 80万经验；五、100万经验；四、300万经验\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantExperience> <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_Experience>
+
+[@IWantExperience]
+
+[@IGet7LongZhu_Experience]
+#if
+checkbagitem 一星珠 1 
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveExperience
+#elsesay
+你的龙珠还没有收集！\\
+<离开/@exit>
+
+
+[@GiveExperience]
+#if
+random 2
+#act
+giveexp 100000
+#say 
+你真幸运,获得了100000经验值!\\
+#elseact
+goto @Experience20W
+
+
+[@Experience20W]
+#if
+random 2
+#act
+giveexp 200000
+#say 
+你真幸运,获得了200000经验值!\\
+#elseact
+goto @Experience40W
+
+
+[@Experience40W]
+#if
+random 2
+#act
+giveexp 400000
+#say 
+你真幸运,获得了400000经验值!\\
+#elseact
+goto @Experience80W
+
+[@Experience80W]
+#if
+random 2
+#act
+giveexp 800000
+#say 
+你真幸运,获得了800000经验值!\\
+#elseact
+goto @Experience100W
+
+[@Experience100W]
+#if
+random 2
+#act
+giveexp 1000000 
+#say 
+你真幸运,获得了1000000经验值!\\
+#elseact
+giveexp 3000000 
+#say 
+你真幸运,获得了3000000经验值!\\
+<离开/@exit>
+
+[@Weapon]
+#if
+check job 0
+#act
+goto @ZSWeapon
+#if
+check job 1
+goto @FSWeapon
+#if
+check job 2
+goto @DSWeapon
+
+[@DSWeapon]
+哦，你想要武器啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、乌木剑；二、银蛇剑；三、离别钩；\
+四、无极；五、龙纹\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantWeapon>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_Weapon>
+
+
+[@IWantWeapon]
+你已经许过愿望了，快去寻找龙珠吧！\\
+<离开/@exit>
+
+[@IGet7LongZhu_DSWeapon]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveDSWeapon
+#elsesay
+你的龙珠还没有收集！\\
+
+<离开/@exit>
+
+
+[@GiveDSWeapon]
+#if
+random 2
+#act
+give 乌木剑 1
+#say
+你获得了乌木剑!\
+#elseact
+goto @GiveDSWeapon1
+
+[@GiveDSWeapon1]
+#if
+random 2
+#act
+give 银蛇剑 1
+#say
+你获得了银蛇剑!\
+#elseact
+goto @GiveDSWeapon2
+
+
+[@GiveDSWeapon2]
+#if
+random 2
+#act
+give 离别钩 1
+#say
+你获得了离别钩!\
+#elseact
+goto @GiveDSWeapon3
+
+
+[@GiveDSWeapon3]
+#if
+random 2
+#act
+give 无极 1
+#say
+你获得了无极!\
+#elseact
+give 龙纹 1
+#say
+你获得了龙纹!\\
+<离开/@exit>
+
+[@FSWeapon]
+哦，你想要武器啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、乌木剑；二、狼牙棒；三、魔法权杖；\
+四、骨玉；五、血饮\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantWeapon>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_FSWeapon>
+
+[@IGet7LongZhu_FSWeapon]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveFSWeapon
+#elsesay
+你的龙珠还没有收集！\\
+
+[@GiveFSWeapon]
+#if
+random 2
+#act
+give 乌木剑 1
+#say
+你获得了乌木剑!\
+#elseact
+goto @GiveFSWeapon2
+
+
+[@GiveFSWeapon2]
+#if
+random 2
+#act
+give 狼牙棒 1
+#say
+你获得了狼牙棒!\
+#elseact
+goto @GiveFSWeapon3
+
+
+[@GiveFSWeapon3]
+#if
+random 2
+#act
+give 魔法权杖 1
+#say
+你获得了魔法权杖!\
+#elseact
+goto @GiveFSWeapon4
+
+[@GiveFSWeapon4]
+#if
+random 2
+#act
+give 骨玉 1
+#say
+你获得了骨玉!\
+#elseact
+give 血饮 1
+#say
+你获得了血饮!\\
+<离开/@exit>
+
+[@ZSWeapon]
+哦，你想要武器啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、乌木剑；二、炼狱战斧；三、铜锤；\
+四、裁决；五、屠龙刀\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantWeapon>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_DSWeapon>
+
+[@IGet7LongZhu_ZSWeapon]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveZSWeapon
+#elsesay
+你的龙珠还没有收集！\\
+
+[@GiveZSWeapon]
+#if
+random 2
+#act
+give 乌木剑 1
+#say
+你获得了乌木剑!\
+#elseact
+goto @GiveZSWeapon2
+
+
+[@GiveZSWeapon2]
+#if
+random 2
+#act
+give 炼狱战斧 1
+#say
+你获得了炼狱战斧!\
+#elseact
+goto @GiveZSWeapon3
+
+
+[@GiveZSWeapon3]
+#if
+random 2
+#act
+give 铜锤 1
+#say
+你获得了铜锤!\
+#elseact
+goto @GiveZSWeapon4
+
+[@GiveZSWeapon4]
+#if
+random 2
+#act
+give 裁决 1
+#say
+你获得了裁决!\
+#elseact
+give 屠龙刀 1
+#say
+你获得了屠龙刀!\\
+<离开/@exit>
+
+
+[@Clothing]
+#if
+check job  0
+check sex 0
+#act
+goto @ZSManClothing
+#if
+check job  0
+check sex 1
+#act
+goto @ZSWoManClothing
+#if
+check job  1
+check sex 0
+#act
+goto @FSManClothing
+#if
+check job  1
+check sex 1
+#act
+goto @FSWoManClothing
+#if
+check job  2
+check sex 0
+#act
+goto @DSManClothing
+#if
+check job  2
+check sex 1
+#act
+goto @DSWoManClothing
+
+[@ZSManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(男)；二、中盔(男)；三、重盔甲(男)；\
+四、战神(男)；五、金鹏宝甲(男)；六、天魔战甲\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_ZSManClothing>
+
+[@IGet7LongZhu_ZSManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveZSManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveZSManClothing]
+#if
+random 2
+#act
+give 布衣(男) 1
+#say
+你获得了布衣(男)!\
+#elseact
+goto @GiveZSManClothing2
+
+[@GiveZSManClothing2]
+#if
+random 2
+#act
+give 中盔(男) 1
+#say
+你获得了中盔(男)!\
+#elseact
+goto @GiveZSManClothing3
+
+[@GiveZSManClothing3]
+#if
+random 2
+#act
+give 重盔甲(男) 1
+#say
+你获得了重盔甲(男)!\
+#elseact
+goto @GiveZSManClothing4
+
+[@GiveZSManClothing4]
+#if
+random 2
+#act
+give 战神(男) 1
+#say
+你获得了战神(男)!\
+#elseact
+goto @GiveZSManClothing5
+
+[@GiveZSManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(男) 1
+#say
+你获得了金鹏宝甲(男)!\
+#elseact
+give 天魔战甲 1
+#say
+你获得了天魔战甲!\\
+<离开/@exit>
+
+[@ZSWoManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(女)；二、中盔(女)；三、重盔甲(女)；\
+四、战神(女)；五、金鹏宝甲(女)；六、圣战宝甲\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_ZSWoManClothing>
+
+[@IGet7LongZhu_ZSWoManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveZSWoManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveZSWoManClothing]
+#if
+random 2
+#act
+give 布衣(女) 1
+#say
+你获得了布衣(女)!\
+#elseact
+goto @GiveZSWoManClothing2
+
+[@GiveZSWoManClothing2]
+#if
+random 2
+#act
+give 中盔(女) 1
+#say
+你获得了中盔(女)!\
+#elseact
+goto @GiveZSWoManClothing3
+
+[@GiveZSWoManClothing3]
+#if
+random 2
+#act
+give 重盔甲(女) 1
+#say
+你获得了重盔甲(女)!\
+#elseact
+goto @GiveZSWoManClothing4
+
+[@GiveZSWoManClothing4]
+#if
+random 2
+#act
+give 战神(女) 1
+#say
+你获得了战神(女)!\
+#elseact
+goto @GiveZSWoManClothing5
+
+[@GiveZSWoManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(女) 1
+#say
+你获得了金鹏宝甲(女)!\
+#elseact
+give 圣战宝甲 1
+#say
+你获得了圣战宝甲!\\
+<离开/@exit>
+
+[@FSManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(男)；二、中盔(男)；三、魔袍(男)；\
+四、恶魔长袍(男)；五、金鹏宝甲(男)；六、法神披风\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_FSManClothing>
+
+
+[@IGet7LongZhu_FSManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveFSManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveFSManClothing]
+#if
+random 2
+#act
+give 布衣(男) 1
+#say
+你获得了布衣(男)!\
+#elseact
+goto @GiveFSManClothing2
+
+[@GiveFSManClothing2]
+#if
+random 2
+#act
+give 中盔(男) 1
+#say
+你获得了中盔(男)!\
+#elseact
+goto @GiveFSManClothing3
+
+[@GiveFSManClothing3]
+#if
+random 2
+#act
+give 魔袍(男) 1
+#say
+你获得了魔袍(男)!\
+#elseact
+goto @GiveFSManClothing4
+
+[@GiveFSManClothing4]
+#if
+random 2
+#act
+give 恶魔长袍(男) 1
+#say
+你获得了恶魔长袍(男)!\
+#elseact
+goto @GiveFSManClothing5
+
+[@GiveFSManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(男) 1
+#say
+你获得了金鹏宝甲(男)!\
+#elseact
+give 法神披风 1
+#say
+你获得了法神披风!\\
+<离开/@exit>
+
+[@FSWoManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(女)；二、中盔(女)；三、魔袍(女)；\
+四、恶魔长袍(女)；五、金鹏宝甲(女)；六、法神羽衣\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_FSWoManClothing>
+
+[@IGet7LongZhu_FSWoManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveFSWoManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveFSWoManClothing]
+#if
+random 2
+#act
+give 布衣(女) 1
+#say
+你获得了布衣(女)!\
+#elseact
+goto @GiveFSWoManClothing2
+
+[@GiveFSWoManClothing2]
+#if
+random 2
+#act
+give 中盔(女) 1
+#say
+你获得了中盔(女)!\
+#elseact
+goto @GiveFSWoManClothing3
+
+[@GiveFSWoManClothing3]
+#if
+random 2
+#act
+give 魔袍(女) 1
+#say
+你获得了魔袍(女)!\
+#elseact
+goto @GiveFSWoManClothing4
+
+[@GiveFSWoManClothing4]
+#if
+random 2
+#act
+give 恶魔长袍(女) 1
+#say
+你获得了恶魔长袍(女)!\
+#elseact
+goto @GiveFSWoManClothing5
+
+[@GiveFSWoManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(女) 1
+#say
+你获得了金鹏宝甲(女)!\
+#elseact
+give 法神羽衣 1
+#say
+你获得了法神羽衣!\\
+<离开/@exit>
+
+[@DSManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(男)；二、中盔(男)；三、灵魂战甲(男)；\
+四、幽灵战甲(男)；五、金鹏宝甲(男)；六、天尊道袍\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_DSManClothing>
+
+
+[@IGet7LongZhu_DSManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveDSManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveDSManClothing]
+#if
+random 2
+#act
+give 布衣(男) 1
+#say
+你获得了布衣(男)!\
+#elseact
+goto @GiveDSManClothing2
+
+[@GiveDSManClothing2]
+#if
+random 2
+#act
+give 中盔(男) 1
+#say
+你获得了中盔(男)!\
+#elseact
+goto @GiveDSManClothing3
+
+[@GiveDSManClothing3]
+#if
+random 2
+#act
+give 灵魂战甲(男) 1
+#say
+你获得了灵魂战甲(男)!\
+#elseact
+goto @GiveDSManClothing4
+
+[@GiveDSManClothing4]
+#if
+random 2
+#act
+give 幽灵战甲(男) 1
+#say
+你获得了幽灵战甲(男)!\
+#elseact
+goto @GiveDSManClothing5
+
+[@GiveDSManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(男) 1
+#say
+你获得了金鹏宝甲(男)!\
+#elseact
+give 天尊道袍 1
+#say
+你获得了天尊道袍!\\
+<离开/@exit>
+
+[@DSWoManClothing]
+哦，你想要战袍啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+记住，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、布衣(女)；二、中盔(女)；三、灵魂战甲(女)；\
+四、幽灵战甲(女)；五、金鹏宝甲(女)；六、天师道袍\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantClothing>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_DSWoManClothing>
+
+
+[@IGet7LongZhu_DSWoManClothing]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveDSWoManClothing
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveDSWoManClothing]
+#if
+random 2
+#act
+give 布衣(女) 1
+#say
+你获得了布衣(女)!\
+#elseact
+goto @GiveDSWoManClothing2
+
+[@GiveDSWoManClothing2]
+#if
+random 2
+#act
+give 中盔(女) 1
+#say
+你获得了中盔(女)!\
+#elseact
+goto @GiveDSWoManClothing3
+
+[@GiveDSWoManClothing3]
+#if
+random 2
+#act
+give 灵魂战甲(女) 1
+#say
+你获得了灵魂战甲(女)!\
+#elseact
+goto @GiveDSWoManClothing4
+
+[@GiveDSWoManClothing4]
+#if
+random 2
+#act
+give 幽灵战甲(女) 1
+#say
+你获得了幽灵战甲(女)!\
+#elseact
+goto @GiveDSWoManClothing5
+
+[@GiveDSWoManClothing5]
+#if
+random 2
+#act
+give 金鹏宝甲(女) 1
+#say
+你获得了金鹏宝甲(女)!\
+#elseact
+give 天师道袍 1
+#say
+你获得了天师道袍!\\
+<离开/@exit>
+
+
+
+[@Adornment]
+#if
+check job 0
+#act
+goto @ZSAdornment
+#if
+check job 1
+goto @FSAdornment
+#if
+check job 2
+goto @DSAdornment
+
+[ZSAdornment]
+哦，你想要饰品啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+愿望的实现结果也有好坏之分，你将可能获得：\
+珊瑚戒指、幽冥项链、记忆头盔、龙戒、黑铁头盔、力\
+量戒指、猛士手镯、绿色项链、记忆项链、祈祷头盔、圣战\
+戒指、圣战手镯、圣战项链、圣战头盔……其中一件。\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantAdornment>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_ZSAdornment>
+
+
+
+[@IGet7LongZhu_ZSAdornment]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveZSAdornment
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveZSAdornment]
+#if
+random 2
+#act
+give 珊瑚戒指 1
+#say
+你获得了珊瑚戒指!\
+#elseact
+goto @GiveZSAdornment2
+
+[@GiveZSAdornment2]
+#if
+random 2
+#act
+give 幽冥项链 1
+#say
+你获得了幽冥项链!\
+#elseact
+goto @GiveZSAdornment3
+
+
+[@GiveZSAdornment3]
+#if
+random 2
+#act
+give 记忆头盔 1
+#say
+你获得了记忆头盔!\
+#elseact
+goto @GiveZSAdornment4
+
+[@GiveZSAdornment4]
+#if
+random 2
+#act
+give 龙戒 1
+#say
+你获得了龙戒!\
+#elseact
+goto @GiveZSAdornment5
+
+[@GiveZSAdornment5]
+#if
+random 2
+#act
+give 黑铁头盔 1
+#say
+你获得了黑铁头盔!\
+#elseact
+goto @GiveZSAdornment6
+
+[@GiveZSAdornment6]
+#if
+random 2
+#act
+give 力量戒指 1
+#say
+你获得了力量戒指!\
+#elseact
+goto @GiveZSAdornment7
+
+[@GiveZSAdornment7]
+#if
+random 2
+#act
+give 猛士手镯 1
+#say
+你获得了猛士手镯!\
+#elseact
+goto @GiveZSAdornment8
+
+[@GiveZSAdornment8]
+#if
+random 2
+#act
+give 绿色项链 1
+#say
+你获得了绿色项链!\
+#elseact
+goto @GiveZSAdornment9
+
+[@GiveZSAdornment9]
+#if
+random 2
+#act
+give 记忆项链 1
+#say
+你获得了记忆项链!\
+#elseact
+goto @GiveZSAdornment10
+
+[@GiveZSAdornment10]
+#if
+random 2
+#act
+give 祈祷头盔 1
+#say
+你获得了祈祷头盔!\
+#elseact
+goto @GiveZSAdornment11
+
+[@GiveZSAdornment11]
+#if
+random 2
+#act
+give 圣战手镯 1
+#say
+你获得了圣战手镯!\
+#elseact
+goto @GiveZSAdornment12
+
+[@GiveZSAdornment12]
+#if
+random 2
+#act
+give 圣战头盔 1
+#say
+你获得了圣战头盔!\
+#elseact
+goto @GiveZSAdornment13
+
+[@GiveZSAdornment13]
+#if
+random 2
+#act
+give 圣战项链 1
+#say
+你获得了圣战项链!\
+#elseact
+give 圣战戒指 1
+#say
+你获得了圣战戒指!\
+
+
+[FSAdornment]
+哦，你想要饰品啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+愿望的实现结果也有好坏之分，你将可能获得：\
+天珑手镯、生命项链、紫晶戒指、红宝戒指、魔魂手镯\
+、祈祷头盔、龙鳞手镯、恶魔铃、碧螺戒指、法神戒指、\
+法神手镯、法神项链、法神头盔……其中一件。\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantAdornment>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_FSAdornment>
+
+[@IGet7LongZhu_FSAdornment]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveFSAdornment
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveFSAdornment]
+#if
+random 2
+#act
+give 天珑手镯 1
+#say
+你获得了天珑手镯!\
+#elseact
+goto @GiveFSAdornment2
+
+[@GiveFSAdornment2]
+#if
+random 2
+#act
+give 生命项链 1
+#say
+你获得了生命项链!\
+#elseact
+goto @GiveFSAdornment3
+
+
+[@GiveFSAdornment3]
+#if
+random 2
+#act
+give 紫晶戒指 1
+#say
+你获得了紫晶戒指!\
+#elseact
+goto @GiveFSAdornment4
+
+[@GiveFSAdornment4]
+#if
+random 2
+#act
+give 红宝戒指 1
+#say
+你获得了红宝戒指!\
+#elseact
+goto @GiveFSAdornment5
+
+[@GiveFSAdornment5]
+#if
+random 2
+#act
+give 魔魂手镯 1
+#say
+你获得了魔魂手镯!\
+#elseact
+goto @GiveFSAdornment6
+
+[@GiveFSAdornment6]
+#if
+random 2
+#act
+give 祈祷头盔 1
+#say
+你获得了祈祷头盔!\
+#elseact
+goto @GiveFSAdornment7
+
+[@GiveFSAdornment7]
+#if
+random 2
+#act
+give 恶魔铃 1
+#say
+你获得了恶魔铃!\
+#elseact
+goto @GiveFSAdornment8
+
+[@GiveFSAdornment8]
+#if
+random 2
+#act
+give 碧螺戒指 1
+#say
+你获得了碧螺戒指!\
+#elseact
+goto @GiveFSAdornment9
+
+[@GiveFSAdornment9]
+#if
+random 2
+#act
+give 法神头盔 1
+#say
+你获得了法神头盔!\
+#elseact
+goto @GiveFSAdornment10
+
+[@GiveFSAdornment10]
+#if
+random 2
+#act
+give 法神项链 1
+#say
+你获得了法神项链!\
+#elseact
+goto @GiveFSAdornment11
+
+[@GiveFSAdornment11]
+#if
+random 2
+#act
+give 法神手镯 1
+#say
+你获得了法神手镯!\
+#elseact
+give 法神戒指 1 
+#say
+你获得了法神戒指!\
+
+
+[@DSAdornment]
+哦，你想要饰品啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+愿望的实现结果也有好坏之分，你将可能获得：\
+楼兰手镯、思诺项链、记忆头盔、白金戒指、天珠项链\
+、心灵护腕、灵魂项链、泰坦戒指、三眼护腕、祈祷头盔、\
+天尊戒指、天尊手镯、天尊项链、天尊头盔……其中一件。\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantAdornment>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_DSAdornment>
+
+[@IGet7LongZhu_DSAdornment]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveDSAdornment
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveDSAdornment]
+#if
+random 2
+#act
+give 楼兰手镯 1
+#say
+你获得了楼兰手镯!\
+#elseact
+goto @GiveDSAdornment2
+
+[@GiveDSAdornment2]
+#if
+random 2
+#act
+give 思诺项链 1
+#say
+你获得了思诺项链!\
+#elseact
+goto @GiveDSAdornment3
+
+
+[@GiveDSAdornment3]
+#if
+random 2
+#act
+give 记忆头盔 1
+#say
+你获得了记忆头盔!\
+#elseact
+goto @GiveDSAdornment4
+
+[@GiveDSAdornment4]
+#if
+random 2
+#act
+give 白金戒指 1
+#say
+你获得了白金戒指!\
+#elseact
+goto @GiveDSAdornment5
+
+[@GiveDSAdornment5]
+#if
+random 2
+#act
+give 天珠项链 1
+#say
+你获得了天珠项链!\
+#elseact
+goto @GiveDSAdornment6
+
+[@GiveDSAdornment6]
+#if
+random 2
+#act
+give 灵魂项链 1
+#say
+你获得了灵魂项链!\
+#elseact
+goto @GiveDSAdornment7
+
+[@GiveDSAdornment7]
+#if
+random 2
+#act
+give 三眼护腕 1
+#say
+你获得了三眼护腕!\
+#elseact
+goto @GiveDSAdornment8
+
+[@GiveDSAdornment8]
+#if
+random 2
+#act
+give 泰坦戒指 1
+#say
+你获得了泰坦戒指!\
+#elseact
+goto @GiveDSAdornment9
+
+[@GiveDSAdornment9]
+#if
+random 2
+#act
+give 祈祷头盔 1
+#say
+你获得了祈祷头盔!\
+#elseact
+goto @GiveDSAdornment10
+
+[@GiveDSAdornment10]
+#if
+random 2
+#act
+give 天尊戒指 1
+#say
+你获得了天尊戒指!\
+#elseact
+goto @GiveDSAdornment11
+
+[@GiveDSAdornment11]
+#if
+random 2
+#act
+give 天尊手镯 1
+#say
+你获得了天尊手镯!\
+#elseact
+goto @GiveDSAdornment12
+
+[@GiveDSAdornment12]
+#if
+random 2
+#act
+give 天尊项链 1
+#say
+你获得了天尊项链!\
+#elseact
+give 天尊头盔 1
+#say
+你获得了天尊头盔!\
+
+[@Level]
+哦，你想要升级啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望，让\
+你可以直接升一级。不过，请务必注意两点：\
+1、我的能力还不够帮助35级以上的角色直接升级；\
+2、这个愿望有可能会落空，让你一无所获；\\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantLevel>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_Level>
+
+[@IGet7LongZhu_Level]
+#if
+checkex level > 35
+#say
+我的能力还不够帮助35级以上的角色直接升级；\
+#elseact
+goto @IGet7LongZhu_Level1
+
+[@IGet7LongZhu_Level1]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveLevel
+#elsesay
+你的龙珠还没有收集！\\
+
+[@GiveLevel]
+#if
+random 8
+#say
+你的运气不行,下次再来吧!\
+#elseact
+levelup 1
+#say
+恭喜你获得了直升一级的奖励!\
+
+[@Gold]
+哦，你想要宝石啊，没问题，只要你帮我找齐我不小心\
+遗失的七颗龙珠，我就有足够的法力帮你实现这个愿望。\
+不过，愿望的实现结果也有好坏之分，到底会如何？就\
+要看你的诚意和运气了。你将可能获得：\
+一、12颗宝石，三种宝石各4颗；二、15颗宝石，三种宝\
+石各5颗；三、21颗宝石，三种宝石各7颗。\
+<到哪里才能找到那七颗龙珠？/@HowFindLongZhu>\
+<我要许这个愿望/@IWantGold>   <还有其它的愿望吗？/@main>\
+<我已经把龙珠带来了，快帮我实现愿望吧！/@IGet7LongZhu_Gold>
+
+[@IGet7LongZhu_Gold]
+#if
+checkbagitem 一星珠 1
+checkbagitem 二星珠 1
+checkbagitem 三星珠 1
+checkbagitem 四星珠 1
+checkbagitem 五星珠 1
+checkbagitem 六星珠 1
+checkbagitem 七星珠 1
+#act
+takebagitem 一星珠 1
+takebagitem 二星珠 1
+takebagitem 三星珠 1
+takebagitem 四星珠 1
+takebagitem 五星珠 1
+takebagitem 六星珠 1
+takebagitem 七星珠 1
+goto @GiveGold
+#elsesay
+你的龙珠还没有收集！\\
+
+
+[@GiveGold]
+#if
+random 2
+#act
+give 红宝石 4
+give 蓝宝石 4
+give 绿宝石 4
+#say
+你获得了12颗宝石!\
+#elseact
+goto @GiveGold2
+
+[@GiveGold2]
+#if
+random 2
+#act
+give 红宝石 5
+give 蓝宝石 5
+give 绿宝石 5
+#say
+你获得了15颗宝石!\
+#elseact
+give 红宝石 7
+give 蓝宝石 7
+give 绿宝石 7
+#say
+你获得了21颗宝石!\

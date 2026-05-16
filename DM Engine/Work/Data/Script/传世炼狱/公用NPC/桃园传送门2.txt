@@ -1,0 +1,13 @@
+[@main]
+<返回炼狱魔境六层/@backnew1> \
+<返回海岛/@backnew2> \
+<没事/@exit>
+
+[@backnew1]
+#act
+move 214 47 35
+close
+[@backnew2]
+#act
+mapmove 164
+close

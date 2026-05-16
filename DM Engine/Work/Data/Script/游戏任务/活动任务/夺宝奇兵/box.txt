@@ -1,0 +1,161 @@
+[@pickup]
+#if
+checkex $di_executetime = 0
+#act
+systemmsg "宝盒目前被<$username>捡起，持宝人当前位置在<$mapname>地图，坐标<$posx>:<$posy>处"
+#elseif
+checkex $di_executetime = 20
+#act
+us_delete 宝盒
+call @giveitem
+#elseact
+systemmsg "持宝人<$username>当前位置在<$mapname>地图，坐标<$posx>:<$posy>处"
+#end
+#act
+close
+
+[@giveitem]
+#switch
+random 2 32
+#case:2
+#act
+give 天魔战甲 1
+systemmsg "恭喜<$username>夺宝成功，获得天魔战甲"
+#case:3
+#act
+give 圣战战甲 1
+systemmsg "恭喜<$username>夺宝成功，获得圣战战甲"
+#case:4
+#act
+give 法神披风 1
+systemmsg "恭喜<$username>夺宝成功，获得法神披风"
+#case:5
+#act
+give 裁决 1
+systemmsg "恭喜<$username>夺宝成功，获得裁决"
+#case:6
+#act
+give 铜锤 1
+systemmsg "恭喜<$username>夺宝成功，获得铜锤"
+#case:7
+#act
+give 无极 1
+systemmsg "恭喜<$username>夺宝成功，获得无极"
+#case:7
+#act
+give 移形换影 1
+systemmsg "恭喜<$username>夺宝成功，获得移形换影"
+#case:8
+#act
+give 遁地 1
+systemmsg "恭喜<$username>夺宝成功，获得遁地"
+#case:9
+#act
+give 天师道袍 1
+systemmsg "恭喜<$username>夺宝成功，获得天师道袍"
+#case:10
+#act
+give 天尊道袍 1
+systemmsg "恭喜<$username>夺宝成功，获得天尊道袍"
+#case:11
+#act
+give 法神羽衣 1
+systemmsg "恭喜<$username>夺宝成功，获得法神羽衣"
+#case:12
+#act
+give 金鹏宝甲(女) 1
+systemmsg "恭喜<$username>夺宝成功，获得金鹏宝甲(女)"
+#case:13
+#act
+give 流星火雨 1
+systemmsg "恭喜<$username>夺宝成功，获得流星火雨"
+#case:14
+#act
+give 金鹏宝甲(男) 1
+systemmsg "恭喜<$username>夺宝成功，获得金鹏宝甲(男)"
+#case:15
+#act
+give 冥日 1
+systemmsg "恭喜<$username>夺宝成功，获得冥日"
+#case:16
+#act
+give 破击剑法 1
+systemmsg "恭喜<$username>夺宝成功，获得破击剑法"
+#case:17
+#act
+give 破盾斩 1
+systemmsg "恭喜<$username>夺宝成功，获得破盾斩"
+#case:18
+#act
+give 化身蝙蝠 1
+systemmsg "恭喜<$username>夺宝成功，获得化身蝙蝠"
+#case:19
+#act
+give 强化骷髅术 1
+systemmsg "恭喜<$username>夺宝成功，获得强化骷髅术"
+#case:20
+#act
+give 骨玉 1
+systemmsg "恭喜<$username>夺宝成功，获得骨玉"
+#case:21
+#act
+give 法神头盔 1
+systemmsg "恭喜<$username>夺宝成功，获得法神头盔"
+#case:22
+#act
+give 法神项链 1
+systemmsg "恭喜<$username>夺宝成功，获得法神项链"
+#case:23
+#act
+give 法神手镯 1
+systemmsg "恭喜<$username>夺宝成功，获得法神手镯"
+#case:24
+#act
+give 法神戒指 1
+systemmsg "恭喜<$username>夺宝成功，获得法神戒指"
+#case:25
+#act
+give 圣战戒指 1
+systemmsg "恭喜<$username>夺宝成功，获得圣战戒指"
+#case:26
+#act
+give 圣战手镯 1
+systemmsg "恭喜<$username>夺宝成功，获得圣战手镯"
+#case:27
+#act
+give 圣战项链 1
+systemmsg "恭喜<$username>夺宝成功，获得圣战项链"
+#case:28
+#act
+give 圣战头盔 1
+systemmsg "恭喜<$username>夺宝成功，获得圣战头盔"
+#case:29
+#act
+give 天尊戒指 1
+systemmsg "恭喜<$username>夺宝成功，获得天尊戒指"
+#case:30
+#act
+give 天尊手镯 1
+systemmsg "恭喜<$username>夺宝成功，获得天尊手镯"
+#case:31
+#act
+give 天尊项链 1
+systemmsg "恭喜<$username>夺宝成功，获得天尊项链"
+#case:32
+#act
+give 天尊头盔 1
+systemmsg "恭喜<$username>夺宝成功，获得天尊头盔"
+#default
+#act
+give 风影盾 1
+systemmsg "恭喜<$username>夺宝成功，获得风影盾"
+#end
+
+[@lose]
+#if
+checkex $di_executetime = 10
+#act
+systemmsg "宝盒已掉落30分钟,本次夺宝活动结束"
+US_delete
+#elseact
+systemmsg "宝盒目前无人保管，正掉落在<$di_mapid>地图<$di_posx>，<$di_posy>位置"

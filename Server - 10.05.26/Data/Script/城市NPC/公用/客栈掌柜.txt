@@ -1,0 +1,445 @@
+[@main]
+这里是仓库，可以替你保管很多东西，目前还不收保管\
+费，有什么可以先放我这里。为方便大家搜集红、绿、蓝三种\
+颜色的宝石以兑换小宝石，隆重推出“宝石仓库”的服务，三\
+种颜色的宝石都可以在我这儿存放，服务还是免费的哦。\
+<可接任务/@_RW_entry>\
+<存放物品/@storage>   <宝石仓库/@_CK_goldsave>\
+<取出物品/@getback>   <捆扎物品/@_CK_mbind>\
+<关闭选单/@exit>
+
+[@_RW_entry]
+#if
+CHECKTASKSTEP 12 = 4
+#ACT
+CALL @求婚的勇气任务.落霞岛_仓库
+#elseif
+CHECKTASKSTEP 12 = 5
+#ACT
+CALL @求婚的勇气任务.落霞岛_仓库1
+#elseif
+CHECKTASKSTEP 25 = 4
+#ACT
+CALL @求婚的勇气任务.海角_仓库
+#elseif
+CHECKTASKSTEP 25 = 5
+#ACT
+CALL @求婚的勇气任务.海角_仓库1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@storage]
+你想保管什么东西呢？\\
+<返 回/@main>
+
+[@_CK_goldsave]
+来来来，只要是红、绿、蓝三种颜色的宝石，放在宝石\
+仓库里是可就安全了。不过每种宝石可是只能放200颗。\
+多了可就放不下咯。\
+<查看宝石数量/@_CK_checkgolditem>\
+<存放宝石/@_CK_applystoregem>\
+<取出宝石/@_CK_takegold>\
+<返回/@main>
+
+[@_CK_checkgolditem]
+你现在拥有：\
+<$RedGem>颗红宝石\
+<$BlueGem>颗蓝宝石\
+<$BerylGem>颗绿宝石\
+<返回/@_CK_goldsave>
+
+[@_CK_applystoregem]
+能存放红、绿、蓝三种颜色的宝石。\
+<返回/@_CK_goldsave>
+#act
+putitem 提供宝石 @applystoregem
+
+[@applystoregem]
+#if
+US_CHECKITEMNAME 红宝石
+#act
+us_delete 红宝石
+INC RedGem
+systemmsgex $CC_SPECIAL $username  "储存红宝石成功"
+#elseif
+US_CHECKITEMNAME 蓝宝石
+#act
+us_delete 蓝宝石
+INC BlueGem
+systemmsgex $CC_SPECIAL $username  "储存蓝宝石成功"
+#elseif
+US_CHECKITEMNAME 绿宝石
+#act
+us_delete 绿宝石
+INC BerylGem
+systemmsgex $CC_SPECIAL $username  "储存绿宝石成功"
+#elsesay
+你提供的物品不正确！\\
+<离 开/@exit>
+#end
+
+[@_CK_takegold]
+<取出红宝石/@_CK_applygetredgem>....现有红宝石<$RedGem>颗\
+<取出蓝宝石/@_CK_applygetbluegem>....现有蓝宝石<$BlueGem>颗\
+<取出绿宝石/@_CK_applygetgreengem>....现有绿宝石<$BerylGem>颗\
+<返回/@_CK_goldsave>
+
+[@_CK_applygetredgem]
+#if
+CHECKEX $RedGem > 0
+#act
+inputtext 请输入要取出红宝石的数量: 3 @TakeRedGem
+#elsesay
+如果我没有看错的话，你的仓库里应该没有那么多红宝石!\
+<返回/@_CK_takegold>
+
+[@TakeRedGem]
+#if
+CHECKEX $BAGSPACE >= $inputtext
+#act
+give 红宝石 $inputtext
+DEC RedGem $inputtext
+#elseact
+systemmsgex $CC_SPECIAL $username  "你的背包没有空间取红宝石"
+#end
+#act
+close
+
+[@_CK_applygetbluegem]
+#if
+CHECKEX $BlueGem > 0
+#act
+inputtext 请输入要取出蓝宝石的数量: 3 @TakeBlueGem
+#elsesay
+如果我没有看错的话，你的仓库里应该没有那么多蓝宝石!\
+<返回/@_CK_takegold>
+
+[@TakeBlueGem]
+#if
+CHECKEX $BAGSPACE >= $inputtext
+#act
+give 蓝宝石 $inputtext
+DEC BlueGem $inputtext
+#elseact
+systemmsgex $CC_SPECIAL $username  "你的背包没有空间取蓝宝石"
+#end
+#act
+close
+
+[@_CK_applygetgreengem]
+#if
+CHECKEX $BerylGem > 0
+#act
+inputtext 请输入要取出绿宝石的数量: 3 @TakeBerylGem
+#elsesay
+如果我没有看错的话，你的仓库里应该没有那么多绿宝石!\
+<返回/@_CK_takegold>
+
+[@TakeBerylGem]
+#if
+CHECKEX $BAGSPACE >= $inputtext
+#act
+give 绿宝石 $inputtext
+DEC BerylGem $inputtext
+#elseact
+systemmsgex $CC_SPECIAL $username  "你的背包没有空间取绿宝石"
+#end
+#act
+close
+
+[@getback]
+你是要把东西拿回去吧？\
+从下面的列表里挑吧。\\
+<返 回/@main>
+
+[@_CK_mbind]
+一看你就是有钱人！\
+行，我来帮你，你要干什么呢？\\
+用金条<交换/@_CK_jttojz>金砖\
+用金砖<交换/@_CK_jztojt>金条\
+用金币<交换/@_CK_changegold>金条 \
+用金条<交换/@_CK_changemoney>金币 \
+<打包/@_CK_bind> \
+<离 开/@exit>
+
+[@_CK_jttojz]
+#if
+checkex gold > 2000
+checkbagitem 金条 5
+#act
+takegold 2000
+takebagitem 金条 5
+give 金砖 1
+#say
+我的生意不错!\
+<返 回/@main>
+#elsesay
+你没有金条还换什么? \
+想骗我？走开！ \\
+<离 开/@exit>
+
+[@_CK_jztojt]
+#if
+checkex gold > 2000
+checkbagitem 金砖 1
+#act
+takegold 2000
+takebagitem 金砖 1
+give 金条 5
+#say
+\\
+<返 回/@main>
+#elsesay
+你没有金砖还换什么? \
+想骗我？走开！ \\
+<返 回/@main>
+
+[@_CK_changegold]
+#if
+checkex gold > 1002000
+#act
+takegold 1002000
+give 金条 1
+#say
+\\
+<返 回/@main>
+#elsesay
+你的金币不够,还换什么? \
+想骗我？走开！ \\
+<返 回/@main>
+
+[@_CK_changemoney]
+#if
+checkbagitem 金条 1
+checkex gold > 2000
+#act
+takebagitem 金条 1
+givegold 998000
+#say
+\\
+<返 回/@main> 
+#elsesay
+你没有金条还换什么? \
+想骗我？走开！ \\
+<返 回/@main>
+
+[@_CK_bind]
+目前我能捆的只有卷轴和药水 \
+你要捆吗？ \
+要捆东西需要100金币. \\
+<捆/@_CK_p_bind>药水 \
+<捆/@_CK_z_bind>卷书 \
+<捆/@_CK_f_bind>道符(大)\
+<捆/@_CK_zum_bind5>扎其他物品 \
+
+[@_CK_p_bind]
+<捆/@_CK_ch_bind1>金创药(大量)\
+<捆/@_CK_ma_bind1>魔法药(大量)\
+<捆/@_CK_ch_bind2>金创药(中量)\
+<捆/@_CK_ma_bind2>魔法药(中量)\
+<捆/@_CK_ch_bind3>金创药(小量)\
+<捆/@_CK_ma_bind3>魔法药(小量)\
+<捆/@_CK_ch_bind4>特级金创药\
+<捆/@_CK_ma_bind4>特级魔法药\
+<返 回/@_CK_bind>
+
+[@_CK_ch_bind1]
+#if
+checkbagitem 金创药(大量) 6
+checkex gold > 100
+#act
+takebagitem 超级金创药 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ma_bind1]
+#if
+checkbagitem 魔法药(大量) 6
+checkex gold > 100
+#act
+takebagitem 超级魔法药 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ch_bind2]
+#if
+checkbagitem 金创药(中量) 6
+checkex gold > 100
+#act
+takebagitem 金创药(中)包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ma_bind2]
+#if
+checkbagitem 魔法药(中量) 6
+checkex gold > 100
+#act
+takebagitem 魔法药(中)包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ch_bind3]
+#if
+checkbagitem 金创药(小量) 6
+checkex gold > 100
+#act
+takebagitem 金创药(小)包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ma_bind3]
+#if
+checkbagitem 魔法药(小量) 6
+checkex gold > 100
+#act
+takebagitem 魔法药(小)包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ch_bind4]
+#if
+checkbagitem 特级金创药 6
+checkex gold > 100
+#act
+takebagitem 特级金创药包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_ma_bind4]
+#if
+checkbagitem 特级魔法药 6
+checkex gold > 100
+#act
+takebagitem 特级魔法药包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_z_bind]
+<捆/@_CK_zum_bind1>地牢卷轴\
+<捆/@_CK_zum_bind2>随机卷轴 \
+<捆/@_CK_zum_bind3>回城卷轴 \
+<捆/@_CK_zum_bind4>沙城回城卷轴 \
+<返 回/@_CK_bind>
+
+[@_CK_zum_bind1]
+#if
+checkbagitem 地牢卷轴 6
+checkex gold > 100
+#act
+takebagitem 地牢逃脱卷包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_zum_bind2]
+#if
+checkbagitem 随机卷轴 6
+checkex gold > 100
+#act
+takebagitem 随机传送卷包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_zum_bind3]
+#if
+checkbagitem 回城卷轴 6
+checkex gold > 100
+#act
+takebagitem 回城卷包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_zum_bind4]
+
+[@_CK_f_bind]
+#if
+checkbagitem 道符（大） 6
+checkex gold > 100
+#act
+takebagitem 道符包 1
+takegold 100
+#say
+\\
+<返 回/@main>
+#elsesay
+你都没有可以捆的物品，还捆什么? \
+等准备好之后，再来找我吧.. \\
+<离 开/@exit>
+
+[@_CK_zum_bind5]
+请选择您要打包的物品:\
+<5级宝宝卷轴/@_CK_spebind&5级宝宝卷轴>    <6级宝宝卷轴/@_CK_spebind&6级宝宝卷轴>     <7级宝宝卷轴/@_CK_spebind&7级宝宝卷轴>\
+<8级宝宝卷轴/@_CK_spebind&8级宝宝卷轴>    <9级宝宝卷轴/@_CK_spebind&9级宝宝卷轴>     <修罗军团封印/@_CK_spebind&修罗军团封印>\
+<豹粮/@_CK_spebind&豹粮> \
+<离开/@exit>
+
+
+
+

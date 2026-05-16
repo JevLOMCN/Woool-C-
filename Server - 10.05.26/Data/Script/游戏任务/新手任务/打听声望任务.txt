@@ -1,0 +1,61 @@
+[@落霞_老兵]
+#IF
+CHECKTASKSTEP 10 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听声望/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 11 = 2
+#ACT
+CALL @消失的戒指任务.落霞岛_老兵1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+年轻人，你找我有什么事情吗？\
+<打听声望/@_RW_fulfilTask1_1>                <没事/@exit>
+
+[@_RW_fulfilTask1_1]
+#ACT
+CompleteTask 10
+GIVEEXP 4200
+AddTask 11
+#SAY
+说到声望可是个好东西，你可以通过做任务或者拜师获得。\
+有了声望可以完成一些需要消耗声望的任务，还可以换取荣\
+誉勋章，技能书哦。\
+如果你有时间就去首饰店店员那里看看吧，她好像需要帮助。\
+<离开/@exit>
+
+[@海角_老兵]
+#IF
+CHECKTASKSTEP 23 = 1
+#SAY
+可以完成的任务：\
+<新手任务--打听声望/@_RW_fulfilTaskDesp18>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 24 = 2
+#ACT
+CALL @消失的戒指任务.海角_老兵1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp18]
+年轻人，你找我有什么事情吗？\
+<打听声望/@_RW_fulfilTask18_18>                <没事/@exit>
+
+[@_RW_fulfilTask18_18]
+#ACT
+CompleteTask 23
+GIVEEXP 4200
+AddTask 24
+#SAY
+说到声望可是个好东西，你可以通过做任务或者拜师获得。\
+有了声望可以完成一些需要消耗声望的任务，还可以换取荣\
+誉勋章，技能书哦。\
+如果你有时间就去首饰店店员那里看看吧，她好像需要帮助。\
+<离开/@exit>

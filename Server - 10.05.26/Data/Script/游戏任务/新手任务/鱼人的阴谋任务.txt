@@ -1,0 +1,149 @@
+[@落霞岛_炼药]
+#IF
+CHECKTASKSTEP 2 = 1
+#SAY
+可以完成的任务：\
+<新手任务--鱼人的阴谋/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 2 = 2
+#SAY
+可以完成的任务：\
+<新手任务--鱼人的阴谋/@_RW_fulfilTaskDesp2>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 8 = 1
+#ACT
+CALL @打听交易任务.落霞岛_炼药1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+
+[@_RW_fulfilTaskDesp2]
+虽然只是小小的 1块兔肉，但是对于村民来说意义重大，你\
+找到兔肉了吗？如果有的话赶紧给我吧，救人如救火，时间\
+紧迫啊。\
+<交还兔肉/@_RW_fulfilTask2_2>                <离开/@exit>
+
+[@_RW_fulfilTask2_2]
+#IF
+CHECKBAGITEM 兔肉 1
+#ACT
+CompleteTask 2
+TAKEBAGITEM 兔肉 1
+give 幻彩手镯 2 1
+give 解毒药 1
+GIVEGOLD 100
+GIVEEXP 900
+AddTask 3
+systemmsg $username "您成功增加了100金币。"
+#SAY
+那些中毒的村民终于有救了，我代表乡亲们感谢你，我这就\
+加紧赶制解毒药。书店老板的家人好像中毒比较深，你先把\
+这包我刚做好的解毒药给他送过去，他就在村子西门附近的\
+书店（234：225）。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+原是张屠夫让你来送鹿肉的啊，我上午刚预定的下午就收到\
+了，他还真守信用！不过还是要谢谢你，我忙着配药，真是\
+太忙了，已经饿得有些头晕眼花的，说话都没有力气了。\
+<交还新鲜猪肉/@_RW_fulfilTask1_1>                <离开/@exit>
+
+[@_RW_fulfilTask1_1]
+#IF
+CHECKBAGITEM 新鲜鹿肉 1
+#ACT
+modifytask 2 2
+GIVEEXP 600
+TAKEBAGITEM 新鲜鹿肉 1
+#SAY
+你是个好人，可你不知道……唉，节日临近了，村里头患病\
+的乡亲却越来越多了，而且病情都非常相似。我查来查去最\
+后听老兵说前些日子发现有鱼人溜进了村子，还在水井附近\
+鬼鬼祟祟，一定是鱼人投毒了！我这两天忙着配制解毒药解\
+救村民，原料快用光了；麻烦你帮我弄 1块兔肉来，我已经\
+几乎没有力气了。<color=green 村子附近有很多兔子出没，你杀死兔子以>\
+<color=green 后，对着兔子的尸体按ALT+鼠标左键，就能获得兔肉了>。\
+凑齐了1个兔肉记得回来找我。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@海角_炼药]
+#IF
+CHECKTASKSTEP 15 = 1
+#SAY
+可以完成的任务：\
+<新手任务--鱼人的阴谋/@_RW_fulfilTaskDesp10>\\
+<离开/@exit>
+#elseif
+CHECKTASKSTEP 15 = 2
+#SAY
+可以完成的任务：\
+<新手任务--鱼人的阴谋/@_RW_fulfilTaskDesp11>\\
+<离开/@exit>
+#elseif
+CHECKTASKSTEP 21 = 1
+#ACT
+CALL @打听交易任务.海角_炼药1
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp10]
+原是张屠夫让你来送猪肉的啊，我上午刚预定的下午就收到\
+了，他还真守信用！不过还是要谢谢你，我忙着配药，真是\
+太忙了，已经饿得有些头晕眼花的，说话都没有力气了。\
+<交还新鲜猪肉/@_RW_fulfilTask10_10>                <离开/@exit>
+
+[@_RW_fulfilTaskDesp11]
+虽然只是小小的 5块蟾酥，但是对于村民来说意义重大，你\
+找到蟾酥了吗？如果有的话赶紧给我吧，救人如救火，时间\
+紧迫啊。\
+<交还蟾酥/@_RW_fulfilTask11_11>                <离开/@exit>
+
+[@_RW_fulfilTask11_11]
+#IF
+CHECKBAGITEM 蟾酥 5
+#ACT
+CompleteTask 15
+TAKEBAGITEM 蟾酥 5
+give 幻彩手镯 2 1
+give 解毒药 1
+GIVEGOLD 100
+GIVEEXP 900
+AddTask 16
+systemmsg $username "您成功增加了100金币。"
+#SAY
+那些中毒的村民终于有救了，我代表乡亲们感谢你，我这就\
+加紧赶制解毒药。书店老板的家人好像中毒比较深，你先把\
+这包我刚做好的解毒药给他送过去，他就在村子西门附近的\
+书店（406：600）。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTask10_10]
+#IF
+CHECKBAGITEM 新鲜猪肉 1
+#ACT
+modifytask 15 2
+GIVEEXP 600
+TAKEBAGITEM 新鲜猪肉 1
+#SAY
+村里有很多中毒的人，我需要蟾酥来配药。\
+麻烦你帮我弄 1块蟾酥来，我已经几乎没有力气了。\
+村子附近有很多癞蛤蟆出没，<color=green 你杀死癞蛤蟆后，对着癞蛤蟆>\
+<color=green 的尸体按ALT+鼠标左键，就可以获得蟾酥了>。\
+凑齐了1个蟾酥记得回来找我。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>

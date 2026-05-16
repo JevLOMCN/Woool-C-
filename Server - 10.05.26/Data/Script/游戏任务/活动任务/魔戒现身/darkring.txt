@@ -1,0 +1,5 @@
+[@pickup]
+#ifnot
+hour 13 13
+#act
+us_delete

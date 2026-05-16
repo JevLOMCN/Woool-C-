@@ -1,0 +1,13 @@
+[@main]
+#if
+us_damagedura 1
+#act
+inputtext 请输入人名: 16 @查看信息
+
+[@查看信息]
+#if
+humonline $username
+#act
+systemmsgex $CC_NORMAL "玩家<$username> <$mapname>的 (<$posx>,<$posy>)处。"
+#elseact
+systemmsgex $CC_SPECIAL $username "查看信息失败，对方不在线!"

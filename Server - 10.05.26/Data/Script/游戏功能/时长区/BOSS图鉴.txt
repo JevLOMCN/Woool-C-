@@ -1,0 +1,3 @@
+[@刷怪]
+#act
+systemmsg "刷怪刷新时间到了，BOSS名字：<$SPARAM*0>；地图名字：<$SPARAM*1>；简单描述：<$SPARAM*2>"

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "PanelWnd" mask = "13838">
+  <Offset x = "0" y = "0" align = "bottom" />
+  <BackTexture index = "14700" />
+
+  <Button name ="QuitButton">
+    <Offset x = "2" y = "138" />
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13813" />
+    <PushedTexture index = "13814" />
+    <Tips text="退出传奇世界" />
+  </Button>
+
+  <Button name ="OutButton">
+    <Offset x = "105" y = "138" />
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13816" />
+    <PushedTexture index = "13817" />
+    <Tips text="返回人物选择界面(Alt-X)" />
+  </Button>
+
+  <Button name ="CommandButton">
+    <Offset x = "-158" y = "165" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13836" />
+    <PushedTexture index = "13837" />
+    <Tips text="指令窗口" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("ComandWnd");
+      </OnClick>
+    </Scripts>      
+  </Button>
+
+  <Button name ="HelloButton">
+    <Offset x = "-123" y = "159" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13865" />
+    <PushedTexture index = "13866" />
+    <Tips text="作揖" />
+  </Button>
+
+  <Button name ="StoreWndButton">
+    <Offset x = "-121" y = "43" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13807" />
+    <PushedTexture index = "13808" />
+    <Tips text="商城－进入商城购买道具" />
+    <EffectTexture index="70">
+  		<Offset x="10" y="10" /> 
+ 	  </EffectTexture>
+    <Scripts>
+      <OnClick>
+        UpdateWindow("WooolStoreWndEx");
+      </OnClick>
+    </Scripts>     
+  </Button>
+
+  <Button name ="PMWndButton">
+    <Offset x = "-41" y = "44" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13821" />
+    <PushedTexture index = "13822" />
+    <Tips text="拍卖行－进入拍卖行" />
+    <EffectTexture index="70">
+  		<Offset x="10" y="10" /> 
+ 	  </EffectTexture>
+  </Button>
+
+  <Button name ="RangeWndButton">
+    <Offset x = "-77" y = "44" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13802" />
+    <PushedTexture index = "13803" />
+    <Tips text="英雄排名榜" />
+    <EffectTexture index="10766">
+ 			<Offset x="46" y="45" /> 
+    </EffectTexture>
+  </Button>
+
+  <Button name ="RainbowWndButton">
+    <Offset x = "-4" y = "44" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13800" />
+    <PushedTexture index = "13801" />
+    <Tips text="问答－彩虹问答" />
+    <EffectTexture index="70">
+  		<Offset x="10" y="10" /> 
+ 	  </EffectTexture>
+  </Button>
+
+  <Button name ="TradeWndButton" mask="13847">
+    <Offset x = "-123" y = "96" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13847" />
+    <PushedTexture index = "13848" />
+    <Tips text="与其他玩家进行交易" />
+  </Button>
+
+  <Button name ="CharWndButton">
+    <Offset x = "-35" y = "111" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13824" />
+    <PushedTexture index = "13825" />
+    <Tips text="显示人物属性装备界面(F10)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("AvatarFrameWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+  <Button name ="PackageWndButton" mask="13805">
+    <Offset x = "-76" y = "91" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13805" />
+    <PushedTexture index = "13806" />
+    <Tips text="显示包裹界面(F9)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("PackageWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+  <Button name ="SocialityWndButton" mask="13868">
+    <Offset x = "-9" y = "91" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13868" />
+    <PushedTexture index = "13869" />
+    <Tips text="显示社交界面(Esc+F10)" />
+  </Button>
+
+  <Button name ="VoiceWndButton">
+    <Offset x = "-180" y = "165" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13874" />
+    <PushedTexture index = "13875" />
+    <Tips text="语音聊天" />
+  </Button>
+
+  <Button name ="SkillWndButton" mask="13819">
+    <Offset x = "-77" y = "131" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13819" />
+    <PushedTexture index = "13820" />
+    <Tips text="显示技能界面(F11)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("SkillWnd");
+      </OnClick>
+    </Scripts>    
+  </Button>
+
+  <Button name ="ConfigWndButton" mask="13833">
+    <Offset x = "-12" y = "131" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13833" />
+    <PushedTexture index = "13834" />
+    <Tips text="显示系统设置界面(F12)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("SysConfigWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+  <Button name ="TroopWndButton" mask="13859">
+    <Offset x = "-123" y = "138" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13859" />
+    <PushedTexture index = "13860" />
+    <Tips text="与其他玩家进行组队" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("TeamWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+  <Button name ="HorseWndButton" mask="13810">
+    <Offset x = "-35" y = "149" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13810" />
+    <PushedTexture index = "13811" />
+    <Tips text="显示灵兽界面(Esc+F9)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("PetWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+  <Button name ="BoothWndButton">
+    <Offset x = "-123" y = "117" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13841" />
+    <PushedTexture index = "13842" />
+    <Tips text="摆摊" />
+  </Button>
+
+  <Button name ="TaskWndButton">
+    <Offset x = "-34" y = "87" Align ="TopRight"/>
+    <NormalTexture index = "0" />
+    <HighlightTexture index = "13827" />
+    <PushedTexture index = "13828" />
+    <Tips text="任务日志(Esc+F11)" />
+    <Scripts>
+      <OnClick>
+        UpdateWindow("TaskWnd");
+      </OnClick>
+    </Scripts>
+  </Button>
+
+ <CheckButton name = "ChannelPhyle">
+  	<Offset x = "137" y = "48"/>
+    <NormalTexture index = "0" />
+    <CheckedTexture index = "13886" />
+    <Tips text="显示宗派聊天" />
+  </CheckButton>
+
+  <CheckButton name = "ChannelNormal">
+    <Offset x = "137" y = "70"/>
+    <NormalTexture index = "0" />
+    <CheckedTexture index = "13851" />
+    <Tips text="显示普通聊天" />
+  </CheckButton>
+
+  <CheckButton name = "ChannelPrivate">
+    <Offset x = "137" y = "92"/>
+    <NormalTexture index = "0" />
+    <CheckedTexture index = "13854" />
+    <Tips text="显示私聊" />
+  </CheckButton>
+
+  <CheckButton name = "ChannelPublic">
+    <Offset x = "137" y = "114"/>
+    <NormalTexture index= "0" />
+    <CheckedTexture index = "13845" />
+    <Tips text="显示喊话" />
+  </CheckButton>
+
+  <CheckButton name = "ChannelTroop">
+    <Offset x = "137" y = "136"/>
+    <NormalTexture index= "0" />
+    <CheckedTexture index = "13863" />
+    <Tips text="显示组队聊天" />
+  </CheckButton>
+
+  <CheckButton name = "ChannelGuild">
+    <Offset x = "137" y = "158"/>
+    <NormalTexture index= "0" />
+    <CheckedTexture index = "13857" />
+    <Tips text="显示行会聊天" />
+  </CheckButton>
+  
+</Window>

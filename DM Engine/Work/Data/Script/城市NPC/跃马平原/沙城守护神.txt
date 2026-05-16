@@ -1,0 +1,75 @@
+[@main]
+<领取沙城奖励/@getsabukprize>\
+<城主领取灵符/@getlingfu>\
+<直达各地/@gogogo>\\
+
+
+[@getsabukprize]
+#if
+issabukmember
+#act
+givegold 10
+#elsesay
+对不起,您不是沙城成员,不能领取沙城奖励!\
+
+[@getlingfu]
+#if
+issabukowner
+#act
+give 灵符 1
+#elsesay
+对不起,您不是城主,不能领取灵符!\
+
+[@gogogo]
+#if
+issabukmember
+#act
+goto @gogogo1
+#elsesay
+对不起,您不是沙城成员,不能直达各地!\
+
+[@gogogo1]
+直接选择要去的地点。\
+<炼狱海岛/@_LB_newlianyu>\
+<将军坟二层/@go2>\
+<逆魔古刹四层/@go3>\
+<蛇洞百虫穴/@go4>\
+<机关洞天机堂/@go5>\
+<通天塔六层/@go6>\
+<禁地青玉宫/@go7>\
+<地下魔域四层/@go8>\
+
+[@_LB_newlianyu]
+#act
+mapmove 164
+close
+[@go2]
+#act
+mapmove 44
+close
+[@go3]
+#act
+mapmove 135
+close
+[@go4]
+#act
+mapmove 109
+close
+[@go5]
+#act
+mapmove 81
+close
+[@go6]
+#act 
+mapmove 237
+close
+[@go7]
+#act
+mapmove 156
+close
+[@go8]
+#act
+mapmove 277
+close
+
+

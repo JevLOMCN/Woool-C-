@@ -1,0 +1,12 @@
+[@weather]
+#if
+checkmapflag weather
+us_damagedura 1
+#act
+changeweather $_param0
+scrollmsg "<$username>改变了<$mapname>的天气效果为<$_param1>,请开启天气效果欣赏!"
+#elseact
+systemmsg $username "户外才能使用天气卷轴"
+#end
+#act
+close

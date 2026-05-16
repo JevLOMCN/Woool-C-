@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Window name = "NpcWnd">
+  <Offset x = "10" y = "30" align = "TopLeft" />
+  <BackTexture index= "13993" />  
+  <Scripts>
+    <OnClose>
+      CloseWindow("NpcWnd")
+    </OnClose>    
+  </Scripts>
+  <Control name = "MarkViewer">
+  	<Offset x="24" y="18" /> 
+  	<Size width="325" height="143" />
+  </Control>
+</Window>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<AutoEatEx name="强效太阳神水"	type="6" hp="1" mp="1"/>
+	<AutoEatEx name="强效太阳水药袋"	type="6" hp="1" mp="1"/>
+	<AutoEatEx name="太阳神水"		type="6" hp="1" mp="1"/>	
+	<AutoEatEx name="太阳水药袋"		type="6" hp="1" mp="1"/>
+	
+	<AutoEatEx name="治疗药水"		type="7" hp="1" mp="1"/>	
+	
+	<AutoEatEx name="福运治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="落霞治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="攻沙治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="跨服治疗神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="超级跨服神水"		type="8" hp="1" mp="1"/>
+	<AutoEatEx name="主宰者治疗神水" type="8" hp="1" mp="1"/>
+	<AutoEatEx name="修罗治疗神水" type="8" hp="1" mp="1"/>
+	<AutoEatEx name="特权治疗神水" type="8" hp="1" mp="1"/>	
+	<AutoEatEx name="超级修罗神水" type="8" hp="1" mp="1"/>	
+	<AutoEatEx name="王爵特级神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="王爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="公爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="侯爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="伯爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="子爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="男爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="勋爵治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="上仙治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="沙城治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="海神治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="超级治疗神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="超级太阳神水" 	type="8" hp="1" mp="1"/>
+	<AutoEatEx name="治疗神水"		type="8" hp="1" mp="1"/>
+	
+	
+	<AutoEatEx name="王爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="公爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="侯爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="伯爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="男爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="子爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="勋爵天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="海神天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="沙城天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="极效天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="超级天山雪莲" type="101" hp="1" mp="0"/>
+	<AutoEatEx name="修罗天山雪莲" type="101" hp="1" mp="0"/>	
+	<AutoEatEx name="超级修罗雪莲" type="101" hp="1" mp="0"/>		
+	<AutoEatEx name="天山雪莲"	  type="101" hp="1" mp="0"/>
+
+	<AutoEatEx name="王爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="公爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="侯爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="伯爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="男爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="子爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="勋爵深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="海神深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="沙城深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="极效深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="超级深海灵礁" type="101" hp="0" mp="1"/>
+	<AutoEatEx name="深海灵礁"	  type="101" hp="0" mp="1"/>
+	<AutoEatEx name="修罗深海灵礁"	  type="101" hp="0" mp="1"/>
+	<AutoEatEx name="超级修罗灵礁"	  type="101" hp="0" mp="1"/>	
+	<AutoEatEx name="元力神水"		type="201" yp="1"/>
+	
+	
+	<AutoEatAdv name="超级金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="特级金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="海神金创药"	 hp="1" mp="0"/>
+	<AutoEatAdv name="沙城金创药"	 hp="1" mp="0"/>
+	
+	<AutoEatAdv name="超级魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="特级魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="海神魔法药"	 hp="0" mp="1"/>
+	<AutoEatAdv name="沙城魔法药"	 hp="0" mp="1"/>
+	
+	<AutoEatAdv name="超级太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="超级治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="海神治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="强效太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="强效太阳水药袋"	 hp="1" mp="1"/>
+	<AutoEatAdv name="沙城治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="上仙治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="太阳神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="王爵特级神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="主宰者超级神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="主宰者治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="主宰者特级神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="修罗治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="超级修罗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="特权治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="跨服治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="超级跨服神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="北冥治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="超级北冥神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="落霞治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="攻沙治疗神水"	 hp="1" mp="1"/>
+	<AutoEatAdv name="福运治疗神水"	 hp="1" mp="1"/>
+	
+	<AutoEatAdv name="特级金创药包"	 hp="1" mp="0"/>
+	<AutoEatAdv name="特级魔法药包"	 hp="0" mp="1"/>
+	<AutoEatAdv name="超级金创药袋"	 hp="1" mp="0"/>
+	<AutoEatAdv name="超级魔法药袋"	 hp="0" mp="1"/>	
+	<AutoEatAdv name="特级金创药袋"	 hp="1" mp="0"/>
+	<AutoEatAdv name="特级魔法药袋"	 hp="0" mp="1"/>	
+	
+	
+	
+</CFG>

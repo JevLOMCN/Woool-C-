@@ -1,0 +1,8 @@
+[@main]
+<返回炼狱魔境十层/@backnew> \
+<没事/@exit>
+
+[@backnew]
+#act
+move 218 97 90
+close

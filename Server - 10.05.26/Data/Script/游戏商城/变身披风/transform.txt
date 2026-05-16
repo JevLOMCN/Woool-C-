@@ -1,0 +1,25 @@
+[@testtransformto]
+#if
+istransformed
+#act
+transform $_param0
+#elseif
+us_damagedura 1
+#act
+transform $_param0
+#end
+#act
+close
+
+[@transformto]
+#if
+istransformed
+#act
+transform $_param0
+#elseif
+US_CHECKANDUPTODATE
+#act
+transform $_param0
+#end
+#act
+close

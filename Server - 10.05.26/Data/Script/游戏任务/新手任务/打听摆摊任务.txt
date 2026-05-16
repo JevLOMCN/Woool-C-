@@ -1,0 +1,71 @@
+[@落霞_首饰]
+#IF
+CHECKTASKSTEP 9 = 1
+#SAY
+年轻人，是炼药师让你来的吧，他刚才还在我面前夸你能干\
+呢！你找我有什么事情吗？\
+<打听摆摊/@_RW_fulfilTask1>                <没事/@exit>
+#ELSEIF
+CHECKTASKSTEP 11 = 1
+#ACT
+CALL @消失的戒指任务.落霞岛_首饰1
+#ELSEIF
+CHECKTASKSTEP 11 = 3
+#ACT
+CALL @消失的戒指任务.落霞岛_首饰2
+#ELSEIF
+CHECKTASKSTEP 11 = 5
+#ACT
+CALL @消失的戒指任务.落霞岛_首饰3
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTask1]
+#ACT
+CompleteTask 9
+GIVEEXP 4200
+GIVEGOLD 8000
+AddTask 10
+systemmsg $username "您成功增加了8000金币。"
+#SAY
+想摆摊出售东西的话，只要点击界面右下方的摆摊按钮就可\
+以了，不过你要达到20级以上才可以摆摊哦。\
+你现在去老兵那里看看，他会声望的知识的。\
+<离开/@exit>
+
+[@海角_首饰]
+#IF
+CHECKTASKSTEP 22 = 1
+#SAY
+年轻人，是炼药师让你来的吧，他刚才还在我面前夸你能干\
+呢！你找我有什么事情吗？\
+<打听摆摊/@_RW_fulfilTask17>                <没事/@exit>
+#ELSEIF
+CHECKTASKSTEP 24 = 1
+#ACT
+CALL @消失的戒指任务.海角_首饰1
+#ELSEIF
+CHECKTASKSTEP 24 = 3
+#ACT
+CALL @消失的戒指任务.海角_首饰2
+#ELSEIF
+CHECKTASKSTEP 24 = 5
+#ACT
+CALL @消失的戒指任务.海角_首饰3
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTask17]
+#ACT
+CompleteTask 22
+GIVEEXP 4200
+GIVEGOLD 8000
+AddTask 23
+systemmsg $username "您成功增加了8000金币。"
+#SAY
+想摆摊出售东西的话，只要点击界面右下方的摆摊按钮就可\
+以了，不过你要达到20级以上才可以摆摊哦。\
+你现在去老兵那里看看，他会告诉你声望的知识的。\
+<离开/@exit>

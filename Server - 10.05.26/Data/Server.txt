@@ -1,0 +1,95 @@
+[HumanData]
+Warrior = .\Data\Config\战士.csv
+Magician = .\Data\Config\法师.csv
+Taoshi = .\Data\Config\道士.csv
+
+[FirstLogin]
+StartGameTime = -1
+StartGold = 50000
+StartYuanBao = 10000
+StartLevel = 1
+StartItem = 粗布衣(男)*1*99*0/粗布衣(女)*1*99*1/金创药(小量)*1
+
+[Setting]
+ExpFactor = 100
+PlayerQueue = 256
+MonsterQueue = 32
+NpcQueue = 32
+
+[Var]
+MaxGold = 5000000
+MaxBigGold = 10000000
+MaxYuanBao = 500000
+ItemUpdateTime = 180
+MaxGroupMember = 10
+RedPkPoint = 3
+YellowPkPoint = 2
+OncePkPoint = 1
+OnePkPointTime= 7200
+BodyTime = 30
+StoreageSize = 39
+SandCityTakeTime = 60
+WarEnemyColor = 243
+WarAllyColor = 4
+WarNormalColor = 219
+WarTimeLong = 120 
+WarStartTime = 20 
+EnableSafeAreaNotice = 1
+AddFriendLevel = 7
+PrivateShopLevel = 20
+InitDressColor = 10
+RepairDamageDura =1000
+GrayNameTime = 60
+DropTargetDistance = 20
+WeaponDamageRate = 15
+DressDamageRate = 15
+DefenceDamageRate = 15
+JewelryDamageRate = 15
+RandomUpgradeItemRate = 10
+CharInfoBackupTime = 30
+DbUpdateDelay= 1500
+MaxUpgradeTimes = 5
+MongenFactor = 100
+PkCurseRate = 50
+HPRecoverPoint = 10 
+HPRecoverTime = 500 
+MPRecoverPoint = 10  
+MPRecoverTime = 500
+GuildWarTime = 10800
+GuildLevelNum = 20
+StartGuildMemberCount = 100 
+DropTargetTime = 3
+
+[Name]
+GoldName = 金币
+MaleName = 男
+FemaleName = 女
+GuildNotice = 公告
+KillGuilds = 敌对行会
+AllyGuilds = 联盟行会
+Members = 行会成员
+GuildDeclaration = 行会宣言
+GuildApplyList = 申请列表
+Warr = 战士
+Magican = 法师
+Taoshi = 道士
+TopOfWorld = 天下第一
+UpgradeMineStone = 黑铁矿石
+PhysicsMapPath = ".\Data\Maps\Physics" 
+PhysicsCachePath = ".\Data\Maps\Cache"
+
+[ChatWait]
+Normal = 2
+Cry = 8
+Whisper = 1
+Group = 2
+Guild = 1
+Couple = 1
+Gm = 1
+Friend = 1
+
+[Speed]
+Walk = 600
+Run = 600
+Attack = 850
+Beattack = 300

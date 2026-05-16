@@ -1,0 +1,95 @@
+[@double]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_SPECIAL $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。"
+#end
+#act
+close
+
+[@daydouble]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+hour 1 12
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_MAGICTIPS $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。此卡开启后当天有效，过期作废。"
+#elseact
+systemmsgex $CC_SPECIAL $username  "时间不对，您现在不能使用此道具。该道具开启时间为1点到12点，开启当天有效，过期作废。"
+#end
+#act
+close
+
+[@darkdouble]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+hour 12 23
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_MAGICTIPS $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。此卡开启后当天有效，过期作废。"
+#elseact
+systemmsgex $CC_SPECIAL $username  "时间不对，您现在不能使用此道具。该道具开启时间为12点到23点，开启当天有效，过期作废。"
+#end
+#act
+close
+
+[@weekdouble]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_MAGICTIPS $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。此卡开启后7天有效，过期作废。"
+#end
+#act
+close
+
+[@weekdaydouble]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+hour 1 12
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_MAGICTIPS $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。此卡开启后7天有效，过期作废。"
+#elseact
+systemmsgex $CC_SPECIAL $username  "时间不对，您现在不能使用此道具。该道具开启时间为1点到12点，开启后7天有效，过期作废。"
+#end
+#act
+close
+
+[@weekdarkdouble]
+#if
+checkex $expfactor ! 100
+#act
+close
+#elseif
+hour 12 23
+US_CHECKANDUPTODATE
+#act
+SETEXPFACTOR 200
+systemmsgex $CC_MAGICTIPS $username  "开启双倍经验成功，从现在开始，每打一个怪将比平时多一倍经验。此卡开启后7天有效，过期作废。"
+#elseact
+systemmsgex $CC_SPECIAL $username  "时间不对，您现在不能使用此道具。该道具开启时间为12点到23点，开启后7天有效，过期作废。"
+#end
+#act
+close

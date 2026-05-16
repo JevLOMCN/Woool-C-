@@ -1,0 +1,8 @@
+[@color]
+#if
+US_CHECKANDUPTODATE
+#act
+changemagiccolor $_param0 $_param1
+#end
+#act
+close

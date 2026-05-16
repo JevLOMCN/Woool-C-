@@ -1,0 +1,17 @@
+[@main]
+#if
+us_damagedura 1
+#act
+inputtext 请输入你要说的话: 60 @postrequest2
+#say
+\
+<COLOR=GREEN <$username> >:\\
+　　我可以让全区的人看到你说的话哦！\
+　　你可以在输入框中输入想要说的话！\
+　　注意哦....您最多可以输入30个字！\
+#end
+
+[@postrequest2]
+#act
+scrollmsg "【<$username>】说 <$inputtext>"
+close

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<jingmai>
+  	<jingmaixuewei id='0'  name='真丹'  maxqhlevel='1' kaiqilevel='50' value0='0.05' value1='0' value2='0'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="fy" prop_value1="1" prop_value2="3"/>
+	<level value="1" name="开阳" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="mffy" prop_value1="1" prop_value2="3"/>
+	<level value="2" name="玉衡" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="wsmffy" prop_value1="3" prop_value2="3"/>
+	<level value="3" name="天权" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="bj" prop_value1="6" prop_value2="6"/>
+	<level value="4" name="天玑" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="renxing" prop_value1="6" prop_value2="6"/>
+	<level value="5" name="天璇" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="hp" prop_value1="45" prop_value2="45"/>
+	<level value="6" name="天枢" gold="100000" xiuwei="100" material="真丹灵丹" material_num="5" qhrate="100" prop_name="dsgj" prop_value1="1" prop_value2="3"/>
+             </xueweilevel>
+	</jingmaixuewei>
+  	<jingmaixuewei id='1'  name='神意'  maxqhlevel='2' kaiqilevel='55' value0='0.30' value1='0.50' value2='0.50'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="50" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='2'>
+	<level value="0" name="摇光" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="25" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="200000" xiuwei="200" material="神意灵丹" material_num="10" qhrate="12" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+	</jingmaixuewei>
+  	<jingmaixuewei id='2'  name='法象'  maxqhlevel='3' kaiqilevel='60' value0='1' value1='0.1' value2='0'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='2'>
+	<level value="0" name="摇光" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="20" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='3'>
+	<level value="0" name="摇光" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="10" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="400000" xiuwei="400" material="法象灵丹" material_num="10" qhrate="5" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+	</jingmaixuewei>
+  	<jingmaixuewei id='3'  name='通玄'  maxqhlevel='4' kaiqilevel='65' value0='1' value1='50' value2='0'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="7" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='2'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="15" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="通玄灵丹" material_num="20" qhrate="7" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='3'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="15" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='4'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="fy" prop_value1="2" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="mffy" prop_value1="2" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="7" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="通玄灵丹" material_num="30" qhrate="3" prop_name="dsgj" prop_value1="2" prop_value2="9"/>
+             </xueweilevel>
+	</jingmaixuewei>
+  	<jingmaixuewei id='4'  name='永生'  maxqhlevel='5' kaiqilevel='71' value0='0.10' value1='0' value2='0'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='2'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='3'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='4'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="fy" prop_value1="2" prop_value2="6"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="mffy" prop_value1="2" prop_value2="6"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="wsmffy" prop_value1="6" prop_value2="6"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="bj" prop_value1="12" prop_value2="12"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="renxing" prop_value1="12" prop_value2="12"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="10" prop_name="hp" prop_value1="90" prop_value2="90"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="dsgj" prop_value1="2" prop_value2="6"/>
+             </xueweilevel>
+             <xueweilevel level='5'>
+	<level value="0" name="摇光" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="5" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="500" material="永生灵丹" material_num="50" qhrate="2" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+	</jingmaixuewei>
+	<jingmaixuewei id='5'  name='不死'  maxqhlevel='6' kaiqilevel='71' value0='0.05' value1='0.50' value2='10'>
+             <xueweilevel level='1'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+             <xueweilevel level='2'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+             <xueweilevel level='3'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+             <xueweilevel level='4'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+             <xueweilevel level='5'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="fy" prop_value1="3" prop_value2="9"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="mffy" prop_value1="3" prop_value2="9"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="wsmffy" prop_value1="9" prop_value2="9"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="bj" prop_value1="18" prop_value2="18"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="renxing" prop_value1="18" prop_value2="18"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="10" prop_name="hp" prop_value1="135" prop_value2="135"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="dsgj" prop_value1="3" prop_value2="9"/>
+             </xueweilevel>
+             <xueweilevel level='6'>
+	<level value="0" name="摇光" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="fy" prop_value1="4" prop_value2="12"/>
+	<level value="1" name="开阳" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="mffy" prop_value1="4" prop_value2="12"/>
+	<level value="2" name="玉衡" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="wsmffy" prop_value1="12" prop_value2="12"/>
+	<level value="3" name="天权" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="bj" prop_value1="24" prop_value2="24"/>
+	<level value="4" name="天玑" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="renxing" prop_value1="24" prop_value2="24"/>
+	<level value="5" name="天璇" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="5" prop_name="hp" prop_value1="180" prop_value2="180"/>
+	<level value="6" name="天枢" gold="500000" xiuwei="1000" material="不死灵丹" material_num="100" qhrate="2" prop_name="dsgj" prop_value1="4" prop_value2="12"/>
+             </xueweilevel>			 
+	</jingmaixuewei>	
+</jingmai>

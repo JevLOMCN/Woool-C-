@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="gb2312"?>
+<constellations>
+	<constellation name="井" id="1">
+		<star index="1" name="井星一" needPeopleLevel="1" property="skill" needLastStarLevel="0" starSkill="妖元护体">
+			<level value="1" needJH="0"  propertyValue="50"/>
+			<level value="2" needJH="2000" propertyValue="100"/>
+			<level value="3" needJH="8000" propertyValue="150"/>
+			<level value="4" needJH="40000" propertyValue="200"/>
+			<level value="5" needJH="150000" propertyValue="250"/>
+			<level value="6" needJH="230000" propertyValue="300"/>
+			<level value="7" needJH="280000" propertyValue="350"/>
+			<level value="8" needJH="520000" propertyValue="400"/>
+		</star>
+		<star index="2"  name="井星二" needPeopleLevel="5" property="hp" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0" propertyValue="30"/>
+			<level value="2" needJH="5000" propertyValue="40"/>
+			<level value="3" needJH="20000" propertyValue="50"/>
+			<level value="4" needJH="80000" propertyValue="60"/>
+			<level value="5" needJH="230000" propertyValue="100"/>
+			<level value="6" needJH="280000" propertyValue="120"/>
+			<level value="7" needJH="360000" propertyValue="140"/>
+			<level value="8" needJH="600000" propertyValue="200"/>
+		</star>
+		<star index="3"  name="井星三" needPeopleLevel="10" property="fy" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0"  propertyValue="10"/>
+			<level value="2" needJH="3000" propertyValue="12"/>
+			<level value="3" needJH="5000" propertyValue="14"/>
+			<level value="4" needJH="12000" propertyValue="16"/>
+			<level value="5" needJH="60000" propertyValue="20"/>
+			<level value="6" needJH="80000" propertyValue="25"/>
+			<level value="7" needJH="100000" propertyValue="30"/>
+			<level value="8" needJH="200000" propertyValue="40"/>
+		</star>
+		<star index="4"  name="井星四" needPeopleLevel="15" property="mffy" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0"  propertyValue="10"/>
+			<level value="2" needJH="3000" propertyValue="12"/>
+			<level value="3" needJH="5000" propertyValue="14"/>
+			<level value="4" needJH="12000" propertyValue="16"/>
+			<level value="5" needJH="60000" propertyValue="20"/>
+			<level value="6" needJH="80000" propertyValue="25"/>
+			<level value="7" needJH="100000" propertyValue="30"/>
+			<level value="8" needJH="200000" propertyValue="40"/>
+		</star>
+		<star index="5"  name="井星五" needPeopleLevel="20" property="kx" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0"  propertyValue="10"/>
+			<level value="2" needJH="3000" propertyValue="12"/>
+			<level value="3" needJH="5000" propertyValue="14"/>
+			<level value="4" needJH="12000" propertyValue="16"/>
+			<level value="5" needJH="60000" propertyValue="20"/>
+			<level value="6" needJH="80000" propertyValue="25"/>
+			<level value="7" needJH="100000" propertyValue="30"/>
+			<level value="8" needJH="200000" propertyValue="40"/>
+		</star>
+		<star index="6"  name="井星六" needPeopleLevel="23" property="wldb" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0" propertyValue="1"/>
+			<level value="2" needJH="2000" propertyValue="2"/>
+			<level value="3" needJH="8000" propertyValue="3"/>
+			<level value="4" needJH="40000" propertyValue="4"/>
+			<level value="5" needJH="150000" propertyValue="7"/>
+			<level value="6" needJH="230000" propertyValue="9"/>
+			<level value="7" needJH="280000" propertyValue="11"/>
+			<level value="8" needJH="520000" propertyValue="15"/>
+		</star>
+		<star index="7"  name="井星七" needPeopleLevel="26" property="mfdb" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="0" propertyValue="1"/>
+			<level value="2" needJH="2000" propertyValue="2"/>
+			<level value="3" needJH="8000" propertyValue="3"/>
+			<level value="4" needJH="40000" propertyValue="4"/>
+			<level value="5" needJH="150000" propertyValue="7"/>
+			<level value="6" needJH="230000" propertyValue="9"/>
+			<level value="7" needJH="280000" propertyValue="11"/>
+			<level value="8" needJH="520000" propertyValue="15"/>
+		</star>
+		<star index="8"  name="井星八" needPeopleLevel="30" property="skill" needLastStarLevel="0" starSkill="驱散">
+			<level value="1" needJH="0" propertyValue="20"/>
+			<level value="2" needJH="100000" propertyValue="19"/>
+			<level value="3" needJH="100000" propertyValue="18"/>
+			<level value="4" needJH="200000" propertyValue="17"/>
+			<level value="5" needJH="500000" propertyValue="14"/>
+			<level value="6" needJH="200000" propertyValue="13"/>
+			<level value="7" needJH="200000" propertyValue="12"/>
+			<level value="8" needJH="500000" propertyValue="10"/>
+		</star>
+	</constellation>
+	<constellation name="张" id="5">
+		<star index="28"  name="张星一" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="150000" propertyValue="100"/>
+			<level value="2" needJH="300000" propertyValue="200"/>
+			<level value="3" needJH="450000" propertyValue="300"/>
+			<level value="4" needJH="600000" propertyValue="400"/>
+			<level value="5" needJH="750000" propertyValue="500"/>
+			<level value="6" needJH="900000" propertyValue="600"/>
+			<level value="7" needJH="1050000" propertyValue="700"/>
+			<level value="8" needJH="1200000" propertyValue="800"/>
+			<level value="9" needJH="1350000" propertyValue="900"/>
+			<level value="10" needJH="1500000" propertyValue="950"/>
+		</star>	
+		<star index="29"  name="张星二" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="150000" propertyValue="100"/>
+			<level value="2" needJH="300000" propertyValue="200"/>
+			<level value="3" needJH="450000" propertyValue="300"/>
+			<level value="4" needJH="600000" propertyValue="400"/>
+			<level value="5" needJH="750000" propertyValue="500"/>
+			<level value="6" needJH="900000" propertyValue="600"/>
+			<level value="7" needJH="1050000" propertyValue="700"/>
+			<level value="8" needJH="1200000" propertyValue="800"/>
+			<level value="9" needJH="1350000" propertyValue="900"/>
+			<level value="10" needJH="1500000" propertyValue="950"/>
+		</star>
+		<star index="30"  name="张星三" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="150000" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="450000" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+		<star index="31"  name="张星四" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+		<star index="32"  name="张星五" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+		<star index="33"  name="张星六" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+	</constellation>
+	<constellation name="轸" id="7">
+		<star index="56"  name="轸星一" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>
+		<star index="57"  name="轸星二" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+		<star index="58"  name="轸星三" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>	
+		<star index="59"  name="轸星四" needPeopleLevel="62" property="skill" needLastStarLevel="0" starSkill="0">
+			<level value="1" needJH="1500" propertyValue="100"/>
+			<level value="2" needJH="3000000" propertyValue="200"/>
+			<level value="3" needJH="4500" propertyValue="300"/>
+			<level value="4" needJH="6000" propertyValue="400"/>
+			<level value="5" needJH="7500" propertyValue="500"/>
+			<level value="6" needJH="9000" propertyValue="600"/>
+			<level value="7" needJH="10500" propertyValue="700"/>
+			<level value="8" needJH="12000" propertyValue="800"/>
+			<level value="9" needJH="13500" propertyValue="900"/>
+			<level value="10" needJH="15000" propertyValue="950"/>
+		</star>		
+	</constellation>
+</constellations>

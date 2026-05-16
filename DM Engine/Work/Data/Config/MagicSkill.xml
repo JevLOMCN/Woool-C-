@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="GBK"?>
+<Skill>
+	<Magic id = "1" Name= "小火球">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "1" Value2 = "3"/>
+		<Skill Lv = "1" Value1 = "2" Value2 = "4"/>
+		<Skill Lv = "2" Value1 = "3" Value2 = "5"/>
+		<Skill Lv = "3" Value1 = "4" Value2 = "6"/>
+	</Magic>
+	<Magic id = "2" Name= "治疗术">
+	<!-- Level表示技能等级，Value1:回血总血量(最大21亿) Value2:回血总血量(最大21亿) Value3:每次加血的数量 -->
+		<Skill Lv = "0" Value1 = "100" Value2 = "200" Value3 = "10"/>
+		<Skill Lv = "1" Value1 = "200" Value2 = "400" Value3 = "20"/>
+		<Skill Lv = "2" Value1 = "300" Value2 = "600" Value3 = "40"/>
+		<Skill Lv = "3" Value1 = "800" Value2 = "1600" Value3 = "60"/>
+	</Magic>
+	<Magic id = "3" Name= "初级剑法">
+	<!-- Lv:技能等级 Value1:无 Value2:无 Value3:增加命中点数(最大21亿) -->
+		<Skill Lv = "0" Value1 = "0" value2 = "0" Value3 = "2"/>
+		<Skill Lv = "1" Value1 = "0" value2 = "0" Value3 = "3"/>
+		<Skill Lv = "2" Value1 = "0" value2 = "0" Value3 = "4"/>
+		<Skill Lv = "3" Value1 = "0" value2 = "0" Value3 = "5"/>
+	</Magic>
+	<Magic id = "4" Name= "精神战法">  
+	<!-- Level表示技能等级，Value1:无 Value2:无 Value3:增加命中点数(最大21亿) -->
+		<Skill Lv = "0" Value1 = "0" value2 = "0" Value3 = "2"/>
+		<Skill Lv = "1" Value1 = "0" value2 = "0" Value3 = "3"/>
+		<Skill Lv = "2" Value1 = "0" value2 = "0" Value3 = "4"/>
+		<Skill Lv = "3" Value1 = "0" value2 = "0" Value3 = "5"/>
+	</Magic>
+	<Magic id = "5" Name= "火炎刀">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "2" Value2 = "4"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "6"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "10"/>
+	</Magic>
+	<Magic id = "6" Name= "施毒术">  
+	<!-- Level表示技能等级，Value1:红毒降低防御(最大21亿) Value2:绿毒威力减血(最大21亿)  Value3:中毒最长时间  -->
+		<Skill Lv = "0" Value1 = "10" Value2 = "10" Value3 = "60"/>
+		<Skill Lv = "1" Value1 = "20" Value2 = "20" Value3 = "60"/>
+		<Skill Lv = "2" Value1 = "30" Value2 = "30" Value3 = "60"/>
+		<Skill Lv = "3" Value1 = "50" Value2 = "50" Value3 = "60"/>
+	</Magic>	
+	<Magic id = "7" Name= "攻杀剑法">
+	<!-- Lv:技能等级 Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:增加命中点数(最大21亿) -->
+		<Skill Lv = "0" Value1 = "2" Value2 = "4" Value3 = "5"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "6" Value3 = "10"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8" Value3 = "15"/>
+		<Skill Lv = "3" Value1 = "20" Value2 = "30" Value3 = "30"/>
+	</Magic>
+	<Magic id = "8" Name= "抗拒火环">  
+	<!-- Level表示技能等级，Value1:冲撞距离，Value2:成功几率-->
+		<Skill Lv = "0" Value1 = "1" Value2 = "80"/>
+		<Skill Lv = "1" Value1 = "1" Value2 = "85"/>
+		<Skill Lv = "2" Value1 = "2" Value2 = "90"/>
+		<Skill Lv = "3" Value1 = "3" Value2 = "95"/>
+	</Magic>
+	<Magic id = "9" Name= "地狱火焰">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:攻击距离-->
+		<Skill Lv = "0" Value1 = "2" Value2 = "4" Value3 = "2"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "6" Value3 = "3"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8" Value3 = "4"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "10" Value3 = "5"/>
+	</Magic>
+	<Magic id = "10" Name= "疾光电影">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:攻击距离-->
+		<Skill Lv = "0" Value1 = "2" Value2 = "4" Value3 = "3"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "6" Value3 = "4"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8" Value3 = "5"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "10" Value3 = "6"/>
+	</Magic>
+	<Magic id = "11" Name= "雷电术">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "12"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "14"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "16"/>
+
+	</Magic>
+	<Magic id = "12" Name= "刺杀剑术">  
+	<!-- Level表示技能等级， Value1:最小威力(最大21亿) Value2:最大威力(最大21亿)  Value3:二格伤害百分比-->
+		<Skill Lv = "0" Value1 = "5" Value2 = "6" Value3 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "7" Value3 = "20"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "8" Value3 = "30"/>
+		<Skill Lv = "3" Value1 = "9" Value2 = "10" Value3 = "40"/>
+	</Magic>
+	<Magic id = "13" Name= "灵魂道符">  
+	<!-- Level表示技能等级， Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "2" Value2 = "8"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "9"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "10"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "11"/>
+	</Magic>
+	<Magic id = "14" Name= "幽灵盾">  
+	<!-- Level表示技能等级， Value1:额外持续时间 Value2:范围(1表示3*3，2表示5*5，3表示7*7)-->
+		<Skill Lv = "0" Value1 = "10" Value2 = "1"/>
+		<Skill Lv = "1" Value1 = "11" Value2 = "1"/>
+		<Skill Lv = "2" Value1 = "12" Value2 = "2"/>
+		<Skill Lv = "3" Value1 = "13" Value2 = "2"/>
+	</Magic>
+	<Magic id = "15" Name= "神圣战甲术">  
+	<!-- Level表示技能等级， Value1:额外持续时间 Value2:范围(1表示3*3，2表示5*5，3表示7*7) -->
+		<Skill Lv = "0" Value1 = "10" Value2 = "1"/>
+		<Skill Lv = "1" Value1 = "11" Value2 = "1"/>
+		<Skill Lv = "2" Value1 = "12" Value2 = "2"/>
+		<Skill Lv = "3" Value1 = "13" Value2 = "2"/>
+	</Magic>
+	<Magic id = "16" Name= "困魔咒">  
+	<!-- Level表示技能等级， Value1:额外持续时间  基础时间是按照伤害和道术-->
+		<Skill Lv = "0" Value1 = "30"/>
+		<Skill Lv = "1" Value1 = "35"/>
+		<Skill Lv = "2" Value1 = "40"/>
+		<Skill Lv = "3" Value1 = "45"/>
+	</Magic>
+	<Magic id = "18" Name= "隐身术">  
+	<!-- Level表示技能等级， Value1:额外持续时间  基础时间是按照伤害和道术-->
+		<Skill Lv = "0" Value1 = "12"/>
+		<Skill Lv = "1" Value1 = "13"/>
+		<Skill Lv = "2" Value1 = "14"/>
+		<Skill Lv = "3" Value1 = "15"/>
+	</Magic>
+	<Magic id = "19" Name= "群体隐身术">  
+	<!-- Level表示技能等级， Value1:额外持续时间  基础时间是按照伤害和道术-->
+		<Skill Lv = "0" Value1 = "12"/>
+		<Skill Lv = "1" Value1 = "13"/>
+		<Skill Lv = "2" Value1 = "14"/>
+		<Skill Lv = "3" Value1 = "15"/>
+	</Magic>
+	<Magic id = "20" Name= "诱惑之光">
+	<!-- Level表示技能等级，Value1:诱惑成功几率(百分比) Value2:允许诱惑怪物最高等级 Value3:最多宝宝数量 Value4:时间基数(分钟) Value5:黄名几率(百分比) -->
+		<Skill Lv = "0" Value1 = "60" Value2 = "20" Value3 = "1" Value4 = "10" Value5 = "50"/>
+		<Skill Lv = "1" Value1 = "60" Value2 = "30" Value3 = "2" Value4 = "10" Value5 = "55"/>
+		<Skill Lv = "2" Value1 = "65" Value2 = "40" Value3 = "3" Value4 = "10" Value5 = "60"/>
+		<Skill Lv = "3" Value1 = "92" Value2 = "62" Value3 = "5" Value4 = "10" Value5 = "65"/>
+	</Magic>
+	<Magic id = "21" Name= "瞬间移动">  
+	<!-- Level表示技能等级，Value1:成功几率(百分比) -->
+		<Skill Lv = "0" Value1 = "30"/>
+		<Skill Lv = "1" Value1 = "40"/>
+		<Skill Lv = "2" Value1 = "50"/>
+		<Skill Lv = "3" Value1 = "70"/>
+	</Magic>
+	<Magic id = "22" Name= "火墙">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:伤害间隔时间(毫秒) Value4:持续时间(秒) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "3000" Value4 = "10"/>
+		<Skill Lv = "1" Value1 = "7" Value2 = "10" Value3 = "2000" Value4 = "15"/>
+		<Skill Lv = "2" Value1 = "9" Value2 = "15" Value3 = "1500" Value4 = "20"/>
+		<Skill Lv = "3" Value1 = "9" Value2 = "15" Value3 = "1500" Value4 = "30"/>
+	</Magic>
+	<Magic id = "23" Name= "爆裂火焰">  
+	<!-- Level表示技能等级 Value1:最小威力(最大21亿) Value 2:最大威力(最大21亿) Value 3:范围(0标识中心点，1表示3*3，2表示5*5，3表示7*7) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "8" Value3 = "1"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "9" Value3 = "1"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "10" Value3 = "2"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "11" Value3 = "2"/>
+	</Magic>
+	<Magic id = "24" Name= "地狱雷光">  
+	<!-- Level表示技能等级， Value1:最小威力(最大21亿) Value 2:最大威力(最大21亿) Value 3:范围(0标识中心点，1表示3*3，2表示5*5，3表示7*7) -->
+		<Skill Lv = "0" Value1 = "3" Value2 = "8" Value3 = "1"/>
+		<Skill Lv = "1" Value1 = "4" Value2 = "9" Value3 = "1"/>
+		<Skill Lv = "2" Value1 = "5" Value2 = "10" Value3 = "2"/>
+		<Skill Lv = "3" Value1 = "6" Value2 = "11" Value3 = "2"/>
+	</Magic>
+	<Magic id = "25" Name= "半月弯刀">  
+	<!-- Level表示技能等级， Value1:主刀最小威力(最大21亿) Value2:主刀最大威力(最大21亿)  Value3:刀光伤害百分比 -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "20"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11" Value3 = "30"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12" Value3 = "30"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13" Value3 = "35"/>
+	</Magic>
+	<Magic id = "26" Name= "烈火剑法">
+	<!-- Lv:技能等级 Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:增加攻击倍数，8除以100即是0.08倍 -->
+		<Skill Lv = "0" Value1 = "5" value2 = "10" Value3 = "60"/>
+		<Skill Lv = "1" Value1 = "7" value2 = "12" Value3 = "70"/>
+		<Skill Lv = "2" Value1 = "9" value2 = "15" Value3 = "80"/>
+		<Skill Lv = "3" Value1 = "11" value2 = "20" Value3 = "90"/>
+	</Magic>
+	<Magic id = "27" Name= "野蛮冲撞">  
+	<!-- Level表示技能等级， Value1:第一个伤害(最大21亿) Value2:第二个伤害(最大21亿)  Value3:冲撞距离  Value4:自残伤害  Value5:卡位时间 -->
+		<Skill Lv = "0" Value1 = "3" Value2 = "10" Value3 = "1" Value4 = "31" Value5 = "2200"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "14" Value3 = "1" Value4 = "31" Value5 = "2400"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "18" Value3 = "2" Value4 = "31" Value5 = "2600"/>
+		<Skill Lv = "3" Value1 = "6" Value2 = "22" Value3 = "3" Value4 = "31" Value5 = "2800"/>
+	</Magic>
+	<Magic id = "29" Name= "群体治愈术">
+	<!-- Level表示技能等级，Value1:回血总血量(最大21亿) Value2:回血总血量(最大21亿) Value3:每次加血的数量 Value4:范围(1表示3*3，2表示5*5，3表示7*7) -->
+		<Skill Lv = "0" Value1 = "20" Value2 = "40" Value3 = "15" Value4 = "1"/>
+		<Skill Lv = "1" Value1 = "30" Value2 = "60" Value3 = "20" Value4 = "1"/>
+		<Skill Lv = "2" Value1 = "40" Value2 = "80" Value3 = "30" Value4 = "2"/>
+		<Skill Lv = "3" Value1 = "50" Value2 = "100" Value3 = "90" Value4 = "2"/>
+	</Magic>
+	<Magic id = "31" Name= "魔法盾">  
+	<!-- Level表示技能等级，Value1:持续时间 Value2:抵抗次数 Value3:免伤百分比 Value4:时间基数 Value5:抵抗基数 -->
+		<Skill Lv = "0" Value1 = "10" Value2 = "2" Value3 = "15" Value4 = "2" Value5 = "3"/>
+		<Skill Lv = "1" Value1 = "13" Value2 = "3" Value3 = "20" Value4 = "3" Value5 = "5"/>
+		<Skill Lv = "2" Value1 = "17" Value2 = "3" Value3 = "20" Value4 = "4" Value5 = "5"/>
+		<Skill Lv = "3" Value1 = "20" Value2 = "3" Value3 = "25" Value4 = "5" Value5 = "6"/>
+	</Magic>
+	<Magic id = "32" Name= "圣言术">  
+	<!-- Level表示技能等级，Value1:允许圣言最高等级 Value2:杀死几率(百分比)-->
+		<Skill Lv = "0" Value1 = "10" Value2 = "30"/>
+		<Skill Lv = "1" Value1 = "20" Value2 = "40"/>
+		<Skill Lv = "2" Value1 = "30" Value2 = "50"/>
+		<Skill Lv = "3" Value1 = "40" Value2 = "60"/>
+	</Magic>
+	<Magic id = "33" Name= "冰咆哮">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:范围(0标识中心点，1表示3*3，2表示5*5，3表示7*7) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "1"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11" Value3 = "1"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12" Value3 = "2"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13" Value3 = "2"/>
+	</Magic>
+	<Magic id = "35" Name= "化身蝙蝠">  
+	<!-- Level表示技能等级， Value1:飞行最大距离 Value2:成功几率-->
+		<Skill Lv = "0" Value1 = "3" Value2 = "40"/>
+		<Skill Lv = "1" Value1 = "4" Value2 = "45"/>
+		<Skill Lv = "2" Value1 = "5" Value2 = "50"/>
+		<Skill Lv = "3" Value1 = "7" Value2 = "70"/>
+	</Magic>
+	<Magic id = "37" Name= "狮子吼">  
+	<!-- Level表示技能等级， Value1:第一个伤害(最大21亿) Value2:第二个伤害(最大21亿) Value3:卡位时间(毫秒) Value4:推人距离-->
+		<Skill Lv = "0" Value1 = "5" Value2 = "3" Value3 = "100" Value4 = "1"/>
+		<Skill Lv = "1" Value1 = "8" Value2 = "5" Value3 = "200" Value4 = "2"/>
+		<Skill Lv = "2" Value1 = "11" Value2 = "8" Value3 = "200" Value4 = "3"/>
+		<Skill Lv = "3" Value1 = "14" Value2 = "11" Value3 = "300" Value4 = "4"/>
+	</Magic>
+	<Magic id = "40" Name= "残影刀法">
+	<!-- Lv:技能等级 Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:增加命中点数(最大21亿) Value4:出刀几率(数字越小,几率越高)-->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "2" Value4 = "4"/>
+		<Skill Lv = "1" Value1 = "7" Value2 = "11" Value3 = "4" Value4 = "6"/>
+		<Skill Lv = "2" Value1 = "8" Value2 = "12" Value3 = "6" Value4 = "8"/>
+		<Skill Lv = "3" Value1 = "9" Value2 = "13" Value3 = "8" Value4 = "10"/>
+	</Magic>
+	<Magic id = "41" Name= "血影刀法">
+	<!-- Lv:技能等级 Value1:攻击力倍数(如：0.20就是1.2倍) Value2:增加命中点数(最大21亿) Value3:出刀几率(数字越小,几率越高) Value4:固定掉血(最大21亿)-->
+		<Skill Lv = "0" Value1 = "0.1" Value2 = "2" Value3 = "5" Value4 = "10"/>
+		<Skill Lv = "1" Value1 = "0.2" Value2 = "4" Value3 = "6" Value4 = "12"/>
+		<Skill Lv = "2" Value1 = "0.3" Value2 = "6" Value3 = "8" Value4 = "14"/>
+		<Skill Lv = "3" Value1 = "0.4" Value2 = "8" Value3 = "10" Value4 = "15"/>
+	</Magic>
+	<Magic id = "42" Name= "护身真气">  
+	<!-- Lv:技能等级 Value1:血量加成(最大21亿) Value2:最大防御(最大21亿) Value3:强度系数(最大21亿)[每次承受50点伤害扣1点强度]每1点强度系数则表示拥有10点强度 -->
+		<Skill Lv = "0" Value1 = "6" Value2 = "0" Value3 = "1"/>
+		<Skill Lv = "1" Value1 = "8" Value2 = "0" Value3 = "2"/>
+		<Skill Lv = "2" Value1 = "10" Value2 = "0" Value3 = "3"/>
+		<Skill Lv = "3" Value1 = "100" Value2 = "20" Value3 = "4"/>
+	</Magic>
+	<Magic id = "43" Name= "抱月刀">  
+	<!-- Level表示技能等级， Value1:主刀最小威力(最大21亿) Value2:主刀最大威力(最大21亿)  Value3:刀光伤害百分比 -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11" Value3 = "15"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12" Value3 = "20"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13" Value3 = "25"/>
+	</Magic>
+	<Magic id = "44" Name= "雷霆剑">
+	<!-- Lv:技能等级 Value1:无 Value2:无 Value3:增加攻击倍数，5除以100即是0.05倍 -->
+		<Skill Lv = "0" Value1 = "0" value2 = "0" Value3 = "100"/>
+		<Skill Lv = "1" Value1 = "0" value2 = "0" Value3 = "150"/>
+		<Skill Lv = "2" Value1 = "0" value2 = "0" Value3 = "200"/>
+		<Skill Lv = "3" Value1 = "0" value2 = "0" Value3 = "200"/>
+	</Magic>
+	<Magic id = "45" Name= "诅咒术">  
+	<!-- Level表示技能等级，Value1:诅咒术(男)红咒-减魔法(最大21亿) Value2:诅咒术(女)蓝咒-降魔防(最大21亿) Value3:中毒最长时间(最大21亿)  -->
+		<Skill Lv = "0" Value1 = "10" Value2 = "10" Value3 = "20"/>
+		<Skill Lv = "1" Value1 = "15" Value2 = "15" Value3 = "30"/>
+		<Skill Lv = "2" Value1 = "20" Value2 = "20" Value3 = "40"/>
+		<Skill Lv = "3" Value1 = "25" Value2 = "25" Value3 = "50"/>
+	</Magic>
+	<Magic id = "47" Name= "替身法符"> 
+	<!-- Level表示技能等级，Value1:替身额外持续时间（秒） Value2:最大可吸引怪物数量 -->
+		<Skill Lv = "0" Value1 = "15" Value2 = "1"/>
+		<Skill Lv = "1" Value1 = "20" Value2 = "2"/>
+		<Skill Lv = "2" Value1 = "30" Value2 = "3"/>
+		<Skill Lv = "3" Value1 = "40" Value2 = "4"/>
+	</Magic>
+	<Magic id = "48" Name= "灵魂墙">
+	<!-- Level表示技能等级，Value1:强度(秒) Value2:技能成功几率(百分比) -->
+		<Skill Lv = "0" Value1 = "10" Value2 = "60"/>
+		<Skill Lv = "1" Value1 = "20" Value2 = "65"/>
+		<Skill Lv = "2" Value1 = "30" Value2 = "70"/>
+		<Skill Lv = "3" Value1 = "50" Value2 = "75"/>
+	</Magic>
+	<Magic id = "49" Name= "冰箭术">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13"/>
+	</Magic>
+	<Magic id = "50" Name= "风火轮">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value2:持续时间 -->
+		<Skill Lv = "0" Value1 = "1" Value2 = "3" Value3 = "5"/>
+		<Skill Lv = "1" Value1 = "2" Value2 = "4" Value3 = "10"/>
+		<Skill Lv = "2" Value1 = "3" Value2 = "5" Value3 = "15"/>
+		<Skill Lv = "3" Value1 = "4" Value2 = "6" Value3 = "20"/>
+	</Magic>
+	<Magic id = "51" Name= "冰龙破">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:攻击距离-->
+		<Skill Lv = "0" Value1 = "2" Value2 = "5" Value3 = "3"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "7" Value3 = "4"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8" Value3 = "5"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "9" Value3 = "6"/>
+	</Magic>
+	<Magic id = "52" Name= "玄冰刃">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value 2:最大威力(最大21亿)  Value3:攻击距离-->
+		<Skill Lv = "0" Value1 = "2" Value2 = "6" Value3 = "3"/>
+		<Skill Lv = "1" Value1 = "3" Value2 = "7" Value3 = "4"/>
+		<Skill Lv = "2" Value1 = "4" Value2 = "8" Value3 = "5"/>
+		<Skill Lv = "3" Value1 = "5" Value2 = "9" Value3 = "6"/>
+	</Magic>
+	<Magic id = "53" Name= "五雷轰">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:攻击点数，最多5个 -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "2"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11" Value3 = "3"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12" Value3 = "4"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13" Value3 = "5"/>
+	</Magic>
+	<Magic id = "54" Name= "冰旋风">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:拉人几率 Value 4:拉人范围 Value 5:卡位时间(毫秒)-->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "50" Value4 = "2" Value5 = "100"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "11" Value3 = "60" Value4 = "3" Value5 = "100"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "12" Value3 = "70" Value4 = "4" Value5 = "100"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "13" Value3 = "80" Value4 = "4" Value5 = "100"/>
+	</Magic>
+	<Magic id = "59" Name= "破击剑法">  
+	<!-- Level表示技能等级， Value1:最小威力(最大21亿) Value 2:最大威力(最大21亿) Value3:破击几率 -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "15" Value3 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "16" Value3 = "20"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "17" Value3 = "25"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "18" Value3 = "30"/>
+	</Magic>
+	<Magic id = "60" Name= "破盾斩">  
+	<!-- Level表示技能等级， Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) Value3:破盾几率 -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "15" Value3 = "10"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "16" Value3 = "20"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "17" Value3 = "25"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "18" Value3 = "30"/>
+	</Magic>
+	<Magic id = "61" Name= "金刚护体">
+	<!-- Lv:技能等级 Value1:生命值(最大21亿) Value2:魔法值(最大21亿) Value3:最大防御(最大21亿) Value4:最大魔防(最大21亿) Value5:强度系数(最大21亿)[每次承受50点伤害扣1点强度]每1点强度系数则表示拥有10点强度 Value6:免伤百分比 Value7:躲避 Value8:魔法躲避-->
+		<Skill Lv = "0" Value1 = "50" Value2 = "5" Value3 = "10" Value4 = "5" Value5 = "3" Value6 = "1" Value7 = "2" Value8 = "1"/>
+		<Skill Lv = "1" Value1 = "60" Value2 = "6" Value3 = "200" Value4 = "10" Value5 = "4" Value6 = "2" Value7 = "3" Value8 = "1"/>
+		<Skill Lv = "2" Value1 = "70" Value2 = "7" Value3 = "30" Value4 = "15" Value5 = "5" Value6 = "2" Value7 = "4" Value8 = "2"/>
+		<Skill Lv = "3" Value1 = "80" Value2 = "8" Value3 = "40" Value4 = "20" Value5 = "30" Value6 = "2" Value7 = "5" Value8 = "2"/>
+	</Magic>
+	<Magic id = "62" Name= "突斩">  
+	<!-- Level表示技能等级， Value1:第一个伤害(最大21亿) Value2:第二个伤害(最大21亿)  Value3:冲撞距离  Value4:自残伤害  Value5:卡位时间-->
+		<Skill Lv = "0" Value1 = "10" Value2 = "5" Value3 = "1" Value4 = "10" Value5 = "2200"/>
+		<Skill Lv = "1" Value1 = "12" Value2 = "6" Value3 = "2" Value4 = "12" Value5 = "600"/>
+		<Skill Lv = "2" Value1 = "14" Value2 = "7" Value3 = "3" Value4 = "14" Value5 = "2800"/>
+		<Skill Lv = "3" Value1 = "16" Value2 = "8" Value3 = "3" Value4 = "16" Value5 = "3000"/>
+	</Magic>
+	<Magic id = "64" Name= "神光术">  
+	<!-- Level表示技能等级， Value1:解除几率(为百分比，数字越大几率越大) Value2:解诅咒范围 Value3:最多可解数量 Value4:免诅咒时间(秒) Value5:免麻痹时间(秒)-->
+		<Skill Lv = "0" Value1 = "30" Value2 = "1" Value3 = "1" Value4 = "5" Value5 = "5"/>
+		<Skill Lv = "1" Value1 = "40" Value2 = "1" Value3 = "1" Value4 = "5" Value5 = "5"/>
+		<Skill Lv = "2" Value1 = "50" Value2 = "1" Value3 = "1" Value4 = "5" Value5 = "5"/>
+		<Skill Lv = "3" Value1 = "60" Value2 = "1" Value3 = "1" Value4 = "5" Value5 = "5"/>
+	</Magic>
+	<Magic id = "65" Name= "解毒术">  
+	<!-- Level表示技能等级， Value1:解除几率(为百分比，数字越大几率越大) Value2:解毒范围 Value3:最多可解数量 Value4:免中毒时间(秒) -->
+		<Skill Lv = "0" Value1 = "30" Value2 = "1" Value3 = "1" Value4 = "1"/>
+		<Skill Lv = "1" Value1 = "40" Value2 = "1" Value3 = "1" Value4 = "2"/>
+		<Skill Lv = "2" Value1 = "50" Value2 = "1" Value3 = "1" Value4 = "3"/>
+		<Skill Lv = "3" Value1 = "60" Value2 = "1" Value3 = "1" Value4 = "5"/>
+	</Magic>
+	<Magic id = "67" Name= "幽冥火咒">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "15"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "16"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "17"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "18"/>
+	</Magic>
+	<Magic id = "70" Name= "风影盾">  
+	<!-- Level表示技能等级， Value1:持续时间(秒) Value2:抵抗次数-未用  Value3:躲避 Value4:魔法躲避 Value5:中毒躲避 Value6:时间基数 Value7:抵抗基数-未用 -->
+		<Skill Lv = "0" Value1 = "10"  Value2 = "5" Value3 = "2" Value4 = "1" Value5 = "1" Value6 = "3" Value7 = "6"/>
+		<Skill Lv = "1" Value1 = "15"  Value2 = "10" Value3 = "3" Value4 = "1" Value5 = "1" Value6 = "3" Value7 = "6"/>
+		<Skill Lv = "2" Value1 = "20"  Value2 = "15" Value3 = "4" Value4 = "2" Value5 = "2" Value6 = "2" Value7 = "5"/>
+		<Skill Lv = "3" Value1 = "22"  Value2 = "20" Value3 = "5" Value4 = "2" Value5 = "2" Value6 = "2" Value7 = "5"/>
+	</Magic>
+	<Magic id = "71" Name= "狂龙紫电">  
+	<!-- Level表示技能等级，Value1:最小威力(最大21亿) Value2:最大威力(最大21亿) -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "15"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "16"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "17"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "18"/>
+	</Magic>
+	<Magic id = "72" Name= "心灵召唤">  
+	<!-- Level表示技能等级，Value1:宝宝血量加到百分比 Value2:使用间隔时间(秒) -->
+		<Skill Lv = "0" Value1 = "60" Value2 = "8"/>
+		<Skill Lv = "1" Value1 = "70" Value2 = "6"/>
+		<Skill Lv = "2" Value1 = "80" Value2 = "4"/>
+		<Skill Lv = "3" Value1 = "100" Value2 = "2"/>
+	</Magic>
+	<Magic id = "73" Name= "流星火雨">  
+	<!-- Level表示技能等级，Value1:火云最小威力(最大21亿) Value2:火云最大威力(最大21亿) Value3:火云最长持续时间(秒) Value4:火雨浮动伤害 Value5:火雨伤害范围  -->
+		<Skill Lv = "0" Value1 = "5" Value2 = "10" Value3 = "7" Value4 = "15" Value5 = "2"/>
+		<Skill Lv = "1" Value1 = "6" Value2 = "12" Value3 = "8" Value4 = "16" Value5 = "2"/>
+		<Skill Lv = "2" Value1 = "7" Value2 = "13" Value3 = "8" Value4 = "17" Value5 = "2"/>
+		<Skill Lv = "3" Value1 = "8" Value2 = "14" Value3 = "8" Value4 = "18" Value5 = "2"/>
+	</Magic>
+	<Magic id = "74" Name= "擒龙手">
+	<!-- Lv:技能等级 Value1:命中(最大21亿) Value2:距离 Value3:眩晕概率(数字越大，几率越高[百分比]) Value4:眩晕秒数 -->
+		<Skill Lv = "0" Value1 = "1" Value2 = "6" Value3 = "60" Value4 = "2"/>
+		<Skill Lv = "1" Value1 = "1" Value2 = "7" Value3 = "70" Value4 = "3"/>
+		<Skill Lv = "2" Value1 = "2" Value2 = "8" Value3 = "80" Value4 = "4"/>
+		<Skill Lv = "3" Value1 = "10" Value2 = "9" Value3 = "90" Value4 = "5"/>
+	</Magic>
+	<Magic id = "75" Name= "遁地">  
+	<!-- Level表示技能等级， Value1:飞行最大距离 Value2:成功几率-->
+		<Skill Lv = "0" Value1 = "6" Value2 = "40"/>
+		<Skill Lv = "1" Value1 = "7" Value2 = "45"/>
+		<Skill Lv = "2" Value1 = "8" Value2 = "50"/>
+		<Skill Lv = "3" Value1 = "10" Value2 = "70"/>
+	</Magic>
+	<Magic id = "76" Name= "魔魂术">  
+	<!-- Level表示技能等级， Value1:获得魔法值点数 Value2:成功几率-->
+		<Skill Lv = "0" Value1 = "8" Value2 = "40"/>
+		<Skill Lv = "1" Value1 = "16" Value2 = "45"/>
+		<Skill Lv = "2" Value1 = "32" Value2 = "50"/>
+		<Skill Lv = "3" Value1 = "64" Value2 = "70"/>
+	</Magic>
+	<Magic id = "77" Name= "移形换影">  
+	<!-- Level表示技能等级， Value1:飞行最大距离-->
+		<Skill Lv = "0" Value1 = "6"/>
+		<Skill Lv = "1" Value1 = "7"/>
+		<Skill Lv = "2" Value1 = "8"/>
+		<Skill Lv = "3" Value1 = "10"/>
+	</Magic>
+</Skill>

@@ -1,0 +1,3358 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<MinMapList Ver="1">
+	<!--
+	小地图：宽不超过640，高不超过345
+	-->
+	<WorldMap>
+		<Map id="bmmg" name="北冥魔境"/>
+		<Map id="0" name="中州"/>
+		<Map id="1" name="落霞岛"/>
+		<Map id="2" name="热砂荒漠"/>
+		<Map id="3" name="跃马平原"/>
+		<Map id="10" name="蛇魔谷"/>
+		<Map id="4" name="禁地"/>
+		<Map id="5" name="西域奇境"/>
+		<Map id="7" name="死水沼泽"/>
+		<Map id="8" name="桃花岛"/>
+		<Map id="dqd" name="夕霞岛"/>
+		<Map id="haidi" name="幽暗海域"/>
+		<Map id="xwy" name="玄武域"/>
+		<Map id="bkc" name="碧空城"/>
+		<Map id="txmc" name="魔域"/>
+
+	</WorldMap>
+	<LocalMap>
+		<Map id="FHSD" name="烽火速递" minmapid="174" width="325" height="325">
+			<Npc name="起点" x="167" y="293" desc="烽火速递起点"/>
+			<Npc name="终点" x="144" y="150" desc="烽火速递终点"/>
+		</Map>
+		<Map id="0" name="中州" minmapid="1155" width="800" height="800">
+			<Npc name="朱雀炉" x="602" y="198" desc="锻造神饰"/>
+			<Npc name="玄武炉" x="334" y="249" desc="炼制玄铁"/>
+			<Npc name="白虎炉" x="438" y="82" desc="炼制雪银"/>
+			<Npc name="青龙炉" x="523" y="342" desc="炼制赤金"/>
+			<Npc name="星宿朱雀" x="570" y="114" desc="修理神饰"/>
+			<Npc name="红袖" x="470" y="222" desc="出售各种道具"/>
+			<Npc name="神秘老人" x="497" y="505" desc="带你去比武场"/>
+			<Npc name="龙凤阁伙计" x="495" y="324" desc="结婚好去处"/>
+			<Npc name="月如" x="580" y="215" desc="举办比武招亲"/>
+			<Npc name="阿平" x="385" y="330" desc="用声望消pk值"/>
+			<Npc name="江湖百晓生" x="474" y="226" desc="查行会经验排名"/>
+			<Npc name="船行老板" x="67" y="525" desc="可摆渡至落霞岛"/>
+			<Npc name="老兵" x="468" y="226" desc="能做的事太多"/>
+			<Npc name="马倌" x="407" y="263" desc="修理或清空马牌"/>
+			<Npc name="彩票员" x="438" y="215" desc="彩票竟骑入场券"/>
+			<Npc name="美发师" x="392" y="179" desc="做发型和染发"/>
+			<Npc name="首饰店掌柜" x="470" y="248" desc="买卖修理首饰"/>
+			<Npc name="建材商人" x="408" y="220" desc="收木材和探消息"/>
+			<Npc name="杂货铺掌柜" x="468" y="207" desc="买卖杂物探消息"/>
+			<Npc name="客栈掌柜" x="375" y="210" desc="存取捆扎物品"/>
+			<Npc name="药店掌柜" x="497" y="269" desc="买卖药品"/>
+			<Npc name="铸造师" x="423" y="248" desc="升级武器"/>
+			<Npc name="铁匠" x="419" y="244" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="463" y="258" desc="收购肉类"/>
+			<Npc name="海角村老兵" x="406" y="619" desc="给钱办事"/>
+			<Npc name="海角村新手向导" x="399" y="590" desc="新手找他没错"/>
+			<Npc name="海角村仓库" x="431" y="614" desc="存取捆扎物品"/>
+			<Npc name="海角村首饰店" x="394" y="634" desc="买卖修理首饰"/>
+			<Npc name="海角村建材商" x="425" y="629" desc="收木材和探消息"/>
+			<Npc name="海角村杂货铺" x="429" y="606" desc="买卖杂物探消息"/>
+			<Npc name="海角村书店" x="406" y="596" desc="买卖并查询书籍"/>
+			<Npc name="海角村炼药师" x="416" y="613" desc="炼药制偶"/>
+			<Npc name="海角村药店" x="414" y="615" desc="买卖药品"/>
+			<Npc name="海角村服装店" x="402" y="612" desc="买卖修理服装"/>
+			<Npc name="海角村铁匠" x="417" y="596" desc="买卖修理武器"/>
+			<Npc name="海角村屠夫" x="395" y="615" desc="收购肉类"/>
+			<Npc name="魔法阵祭祀" x="429" y="170" desc=""/>
+			<Npc name="祝福老人" x="472" y="222" desc="红字公告祝福"/>
+			<Npc name="史官" x="475" y="150" desc="察看天下第一"/>
+			<Npc name="江湖公告" x="479" y="212" desc="排行榜"/>
+			<Npc name="赏金猎人" x="464" y="222" desc="赏金等你拿"/>
+			<Npc name="通天漩涡" x="442" y="183" desc=""/>
+			<Npc name="仙界挑战使者" x="465" y="213" desc=""/>
+			<Npc name="拍卖行掌柜" x="475" y="213" desc=""/>
+			<Npc name="密令使者" x="464" y="226" desc=""/>
+			<Npc name="霸州入口" x="301" y="62" desc=""/>
+			<Jump srcx="783" srcy="532" dstid="7" dstx="12" dsty="14"/>
+			<Jump srcx="777" srcy="393" dstid="H081" dstx="201" dsty="329"/>
+			<Jump srcx="55" srcy="176" dstid="H071" dstx="241" dsty="35"/>
+			<Jump srcx="28" srcy="346" dstid="H071" dstx="258" dsty="497"/>
+			<Jump srcx="488" srcy="173" dstid="SH013" dstx="6" dsty="18"/>
+			<Jump srcx="474" srcy="126" dstid="SH012" dstx="13" dsty="18"/>
+			<Jump srcx="493" srcy="272" dstid="SH011" dstx="7" dsty="16"/>
+			<Jump srcx="497" srcy="245" dstid="SH010" dstx="7" dsty="13"/>
+			<Jump srcx="461" srcy="259" dstid="SH009" dstx="8" dsty="13"/>
+			<Jump srcx="418" srcy="205" dstid="SH008" dstx="6" dsty="13"/>
+			<Jump srcx="381" srcy="258" dstid="SH005" dstx="6" dsty="19"/>
+			<Jump srcx="548" srcy="195" dstid="SH003" dstx="19" dsty="28"/>
+			<Jump srcx="473" srcy="250" dstid="SH002" dstx="9" dsty="20"/>
+			<Jump srcx="372" srcy="207" dstid="SH001" dstx="5" dsty="16"/>
+			<Jump srcx="484" srcy="141" dstid="SH000" dstx="12" dsty="52"/>
+			<Jump srcx="725" srcy="35" dstid="2" dstx="438" dsty="971"/>
+			<Jump srcx="520" srcy="267" dstid="SH045" dstx="7" dsty="21"/>
+			<Jump srcx="468" srcy="226" dstid="MH001" dstx="116" dsty="85"/>
+			<Jump srcx="740" srcy="328" dstid="6" dstx="34" dsty="45"/>
+			<Jump srcx="394" srcy="486" dstid="flysd" dstx="38" dsty="48"/>
+			<Jump srcx="733" srcy="92" dstid="flymd" dstx="38" dsty="48"/>
+		</Map>
+		<Map id="0-49" name="中州" minmapid="197" width="800" height="800">
+			<Npc name="朱雀炉" x="602" y="198" desc="锻造神饰"/>
+			<Npc name="玄武炉" x="334" y="249" desc="炼制玄铁"/>
+			<Npc name="白虎炉" x="438" y="82" desc="炼制雪银"/>
+			<Npc name="青龙炉" x="523" y="342" desc="炼制赤金"/>
+			<Npc name="星宿朱雀" x="570" y="114" desc="修理神饰"/>
+			<Npc name="红袖" x="470" y="222" desc="出售各种道具"/>
+			<Npc name="神秘老人" x="497" y="505" desc="带你去比武场"/>
+			<Npc name="龙凤阁伙计" x="495" y="324" desc="结婚好去处"/>
+			<Npc name="月如" x="580" y="215" desc="举办比武招亲"/>
+			<Npc name="阿平" x="385" y="330" desc="用声望消pk值"/>
+			<Npc name="江湖百晓生" x="474" y="226" desc="查行会经验排名"/>
+			<Npc name="船行老板" x="67" y="525" desc="可摆渡至落霞岛"/>
+			<Npc name="老兵" x="468" y="226" desc="能做的事太多"/>
+			<Npc name="马倌" x="407" y="263" desc="修理或清空马牌"/>
+			<Npc name="彩票员" x="438" y="215" desc="彩票竟骑入场券"/>
+			<Npc name="美发师" x="392" y="179" desc="做发型和染发"/>
+			<Npc name="首饰店掌柜" x="470" y="248" desc="买卖修理首饰"/>
+			<Npc name="建材商人" x="408" y="220" desc="收木材和探消息"/>
+			<Npc name="杂货铺掌柜" x="468" y="207" desc="买卖杂物探消息"/>
+			<Npc name="客栈掌柜" x="375" y="210" desc="存取捆扎物品"/>
+			<Npc name="药店掌柜" x="497" y="269" desc="买卖药品"/>
+			<Npc name="铸造师" x="423" y="248" desc="升级武器"/>
+			<Npc name="铁匠" x="419" y="244" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="463" y="258" desc="收购肉类"/>
+			<Npc name="海角村老兵" x="406" y="619" desc="给钱办事"/>
+			<Npc name="海角村新手向导" x="399" y="590" desc="新手找他没错"/>
+			<Npc name="海角村仓库" x="431" y="614" desc="存取捆扎物品"/>
+			<Npc name="海角村首饰店" x="394" y="634" desc="买卖修理首饰"/>
+			<Npc name="海角村建材商" x="425" y="629" desc="收木材和探消息"/>
+			<Npc name="海角村杂货铺" x="429" y="606" desc="买卖杂物探消息"/>
+			<Npc name="海角村书店" x="406" y="596" desc="买卖并查询书籍"/>
+			<Npc name="海角村炼药师" x="416" y="613" desc="炼药制偶"/>
+			<Npc name="海角村药店" x="414" y="615" desc="买卖药品"/>
+			<Npc name="海角村服装店" x="402" y="612" desc="买卖修理服装"/>
+			<Npc name="海角村铁匠" x="417" y="596" desc="买卖修理武器"/>
+			<Npc name="海角村屠夫" x="395" y="615" desc="收购肉类"/>
+			<Npc name="魔法阵祭祀" x="429" y="170" desc=""/>
+			<Npc name="祝福老人" x="472" y="222" desc="红字公告祝福"/>
+			<Npc name="史官" x="475" y="150" desc="察看天下第一"/>
+			<Npc name="江湖公告" x="479" y="212" desc="排行榜"/>
+			<Npc name="赏金猎人" x="464" y="222" desc="赏金等你拿"/>
+			<Npc name="通天漩涡" x="442" y="183" desc=""/>
+			<Npc name="仙界挑战使者" x="465" y="213" desc=""/>
+			<Npc name="拍卖行掌柜" x="475" y="213" desc=""/>
+			<Npc name="密令使者" x="464" y="226" desc=""/>
+			<Jump srcx="783" srcy="532" dstid="7" dstx="12" dsty="14"/>
+			<Jump srcx="777" srcy="393" dstid="H081" dstx="201" dsty="329"/>
+			<Jump srcx="55" srcy="176" dstid="H071" dstx="241" dsty="35"/>
+			<Jump srcx="28" srcy="346" dstid="H071" dstx="258" dsty="497"/>
+			<Jump srcx="488" srcy="173" dstid="SH013" dstx="6" dsty="18"/>
+			<Jump srcx="474" srcy="126" dstid="SH012" dstx="13" dsty="18"/>
+			<Jump srcx="493" srcy="272" dstid="SH011" dstx="7" dsty="16"/>
+			<Jump srcx="497" srcy="245" dstid="SH010" dstx="7" dsty="13"/>
+			<Jump srcx="461" srcy="259" dstid="SH009" dstx="8" dsty="13"/>
+			<Jump srcx="418" srcy="205" dstid="SH008" dstx="6" dsty="13"/>
+			<Jump srcx="381" srcy="258" dstid="SH005" dstx="6" dsty="19"/>
+			<Jump srcx="548" srcy="195" dstid="SH003" dstx="19" dsty="28"/>
+			<Jump srcx="473" srcy="250" dstid="SH002" dstx="9" dsty="20"/>
+			<Jump srcx="372" srcy="207" dstid="SH001" dstx="5" dsty="16"/>
+			<Jump srcx="484" srcy="141" dstid="SH000" dstx="12" dsty="52"/>
+			<Jump srcx="725" srcy="35" dstid="2" dstx="438" dsty="971"/>
+			<Jump srcx="520" srcy="267" dstid="SH045" dstx="7" dsty="21"/>
+			<Jump srcx="468" srcy="226" dstid="MH001" dstx="116" dsty="85"/>
+			<Jump srcx="740" srcy="328" dstid="6" dstx="34" dsty="45"/>
+		</Map>
+		<Map id="1" name="落霞岛" minmapid="899" width="500" height="500">
+			<Npc name="老兵" x="253" y="248" desc="新手村老兵"/>
+			<Npc name="船行老板" x="66" y="130" desc="花钱送你去中州"/>
+			<Npc name="新手向导" x="244" y="233" desc="新手找他没错"/>
+			<Npc name="首饰店店员" x="241" y="232" desc="买卖修理首饰"/>
+			<Npc name="建材商人" x="249" y="270" desc="收木材和探消息"/>
+			<Npc name="杂货小贩" x="233" y="255" desc="买卖杂物探消息"/>
+			<Npc name="仓库管理员" x="210" y="237" desc="存取捆扎物品"/>
+			<Npc name="书店老板" x="234" y="225" desc="买卖并查询书籍"/>
+			<Npc name="炼药师" x="234" y="225" desc="炼药制偶"/>
+			<Npc name="药店掌柜" x="227" y="263" desc="买卖药品"/>
+			<Npc name="服装店老板娘" x="222" y="267" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="227" y="216" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="228" y="262" desc="收购肉类"/>
+			<Npc name="赏金猎人" x="253" y="252" desc="赏金等你拿"/>
+			<Jump srcx="482" srcy="413" dstid="T011" dstx="14" dsty="138"/>
+		</Map>
+		<Map id="8" name="桃花岛" minmapid="899" width="500" height="500">
+			<Npc name="老兵" x="253" y="248" desc="新手村老兵"/>
+			<Npc name="船行老板" x="66" y="130" desc="花钱送你去中州"/>
+			<Npc name="新手向导" x="244" y="233" desc="新手找他没错"/>
+			<Npc name="首饰店店员" x="241" y="232" desc="买卖修理首饰"/>
+			<Npc name="建材商人" x="249" y="270" desc="收木材和探消息"/>
+			<Npc name="杂货小贩" x="233" y="255" desc="买卖杂物探消息"/>
+			<Npc name="仓库管理员" x="210" y="237" desc="存取捆扎物品"/>
+			<Npc name="书店老板" x="234" y="225" desc="买卖并查询书籍"/>
+			<Npc name="炼药师" x="234" y="225" desc="炼药制偶"/>
+			<Npc name="药店掌柜" x="227" y="263" desc="买卖药品"/>
+			<Npc name="服装店老板娘" x="222" y="267" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="227" y="216" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="228" y="262" desc="收购肉类"/>
+			<Npc name="赏金猎人" x="253" y="252" desc="赏金等你拿"/>
+		</Map>
+		<Map id="dqd" name="夕霞岛" minmapid="899" width="500" height="500">
+			<Npc name="老兵" x="253" y="248" desc="新手村老兵"/>
+			<Npc name="船行老板" x="66" y="130" desc="花钱送你去中州"/>
+			<Npc name="新手向导" x="244" y="233" desc="新手找他没错"/>
+			<Npc name="首饰店店员" x="241" y="232" desc="买卖修理首饰"/>
+			<Npc name="建材商人" x="249" y="270" desc="收木材和探消息"/>
+			<Npc name="杂货小贩" x="233" y="255" desc="买卖杂物探消息"/>
+			<Npc name="仓库管理员" x="210" y="237" desc="存取捆扎物品"/>
+			<Npc name="书店老板" x="234" y="225" desc="买卖并查询书籍"/>
+			<Npc name="炼药师" x="234" y="225" desc="炼药制偶"/>
+			<Npc name="药店掌柜" x="227" y="263" desc="买卖药品"/>
+			<Npc name="服装店老板娘" x="222" y="267" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="227" y="216" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="228" y="262" desc="收购肉类"/>
+			<Npc name="赏金猎人" x="253" y="252" desc="赏金等你拿"/>
+		</Map>
+		<Map id="10" name="蛇魔谷" minmapid="230" width="100" height="100">
+			<Jump srcx="61" srcy="11" dstid="4" dstx="180" dsty="480"/>
+			<Jump srcx="64" srcy="38" dstid="N001" dstx="186" dsty="273"/>
+			<Jump srcx="83" srcy="66" dstid="2" dstx="343" dsty="25"/>
+		</Map>
+		<Map id="128" name="小黑屋" minmapid="0" width="71" height="71"/>
+		<Map id="14" name="望天台" minmapid="0" width="58" height="72"/>
+		<Map id="16" name="飞仙台" minmapid="0" width="56" height="72">
+			<Jump srcx="27" srcy="12" dstid="tt006" dstx="322" dsty="301"/>
+			<Jump srcx="14" srcy="28" dstid="tt006" dstx="278" dsty="345"/>
+		</Map>
+		<Map id="18" name="摘星台" minmapid="0" width="64" height="96">
+			<Jump srcx="17" srcy="47" dstid="tt008" dstx="305" dsty="269"/>
+			<Jump srcx="15" srcy="19" dstid="tt008" dstx="252" dsty="321"/>
+		</Map>
+		<Map id="2" name="热砂荒漠" minmapid="104" width="460" height="1000">
+			<Npc name="红袖" x="232" y="443" desc="出售各种道具"/>
+			<Npc name="神秘旅行者" x="400" y="300" desc="行会争霸赛入口"/>
+			<Npc name="药店掌柜" x="140" y="844" desc="买卖药品"/>
+			<Npc name="阿正" x="141" y="824" desc="用声望消pk值"/>
+			<Npc name="杂货小贩" x="137" y="848" desc="买卖杂物探消息"/>
+			<Npc name="武馆教头" x="163" y="478" desc="拜师和修领勋章"/>
+			<Npc name="行商" x="257" y="464" desc="焰火屠魔"/>
+			<Npc name="老兵" x="222" y="444" desc="常功能和回城石"/>
+			<Npc name="彩票员" x="217" y="411" desc="彩票竟骑入场券"/>
+			<Npc name="珠宝店掌柜" x="147" y="483" desc="买卖修理首饰"/>
+			<Npc name="木材商人" x="184" y="500" desc="收木材和探消息"/>
+			<Npc name="小贩" x="222" y="465" desc="买卖杂物探消息"/>
+			<Npc name="客栈掌柜" x="195" y="485" desc="存取捆扎物品"/>
+			<Npc name="书商" x="237" y="433" desc="买卖并查询书籍"/>
+			<Npc name="炼药师" x="157" y="503" desc="炼药制偶"/>
+			<Npc name="药材商" x="235" y="472" desc="买卖药品"/>
+			<Npc name="服装店掌柜" x="207" y="510" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="256" y="445" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="222" y="481" desc="收购肉类"/>
+			<Npc name="祝福老人" x="227" y="442" desc="红字公告祝福"/>
+			<Npc name="赏金猎人" x="225" y="448" desc="赏金等你拿"/>
+			<Jump srcx="344" srcy="23" dstid="10" dstx="82" dsty="64"/>
+			<Jump srcx="207" srcy="427" dstid="M005" dstx="91" dsty="104"/>
+			<Jump srcx="201" srcy="428" dstid="M001" dstx="46" dsty="252"/>
+			<Jump srcx="257" srcy="446" dstid="SH027" dstx="7" dsty="14"/>
+			<Jump srcx="234" srcy="427" dstid="SH026" dstx="3" dsty="11"/>
+			<Jump srcx="141" srcy="480" dstid="SH025" dstx="8" dsty="17"/>
+			<Jump srcx="197" srcy="514" dstid="SH024" dstx="6" dsty="20"/>
+			<Jump srcx="199" srcy="485" dstid="SH022" dstx="8" dsty="15"/>
+			<Jump srcx="443" srcy="526" dstid="3" dstx="10" dsty="426"/>
+			<Jump srcx="439" srcy="973" dstid="0" dstx="725" dsty="37"/>
+			<Jump srcx="268" srcy="349" dstid="6" dstx="34" dsty="45"/>
+			<Jump srcx="289" srcy="491" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="20" name="死亡之地" minmapid="0" width="79" height="114"/>
+		<Map id="3" name="跃马平原" minmapid="105" width="540" height="1020">
+			<Npc name="老兵" x="188" y="415" desc="炼狱及秘宝附身"/>
+			<Npc name="孤独老人" x="150" y="602" desc="打听攻沙城时间"/>
+			<Npc name="珠宝店掌柜" x="177" y="418" desc="买卖修理首饰"/>
+			<Npc name="杂货贩" x="144" y="386" desc="买卖杂物探消息"/>
+			<Npc name="保管员" x="169" y="402" desc="存取捆扎物品"/>
+			<Npc name="炼药师" x="203" y="389" desc="炼药制偶"/>
+			<Npc name="药商" x="213" y="388" desc="买卖药品"/>
+			<Npc name="服装店掌柜" x="192" y="370" desc="买卖修理服装"/>
+			<Npc name="铸造师" x="168" y="346" desc="升级武器"/>
+			<Npc name="铁匠" x="173" y="343" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="193" y="385" desc="收购肉类"/>
+			<Npc name="赏金猎人" x="185" y="412" desc="赏金等你拿"/>
+			<Npc name="沙城长老" x="179" y="378" desc=""/>
+			<Npc name="矿石资源" x="344" y="282" desc="可占领资源点夺取矿石资源"/>
+			<Npc name="宝石资源" x="283" y="506" desc="可占领资源点夺取宝石资源"/>
+			<Npc name="灵石资源" x="183" y="715" desc="可占领资源点夺取灵石资源"/>
+			<Npc name="行会旗座" x="295" y="287" desc="攻城方临时复活点设立处"/>
+			<Jump srcx="360" srcy="704" dstid="S011" dstx="275" dsty="276"/>
+			<Jump srcx="132" srcy="388" dstid="E004" dstx="218" dsty="308"/>
+			<Jump srcx="175" srcy="334" dstid="E004" dstx="250" dsty="314"/>
+			<Jump srcx="204" srcy="344" dstid="E004" dstx="348" dsty="237"/>
+			<Jump srcx="172" srcy="397" dstid="SH020" dstx="10" dsty="13"/>
+			<Jump srcx="179" srcy="413" dstid="SH019" dstx="14" dsty="11"/>
+			<Jump srcx="170" srcy="343" dstid="SH017" dstx="7" dsty="22"/>
+			<Jump srcx="190" srcy="372" dstid="SH016" dstx="7" dsty="18"/>
+			<Jump srcx="208" srcy="389" dstid="SH015" dstx="6" dsty="19"/>
+			<Jump srcx="139" srcy="373" dstid="SH018" dstx="5" dsty="16"/>
+			<Jump srcx="170" srcy="366" dstid="SH021" dstx="23" dsty="22"/>
+			<Jump srcx="158" srcy="371" dstid="SH021" dstx="9" dsty="28"/>
+			<Jump srcx="15" srcy="534" dstid="2" dstx="441" dsty="526"/>
+			<Jump srcx="320" srcy="447" dstid="6" dstx="34" dsty="45"/>
+		</Map>
+		<Map id="4" name="禁地" minmapid="106" width="500" height="500">
+			<Npc name="戒灵" x="305" y="260" desc="收黑暗戒唤魔王"/>
+			<Npc name="红袖" x="337" y="178" desc="出售各种道具"/>
+			<Npc name="旅人" x="51" y="185" desc="帮你回禁地"/>
+			<Npc name="老兵" x="340" y="174" desc="能干的老兵"/>
+			<Npc name="马倌" x="190" y="308" desc="修理清空马牌"/>
+			<Npc name="珠宝店掌柜" x="352" y="195" desc="买卖修理首饰"/>
+			<Npc name="木材商" x="193" y="317" desc="收木材和探消息"/>
+			<Npc name="杂货贩" x="324" y="162" desc="买卖杂物探消息"/>
+			<Npc name="保管员" x="316" y="170" desc="存取捆扎物品"/>
+			<Npc name="药商" x="362" y="184" desc="买卖药品"/>
+			<Npc name="服装店掌柜" x="308" y="183" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="340" y="150" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="370" y="178" desc="收购肉类"/>
+			<Npc name="赏金猎人" x="342" y="176" desc="赏金等你拿"/>
+			<Jump srcx="14" srcy="65" dstid="5" dstx="599" dsty="606"/>
+			<Jump srcx="45" srcy="162" dstid="J001" dstx="247" dsty="258"/>
+			<Jump srcx="369" srcy="134" dstid="SH037" dstx="5" dsty="21"/>
+			<Jump srcx="360" srcy="184" dstid="SH036" dstx="5" dsty="10"/>
+			<Jump srcx="335" srcy="149" dstid="SH035" dstx="6" dsty="10"/>
+			<Jump srcx="339" srcy="204" dstid="SH034" dstx="10" dsty="16"/>
+			<Jump srcx="351" srcy="194" dstid="SH033" dstx="8" dsty="15"/>
+			<Jump srcx="370" srcy="176" dstid="SH032" dstx="4" dsty="12"/>
+			<Jump srcx="304" srcy="182" dstid="SH031" dstx="6" dsty="16"/>
+			<Jump srcx="179" srcy="482" dstid="10" dstx="61" dsty="13"/>
+			<Jump srcx="47" srcy="270" dstid="6" dstx="34" dsty="45"/>
+		</Map>
+		<Map id="5" name="西域奇境" minmapid="107" width="650" height="650">
+			<Npc name="红袖" x="465" y="107" desc="出售各种道具"/>
+			<Npc name="珠宝店掌柜" x="434" y="151" desc="买卖修理首饰"/>
+			<Npc name="杂货商" x="463" y="88" desc="买卖杂物探消息"/>
+			<Npc name="保管员" x="389" y="96" desc="存取捆扎物品"/>
+			<Npc name="书商" x="431" y="56" desc="买卖并查询书籍"/>
+			<Npc name="炼药师" x="486" y="113" desc="炼药制偶"/>
+			<Npc name="药材商" x="493" y="116" desc="买卖药品"/>
+			<Npc name="服装店掌柜" x="437" y="118" desc="买卖修理服装"/>
+			<Npc name="铁匠" x="466" y="162" desc="买卖修理武器"/>
+			<Npc name="屠夫" x="431" y="84" desc="收购肉类"/>
+			<Npc name="老兵" x="462" y="107" desc="能干的老兵"/>
+			<Npc name="赏金猎人" x="459" y="106" desc="赏金等你拿"/>
+			<Jump srcx="133" srcy="75" dstid="TT001" dstx="316" dsty="313"/>
+			<Jump srcx="137" srcy="102" dstid="TT001" dstx="336" dsty="313"/>
+			<Jump srcx="433" srcy="84" dstid="SH039" dstx="5" dsty="16"/>
+			<Jump srcx="391" srcy="94" dstid="SH041" dstx="12" dsty="18"/>
+			<Jump srcx="439" srcy="115" dstid="SH044" dstx="13" dsty="18"/>
+			<Jump srcx="466" srcy="156" dstid="SH040" dstx="11" dsty="17"/>
+			<Jump srcx="433" srcy="147" dstid="SH043" dstx="13" dsty="26"/>
+			<Jump srcx="437" srcy="53" dstid="SH042" dstx="6" dsty="19"/>
+			<Jump srcx="410" srcy="53" dstid="SH038" dstx="20" dsty="14"/>
+			<Jump srcx="407" srcy="67" dstid="SH038" dstx="15" dsty="25"/>
+			<Jump srcx="601" srcy="607" dstid="4" dstx="16" dsty="65"/>
+			<Jump srcx="450" srcy="100" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="161" srcy="300" dstid="6" dstx="34" dsty="45"/>
+		</Map>
+		<Map id="6" name="魔隐村" minmapid="108" width="300" height="300">
+			<Npc name="命运门" x="75" y="194" desc=""/>
+			<Npc name="命运门" x="129" y="43" desc=""/>
+			<Npc name="命运门" x="255" y="155" desc=""/>
+			<Npc name="千年藤妖" x="172" y="115" desc="有奖问答"/>
+			<Npc name="妖力士" x="187" y="128" desc="角斗场"/>
+			<Npc name="铁刺魔" x="150" y="117" desc="买或宝石换衣服"/>
+			<Npc name="炼金魔" x="165" y="101" desc="打造命运之刃"/>
+		</Map>
+		<Map id="7" name="死水沼泽" minmapid="109" width="430" height="350">
+			<Npc name="赏金猎人" x="70" y="46" desc="赏金等你拿"/>
+			<Npc name="魔像" x="251" y="260" desc="还令牌入魔殿"/>
+			<Npc name="江湖公告" x="58" y="40" desc=""/>
+			<Npc name="药店掌柜" x="73" y="36" desc=""/>
+			<Npc name="仓库保管员" x="47" y="45" desc=""/>
+			<Npc name="服装店掌柜" x="48" y="31" desc=""/>
+			<Npc name="首饰店掌柜" x="57" y="28" desc=""/>
+			<Npc name="铁匠" x="45" y="51" desc=""/>
+			<Npc name="老兵" x="55" y="39" desc=""/>
+			<Npc name="杂货铺掌柜" x="73" y="31" desc=""/>
+			<Npc name="王国官员" x="68" y="43" desc=""/>
+			<Npc name="驯兽师" x="68" y="47" desc=""/>
+			<Jump srcx="257" srcy="272" dstid="mc014" dstx="214" dsty="264"/>
+			<Jump srcx="389" srcy="45" dstid="MC001" dstx="65" dsty="206"/>
+			<Jump srcx="11" srcy="9" dstid="0" dstx="781" dsty="524"/>
+		</Map>
+		<Map id="A001" name="比赛场地" minmapid="151" width="220" height="220">
+			<Npc name="老人" x="108" y="14" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="A002" name="比赛场地" minmapid="152" width="220" height="220"/>
+		<Map id="AS001" name="虚无之关" minmapid="411" width="160" height="160">
+			<Jump srcx="131" srcy="23" dstid="AS004" dstx="144" dsty="27"/>
+			<Jump srcx="131" srcy="24" dstid="AS004" dstx="144" dsty="28"/>
+			<Jump srcx="131" srcy="25" dstid="AS004" dstx="144" dsty="29"/>
+			<Jump srcx="23" srcy="120" dstid="TT003" dstx="281" dsty="295"/>
+		</Map>
+		<Map id="AS002" name="苍茫大厅" minmapid="412" width="160" height="160">
+			<Jump srcx="121" srcy="28" dstid="AS004" dstx="208" dsty="270"/>
+			<Jump srcx="30" srcy="118" dstid="J001" dstx="229" dsty="228"/>
+		</Map>
+		<Map id="AS003" name="封印魔地" minmapid="413" width="200" height="200">
+			<Jump srcx="113" srcy="134" dstid="AS004" dstx="20" dsty="181"/>
+			<Jump srcx="35" srcy="58" dstid="0" dstx="425" dsty="178"/>
+		</Map>
+		<Map id="AS0041" name="幻境修罗神殿" minmapid="414" width="300" height="300">
+		</Map>
+		<Map id="AS004" name="修罗神殿" minmapid="414" width="300" height="300">
+			<Npc name="修罗定天柱" x="161" y="135" desc=""/>
+			<Npc name="魔神修罗" x="227" y="126" desc="提示军机任务"/>
+			<Jump srcx="146" srcy="27" dstid="AS001" dstx="132" dsty="22"/>
+			<Jump srcx="146" srcy="28" dstid="AS001" dstx="133" dsty="23"/>
+			<Jump srcx="146" srcy="29" dstid="AS001" dstx="133" dsty="24"/>
+			<Jump srcx="22" srcy="181" dstid="AS003" dstx="115" dsty="133"/>
+			<Jump srcx="22" srcy="182" dstid="AS003" dstx="115" dsty="133"/>
+			<Jump srcx="22" srcy="183" dstid="AS003" dstx="115" dsty="133"/>
+			<Jump srcx="206" srcy="269" dstid="AS002" dstx="123" dsty="26"/>
+			<Jump srcx="206" srcy="270" dstid="AS002" dstx="123" dsty="26"/>
+			<Jump srcx="206" srcy="271" dstid="AS002" dstx="123" dsty="26"/>
+		</Map>
+		<Map id="NL007A" name="修罗幻境" minmapid="414" width="300" height="300">
+        </Map>
+		<Map id="BT001" name="玄冰古道东" minmapid="361" width="140" height="140">
+			<Jump srcx="34" srcy="60" dstid="S013" dstx="422" dsty="283"/>
+			<Jump srcx="66" srcy="115" dstid="BT002" dstx="124" dsty="18"/>
+		</Map>
+		<Map id="BT002" name="环冰道东区" minmapid="364" width="200" height="200">
+			<Jump srcx="72" srcy="45" dstid="BT006" dstx="171" dsty="68"/>
+			<Jump srcx="58" srcy="155" dstid="BT004" dstx="91" dsty="25"/>
+			<Jump srcx="158" srcy="141" dstid="NB001" dstx="80" dsty="19"/>
+			<Jump srcx="123" srcy="17" dstid="BT001" dstx="66" dsty="114"/>
+		</Map>
+		<Map id="BT003" name="玄冰古道南" minmapid="362" width="140" height="140">
+			<Jump srcx="118" srcy="63" dstid="H082" dstx="105" dsty="87"/>
+			<Jump srcx="31" srcy="29" dstid="BT004" dstx="150" dsty="146"/>
+		</Map>
+		<Map id="BT004" name="环冰道南区" minmapid="365" width="200" height="200">
+			<Npc name="流浪商人" x="41" y="115" desc=""/>
+			<Jump srcx="24" srcy="74" dstid="BT006" dstx="160" dsty="136"/>
+			<Jump srcx="90" srcy="24" dstid="BT002" dstx="59" dsty="153"/>
+			<Jump srcx="65" srcy="139" dstid="NB002" dstx="13" dsty="21"/>
+			<Jump srcx="148" srcy="146" dstid="BT003" dstx="31" dsty="28"/>
+		</Map>
+		<Map id="BT005" name="玄冰古道西" minmapid="363" width="140" height="160">
+			<Jump srcx="36" srcy="31" dstid="N002" dstx="367" dsty="292"/>
+			<Jump srcx="119" srcy="95" dstid="BT006" dstx="79" dsty="33"/>
+		</Map>
+		<Map id="BT006" name="环冰道西区" minmapid="366" width="200" height="200">
+			<Jump srcx="170" srcy="68" dstid="BT002" dstx="73" dsty="46"/>
+			<Jump srcx="159" srcy="137" dstid="BT004" dstx="24" dsty="76"/>
+			<Jump srcx="27" srcy="149" dstid="NB003" dstx="69" dsty="28"/>
+			<Jump srcx="79" srcy="30" dstid="BT005" dstx="120" dsty="93"/>
+		</Map>
+		<Map id="CG001" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG002" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG002" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG002" name="悠长石径" minmapid="876" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG003" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG003" name="劫杀大厅" minmapid="875" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG011" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG012" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG012" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG012" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG013" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG013" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG021" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG022" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG022" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG022" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG023" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG023" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG031" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG032" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG032" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG032" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG033" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG033" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG041" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG042" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG042" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG042" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG043" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG043" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG051" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG052" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG052" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG052" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG053" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG053" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG061" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG062" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG062" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG062" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG063" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG063" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG071" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG072" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG072" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG072" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG073" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG073" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG081" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG082" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG082" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG082" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG083" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG083" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG091" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG092" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG092" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG092" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG093" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG093" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG111" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG112" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG112" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG112" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG113" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG113" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG121" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG122" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG122" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG122" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG123" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG123" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG131" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG132" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG132" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG132" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG133" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG133" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG141" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG142" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG142" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG142" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG143" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG143" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG151" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG152" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG152" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG152" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG153" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG153" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG161" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG162" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG162" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG162" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG163" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG163" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG171" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG172" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG172" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG172" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG173" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG173" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG181" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG182" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG182" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG182" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG183" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG183" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG191" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG192" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG192" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG192" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG193" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG193" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CG201" name="玉石门关" minmapid="406" width="120" height="150">
+			<Jump srcx="34" srcy="45" dstid="CG202" dstx="111" dsty="99"/>
+			<Jump srcx="35" srcy="45" dstid="CG202" dstx="111" dsty="99"/>
+		</Map>
+		<Map id="CG202" name="悠长石径" minmapid="407" width="150" height="125">
+			<Jump srcx="18" srcy="27" dstid="CG203" dstx="29" dsty="153"/>
+		</Map>
+		<Map id="CG203" name="劫杀大厅" minmapid="408" width="200" height="200">
+			<Npc name="宝箱" x="47" y="165" desc=""/>
+		</Map>
+		<Map id="CM001" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM002" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM003" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM004" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM011" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM012" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM013" name="悠长石径" minmapid="407" width="150" height="125"/>
+		<Map id="CM014" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM021" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM022" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM023" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM024" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM031" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM032" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM033" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM034" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM041" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM042" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM043" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM044" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM051" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM052" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM053" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM054" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM061" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM062" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM063" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM064" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM071" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM072" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM073" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM074" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM081" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM082" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM083" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM084" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM091" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM092" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM093" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM094" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM101" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM102" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM103" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM104" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM111" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM112" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM113" name="悠长石径" minmapid="407" width="150" height="125"/>
+		<Map id="CM114" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM121" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM122" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM123" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM124" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM131" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM132" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM133" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM134" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM141" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM142" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM143" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM144" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM151" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM152" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM153" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM154" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM161" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM162" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM163" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM164" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM171" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM172" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM173" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM174" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM181" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM182" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM183" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM184" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="CM191" name="投石之路" minmapid="195" width="100" height="100">
+			<Npc name="阿健" x="27" y="29" desc=""/>
+		</Map>
+		<Map id="CM192" name="群魔之地" minmapid="0" width="50" height="60">
+			<Npc name="魔军指挥官" x="26" y="30" desc=""/>
+		</Map>
+		<Map id="CM193" name="悠长石径" minmapid="407" width="150" height="125">
+			<Npc name="传送门" x="18" y="27" desc=""/>
+		</Map>
+		<Map id="CM194" name="魔王殿" minmapid="291" width="100" height="100">
+			<Npc name="传送门" x="62" y="28" desc=""/>
+		</Map>
+		<Map id="DK001" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK0010" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK002" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK003" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK004" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK005" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK006" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK007" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK008" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DK009" name="黑暗殿堂" minmapid="0" width="80" height="80"/>
+		<Map id="DX001" name="地下密窟" minmapid="33" width="260" height="280">
+			<Npc name="传送门" x="92" y="192" desc=""/>
+			<Jump srcx="84" srcy="202" dstid="DX001" dstx="168" dsty="82"/>
+			<Jump srcx="168" srcy="82" dstid="DX001" dstx="194" dsty="106"/>
+			<Jump srcx="194" srcy="106" dstid="DX001" dstx="58" dsty="176"/>
+			<Jump srcx="58" srcy="176" dstid="DX001" dstx="84" dsty="202"/>
+		</Map>
+		<Map id="E001" name="地下通道二" minmapid="261" width="400" height="400">
+			<Jump srcx="284" srcy="278" dstid="E002" dstx="253" dsty="255"/>
+			<Jump srcx="158" srcy="162" dstid="E002" dstx="113" dsty="134"/>
+			<Jump srcx="66" srcy="77" dstid="E003" dstx="384" dsty="309"/>
+		</Map>
+		<Map id="E002" name="地下通道一" minmapid="262" width="400" height="400">
+			<Jump srcx="128" srcy="230" dstid="E004" dstx="187" dsty="76"/>
+			<Jump srcx="252" srcy="253" dstid="E001" dstx="283" dsty="276"/>
+			<Jump srcx="112" srcy="132" dstid="E001" dstx="157" dsty="160"/>
+		</Map>
+		<Map id="E003" name="地下通道三" minmapid="263" width="400" height="400">
+			<Jump srcx="385" srcy="311" dstid="E001" dstx="67" dsty="79"/>
+			<Jump srcx="185" srcy="29" dstid="M002" dstx="161" dsty="204"/>
+		</Map>
+		<Map id="E004" name="密道" minmapid="264" width="400" height="400">
+			<Jump srcx="218" srcy="310" dstid="3" dstx="130" dsty="206"/>
+			<Jump srcx="251" srcy="316" dstid="3" dstx="197" dsty="159"/>
+			<Jump srcx="349" srcy="239" dstid="3" dstx="223" dsty="179"/>
+			<Jump srcx="188" srcy="74" dstid="E002" dstx="130" dsty="228"/>
+		</Map>
+		<Map id="F001" name="争霸赛赛场" minmapid="161" width="35" height="39">
+			<Npc name="老人" x="15" y="11" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F002" name="争霸赛赛场" minmapid="162" width="70" height="70">
+			<Npc name="老人" x="39" y="13" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F003" name="争霸赛赛场" minmapid="163" width="70" height="70">
+			<Npc name="老人" x="35" y="42" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F004" name="争霸赛赛场" minmapid="164" width="70" height="70">
+			<Npc name="老人" x="39" y="13" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F005" name="争霸赛赛场" minmapid="165" width="70" height="70">
+			<Npc name="老人" x="39" y="13" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F006" name="争霸赛赛场" minmapid="166" width="70" height="70"/>
+		<Map id="F007" name="争霸赛赛场" minmapid="167" width="70" height="70">
+			<Npc name="老人" x="39" y="13" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F008" name="行会争霸赛赛场" minmapid="168" width="200" height="200">
+			<Npc name="老人" x="92" y="76" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F009" name="跑马场" minmapid="169" width="440" height="440">
+			<Npc name="计时员" x="343" y="264" desc="跑马场计时"/>
+			<Npc name="认证员" x="245" y="289" desc="跑马比赛认证"/>
+			<Npc name="认证员" x="226" y="240" desc="跑马比赛认证"/>
+			<Npc name="发令员" x="362" y="246" desc="跑马比赛发令员"/>
+		</Map>
+		<Map id="F010" name="争霸赛赛场" minmapid="9" width="70" height="70"/>
+		<Map id="F011" name="行会争霸赛赛场" minmapid="291" width="100" height="100">
+			<Npc name="老人" x="62" y="28" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F012" name="行会争霸赛赛场" minmapid="292" width="80" height="80">
+			<Npc name="老人" x="46" y="29" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="F013" name="跑马场" minmapid="293" width="800" height="800"/>
+		<Map id="F014" name="争霸赛赛场" minmapid="294" width="34" height="35"/>
+		<Map id="F015" name="争霸赛赛场" minmapid="295" width="30" height="40"/>
+		<Map id="F016" name="骑兵竞技场" minmapid="296" width="300" height="320">
+			<Npc name="骑兵竞技场门房" x="134" y="124" desc="参加骑兵比赛"/>
+		</Map>
+		<Map id="F017" name="迷境岛" minmapid="0" width="120" height="120"/>
+		<Map id="F018" name="死亡沙谷" minmapid="0" width="80" height="80"/>
+		<Map id="F019" name="决战场" minmapid="0" width="100" height="100"/>
+		<Map id="F020" name="龙凤阁" minmapid="0" width="46" height="60"/>
+		<Map id="G001" name="世外桃源" minmapid="220" width="100" height="100">
+			<Npc name="老人" x="23" y="60" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="H071" name="将军坟一层" minmapid="141" width="520" height="520">
+			<Jump srcx="256" srcy="258" dstid="H072" dstx="25" dsty="216"/>
+			<Jump srcx="240" srcy="36" dstid="0" dstx="52" dsty="180"/>
+			<Jump srcx="259" srcy="499" dstid="0" dstx="30" dsty="351"/>
+		</Map>
+		<Map id="H072" name="将军坟二层" minmapid="142" width="420" height="420">
+			<Jump srcx="244" srcy="263" dstid="H073" dstx="239" dsty="248"/>
+			<Jump srcx="24" srcy="219" dstid="H071" dstx="254" dsty="260"/>
+		</Map>
+		<Map id="H073" name="将军坟三层" minmapid="143" width="400" height="400">
+			<Npc name="尸卫战将" x="100" y="130" desc="提示军机任务"/>
+			<Jump srcx="155" srcy="170" dstid="H074" dstx="44" dsty="37"/>
+			<Jump srcx="236" srcy="245" dstid="H072" dstx="244" dsty="261"/>
+		</Map>
+		<Map id="H0741" name="幻境将军殿" minmapid="144" width="150" height="150">
+		</Map>
+		<Map id="H074" name="将军殿" minmapid="144" width="150" height="150">
+			<Jump srcx="42" srcy="36" dstid="H073" dstx="154" dsty="168"/>
+		</Map>
+		<Map id="H081" name="将军坟东一层" minmapid="171" width="400" height="400">
+			<Npc name="受伤士兵" x="267" y="295" desc=""/>
+			<Jump srcx="206" srcy="169" dstid="H082" dstx="107" dsty="83"/>
+			<Jump srcx="198" srcy="331" dstid="0" dstx="774" dsty="396"/>
+		</Map>
+		<Map id="H082" name="将军坟东二层" minmapid="172" width="350" height="350">
+			<Jump srcx="256" srcy="183" dstid="H084" dstx="144" dsty="150"/>
+			<Jump srcx="197" srcy="244" dstid="H083" dstx="162" dsty="168"/>
+			<Jump srcx="105" srcy="81" dstid="H081" dstx="204" dsty="166"/>
+			<Jump srcx="103" srcy="88" dstid="BT003" dstx="118" dsty="63"/>
+		</Map>
+		<Map id="H083" name="悲鸣长廊" minmapid="173" width="325" height="325">
+			<Jump srcx="304" srcy="155" dstid="H084" dstx="166" dsty="294"/>
+			<Jump srcx="81" srcy="241" dstid="H085" dstx="285" dsty="145"/>
+			<Jump srcx="160" srcy="165" dstid="H082" dstx="196" dsty="241"/>
+		</Map>
+		<Map id="H084" name="叹息回廊" minmapid="174" width="325" height="325">
+			<Jump srcx="164" srcy="297" dstid="H083" dstx="302" dsty="158"/>
+			<Jump srcx="142" srcy="147" dstid="H082" dstx="255" dsty="180"/>
+		</Map>
+		<Map id="H085" name="将军坟东四层" minmapid="175" width="400" height="400">
+			<Jump srcx="120" srcy="151" dstid="H086" dstx="119" dsty="91"/>
+			<Jump srcx="193" srcy="185" dstid="H086" dstx="225" dsty="172"/>
+			<Jump srcx="287" srcy="142" dstid="H083" dstx="83" dsty="237"/>
+		</Map>
+		<Map id="H086" name="将军坟东五层" minmapid="176" width="400" height="400">
+			<Npc name="奸商" x="85" y="198" desc="买卖物品"/>
+			<Jump srcx="121" srcy="94" dstid="H085" dstx="124" dsty="155"/>
+			<Jump srcx="223" srcy="174" dstid="H085" dstx="191" dsty="187"/>
+		</Map>
+		<Map id="HD001" name="活动地图" minmapid="168" width="200" height="200">
+			<Npc name="封印引路人" x="97" y="84" desc=""/>
+			<Npc name="传送门" x="90" y="77" desc=""/>
+			<Npc name="红袖" x="91" y="83" desc="出售各种道具"/>
+		</Map>
+		<Map id="HD002" name="格斗竞技场" minmapid="168" width="200" height="200"/>
+		<Map id="HD003" name="万魔大殿" minmapid="278" width="100" height="100">
+			<Npc name="传送门" x="44" y="26" desc=""/>
+		</Map>
+		<Map id="J001" name="禁地之门" minmapid="271" width="300" height="300">
+			<Jump srcx="266" srcy="96" dstid="J004" dstx="36" dsty="350"/>
+			<Jump srcx="59" srcy="284" dstid="J002" dstx="266" dsty="145"/>
+			<Jump srcx="249" srcy="259" dstid="4" dstx="46" dsty="164"/>
+		</Map>
+		<Map id="J002" name="招月池" minmapid="272" width="300" height="300">
+			<Jump srcx="113" srcy="27" dstid="J003" dstx="153" dsty="234"/>
+			<Jump srcx="267" srcy="143" dstid="J001" dstx="60" dsty="282"/>
+		</Map>
+		<Map id="J003" name="寒冰走廊" minmapid="273" width="250" height="250">
+			<Jump srcx="210" srcy="38" dstid="J005" dstx="46" dsty="307"/>
+			<Jump srcx="155" srcy="235" dstid="J002" dstx="114" dsty="29"/>
+		</Map>
+		<Map id="J004" name="冰石之地" minmapid="274" width="400" height="400">
+			<Npc name="检票员" x="138" y="100" desc="演唱会检票"/>
+			<Jump srcx="89" srcy="38" dstid="J005" dstx="292" dsty="350"/>
+			<Jump srcx="35" srcy="352" dstid="J001" dstx="264" dsty="99"/>
+		</Map>
+		<Map id="J005" name="青玉宫" minmapid="275" width="400" height="400">
+			<Jump srcx="57" srcy="47" dstid="J006" dstx="100" dsty="185"/>
+			<Jump srcx="293" srcy="352" dstid="J004" dstx="91" dsty="41"/>
+			<Jump srcx="45" srcy="309" dstid="J003" dstx="209" dsty="40"/>
+		</Map>
+		<Map id="J006" name="生死门" minmapid="276" width="200" height="200">
+			<Npc name="藤妖" x="77" y="174" desc="提示军机任务"/>
+			<Jump srcx="183" srcy="59" dstid="J011" dstx="89" dsty="59"/>
+			<Jump srcx="35" srcy="13" dstid="J009" dstx="202" dsty="207"/>
+			<Jump srcx="26" srcy="58" dstid="J007" dstx="238" dsty="186"/>
+			<Jump srcx="101" srcy="187" dstid="J005" dstx="59" dsty="50"/>
+		</Map>
+		<Map id="J007" name="九不回" minmapid="277" width="250" height="250">
+			<Jump srcx="10" srcy="143" dstid="J008" dstx="79" dsty="47"/>
+			<Jump srcx="239" srcy="188" dstid="J006" dstx="28" dsty="61"/>
+		</Map>
+		<Map id="J008" name="黑暗轮回" minmapid="278" width="100" height="100">
+			<Npc name="通天漩涡" x="27" y="22" desc=""/>
+			<Jump srcx="80" srcy="45" dstid="J007" dstx="11" dsty="141"/>
+		</Map>
+		<Map id="J009" name="尸上行" minmapid="279" width="250" height="250">
+			<Jump srcx="36" srcy="191" dstid="J010" dstx="31" dsty="26"/>
+			<Jump srcx="203" srcy="209" dstid="J006" dstx="37" dsty="16"/>
+		</Map>
+		<Map id="J0101" name="幻境魔穴" minmapid="280" width="60" height="70">		
+		</Map>
+		<Map id="J010" name="魔穴" minmapid="280" width="60" height="70">
+			<Jump srcx="32" srcy="23" dstid="J009" dstx="37" dsty="189"/>
+		</Map>
+		<Map id="J011" name="结界" minmapid="281" width="300" height="300">
+			<Jump srcx="240" srcy="284" dstid="J012" dstx="75" dsty="68"/>
+			<Jump srcx="88" srcy="61" dstid="J006" dstx="182" dsty="61"/>
+		</Map>
+		<Map id="J012" name="封印之地" minmapid="282" width="400" height="400">
+			<Jump srcx="73" srcy="65" dstid="J011" dstx="238" dsty="283"/>
+			<Jump srcx="323" srcy="313" dstid="4" dstx="410" dsty="181"/>
+		</Map>
+		<Map id="JD001" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD002" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD003" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD004" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD005" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD006" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD007" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD008" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD009" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JD010" name="角斗场" minmapid="166" width="70" height="70"/>
+		<Map id="JPXL001" name="远古修炼场" minmapid="29" width="140" height="180">
+			<Npc name="欧冶子" x="30" y="117" desc=""/>
+		</Map>
+		<Map id="JPXL005" name="远古修炼场" minmapid="29" width="140" height="180">
+			<Npc name="欧冶子" x="30" y="117" desc=""/>
+		</Map>
+		<Map id="JPXL010" name="远古修炼场" minmapid="29" width="140" height="180">
+			<Npc name="欧冶子" x="30" y="117" desc=""/>
+		</Map>
+		<Map id="L001" name="爱的长廊" minmapid="221" width="150" height="150">
+			<Jump srcx="66" srcy="37" dstid="SH030" dstx="5" dsty="19"/>
+		</Map>
+		<Map id="L002" name="爱的长廊" minmapid="222" width="150" height="150"/>
+		<Map id="L003" name="未知暗殿" minmapid="223" width="283" height="283"/>
+		<Map id="L004" name="尸王殿" minmapid="224" width="142" height="142">
+			<Jump srcx="99" srcy="37" dstid="T015" dstx="59" dsty="142"/>
+		</Map>
+		<Map id="L005" name="仙灵密室" minmapid="225" width="71" height="71"/>
+		<Map id="L006" name="月兔居" minmapid="226" width="50" height="70"/>
+		<Map id="L007" name="多情谷" minmapid="227" width="60" height="70"/>
+		<Map id="L008" name="天狗窝" minmapid="0" width="40" height="40"/>
+		<Map id="L009" name="炼心屋一" minmapid="0" width="100" height="160"/>
+		<Map id="L010" name="炼心屋二" minmapid="0" width="160" height="100"/>
+		<Map id="LOVEM001" name="一见钟情宫" minmapid="128" width="150" height="150"/>
+		<Map id="LOVEM002" name="两情相悦宫" minmapid="141" width="520" height="520"/>
+		<Map id="LOVEM003" name="缘定三生宫" minmapid="186" width="500" height="500"/>
+		<Map id="LOVEM004" name="似水柔情宫" minmapid="235" width="400" height="400"/>
+		<Map id="LOVEM005" name="卿卿如吾宫" minmapid="3" width="400" height="400"/>
+		<Map id="LOVEM006" name="真爱永留宫" minmapid="21" width="260" height="260"/>
+		<Map id="LOVEMW000" name="百年好合谷" minmapid="220" width="100" height="100"/>
+		<Map id="LOVEW001" name="一见钟情宫" minmapid="121" width="150" height="150"/>
+		<Map id="LOVEW002" name="两情相悦宫" minmapid="142" width="420" height="420"/>
+		<Map id="LOVEW003" name="缘定三生宫" minmapid="183" width="500" height="500"/>
+		<Map id="LOVEW004" name="似水柔情宫" minmapid="236" width="416" height="432"/>
+		<Map id="LOVEW005" name="卿卿如吾宫" minmapid="4" width="400" height="400"/>
+		<Map id="LOVEW006" name="真爱永留宫" minmapid="22" width="350" height="320"/>
+		<Map id="M001" name="机关道一" minmapid="201" width="300" height="300">
+			<Jump srcx="262" srcy="97" dstid="M020" dstx="55" dsty="15"/>
+			<Jump srcx="132" srcy="227" dstid="M007" dstx="34" dsty="110"/>
+			<Jump srcx="96" srcy="146" dstid="M003" dstx="241" dsty="215"/>
+			<Jump srcx="255" srcy="44" dstid="M002" dstx="93" dsty="278"/>
+			<Jump srcx="44" srcy="255" dstid="2" dstx="200" dsty="429"/>
+		</Map>
+		<Map id="M002" name="机关道二" minmapid="202" width="400" height="400">
+			<Jump srcx="160" srcy="206" dstid="E003" dstx="184" dsty="31"/>
+			<Jump srcx="362" srcy="252" dstid="M012" dstx="54" dsty="46"/>
+			<Jump srcx="96" srcy="124" dstid="M010" dstx="210" dsty="205"/>
+			<Jump srcx="246" srcy="123" dstid="M018" dstx="47" dsty="200"/>
+			<Jump srcx="92" srcy="280" dstid="M001" dstx="253" dsty="46"/>
+		</Map>
+		<Map id="M003" name="机关道三" minmapid="203" width="300" height="300">
+			<Jump srcx="117" srcy="184" dstid="M030" dstx="111" dsty="75"/>
+			<Jump srcx="185" srcy="120" dstid="M010" dstx="86" dsty="153"/>
+			<Jump srcx="242" srcy="217" dstid="M001" dstx="98" dsty="148"/>
+		</Map>
+		<Map id="M004" name="机关道四" minmapid="204" width="150" height="150">
+			<Jump srcx="63" srcy="77" dstid="M017" dstx="57" dsty="61"/>
+			<Jump srcx="93" srcy="71" dstid="M004" dstx="21" dsty="123"/>
+			<Jump srcx="29" srcy="111" dstid="M004" dstx="27" dsty="134"/>
+			<Jump srcx="37" srcy="127" dstid="M004" dstx="75" dsty="69"/>
+			<Jump srcx="129" srcy="35" dstid="M004" dstx="85" dsty="59"/>
+			<Jump srcx="83" srcy="57" dstid="M004" dstx="128" dsty="33"/>
+			<Jump srcx="76" srcy="89" dstid="M004" dstx="119" dsty="25"/>
+			<Jump srcx="117" srcy="23" dstid="M004" dstx="74" dsty="88"/>
+			<Jump srcx="14" srcy="141" dstid="M018" dstx="197" dsty="47"/>
+			<Jump srcx="120" srcy="44" dstid="M009" dstx="99" dsty="29"/>
+		</Map>
+		<Map id="M005" name="机关支路一" minmapid="205" width="150" height="150">
+			<Jump srcx="45" srcy="97" dstid="M029" dstx="88" dsty="47"/>
+			<Jump srcx="57" srcy="41" dstid="M017" dstx="47" dsty="50"/>
+			<Jump srcx="81" srcy="48" dstid="M005" dstx="63" dsty="103"/>
+			<Jump srcx="97" srcy="64" dstid="M005" dstx="56" dsty="95"/>
+			<Jump srcx="58" srcy="93" dstid="M005" dstx="99" dsty="62"/>
+			<Jump srcx="100" srcy="98" dstid="M005" dstx="51" dsty="51"/>
+			<Jump srcx="49" srcy="49" dstid="M005" dstx="99" dsty="96"/>
+			<Jump srcx="89" srcy="56" dstid="M009" dstx="200" dsty="65"/>
+			<Jump srcx="50" srcy="85" dstid="M013" dstx="22" dsty="64"/>
+			<Jump srcx="92" srcy="106" dstid="2" dstx="208" dsty="428"/>
+		</Map>
+		<Map id="M006" name="机关支路二" minmapid="206" width="220" height="220">
+			<Jump srcx="131" srcy="100" dstid="M031" dstx="54" dsty="138"/>
+			<Jump srcx="58" srcy="197" dstid="M016" dstx="49" dsty="53"/>
+			<Jump srcx="73" srcy="74" dstid="M009" dstx="60" dsty="196"/>
+		</Map>
+		<Map id="M007" name="天机堂" minmapid="207" width="250" height="250">
+			<Jump srcx="220" srcy="59" dstid="M012" dstx="88" dsty="164"/>
+			<Jump srcx="32" srcy="108" dstid="M001" dstx="131" dsty="224"/>
+		</Map>
+		<Map id="M008" name="造化堂" minmapid="208" width="150" height="150">
+			<Jump srcx="80" srcy="78" dstid="M010" dstx="174" dsty="63"/>
+			<Jump srcx="101" srcy="18" dstid="M015" dstx="117" dsty="157"/>
+			<Jump srcx="94" srcy="135" dstid="M018" dstx="52" dsty="57"/>
+		</Map>
+		<Map id="M009" name="神工堂" minmapid="209" width="250" height="250">
+			<Jump srcx="188" srcy="200" dstid="M011" dstx="28" dsty="52"/>
+			<Jump srcx="58" srcy="198" dstid="M006" dstx="71" dsty="76"/>
+			<Jump srcx="202" srcy="63" dstid="M005" dstx="91" dsty="54"/>
+			<Jump srcx="97" srcy="27" dstid="M004" dstx="119" dsty="42"/>
+		</Map>
+		<Map id="M010" name="工坊大厅一" minmapid="210" width="250" height="250">
+			<Jump srcx="181" srcy="220" dstid="M012" dstx="18" dsty="78"/>
+			<Jump srcx="176" srcy="61" dstid="M008" dstx="81" dsty="76"/>
+			<Jump srcx="84" srcy="155" dstid="M003" dstx="183" dsty="122"/>
+			<Jump srcx="211" srcy="207" dstid="M002" dstx="98" dsty="125"/>
+		</Map>
+		<Map id="M011" name="工坊大厅二" minmapid="211" width="150" height="150">
+			<Jump srcx="37" srcy="107" dstid="M031" dstx="138" dsty="48"/>
+			<Jump srcx="122" srcy="68" dstid="M013" dstx="71" dsty="126"/>
+			<Jump srcx="27" srcy="50" dstid="M009" dstx="187" dsty="198"/>
+		</Map>
+		<Map id="M012" name="工坊大厅三" minmapid="212" width="250" height="250">
+			<Jump srcx="180" srcy="203" dstid="M016" dstx="41" dsty="39"/>
+			<Jump srcx="178" srcy="73" dstid="M014" dstx="53" dsty="115"/>
+			<Jump srcx="17" srcy="80" dstid="M010" dstx="179" dsty="222"/>
+			<Jump srcx="86" srcy="167" dstid="M007" dstx="218" dsty="61"/>
+			<Jump srcx="56" srcy="44" dstid="M002" dstx="365" dsty="248"/>
+		</Map>
+		<Map id="M013" name="工坊大厅四" minmapid="213" width="150" height="150">
+			<Jump srcx="69" srcy="129" dstid="M011" dstx="120" dsty="70"/>
+			<Jump srcx="21" srcy="66" dstid="M005" dstx="48" dsty="87"/>
+		</Map>
+		<Map id="M014" name="仓库一" minmapid="214" width="150" height="150">
+			<Jump srcx="50" srcy="23" dstid="M018" dstx="191" dsty="196"/>
+			<Jump srcx="51" srcy="117" dstid="M012" dstx="176" dsty="75"/>
+		</Map>
+		<Map id="M015" name="仓库二" minmapid="215" width="200" height="200">
+			<Jump srcx="160" srcy="119" dstid="M017" dstx="42" dsty="38"/>
+			<Jump srcx="118" srcy="159" dstid="M008" dstx="103" dsty="20"/>
+		</Map>
+		<Map id="M016" name="中转厅一" minmapid="216" width="100" height="100">
+			<Npc name="红娘" x="59" y="42" desc="接受爱情考验"/>
+			<Jump srcx="50" srcy="52" dstid="M006" dstx="60" dsty="195"/>
+			<Jump srcx="39" srcy="37" dstid="M012" dstx="178" dsty="201"/>
+		</Map>
+		<Map id="M017" name="中转厅二" minmapid="217" width="100" height="100">
+			<Npc name="商人" x="59" y="50" desc="买卖物品"/>
+			<Jump srcx="49" srcy="51" dstid="M005" dstx="59" dsty="43"/>
+			<Jump srcx="58" srcy="63" dstid="M004" dstx="65" dsty="79"/>
+			<Jump srcx="40" srcy="36" dstid="M015" dstx="159" dsty="117"/>
+		</Map>
+		<Map id="M018" name="中枢大殿" minmapid="218" width="250" height="250">
+			<Jump srcx="192" srcy="199" dstid="M014" dstx="52" dsty="25"/>
+			<Jump srcx="50" srcy="55" dstid="M008" dstx="93" dsty="133"/>
+			<Jump srcx="199" srcy="45" dstid="M004" dstx="16" dsty="138"/>
+			<Jump srcx="45" srcy="202" dstid="M002" dstx="244" dsty="125"/>
+		</Map>
+		<Map id="M020" name="盘道一" minmapid="240" width="150" height="150">
+			<Jump srcx="36" srcy="56" dstid="M021" dstx="92" dsty="131"/>
+			<Jump srcx="53" srcy="13" dstid="M001" dstx="261" dsty="94"/>
+		</Map>
+		<Map id="M021" name="回旋通道一" minmapid="241" width="250" height="250">
+			<Jump srcx="122" srcy="156" dstid="M022" dstx="52" dsty="86"/>
+			<Jump srcx="90" srcy="133" dstid="M020" dstx="35" dsty="57"/>
+		</Map>
+		<Map id="M022" name="盘道二" minmapid="242" width="100" height="100">
+			<Jump srcx="49" srcy="46" dstid="M023" dstx="37" dsty="210"/>
+			<Jump srcx="53" srcy="88" dstid="M021" dstx="123" dsty="157"/>
+		</Map>
+		<Map id="M023" name="四岔道" minmapid="243" width="250" height="250">
+			<Jump srcx="229" srcy="130" dstid="M026" dstx="22" dsty="283"/>
+			<Jump srcx="201" srcy="44" dstid="M025" dstx="65" dsty="184"/>
+			<Jump srcx="100" srcy="38" dstid="M024" dstx="67" dsty="262"/>
+			<Jump srcx="35" srcy="212" dstid="M022" dstx="47" dsty="47"/>
+		</Map>
+		<Map id="M024" name="迂回之地" minmapid="244" width="300" height="300">
+			<Jump srcx="237" srcy="153" dstid="M032" dstx="59" dsty="67"/>
+			<Jump srcx="226" srcy="84" dstid="M027" dstx="55" dsty="98"/>
+			<Jump srcx="69" srcy="265" dstid="M023" dstx="101" dsty="39"/>
+		</Map>
+		<Map id="M025" name="角斗场" minmapid="245" width="250" height="250">
+			<Npc name="铜人" x="130" y="120" desc="提示军机任务"/>
+			<Jump srcx="217" srcy="32" dstid="M027" dstx="62" dsty="106"/>
+			<Jump srcx="63" srcy="186" dstid="M023" dstx="199" dsty="45"/>
+		</Map>
+		<Map id="M026" name="战斗长廊" minmapid="246" width="300" height="300">
+			<Jump srcx="123" srcy="128" dstid="M032" dstx="155" dsty="97"/>
+			<Jump srcx="283" srcy="20" dstid="M027" dstx="69" dsty="114"/>
+			<Jump srcx="20" srcy="285" dstid="M023" dstx="227" dsty="131"/>
+		</Map>
+		<Map id="M027" name="盘道三" minmapid="247" width="150" height="150">
+			<Jump srcx="43" srcy="80" dstid="M028" dstx="45" dsty="177"/>
+			<Jump srcx="68" srcy="116" dstid="M026" dstx="282" dsty="22"/>
+			<Jump srcx="61" srcy="108" dstid="M025" dstx="216" dsty="34"/>
+			<Jump srcx="54" srcy="100" dstid="M024" dstx="225" dsty="85"/>
+		</Map>
+		<Map id="M028" name="回旋通道二" minmapid="248" width="250" height="250">
+			<Jump srcx="98" srcy="82" dstid="M029" dstx="50" dsty="41"/>
+			<Jump srcx="44" srcy="176" dstid="M027" dstx="42" dsty="78"/>
+		</Map>
+		<Map id="M029" name="盘道四" minmapid="249" width="100" height="100">
+			<Jump srcx="90" srcy="45" dstid="M005" dstx="46" dsty="95"/>
+			<Jump srcx="52" srcy="44" dstid="M028" dstx="100" dsty="84"/>
+		</Map>
+		<Map id="M030" name="战斗广场一" minmapid="250" width="200" height="200">
+			<Jump srcx="110" srcy="76" dstid="M003" dstx="115" dsty="186"/>
+		</Map>
+		<map id="bydadt" name="混沌之海" minmapid="543" width="250" height="250">
+		</map>
+		<Map id="M031" name="战斗广场二" minmapid="251" width="200" height="200">
+			<Jump srcx="139" srcy="46" dstid="M011" dstx="39" dsty="104"/>
+			<Jump srcx="53" srcy="140" dstid="M006" dstx="130" dsty="104"/>
+		</Map>
+		<Map id="M032" name="战斗广场三" minmapid="252" width="200" height="200">
+			<Jump srcx="156" srcy="99" dstid="M026" dstx="124" dsty="131"/>
+			<Jump srcx="58" srcy="66" dstid="M024" dstx="236" dsty="150"/>
+		</Map>
+		<Map id="MC001" name="地下魔域一层" minmapid="21" width="260" height="260">
+			<Jump srcx="79" srcy="33" dstid="MC002" dstx="224" dsty="69"/>
+			<Jump srcx="63" srcy="203" dstid="7" dstx="387" dsty="49"/>
+		</Map>
+		<Map id="MC002" name="地下魔域二层" minmapid="22" width="350" height="320">
+			<Jump srcx="245" srcy="228" dstid="MC003" dstx="295" dsty="291"/>
+			<Jump srcx="113" srcy="254" dstid="MC003" dstx="122" dsty="286"/>
+			<Jump srcx="91" srcy="94" dstid="MC003" dstx="92" dsty="80"/>
+			<Jump srcx="225" srcy="66" dstid="MC001" dstx="82" dsty="30"/>
+		</Map>
+		<Map id="MC003" name="地下魔域三层" minmapid="23" width="400" height="400">
+			<Jump srcx="224" srcy="180" dstid="MC004" dstx="135" dsty="147"/>
+			<Jump srcx="324" srcy="76" dstid="MC004" dstx="194" dsty="26"/>
+			<Jump srcx="293" srcy="289" dstid="MC002" dstx="247" dsty="226"/>
+			<Jump srcx="124" srcy="284" dstid="MC002" dstx="112" dsty="252"/>
+			<Jump srcx="90" srcy="78" dstid="MC002" dstx="89" dsty="92"/>
+		</Map>
+		<Map id="MC004" name="地下魔域四层" minmapid="24" width="260" height="260">
+			<Npc name="魔像" x="172" y="160" desc="提示军机任务"/>
+			<Jump srcx="78" srcy="230" dstid="MC005" dstx="241" dsty="22"/>
+			<Jump srcx="136" srcy="145" dstid="MC003" dstx="223" dsty="181"/>
+			<Jump srcx="195" srcy="23" dstid="MC003" dstx="323" dsty="77"/>
+			<Jump srcx="210" srcy="104" dstid="mc014" dstx="69" dsty="205"/>
+		</Map>
+		<Map id="MC005" name="地下魔域五层" minmapid="25" width="280" height="280">
+			<Jump srcx="56" srcy="254" dstid="MC006" dstx="106" dsty="245"/>
+			<Jump srcx="242" srcy="20" dstid="MC004" dstx="80" dsty="228"/>
+		</Map>
+		<Map id="MC006" name="地下魔域六层" minmapid="26" width="400" height="420">
+			<Jump srcx="94" srcy="94" dstid="MC007" dstx="245" dsty="50"/>
+			<Jump srcx="339" srcy="84" dstid="MC006" dstx="359" dsty="184"/>
+			<Jump srcx="157" srcy="129" dstid="MC011" dstx="102" dsty="100"/>
+			<Jump srcx="360" srcy="183" dstid="MC006" dstx="338" dsty="86"/>
+			<Jump srcx="197" srcy="200" dstid="MC011" dstx="105" dsty="163"/>
+			<Jump srcx="107" srcy="243" dstid="MC005" dstx="55" dsty="252"/>
+		</Map>
+		<Map id="MC007" name="地下魔域七层" minmapid="27" width="300" height="300">
+			<Jump srcx="37" srcy="260" dstid="MC008" dstx="54" dsty="40"/>
+			<Jump srcx="246" srcy="48" dstid="MC006" dstx="96" dsty="92"/>
+		</Map>
+		<Map id="MC008" name="地下魔域八层" minmapid="28" width="260" height="260">
+			<Jump srcx="52" srcy="40" dstid="MC007" dstx="39" dsty="258"/>
+		</Map>
+		<Map id="MC009" name="魔殿" minmapid="29" width="140" height="180">
+			<Npc name="魔像" x="30" y="117" desc="帮助穿越魔殿"/>
+			<Jump srcx="22" srcy="109" dstid="MC010" dstx="274" dsty="143"/>
+		</Map>
+		<Map id="MC010" name="铁血魔城" minmapid="30" width="300" height="300">
+			<Npc name="魔像" x="267" y="143" desc="交魔魂牌入魔殿"/>
+			<Jump srcx="68" srcy="203" dstid="7" dstx="68" dsty="43"/>
+		</Map>
+		<Map id="MC011" name="心之魔域" minmapid="31" width="200" height="200">
+			<Jump srcx="103" srcy="164" dstid="MC006" dstx="196" dsty="198"/>
+			<Jump srcx="103" srcy="102" dstid="MC006" dstx="156" dsty="131"/>
+		</Map>
+		<Map id="MC014" name="铁血魔城" minmapid="30" width="300" height="300">
+			<Npc name="魔环" x="76" y="73" desc="去铁血魔宫"/>
+		</Map>
+		<Map id="MG0011" name="幻境铁血魔宫" minmapid="32" width="300" height="300">
+			<Jump srcx="205" srcy="51" dstid="MG0021" dstx="165" dsty="82"/>
+			<Jump srcx="227" srcy="74" dstid="MG0021" dstx="191" dsty="106"/>
+			<Jump srcx="85" srcy="179" dstid="MG0021" dstx="55" dsty="176"/>
+			<Jump srcx="101" srcy="200" dstid="MG0021" dstx="81" dsty="203"/>
+		</Map>
+		<Map id="MG0021" name="幻境叹息回廊" minmapid="33" width="260" height="280">
+			<Jump srcx="168" srcy="82" dstid="MG0011" dstx="204" dsty="55"/>
+			<Jump srcx="194" srcy="106" dstid="MG0011" dstx="226" dsty="78"/>
+			<Jump srcx="58" srcy="176" dstid="MG0011" dstx="84" dsty="183"/>
+			<Jump srcx="84" srcy="202" dstid="MG0011" dstx="100" dsty="204"/>
+		</Map>
+		<Map id="MG001" name="铁血魔宫" minmapid="32" width="300" height="300">
+			<Jump srcx="205" srcy="51" dstid="MG002" dstx="165" dsty="82"/>
+			<Jump srcx="227" srcy="74" dstid="MG002" dstx="191" dsty="106"/>
+			<Jump srcx="85" srcy="179" dstid="MG002" dstx="55" dsty="176"/>
+			<Jump srcx="101" srcy="200" dstid="MG002" dstx="81" dsty="203"/>
+			<Jump srcx="220" srcy="212" dstid="mc014" dstx="80" dsty="76"/>
+			<Jump srcx="220" srcy="212" dstid="7" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MG002" name="叹息回廊" minmapid="33" width="260" height="280">
+			<Jump srcx="168" srcy="82" dstid="MG001" dstx="204" dsty="55"/>
+			<Jump srcx="194" srcy="106" dstid="MG001" dstx="226" dsty="78"/>
+			<Jump srcx="58" srcy="176" dstid="MG001" dstx="84" dsty="183"/>
+			<Jump srcx="84" srcy="202" dstid="MG001" dstx="100" dsty="204"/>
+		</Map>
+		<Map id="MH001" name="海岛" minmapid="301" width="180" height="180">
+			<Npc name="仓库管理员" x="111" y="88" desc="存取捆扎物品"/>
+			<Npc name="流浪商人" x="111" y="80" desc=""/>
+			<Npc name="赏金猎人" x="109" y="86" desc="赏金等你拿"/>
+			<Npc name="炼狱竞技使者" x="106" y="86" desc=""/>
+			<Npc name="封元守卫" x="109" y="81" desc="带你前往神秘的漓火封魔阵"/>
+			<Npc name="灵犀引路人" x="120" y="87" desc="带你前往传说中的灵犀仙岛"/>
+			<Jump srcx="50" srcy="90" dstid="2" dstx="200" dsty="300"/>
+			<Jump srcx="50" srcy="90" dstid="MH003" dstx="41" dsty="76"/>
+			<Jump srcx="116" srcy="85" dstid="MH002" dstx="70" dsty="123"/>
+			<Jump srcx="116" srcy="85" dstid="0" dstx="111" dsty="50"/>
+			<Jump srcx="116" srcy="85" dstid="MH004" dstx="111" dsty="50"/>
+			<Jump srcx="116" srcy="85" dstid="MH008" dstx="33" dsty="112"/>
+			<Jump srcx="125" srcy="90" dstid="NL001" dstx="86" dsty="195"/>
+			<Jump srcx="125" srcy="90" dstid="0" dstx="86" dsty="195"/>
+		</Map>
+		<Map id="zbkj1" name="珍宝空间" minmapid="303" width="170" height="170">
+		</Map>
+		<Map id="jmddfmt" name="禁魔大殿" minmapid="218" width="250" height="250">
+		</Map>
+		<Map id="MH002" name="战士炼狱二层" minmapid="302" width="142" height="142">
+			<Jump srcx="69" srcy="17" dstid="MH005" dstx="162" dsty="196"/>
+			<Jump srcx="74" srcy="19" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH003" name="法师炼狱二层" minmapid="303" width="170" height="170">
+			<Jump srcx="123" srcy="113" dstid="MH006" dstx="218" dsty="196"/>
+			<Jump srcx="119" srcy="110" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH004" name="道士炼狱二层" minmapid="304" width="170" height="170">
+			<Jump srcx="64" srcy="86" dstid="MH007" dstx="96" dsty="122"/>
+			<Jump srcx="67" srcy="91" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH005" name="战士炼狱三层" minmapid="305" width="220" height="220">
+			<Jump srcx="117" srcy="22" dstid="MH008" dstx="33" dsty="112"/>
+			<Jump srcx="113" srcy="20" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH006" name="法师炼狱三层" minmapid="306" width="354" height="354">
+			<Jump srcx="174" srcy="314" dstid="MH008" dstx="33" dsty="112"/>
+			<Jump srcx="169" srcy="312" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH007" name="道士炼狱三层" minmapid="307" width="220" height="220">
+			<Jump srcx="161" srcy="26" dstid="MH008" dstx="33" dsty="112"/>
+			<Jump srcx="166" srcy="33" dstid="MH001" dstx="100" dsty="100"/>
+		</Map>
+		<Map id="MH008" name="海滨平原" minmapid="308" width="180" height="180">
+			<Npc name="仓库管理员" x="122" y="61" desc=""/>
+			<Npc name="流浪商人" x="124" y="69" desc=""/>
+			<Jump srcx="34" srcy="113" dstid="MH001" dstx="33" dsty="112"/>
+			<Jump srcx="127" srcy="67" dstid="MH009" dstx="86" dsty="104"/>
+			<Jump srcx="127" srcy="67" dstid="MH010" dstx="118" dsty="92"/>
+			<Jump srcx="127" srcy="67" dstid="MH011" dstx="159" dsty="132"/>
+			<Jump srcx="127" srcy="67" dstid="MH012" dstx="35" dsty="95"/>
+		</Map>
+		<Map id="MH009" name="战士炼狱五层" minmapid="309" width="250" height="250">
+			<Jump srcx="26" srcy="225" dstid="MH012" dstx="35" dsty="95"/>
+			<Jump srcx="30" srcy="221" dstid="MH008" dstx="125" dsty="61"/>
+		</Map>
+		<Map id="MH010" name="法师炼狱五层" minmapid="310" width="250" height="250">
+			<Jump srcx="197" srcy="28" dstid="MH012" dstx="35" dsty="95"/>
+			<Jump srcx="192" srcy="33" dstid="MH008" dstx="125" dsty="61"/>
+		</Map>
+		<Map id="MH011" name="道士炼狱五层" minmapid="311" width="250" height="250">
+			<Jump srcx="33" srcy="65" dstid="MH012" dstx="35" dsty="95"/>
+			<Jump srcx="28" srcy="69" dstid="MH008" dstx="125" dsty="61"/>
+		</Map>
+		<Map id="MH012" name="密林" minmapid="312" width="200" height="200">
+			<Npc name="仓库管理员" x="167" y="90" desc=""/>
+			<Npc name="流浪商人" x="166" y="97" desc=""/>
+			<Npc name="赏金猎人" x="165" y="93" desc="赏金等你拿"/>
+			<Jump srcx="36" srcy="96" dstid="MH001" dstx="35" dsty="95"/>
+			<Jump srcx="170" srcy="96" dstid="MH013" dstx="67" dsty="100"/>
+			<Jump srcx="170" srcy="96" dstid="MH014" dstx="141" dsty="40"/>
+			<Jump srcx="170" srcy="96" dstid="MH015" dstx="84" dsty="22"/>
+			<Jump srcx="170" srcy="96" dstid="MH019" dstx="140" dsty="131"/>
+			<Jump srcx="170" srcy="96" dstid="MH008" dstx="33" dsty="112"/>
+		</Map>
+		<Map id="MH013" name="战士炼狱七层" minmapid="313" width="142" height="142">
+			<Jump srcx="37" srcy="37" dstid="MH016" dstx="296" dsty="166"/>
+			<Jump srcx="41" srcy="44" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH014" name="法师炼狱七层" minmapid="314" width="160" height="213">
+			<Jump srcx="66" srcy="149" dstid="MH017" dstx="110" dsty="20"/>
+			<Jump srcx="67" srcy="142" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH015" name="道士炼狱七层" minmapid="315" width="170" height="170">
+			<Jump srcx="130" srcy="69" dstid="MH018" dstx="155" dsty="130"/>
+			<Jump srcx="125" srcy="65" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH016" name="战士炼狱八层" minmapid="316" width="340" height="340">
+			<Jump srcx="239" srcy="84" dstid="MH019" dstx="140" dsty="131"/>
+			<Jump srcx="244" srcy="91" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH017" name="法师炼狱八层" minmapid="317" width="220" height="220">
+			<Jump srcx="148" srcy="114" dstid="MH019" dstx="140" dsty="131"/>
+			<Jump srcx="143" srcy="114" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH018" name="道士炼狱八层" minmapid="318" width="283" height="283">
+			<Jump srcx="205" srcy="76" dstid="MH019" dstx="140" dsty="131"/>
+			<Jump srcx="201" srcy="73" dstid="MH012" dstx="164" dsty="92"/>
+		</Map>
+		<Map id="MH019" name="幽静空间" minmapid="319" width="180" height="180">
+			<Npc name="仓库管理员" x="35" y="38" desc=""/>
+			<Npc name="流浪商人" x="28" y="43" desc=""/>
+			<Npc name="赏金猎人" x="33" y="40" desc="赏金等你拿"/>
+			<Jump srcx="140" srcy="132" dstid="MH001" dstx="35" dsty="95"/>
+			<Jump srcx="31" srcy="41" dstid="MH020" dstx="97" dsty="98"/>
+			<Jump srcx="31" srcy="41" dstid="MH021" dstx="126" dsty="84"/>
+			<Jump srcx="31" srcy="41" dstid="MH022" dstx="98" dsty="163"/>
+			<Jump srcx="31" srcy="41" dstid="MH026" dstx="166" dsty="90"/>
+			<Jump srcx="31" srcy="41" dstid="MH012" dstx="35" dsty="95"/>
+		</Map>
+		<Map id="MH020" name="战士炼狱十层" minmapid="320" width="200" height="200">
+			<Jump srcx="19" srcy="69" dstid="MH023" dstx="93" dsty="136"/>
+			<Jump srcx="24" srcy="64" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH021" name="法师炼狱十层" minmapid="321" width="200" height="200">
+			<Jump srcx="157" srcy="188" dstid="MH024" dstx="83" dsty="155"/>
+			<Jump srcx="162" srcy="184" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH022" name="道士炼狱十层" minmapid="322" width="283" height="283">
+			<Jump srcx="185" srcy="132" dstid="MH025" dstx="265" dsty="156"/>
+			<Jump srcx="190" srcy="134" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH023" name="战士炼狱十一层" minmapid="323" width="290" height="400">
+			<Jump srcx="169" srcy="209" dstid="MH026" dstx="166" dsty="90"/>
+			<Jump srcx="166" srcy="213" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH024" name="法师炼狱十一层" minmapid="324" width="240" height="240">
+			<Jump srcx="188" srcy="137" dstid="MH026" dstx="166" dsty="90"/>
+			<Jump srcx="196" srcy="134" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH025" name="道士炼狱十一层" minmapid="325" width="312" height="312">
+			<Jump srcx="33" srcy="147" dstid="MH026" dstx="166" dsty="90"/>
+			<Jump srcx="30" srcy="152" dstid="MH019" dstx="35" dsty="43"/>
+		</Map>
+		<Map id="MH026" name="投石谷" minmapid="326" width="200" height="200">
+			<Npc name="仓库管理员" x="92" y="98" desc=""/>
+			<Npc name="流浪商人" x="94" y="105" desc=""/>
+			<Npc name="赏金猎人" x="94" y="100" desc="赏金等你拿"/>
+			<Jump srcx="167" srcy="90" dstid="MH001" dstx="35" dsty="95"/>
+			<Jump srcx="88" srcy="99" dstid="MH027" dstx="23" dsty="35"/>
+			<Jump srcx="88" srcy="99" dstid="MH028" dstx="35" dsty="249"/>
+			<Jump srcx="88" srcy="99" dstid="MH029" dstx="129" dsty="121"/>
+			<Jump srcx="88" srcy="99" dstid="MH036" dstx="65" dsty="50"/>
+			<Jump srcx="88" srcy="99" dstid="MH019" dstx="140" dsty="131"/>
+		</Map>
+		<Map id="MH027" name="战士炼狱十三层" minmapid="327" width="280" height="280">
+			<Jump srcx="243" srcy="50" dstid="MH030" dstx="73" dsty="121"/>
+			<Jump srcx="232" srcy="37" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH028" name="法师炼狱十三层" minmapid="328" width="280" height="280">
+			<Jump srcx="95" srcy="79" dstid="MH031" dstx="44" dsty="41"/>
+			<Jump srcx="98" srcy="74" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH029" name="道士炼狱十三层" minmapid="329" width="340" height="340">
+			<Jump srcx="252" srcy="165" dstid="MH032" dstx="91" dsty="126"/>
+			<Jump srcx="258" srcy="166" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH030" name="战士炼狱十四层" minmapid="330" width="227" height="227">
+			<Npc name="流浪商人" x="77" y="55" desc=""/>
+			<Jump srcx="82" srcy="55" dstid="MH033" dstx="98" dsty="40"/>
+			<Jump srcx="77" srcy="61" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH031" name="法师炼狱十四层" minmapid="331" width="160" height="160">
+			<Npc name="流浪商人" x="81" y="138" desc=""/>
+			<Jump srcx="84" srcy="143" dstid="MH034" dstx="130" dsty="75"/>
+			<Jump srcx="83" srcy="134" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH032" name="道士炼狱十四层" minmapid="332" width="198" height="220">
+			<Npc name="流浪商人" x="68" y="61" desc=""/>
+			<Jump srcx="65" srcy="68" dstid="MH035" dstx="193" dsty="164"/>
+			<Jump srcx="70" srcy="67" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH033" name="战士炼狱十五层" minmapid="333" width="200" height="210">
+			<Jump srcx="36" srcy="163" dstid="MH036" dstx="65" dsty="50"/>
+			<Jump srcx="36" srcy="154" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH034" name="法师炼狱十五层" minmapid="334" width="200" height="220">
+			<Jump srcx="125" srcy="164" dstid="MH036" dstx="65" dsty="50"/>
+			<Jump srcx="124" srcy="172" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH035" name="道士炼狱十五层" minmapid="335" width="250" height="250">
+			<Jump srcx="88" srcy="152" dstid="MH036" dstx="65" dsty="50"/>
+			<Jump srcx="93" srcy="150" dstid="MH026" dstx="91" dsty="102"/>
+		</Map>
+		<Map id="MH036" name="红池" minmapid="336" width="200" height="200">
+			<Npc name="仓库管理员" x="149" y="67" desc=""/>
+			<Npc name="流浪商人" x="144" y="63" desc=""/>
+			<Npc name="赏金猎人" x="147" y="64" desc="赏金等你拿"/>
+			<Jump srcx="66" srcy="50" dstid="MH001" dstx="35" dsty="95"/>
+			<Jump srcx="146" srcy="61" dstid="MH037" dstx="141" dsty="20"/>
+			<Jump srcx="146" srcy="61" dstid="MH038" dstx="225" dsty="134"/>
+			<Jump srcx="146" srcy="61" dstid="MH039" dstx="41" dsty="125"/>
+			<Jump srcx="146" srcy="61" dstid="MH026" dstx="166" dsty="90"/>
+		</Map>
+		<Map id="MH037" name="战士炼狱十七层" minmapid="337" width="283" height="283">
+			<Jump srcx="23" srcy="136" dstid="MH040" dstx="170" dsty="100"/>
+			<Jump srcx="29" srcy="139" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH038" name="法师炼狱十七层" minmapid="338" width="250" height="250">
+			<Jump srcx="39" srcy="120" dstid="MH041" dstx="240" dsty="241"/>
+			<Jump srcx="33" srcy="121" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH039" name="道士炼狱十七层" minmapid="339" width="283" height="283">
+			<Jump srcx="222" srcy="150" dstid="MH042" dstx="160" dsty="158"/>
+			<Jump srcx="219" srcy="154" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH040" name="战士炼狱十八层" minmapid="340" width="200" height="200">
+			<Npc name="流浪商人" x="37" y="98" desc=""/>
+			<Jump srcx="42" srcy="99" dstid="MH055" dstx="12" dsty="14"/>
+			<Jump srcx="36" srcy="102" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH041" name="法师炼狱十八层" minmapid="341" width="400" height="400">
+			<Npc name="流浪商人" x="154" y="158" desc=""/>
+			<Jump srcx="159" srcy="159" dstid="MH056" dstx="12" dsty="14"/>
+			<Jump srcx="160" srcy="152" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH042" name="道士炼狱十八层" minmapid="342" width="400" height="400">
+			<Npc name="流浪商人" x="240" y="245" desc=""/>
+			<Jump srcx="238" srcy="240" dstid="MH057" dstx="12" dsty="14"/>
+			<Jump srcx="245" srcy="239" dstid="MH036" dstx="150" dsty="62"/>
+		</Map>
+		<Map id="MH054" name="桃园" minmapid="354" width="250" height="250">
+			<Npc name="流浪商人" x="135" y="119" desc=""/>
+			<Jump srcx="129" srcy="142" dstid="NL010" dstx="97" dsty="90"/>
+			<Jump srcx="139" srcy="124" dstid="NL006" dstx="47" dsty="35"/>
+		</Map>
+		<Map id="MH055" name="战士炼狱沼泽" minmapid="110" width="430" height="350">
+			<Npc name="流浪商人" x="62" y="40" desc=""/>
+			<Npc name="仓库管理员" x="57" y="39" desc=""/>
+			<Npc name="赏金猎人" x="59" y="43" desc="赏金等你拿"/>
+			<Jump srcx="389" srcy="45" dstid="nl006" dstx="61" dsty="62"/>
+			<Jump srcx="389" srcy="45" dstid="MH036" dstx="65" dsty="50"/>
+		</Map>
+		<Map id="MH056" name="法师炼狱沼泽" minmapid="110" width="430" height="350">
+			<Npc name="流浪商人" x="62" y="40" desc=""/>
+			<Npc name="仓库管理员" x="57" y="39" desc=""/>
+			<Npc name="赏金猎人" x="59" y="43" desc="赏金等你拿"/>
+			<Jump srcx="389" srcy="45" dstid="nl006" dstx="61" dsty="62"/>
+			<Jump srcx="389" srcy="45" dstid="MH036" dstx="65" dsty="50"/>
+		</Map>
+		<Map id="MH057" name="道士炼狱沼泽" minmapid="110" width="430" height="350">
+			<Npc name="流浪商人" x="62" y="40" desc=""/>
+			<Npc name="仓库管理员" x="57" y="39" desc=""/>
+			<Npc name="赏金猎人" x="59" y="43" desc="赏金等你拿"/>
+			<Jump srcx="389" srcy="45" dstid="nl006" dstx="61" dsty="62"/>
+			<Jump srcx="389" srcy="45" dstid="MH036" dstx="65" dsty="50"/>
+		</Map>
+		<Map id="N001" name="地穴入口" minmapid="231" width="400" height="450">
+			<Jump srcx="101" srcy="375" dstid="N002" dstx="327" dsty="263"/>
+			<Jump srcx="185" srcy="274" dstid="10" dstx="62" dsty="41"/>
+		</Map>
+		<Map id="N002" name="环道" minmapid="232" width="400" height="400">
+			<Jump srcx="134" srcy="367" dstid="N003" dstx="63" dsty="115"/>
+			<Jump srcx="326" srcy="262" dstid="N001" dstx="100" dsty="374"/>
+			<Jump srcx="375" srcy="277" dstid="BT005" dstx="37" dsty="30"/>
+		</Map>
+		<Map id="N003" name="百虫穴" minmapid="233" width="400" height="400">
+			<Npc name="旅人" x="158" y="368" desc="去未知暗殿"/>
+			<Jump srcx="228" srcy="156" dstid="N004" dstx="210" dsty="485"/>
+			<Jump srcx="62" srcy="117" dstid="N002" dstx="133" dsty="368"/>
+		</Map>
+		<Map id="N004" name="盘蛇道" minmapid="234" width="500" height="550">
+			<Jump srcx="130" srcy="165" dstid="N004" dstx="98" dsty="199"/>
+			<Jump srcx="99" srcy="198" dstid="N004" dstx="131" dsty="164"/>
+			<Jump srcx="318" srcy="90" dstid="N004" dstx="307" dsty="108"/>
+			<Jump srcx="308" srcy="107" dstid="N004" dstx="319" dsty="89"/>
+			<Jump srcx="266" srcy="246" dstid="N004" dstx="271" dsty="266"/>
+			<Jump srcx="270" srcy="265" dstid="N004" dstx="265" dsty="245"/>
+			<Jump srcx="234" srcy="292" dstid="N005" dstx="332" dsty="333"/>
+			<Jump srcx="211" srcy="486" dstid="N003" dstx="229" dsty="157"/>
+		</Map>
+		<Map id="N005" name="蛇之巢" minmapid="235" width="400" height="400">
+			<Jump srcx="235" srcy="117" dstid="N006" dstx="292" dsty="96"/>
+			<Jump srcx="333" srcy="334" dstid="N004" dstx="235" dsty="293"/>
+		</Map>
+		<Map id="N006" name="蛇之骸" minmapid="236" width="416" height="432">
+			<Jump srcx="192" srcy="284" dstid="N007" dstx="288" dsty="122"/>
+			<Jump srcx="293" srcy="95" dstid="N005" dstx="236" dsty="116"/>
+		</Map>
+		<Map id="N007" name="蛇环阵" minmapid="237" width="400" height="400">
+			<Jump srcx="148" srcy="38" dstid="N007" dstx="103" dsty="85"/>
+			<Jump srcx="104" srcy="84" dstid="N007" dstx="149" dsty="37"/>
+			<Jump srcx="202" srcy="76" dstid="N007" dstx="267" dsty="132"/>
+			<Jump srcx="266" srcy="131" dstid="N007" dstx="201" dsty="75"/>
+			<Jump srcx="321" srcy="141" dstid="N007" dstx="301" dsty="138"/>
+			<Jump srcx="302" srcy="137" dstid="N007" dstx="322" dsty="140"/>
+			<Jump srcx="305" srcy="155" dstid="N007" dstx="294" dsty="184"/>
+			<Jump srcx="293" srcy="183" dstid="N007" dstx="304" dsty="154"/>
+			<Jump srcx="339" srcy="194" dstid="N007" dstx="346" dsty="256"/>
+			<Jump srcx="345" srcy="255" dstid="N007" dstx="338" dsty="193"/>
+			<Jump srcx="199" srcy="323" dstid="N007" dstx="170" dsty="333"/>
+			<Jump srcx="171" srcy="334" dstid="N007" dstx="200" dsty="324"/>
+			<Jump srcx="234" srcy="248" dstid="N007" dstx="200" dsty="279"/>
+			<Jump srcx="201" srcy="278" dstid="N007" dstx="235" dsty="247"/>
+			<Jump srcx="157" srcy="290" dstid="N007" dstx="170" dsty="257"/>
+			<Jump srcx="171" srcy="258" dstid="N007" dstx="158" dsty="291"/>
+			<Jump srcx="116" srcy="223" dstid="N007" dstx="92" dsty="230"/>
+			<Jump srcx="93" srcy="231" dstid="N007" dstx="117" dsty="224"/>
+			<Jump srcx="108" srcy="207" dstid="N007" dstx="87" dsty="200"/>
+			<Jump srcx="88" srcy="199" dstid="N007" dstx="109" dsty="206"/>
+			<Jump srcx="147" srcy="176" dstid="N007" dstx="121" dsty="163"/>
+			<Jump srcx="122" srcy="162" dstid="N007" dstx="148" dsty="175"/>
+			<Jump srcx="208" srcy="102" dstid="N007" dstx="174" dsty="121"/>
+			<Jump srcx="175" srcy="120" dstid="N007" dstx="209" dsty="101"/>
+			<Jump srcx="73" srcy="163" dstid="N008" dstx="42" dsty="114"/>
+			<Jump srcx="295" srcy="361" dstid="N008" dstx="354" dsty="459"/>
+			<Jump srcx="295" srcy="38" dstid="N008" dstx="386" dsty="35"/>
+			<Jump srcx="218" srcy="172" dstid="N008" dstx="150" dsty="348"/>
+			<Jump srcx="289" srcy="121" dstid="N006" dstx="193" dsty="283"/>
+		</Map>
+		<Map id="N008" name="五蛇殿" minmapid="238" width="500" height="508">
+			<Npc name="白蛇妖" x="68" y="168" desc="提示军机任务"/>
+			<Jump srcx="264" srcy="274" dstid="N008" dstx="288" dsty="272"/>
+			<Jump srcx="287" srcy="271" dstid="N008" dstx="263" dsty="273"/>
+			<Jump srcx="344" srcy="357" dstid="N008" dstx="264" dsty="220"/>
+			<Jump srcx="263" srcy="221" dstid="N008" dstx="343" dsty="358"/>
+			<Jump srcx="352" srcy="168" dstid="N008" dstx="217" dsty="245"/>
+			<Jump srcx="218" srcy="246" dstid="N008" dstx="353" dsty="169"/>
+			<Jump srcx="159" srcy="163" dstid="N008" dstx="238" dsty="300"/>
+			<Jump srcx="239" srcy="299" dstid="N008" dstx="160" dsty="162"/>
+			<Jump srcx="282" srcy="491" dstid="N007" dstx="270" dsty="141"/>
+			<Jump srcx="151" srcy="350" dstid="N007" dstx="219" dsty="173"/>
+		</Map>
+		<Map id="NB001" name="逆魔大殿" minmapid="369" width="100" height="100">
+			<Jump srcx="81" srcy="18" dstid="BT002" dstx="159" dsty="140"/>
+		</Map>
+		<Map id="NB002" name="真将军殿" minmapid="368" width="80" height="80">
+			<Jump srcx="12" srcy="19" dstid="BT004" dstx="66" dsty="137"/>
+		</Map>
+		<Map id="NB003" name="玄冰殿" minmapid="367" width="100" height="100">
+			<Jump srcx="68" srcy="27" dstid="BT006" dstx="28" dsty="148"/>
+		</Map>
+		<Map id="NL001" name="炼狱魔境一层" minmapid="176" width="400" height="400">
+			<Jump srcx="86" srcy="195" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="224" srcy="175" dstid="NL002" dstx="25" dsty="217"/>
+			<Jump srcx="121" srcy="95" dstid="NL003" dstx="52" dsty="57"/>
+		</Map>
+		<Map id="NL002" name="炼狱魔境二层" minmapid="142" width="420" height="420">
+			<Npc name="锁匠" x="354" y="216" desc=""/>
+			<Jump srcx="203" srcy="174" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="24" srcy="219" dstid="NL001" dstx="226" dsty="172"/>
+			<Jump srcx="244" srcy="263" dstid="NL003" dstx="197" dsty="47"/>
+		</Map>
+		<Map id="NL003" name="炼狱魔境三层" minmapid="218" width="250" height="250">
+			<Npc name="锁匠" x="193" y="179" desc=""/>
+			<Jump srcx="121" srcy="126" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="50" srcy="55" dstid="NL001" dstx="119" dsty="93"/>
+			<Jump srcx="199" srcy="45" dstid="NL002" dstx="242" dsty="261"/>
+			<Jump srcx="45" srcy="202" dstid="NL004" dstx="291" dsty="97"/>
+		</Map>
+		<Map id="NL004" name="炼狱魔境四层" minmapid="236" width="416" height="432">
+			<Npc name="锁匠" x="69" y="220" desc=""/>
+			<Jump srcx="347" srcy="285" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="293" srcy="95" dstid="NL003" dstx="48" dsty="201"/>
+			<Jump srcx="192" srcy="284" dstid="NL005" dstx="11" dsty="12"/>
+		</Map>
+		<Map id="NL005" name="魔境沼泽" minmapid="110" width="430" height="350">
+			<Npc name="锁匠" x="63" y="215" desc=""/>
+			<Jump srcx="54" srcy="41" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="10" srcy="12" dstid="NL004" dstx="194" dsty="283"/>
+			<Jump srcx="390" srcy="44" dstid="NL006" dstx="59" dsty="60"/>
+		</Map>
+		<Map id="NL006" name="炼狱魔境六层" minmapid="195" width="100" height="100">
+			<Npc name="仓库管理员" x="38" y="27" desc=""/>
+			<Npc name="流浪商人" x="33" y="26" desc=""/>
+			<Npc name="赏金猎人" x="35" y="26" desc="赏金等你拿"/>
+			<Npc name="封印守卫" x="37" y="26" desc=""/>
+			<Jump srcx="47" srcy="35" dstid="MH001" dstx="100" dsty="100"/>
+			<Jump srcx="27" srcy="29" dstid="NL007" dstx="76" dsty="76"/>
+			<Jump srcx="61" srcy="62" dstid="NL005" dstx="386" dsty="48"/>
+		</Map>
+		<Map id="NL007" name="炼狱魔境七层" minmapid="196" width="100" height="100">
+			<Npc name="锁匠" x="63" y="31" desc=""/>
+			<Jump srcx="76" srcy="72" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="13" srcy="15" dstid="NL008" dstx="160" dsty="210"/>
+		</Map>
+		<Map id="mh049" name="炼狱魔境八层" minmapid="349" width="250" height="250">
+			<Jump srcx="160" srcy="202" dstid="NL007" dstx="14" dsty="17"/>
+			<Jump srcx="111" srcy="111" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="132" srcy="40" dstid="NL009" dstx="146" dsty="259"/>
+		</Map>
+		<Map id="TT0091" name="幻境九重云霄" minmapid="9" width="400" height="400">
+		</Map>
+		<Map id="NL009" name="炼狱魔境九层" minmapid="9" width="400" height="400">
+			<Jump srcx="260" srcy="132" dstid="NL010" dstx="103" dsty="248"/>
+			<Jump srcx="139" srcy="250" dstid="NL008" dstx="132" dsty="40"/>
+			<Jump srcx="205" srcy="192" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="260" srcy="126" dstid="NL010" dstx="99" dsty="243"/>
+			<Jump srcx="260" srcy="126" dstid="NL010" dstx="99" dsty="243"/>
+			<Jump srcx="205" srcy="192" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="139" srcy="250" dstid="NL008" dstx="132" dsty="40"/>
+			<Jump srcx="260" srcy="132" dstid="NL010" dstx="103" dsty="248"/>
+			<Jump srcx="261" srcy="132" dstid="NL010" dstx="103" dsty="248"/>
+		</Map>
+		<Map id="NL010" name="炼狱魔境十层" minmapid="26" width="400" height="420">
+			<Npc name="猛魔统领" x="202" y="42" desc="提示军机任务"/>
+			<Jump srcx="360" srcy="183" dstid="NL010" dstx="338" dsty="86"/>
+			<Jump srcx="339" srcy="84" dstid="NL010" dstx="359" dsty="184"/>
+			<Jump srcx="94" srcy="94" dstid="MH054" dstx="129" dsty="142"/>
+			<Jump srcx="107" srcy="243" dstid="NL009" dstx="263" dsty="129"/>
+			<Jump srcx="107" srcy="181" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="107" srcy="181" dstid="NL006" dstx="47" dsty="35"/>
+			<Jump srcx="107" srcy="243" dstid="NL009" dstx="263" dsty="129"/>
+			<Jump srcx="94" srcy="94" dstid="MH054" dstx="129" dsty="142"/>
+			<Jump srcx="339" srcy="84" dstid="NL010" dstx="359" dsty="184"/>
+			<Jump srcx="339" srcy="85" dstid="NL010" dstx="359" dsty="184"/>
+			<Jump srcx="360" srcy="183" dstid="NL010" dstx="338" dsty="86"/>
+			<Jump srcx="360" srcy="184" dstid="NL010" dstx="338" dsty="86"/>
+		</Map>
+		<Map id="NL011" name="炼狱魔城一层" minmapid="24" width="260" height="260">
+			<Npc name="传送门" x="192" y="31" desc=""/>
+		</Map>
+		<Map id="NL012" name="炼狱魔城一层" minmapid="24" width="260" height="260">
+			<Npc name="传送门" x="192" y="31" desc=""/>
+		</Map>
+		<Map id="NL013" name="炼狱魔城一层" minmapid="24" width="260" height="260">
+			<Npc name="传送门" x="192" y="31" desc=""/>
+		</Map>
+		<Map id="NL014" name="炼狱魔城二层" minmapid="27" width="300" height="300">
+			<Npc name="传送门" x="232" y="43" desc=""/>
+		</Map>
+		<Map id="NL015" name="炼狱魔城二层" minmapid="27" width="300" height="300">
+			<Npc name="传送门" x="232" y="43" desc=""/>
+		</Map>
+		<Map id="NL016" name="炼狱魔城二层" minmapid="27" width="300" height="300">
+			<Npc name="传送门" x="232" y="43" desc=""/>
+		</Map>
+		<Map id="NL017" name="炼狱魔城三层" minmapid="23" width="400" height="400">
+			<Npc name="传送门" x="322" y="79" desc=""/>
+		</Map>
+		<Map id="NL018" name="炼狱魔城三层" minmapid="23" width="400" height="400">
+			<Npc name="传送门" x="322" y="79" desc=""/>
+		</Map>
+		<Map id="NL019" name="炼狱魔城三层" minmapid="23" width="400" height="400">
+			<Npc name="传送门" x="322" y="79" desc=""/>
+		</Map>
+		<Map id="NL020" name="通天迷阵" minmapid="189" width="200" height="200">
+			<Jump srcx="110" srcy="111" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="112" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="124" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="125" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="124" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="125" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="111" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="112" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="89" srcy="79" dstid="NL020" dstx="121" dsty="114"/>
+			<Jump srcx="89" srcy="80" dstid="NL020" dstx="121" dsty="114"/>
+			<Jump srcx="78" srcy="90" dstid="NL021" dstx="124" dsty="78"/>
+			<Jump srcx="78" srcy="91" dstid="NL021" dstx="124" dsty="78"/>
+		</Map>
+		<Map id="NL021" name="通天迷阵" minmapid="190" width="200" height="200">
+			<Jump srcx="126" srcy="75" dstid="NL020" dstx="76" dsty="93"/>
+			<Jump srcx="126" srcy="76" dstid="NL020" dstx="76" dsty="93"/>
+			<Jump srcx="113" srcy="88" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="114" srcy="88" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="126" srcy="88" dstid="NL020" dstx="112" dsty="114"/>
+			<Jump srcx="126" srcy="89" dstid="NL020" dstx="112" dsty="114"/>
+			<Jump srcx="113" srcy="75" dstid="NL021" dstx="77" dsty="103"/>
+			<Jump srcx="113" srcy="76" dstid="NL021" dstx="77" dsty="103"/>
+			<Jump srcx="79" srcy="105" dstid="NL021" dstx="115" dsty="78"/>
+			<Jump srcx="79" srcy="106" dstid="NL021" dstx="115" dsty="78"/>
+			<Jump srcx="90" srcy="116" dstid="NL022" dstx="89" dsty="85"/>
+			<Jump srcx="90" srcy="117" dstid="NL022" dstx="89" dsty="85"/>
+		</Map>
+		<Map id="NL022" name="通天迷阵" minmapid="191" width="200" height="200">
+			<Jump srcx="91" srcy="87" dstid="NL021" dstx="92" dsty="119"/>
+			<Jump srcx="91" srcy="88" dstid="NL021" dstx="92" dsty="119"/>
+			<Jump srcx="78" srcy="74" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="78" srcy="75" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="91" srcy="74" dstid="NL021" dstx="115" dsty="86"/>
+			<Jump srcx="91" srcy="75" dstid="NL021" dstx="115" dsty="86"/>
+			<Jump srcx="78" srcy="87" dstid="NL022" dstx="102" dsty="124"/>
+			<Jump srcx="79" srcy="87" dstid="NL022" dstx="102" dsty="124"/>
+			<Jump srcx="104" srcy="121" dstid="NL022" dstx="80" dsty="85"/>
+			<Jump srcx="104" srcy="122" dstid="NL022" dstx="80" dsty="85"/>
+			<Jump srcx="115" srcy="110" dstid="NL023" dstx="86" dsty="112"/>
+			<Jump srcx="115" srcy="111" dstid="NL023" dstx="86" dsty="112"/>
+		</Map>
+		<Map id="NL023" name="通天迷阵" minmapid="192" width="200" height="200">
+			<Jump srcx="88" srcy="109" dstid="NL022" dstx="117" dsty="108"/>
+			<Jump srcx="88" srcy="110" dstid="NL022" dstx="117" dsty="108"/>
+			<Jump srcx="75" srcy="109" dstid="NL022" dstx="80" dsty="77"/>
+			<Jump srcx="75" srcy="110" dstid="NL022" dstx="80" dsty="77"/>
+			<Jump srcx="75" srcy="122" dstid="NL020" dstx="112" dsty="122"/>
+			<Jump srcx="76" srcy="122" dstid="NL020" dstx="112" dsty="122"/>
+			<Jump srcx="88" srcy="122" dstid="NL023" dstx="118" dsty="98"/>
+			<Jump srcx="88" srcy="123" dstid="NL023" dstx="118" dsty="98"/>
+			<Jump srcx="116" srcy="95" dstid="NL023" dstx="86" dsty="120"/>
+			<Jump srcx="116" srcy="96" dstid="NL023" dstx="86" dsty="120"/>
+			<Jump srcx="105" srcy="84" dstid="NL024" dstx="117" dsty="117"/>
+			<Jump srcx="105" srcy="85" dstid="NL024" dstx="117" dsty="117"/>
+		</Map>
+		<Map id="NL024" name="通天迷阵" minmapid="189" width="200" height="200">
+			<Jump srcx="110" srcy="111" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="112" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="124" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="125" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="124" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="125" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="111" dstid="NL024" dstx="91" dsty="77"/>
+			<Jump srcx="123" srcy="112" dstid="NL024" dstx="91" dsty="77"/>
+			<Jump srcx="89" srcy="79" dstid="NL024" dstx="121" dsty="114"/>
+			<Jump srcx="89" srcy="80" dstid="NL024" dstx="121" dsty="114"/>
+			<Jump srcx="78" srcy="90" dstid="NL025" dstx="115" dsty="86"/>
+			<Jump srcx="78" srcy="91" dstid="NL025" dstx="115" dsty="86"/>
+		</Map>
+		<Map id="NL025" name="通天迷阵" minmapid="190" width="200" height="200">
+			<Jump srcx="113" srcy="88" dstid="NL024" dstx="76" dsty="93"/>
+			<Jump srcx="114" srcy="88" dstid="NL024" dstx="76" dsty="93"/>
+			<Jump srcx="126" srcy="75" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="126" srcy="76" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="113" srcy="75" dstid="NL024" dstx="112" dsty="114"/>
+			<Jump srcx="113" srcy="76" dstid="NL024" dstx="112" dsty="114"/>
+			<Jump srcx="126" srcy="88" dstid="NL025" dstx="92" dsty="119"/>
+			<Jump srcx="126" srcy="89" dstid="NL025" dstx="92" dsty="119"/>
+			<Jump srcx="90" srcy="116" dstid="NL025" dstx="125" dsty="88"/>
+			<Jump srcx="90" srcy="117" dstid="NL025" dstx="125" dsty="88"/>
+			<Jump srcx="79" srcy="105" dstid="NL026" dstx="79" dsty="76"/>
+			<Jump srcx="79" srcy="106" dstid="NL026" dstx="79" dsty="76"/>
+		</Map>
+		<Map id="NL026" name="通天迷阵" minmapid="191" width="200" height="200">
+			<Jump srcx="78" srcy="74" dstid="NL025" dstx="77" dsty="103"/>
+			<Jump srcx="78" srcy="75" dstid="NL025" dstx="77" dsty="103"/>
+			<Jump srcx="90" srcy="88" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="91" srcy="88" dstid="NL020" dstx="91" dsty="77"/>
+			<Jump srcx="91" srcy="74" dstid="NL025" dstx="115" dsty="86"/>
+			<Jump srcx="91" srcy="75" dstid="NL025" dstx="115" dsty="86"/>
+			<Jump srcx="78" srcy="87" dstid="NL026" dstx="102" dsty="124"/>
+			<Jump srcx="79" srcy="87" dstid="NL026" dstx="102" dsty="124"/>
+			<Jump srcx="104" srcy="121" dstid="NL026" dstx="80" dsty="85"/>
+			<Jump srcx="104" srcy="122" dstid="NL026" dstx="80" dsty="85"/>
+			<Jump srcx="115" srcy="110" dstid="NL027" dstx="86" dsty="112"/>
+			<Jump srcx="115" srcy="111" dstid="NL027" dstx="86" dsty="112"/>
+		</Map>
+		<Map id="NL027" name="通天迷阵" minmapid="192" width="200" height="200">
+			<Jump srcx="88" srcy="109" dstid="NL026" dstx="117" dsty="108"/>
+			<Jump srcx="88" srcy="110" dstid="NL026" dstx="117" dsty="108"/>
+			<Jump srcx="88" srcy="122" dstid="NL026" dstx="80" dsty="77"/>
+			<Jump srcx="88" srcy="123" dstid="NL026" dstx="80" dsty="77"/>
+			<Jump srcx="75" srcy="122" dstid="NL024" dstx="112" dsty="122"/>
+			<Jump srcx="76" srcy="122" dstid="NL024" dstx="112" dsty="122"/>
+			<Jump srcx="75" srcy="109" dstid="NL027" dstx="104" dsty="83"/>
+			<Jump srcx="75" srcy="110" dstid="NL027" dstx="104" dsty="83"/>
+			<Jump srcx="105" srcy="84" dstid="NL027" dstx="76" dsty="111"/>
+			<Jump srcx="105" srcy="85" dstid="NL027" dstx="76" dsty="111"/>
+			<Jump srcx="116" srcy="95" dstid="AS001" dstx="33" dsty="120"/>
+			<Jump srcx="116" srcy="96" dstid="AS001" dstx="33" dsty="120"/>
+		</Map>
+		<Map id="NTG1100" name="恶魔城通道" minmapid="506" width="60" height="80">
+			<Npc name="牢头" x="39" y="33" desc=""/>
+			<Npc name="流浪商人" x="24" y="47" desc=""/>
+		</Map>
+		<Map id="RTG1" name="天关" minmapid="501" width="100" height="200">
+			<Npc name="天界小贩" x="52" y="100" desc=""/>
+			<Npc name="天碑" x="49" y="97" desc=""/>
+			<Npc name="天关之门" x="27" y="94" desc=""/>
+			<Npc name="天关之门" x="31" y="98" desc=""/>
+			<Npc name="天关之门" x="33" y="104" desc=""/>
+			<Npc name="天关之门" x="37" y="108" desc=""/>
+			<Npc name="天关之门" x="25" y="104" desc=""/>
+		</Map>
+		<Map id="RTG2" name="天关" minmapid="502" width="100" height="140">
+			<Npc name="天界小贩" x="50" y="89" desc=""/>
+			<Npc name="天碑" x="48" y="87" desc=""/>
+			<Npc name="天关之门" x="55" y="71" desc=""/>
+			<Npc name="天关之门" x="59" y="75" desc=""/>
+			<Npc name="天关之门" x="63" y="75" desc=""/>
+			<Npc name="天关之门" x="61" y="71" desc=""/>
+			<Npc name="天关之门" x="57" y="67" desc=""/>
+		</Map>
+		<Map id="RTG3" name="天关" minmapid="503" width="100" height="100">
+			<Npc name="天界小贩" x="42" y="31" desc=""/>
+			<Npc name="天碑" x="46" y="29" desc=""/>
+			<Npc name="天关之门" x="29" y="46" desc=""/>
+			<Npc name="天关之门" x="31" y="38" desc=""/>
+			<Npc name="天关之门" x="28" y="26" desc=""/>
+			<Npc name="天关之门" x="33" y="19" desc=""/>
+			<Npc name="天关之门" x="36" y="26" desc=""/>
+		</Map>
+		<Map id="RTG4" name="天关" minmapid="504" width="100" height="100">
+			<Npc name="天界小贩" x="58" y="49" desc=""/>
+			<Npc name="天碑" x="61" y="39" desc=""/>
+			<Npc name="天关之门" x="60" y="32" desc=""/>
+			<Npc name="天关之门" x="64" y="35" desc=""/>
+			<Npc name="天关之门" x="68" y="39" desc=""/>
+			<Npc name="天关之门" x="64" y="41" desc=""/>
+			<Npc name="天关之门" x="54" y="35" desc=""/>
+		</Map>
+		<Map id="RTG5" name="天关" minmapid="504" width="120" height="140">
+			<Npc name="天界小贩" x="75" y="53" desc=""/>
+			<Npc name="天碑" x="70" y="48" desc=""/>
+			<Npc name="天关之门" x="67" y="40" desc=""/>
+			<Npc name="天关之门" x="71" y="46" desc=""/>
+			<Npc name="天关之门" x="76" y="50" desc=""/>
+			<Npc name="天关之门" x="80" y="54" desc=""/>
+			<Npc name="天关之门" x="84" y="58" desc=""/>
+		</Map>
+		<Map id="S011" name="逆魔古刹一层" minmapid="181" width="500" height="500">
+			<Jump srcx="155" srcy="155" dstid="S012" dstx="58" dsty="51"/>
+			<Jump srcx="277" srcy="277" dstid="3" dstx="223" dsty="179"/>
+		</Map>
+		<Map id="S012" name="讲经堂" minmapid="182" width="100" height="100">
+			<Jump srcx="40" srcy="31" dstid="S013" dstx="259" dsty="265"/>
+			<Jump srcx="59" srcy="53" dstid="S011" dstx="157" dsty="157"/>
+		</Map>
+		<Map id="S013" name="逆魔古刹二层" minmapid="183" width="500" height="500">
+			<Jump srcx="367" srcy="374" dstid="S015" dstx="42" dsty="34"/>
+			<Jump srcx="131" srcy="138" dstid="S014" dstx="58" dsty="51"/>
+			<Jump srcx="261" srcy="268" dstid="S012" dstx="42" dsty="34"/>
+			<Jump srcx="424" srcy="282" dstid="BT001" dstx="34" dsty="60"/>
+		</Map>
+		<Map id="S014" name="降龙殿" minmapid="184" width="100" height="100">
+			<Jump srcx="40" srcy="31" dstid="S016" dstx="366" dsty="372"/>
+			<Jump srcx="59" srcy="53" dstid="S013" dstx="133" dsty="140"/>
+		</Map>
+		<Map id="S015" name="伏虎殿" minmapid="185" width="100" height="100">
+			<Jump srcx="59" srcy="53" dstid="S016" dstx="133" dsty="140"/>
+			<Jump srcx="40" srcy="31" dstid="S013" dstx="366" dsty="372"/>
+		</Map>
+		<Map id="S016" name="逆魔古刹三层" minmapid="186" width="500" height="500">
+			<Npc name="逆魔弓箭手" x="280" y="220" desc="提示军机任务"/>
+			<Jump srcx="236" srcy="243" dstid="S017" dstx="58" dsty="51"/>
+			<Jump srcx="131" srcy="138" dstid="S015" dstx="58" dsty="51"/>
+			<Jump srcx="367" srcy="374" dstid="S014" dstx="42" dsty="34"/>
+		</Map>
+		<Map id="S017" name="修真殿" minmapid="187" width="100" height="100">
+			<Jump srcx="40" srcy="31" dstid="S018" dstx="161" dsty="292"/>
+			<Jump srcx="59" srcy="53" dstid="S016" dstx="238" dsty="245"/>
+		</Map>
+		<Map id="S018" name="逆魔古刹四层" minmapid="188" width="400" height="400">
+			<Jump srcx="235" srcy="103" dstid="S019" dstx="121" dsty="122"/>
+			<Jump srcx="162" srcy="295" dstid="S017" dstx="42" dsty="34"/>
+		</Map>
+		<Map id="S019" name="太极阵" minmapid="189" width="200" height="200">
+			<Jump srcx="78" srcy="90" dstid="S020" dstx="124" dsty="78"/>
+			<Jump srcx="89" srcy="79" dstid="S019" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="111" dstid="S019" dstx="91" dsty="77"/>
+			<Jump srcx="110" srcy="124" dstid="S018" dstx="237" dsty="106"/>
+			<Jump srcx="110" srcy="111" dstid="S018" dstx="237" dsty="106"/>
+			<Jump srcx="123" srcy="124" dstid="S018" dstx="237" dsty="106"/>
+		</Map>
+		<Map id="S020" name="太极阵" minmapid="190" width="200" height="200">
+			<Jump srcx="90" srcy="116" dstid="S021" dstx="89" dsty="85"/>
+			<Jump srcx="79" srcy="105" dstid="S020" dstx="115" dsty="78"/>
+			<Jump srcx="113" srcy="75" dstid="S020" dstx="77" dsty="103"/>
+			<Jump srcx="126" srcy="88" dstid="S019" dstx="112" dsty="114"/>
+			<Jump srcx="113" srcy="88" dstid="S018" dstx="237" dsty="106"/>
+			<Jump srcx="126" srcy="75" dstid="S019" dstx="76" dsty="93"/>
+		</Map>
+		<Map id="S021" name="太极阵" minmapid="191" width="200" height="200">
+			<Jump srcx="115" srcy="110" dstid="S022" dstx="86" dsty="112"/>
+			<Jump srcx="104" srcy="121" dstid="S021" dstx="80" dsty="85"/>
+			<Jump srcx="78" srcy="87" dstid="S021" dstx="102" dsty="124"/>
+			<Jump srcx="91" srcy="74" dstid="S020" dstx="115" dsty="86"/>
+			<Jump srcx="78" srcy="74" dstid="S018" dstx="237" dsty="106"/>
+			<Jump srcx="91" srcy="87" dstid="S020" dstx="92" dsty="119"/>
+		</Map>
+		<Map id="S022" name="太极阵" minmapid="192" width="200" height="200">
+			<Jump srcx="105" srcy="84" dstid="S025" dstx="28" dsty="30"/>
+			<Jump srcx="116" srcy="95" dstid="S022" dstx="86" dsty="120"/>
+			<Jump srcx="88" srcy="122" dstid="S022" dstx="118" dsty="98"/>
+			<Jump srcx="75" srcy="122" dstid="S019" dstx="112" dsty="122"/>
+			<Jump srcx="75" srcy="109" dstid="S021" dstx="80" dsty="77"/>
+			<Jump srcx="88" srcy="109" dstid="S021" dstx="117" dsty="108"/>
+		</Map>
+		<Map id="S023" name="逆魔古刹六层" minmapid="193" width="100" height="100">
+			<Jump srcx="73" srcy="79" dstid="S024" dstx="20" dsty="26"/>
+			<Jump srcx="18" srcy="23" dstid="S025" dstx="59" dsty="60"/>
+		</Map>
+		<Map id="S024" name="逆魔古刹六层" minmapid="194" width="100" height="100">
+			<Jump srcx="73" srcy="79" dstid="S026" dstx="15" dsty="17"/>
+			<Jump srcx="18" srcy="23" dstid="S023" dstx="72" dsty="77"/>
+		</Map>
+		<Map id="S025" name="封魔堂" minmapid="195" width="100" height="100">
+			<Jump srcx="60" srcy="62" dstid="S023" dstx="20" dsty="26"/>
+			<Jump srcx="26" srcy="27" dstid="S022" dstx="103" dsty="82"/>
+		</Map>
+		<Map id="S0261" name="幻境逆魔大殿" minmapid="196" width="100" height="100">
+		</Map>
+		<Map id="S026" name="逆魔大殿" minmapid="196" width="100" height="100">
+			<Jump srcx="13" srcy="15" dstid="S024" dstx="72" dsty="77"/>
+		</Map>
+		<Map id="SH000" name="皇宫" minmapid="868" width="50" height="76">
+			<Npc name="国王" x="30" y="34" desc="行会的事问他"/>
+			<Npc name="史官" x="22" y="39" desc="查看行会攻城"/>
+			<Jump srcx="13" srcy="55" dstid="0" dstx="484" dsty="144"/>
+		</Map>
+		<Map id="SH001" name="仓库" minmapid="0" width="18" height="24">
+			<Npc name="客栈老板" x="9" y="12" desc="存取捆扎物品"/>
+			<Jump srcx="6" srcy="19" dstid="0" dstx="372" dsty="210"/>
+			<Jump srcx="8" srcy="2" dstid="SH004" dstx="6" dsty="8"/>
+		</Map>
+		<Map id="SH002" name="首饰店" minmapid="0" width="20" height="28">
+			<Npc name="首饰店掌柜" x="13" y="15" desc="买卖修理首饰"/>
+			<Jump srcx="8" srcy="23" dstid="0" dstx="473" dsty="251"/>
+		</Map>
+		<Map id="SH003" name="武馆" minmapid="0" width="30" height="40">
+			<Npc name="武馆教头" x="19" y="19" desc="拜师修勋章等"/>
+			<Npc name="英雄擂台使者" x="11" y="29" desc="摆擂挑战找我"/>
+			<Jump srcx="18" srcy="31" dstid="0" dstx="549" dsty="199"/>
+		</Map>
+		<Map id="SH004" name="仓库二楼" minmapid="0" width="16" height="24">
+			<Npc name="仓库保管员" x="7" y="1" desc="存取捆扎物品"/>
+			<Jump srcx="5" srcy="9" dstid="SH001" dstx="7" dsty="12"/>
+		</Map>
+		<Map id="SH005" name="婚房" minmapid="0" width="18" height="28">
+			<Jump srcx="5" srcy="20" dstid="0" dstx="380" dsty="259"/>
+		</Map>
+		<Map id="SH006" name="练功房" minmapid="0" width="22" height="28"/>
+		<Map id="SH007" name="杂货店" minmapid="0" width="18" height="24">
+			<Jump srcx="12" srcy="17" dstid="0" dstx="466" dsty="208"/>
+			<Jump srcx="11" srcy="18" dstid="0" dstx="466" dsty="208"/>
+		</Map>
+		<Map id="SH008" name="服装店" minmapid="0" width="18" height="24">
+			<Npc name="服装店掌柜" x="11" y="12" desc="买卖修理服装"/>
+			<Jump srcx="4" srcy="14" dstid="0" dstx="417" dsty="206"/>
+		</Map>
+		<Map id="SH009" name="肉店" minmapid="0" width="14" height="20">
+			<Npc name="肉店老板" x="4" y="13" desc="收购肉类"/>
+			<Jump srcx="10" srcy="14" dstid="0" dstx="462" dsty="260"/>
+		</Map>
+		<Map id="SH010" name="书店" minmapid="0" width="18" height="20">
+			<Npc name="书店老板" x="10" y="9" desc="买卖并查询书籍"/>
+			<Jump srcx="6" srcy="15" dstid="0" dstx="497" dsty="246"/>
+		</Map>
+		<Map id="SH011" name="药店" minmapid="0" width="16" height="20">
+			<Npc name="炼药师" x="5" y="11" desc="炼药制偶"/>
+			<Jump srcx="9" srcy="17" dstid="0" dstx="494" dsty="274"/>
+		</Map>
+		<Map id="SH012" name="偏殿" minmapid="0" width="20" height="28">
+			<Jump srcx="14" srcy="19" dstid="0" dstx="475" dsty="129"/>
+		</Map>
+		<Map id="SH013" name="偏殿" minmapid="0" width="20" height="28">
+			<Jump srcx="6" srcy="19" dstid="0" dstx="488" dsty="175"/>
+		</Map>
+		<Map id="SH015" name="药店" minmapid="0" width="18" height="24">
+			<Npc name="炼药师" x="6" y="14" desc="炼药制偶"/>
+			<Npc name="药店老板" x="10" y="9" desc="买卖药品"/>
+			<Jump srcx="8" srcy="21" dstid="3" dstx="148" dsty="334"/>
+			<Jump srcx="16" srcy="13" dstid="3" dstx="148" dsty="334"/>
+		</Map>
+		<Map id="SH016" name="服装店" minmapid="0" width="18" height="24">
+			<Npc name="服装店老板娘" x="8" y="12" desc="买卖修理服装"/>
+			<Jump srcx="8" srcy="19" dstid="3" dstx="176" dsty="366"/>
+			<Jump srcx="14" srcy="13" dstid="3" dstx="176" dsty="366"/>
+		</Map>
+		<Map id="SH017" name="武器店" minmapid="0" width="20" height="28">
+			<Npc name="铸造师" x="8" y="13" desc="升级武器"/>
+			<Npc name="铁匠" x="9" y="12" desc="买卖修理武器"/>
+			<Jump srcx="9" srcy="24" dstid="3" dstx="126" dsty="330"/>
+			<Jump srcx="17" srcy="15" dstid="3" dstx="126" dsty="330"/>
+		</Map>
+		<Map id="SH018" name="监狱" minmapid="0" width="12" height="20">
+			<Jump srcx="5" srcy="17" dstid="3" dstx="140" dsty="374"/>
+		</Map>
+		<Map id="SH019" name="首饰店" minmapid="0" width="18" height="24">
+			<Npc name="珠宝店老板" x="8" y="10" desc="买卖修理首饰"/>
+			<Jump srcx="15" srcy="12" dstid="3" dstx="113" dsty="396"/>
+			<Jump srcx="9" srcy="18" dstid="3" dstx="113" dsty="396"/>
+		</Map>
+		<Map id="SH020" name="仓库" minmapid="0" width="14" height="20">
+			<Npc name="保管员" x="4" y="12" desc="存取捆扎物品"/>
+			<Jump srcx="11" srcy="14" dstid="3" dstx="107" dsty="313"/>
+		</Map>
+		<Map id="SH021" name="议事厅" minmapid="0" width="28" height="36">
+			<Npc name="城堡官员" x="11" y="14" desc="砂城管理"/>
+			<Npc name="沙城守护神" x="16" y="13" desc="沙城奖励"/>
+			<Jump srcx="19" srcy="26" dstid="3" dstx="144" dsty="157"/>
+		</Map>
+		<Map id="SH022" name="仓库" minmapid="0" width="18" height="24">
+			<Npc name="客栈老板" x="11" y="13" desc="存取捆扎物品"/>
+			<Jump srcx="7" srcy="16" dstid="2" dstx="198" dsty="487"/>
+			<Jump srcx="15" srcy="10" dstid="SH023" dstx="16" dsty="14"/>
+		</Map>
+		<Map id="SH023" name="仓库二楼" minmapid="0" width="18" height="24">
+			<Npc name="保管员" x="8" y="14" desc="存取捆扎物品"/>
+			<Jump srcx="14" srcy="15" dstid="SH022" dstx="11" dsty="20"/>
+		</Map>
+		<Map id="SH024" name="服装店" minmapid="0" width="18" height="24">
+			<Npc name="服装店老板娘" x="7" y="13" desc="买卖修理服装"/>
+			<Jump srcx="5" srcy="20" dstid="2" dstx="196" dsty="515"/>
+			<Jump srcx="10" srcy="19" dstid="2" dstx="203" dsty="511"/>
+		</Map>
+		<Map id="SH025" name="首饰店" minmapid="0" width="22" height="24">
+			<Npc name="珠宝店掌柜" x="4" y="11" desc="买卖修理首饰"/>
+			<Jump srcx="7" srcy="18" dstid="2" dstx="141" dsty="481"/>
+			<Jump srcx="18" srcy="14" dstid="2" dstx="150" dsty="480"/>
+		</Map>
+		<Map id="SH026" name="书店" minmapid="0" width="14" height="20">
+			<Npc name="书店老板" x="9" y="15" desc="买卖并查询书籍"/>
+			<Jump srcx="2" srcy="12" dstid="2" dstx="233" dsty="428"/>
+		</Map>
+		<Map id="SH027" name="武器店" minmapid="0" width="16" height="20">
+			<Npc name="铁匠" x="5" y="8" desc="买卖修理武器"/>
+			<Jump srcx="6" srcy="15" dstid="2" dstx="257" dsty="447"/>
+		</Map>
+		<Map id="SH030" name="姻缘神殿" minmapid="0" width="18" height="28">
+			<Jump srcx="5" srcy="20" dstid="L001" dstx="64" dsty="40"/>
+		</Map>
+		<Map id="SH031" name="服装店" minmapid="0" width="16" height="20">
+			<Npc name="染房老板" x="6" y="8" desc="给你的衣服染色"/>
+			<Jump srcx="7" srcy="17" dstid="4" dstx="305" dsty="184"/>
+			<Jump srcx="13" srcy="11" dstid="4" dstx="308" dsty="180"/>
+		</Map>
+		<Map id="SH032" name="肉店" minmapid="0" width="12" height="20">
+			<Npc name="屠夫" x="8" y="12" desc="收购肉类"/>
+			<Jump srcx="3" srcy="13" dstid="4" dstx="368" dsty="177"/>
+		</Map>
+		<Map id="SH033" name="首饰店" minmapid="0" width="16" height="24">
+			<Npc name="珠宝店老板" x="6" y="11" desc="买卖修理首饰"/>
+			<Jump srcx="10" srcy="16" dstid="4" dstx="352" dsty="197"/>
+		</Map>
+		<Map id="SH034" name="书店" minmapid="0" width="16" height="24">
+			<Npc name="书店老板" x="6" y="12" desc="买卖并查询书籍"/>
+			<Jump srcx="11" srcy="17" dstid="4" dstx="340" dsty="205"/>
+		</Map>
+		<Map id="SH035" name="武器店" minmapid="0" width="12" height="16">
+			<Npc name="武器店老板" x="5" y="8" desc="买卖修理武器"/>
+			<Jump srcx="7" srcy="11" dstid="4" dstx="336" dsty="151"/>
+		</Map>
+		<Map id="SH036" name="药店" minmapid="0" width="10" height="16">
+			<Npc name="炼药师" x="2" y="10" desc="炼药制偶"/>
+			<Jump srcx="6" srcy="11" dstid="4" dstx="361" dsty="186"/>
+		</Map>
+		<Map id="SH037" name="道观大殿" minmapid="0" width="22" height="28">
+			<Npc name="玄玄老人" x="17" y="13" desc="鉴定及卖卷轴"/>
+			<Npc name="紫金神炉" x="16" y="15" desc="宝石合成凝练"/>
+			<Jump srcx="5" srcy="23" dstid="4" dstx="368" dsty="136"/>
+		</Map>
+		<Map id="SH038" name="大殿" minmapid="0" width="24" height="32">
+			<Npc name="玄玄老人" x="13" y="18" desc="鉴定及卖卷轴"/>
+			<Npc name="紫金神炉" x="14" y="19" desc="宝石合成凝练"/>
+			<Jump srcx="16" srcy="25" dstid="5" dstx="409" dsty="69"/>
+			<Jump srcx="8" srcy="26" dstid="5" dstx="403" dsty="61"/>
+			<Jump srcx="21" srcy="13" dstid="5" dstx="411" dsty="52"/>
+		</Map>
+		<Map id="SH039" name="肉店" minmapid="0" width="12" height="20">
+			<Npc name="屠夫" x="8" y="11" desc="收购肉类"/>
+			<Jump srcx="4" srcy="17" dstid="5" dstx="432" dsty="85"/>
+		</Map>
+		<Map id="SH040" name="武器店" minmapid="0" width="18" height="20">
+			<Npc name="武器店老板" x="7" y="9" desc="买卖修理武器"/>
+			<Jump srcx="12" srcy="18" dstid="5" dstx="467" dsty="158"/>
+			<Jump srcx="15" srcy="15" dstid="5" dstx="470" dsty="156"/>
+		</Map>
+		<Map id="SH041" name="仓库" minmapid="0" width="18" height="24">
+			<Npc name="保管员" x="9" y="15" desc="存取捆扎物品"/>
+			<Jump srcx="13" srcy="20" dstid="5" dstx="392" dsty="95"/>
+		</Map>
+		<Map id="SH042" name="书店" minmapid="0" width="16" height="24">
+			<Npc name="书店老板" x="8" y="13" desc="买卖并查询书籍"/>
+			<Jump srcx="5" srcy="20" dstid="5" dstx="435" dsty="55"/>
+		</Map>
+		<Map id="SH043" name="首饰店" minmapid="0" width="22" height="32">
+			<Npc name="珠宝店老板" x="10" y="16" desc="买卖修理首饰"/>
+			<Jump srcx="14" srcy="27" dstid="5" dstx="434" dsty="149"/>
+		</Map>
+		<Map id="SH044" name="服装店" minmapid="0" width="18" height="24">
+			<Npc name="服装店老板" x="7" y="12" desc="买卖修理服装"/>
+			<Jump srcx="14" srcy="19" dstid="5" dstx="441" dsty="117"/>
+		</Map>
+		<Map id="SH045" name="中州客栈" minmapid="0" width="20" height="28">
+			<Npc name="客栈老板" x="5" y="16" desc="申请下线休息"/>
+			<Npc name="玄玄老人" x="15" y="16" desc="鉴定及卖卷轴"/>
+			<Npc name="紫金神炉" x="14" y="19" desc="宝石合成凝练"/>
+			<Jump srcx="7" srcy="21" dstid="0" dstx="520" dsty="267"/>
+		</Map>
+		<Map id="ST001" name="圣堂" minmapid="187" width="100" height="100"/>
+		<Map id="SWY101" name="神威狱一层" minmapid="521" width="120" height="120">
+			<Npc name="神威狱守卫" x="36" y="78" desc=""/>
+		</Map>
+		<Map id="SWY201" name="神威狱二层" minmapid="522" width="100" height="100">
+			<Npc name="神威狱守卫" x="23" y="65" desc=""/>
+		</Map>
+		<Map id="SWY301" name="神威狱三层" minmapid="523" width="100" height="100">
+			<Npc name="神威狱守卫" x="25" y="48" desc=""/>
+		</Map>
+		<Map id="SWY401" name="神威狱四层" minmapid="524" width="100" height="100">
+			<Npc name="神威狱守卫" x="24" y="75" desc=""/>
+		</Map>
+		<Map id="SWY501" name="神威狱五层" minmapid="525" width="150" height="150">
+			<Npc name="神威狱守卫" x="80" y="110" desc=""/>
+		</Map>
+		<Map id="SWYBOSS" name="天魔巢穴" minmapid="526" width="200" height="200">
+			<Npc name="神威狱守卫" x="72" y="137" desc=""/>
+		</Map>
+		<Map id="SWYSL" name="神威狱试练场" minmapid="527" width="200" height="200">
+			<Npc name="神威狱守卫" x="96" y="109" desc=""/>
+			<Npc name="行商" x="100" y="104" desc=""/>
+		</Map>
+		<Map id="SWYZB" name="神威狱大厅" minmapid="520" width="50" height="60">
+			<Npc name="神威狱守卫" x="26" y="32" desc=""/>
+			<Npc name="行商" x="21" y="27" desc=""/>
+			<Npc name="神威使者" x="21" y="36" desc=""/>
+		</Map>
+		<Map id="MYMS0001" name="魔域密室" minmapid="520" width="50" height="60">
+        </Map>
+		<Map id="SWYTONGDAO" name="天魔宝藏通道" minmapid="529" width="100" height="100">
+			<Npc name="神威狱守卫" x="49" y="53" desc=""/>
+		</Map>
+		<Map id="SWYBAOZANG" name="天魔宝藏" minmapid="528" width="210" height="210">        	
+        </Map>
+		<Map id="T011" name="矿区入口" minmapid="121" width="150" height="150">
+			<Jump srcx="105" srcy="88" dstid="T012" dstx="18" dsty="28"/>
+			<Jump srcx="123" srcy="10" dstid="T013" dstx="73" dsty="86"/>
+			<Jump srcx="61" srcy="20" dstid="T022" dstx="86" dsty="90"/>
+			<Jump srcx="12" srcy="141" dstid="1" dstx="475" dsty="397"/>
+		</Map>
+		<Map id="T012" name="南部矿石运输站" minmapid="122" width="100" height="100">
+			<Jump srcx="26" srcy="83" dstid="T017" dstx="38" dsty="15"/>
+			<Jump srcx="17" srcy="25" dstid="T011" dstx="103" dsty="86"/>
+		</Map>
+		<Map id="T013" name="北部矿石运输站" minmapid="123" width="100" height="100">
+			<Jump srcx="15" srcy="56" dstid="T018" dstx="121" dsty="106"/>
+			<Jump srcx="75" srcy="89" dstid="T011" dstx="125" dsty="13"/>
+		</Map>
+		<Map id="T014" name="南部断层" minmapid="124" width="100" height="100">
+			<Jump srcx="81" srcy="18" dstid="T017" dstx="91" dsty="126"/>
+			<Jump srcx="20" srcy="80" dstid="T016" dstx="87" dsty="25"/>
+		</Map>
+		<Map id="T015" name="中部矿区" minmapid="125" width="200" height="200">
+			<Jump srcx="58" srcy="145" dstid="L004" dstx="97" dsty="40"/>
+			<Jump srcx="172" srcy="142" dstid="T022" dstx="17" dsty="71"/>
+			<Jump srcx="14" srcy="28" dstid="T021" dstx="83" dsty="15"/>
+		</Map>
+		<Map id="T016" name="矿石精选场" minmapid="126" width="150" height="150">
+			<Jump srcx="38" srcy="132" dstid="T022" dstx="65" dsty="17"/>
+			<Jump srcx="89" srcy="22" dstid="T014" dstx="22" dsty="78"/>
+		</Map>
+		<Map id="T017" name="西部矿区" minmapid="127" width="150" height="150">
+			<Jump srcx="88" srcy="129" dstid="T014" dstx="79" dsty="21"/>
+			<Jump srcx="40" srcy="12" dstid="T012" dstx="29" dsty="80"/>
+		</Map>
+		<Map id="T018" name="北部矿区" minmapid="128" width="150" height="150">
+			<Jump srcx="110" srcy="14" dstid="T022" dstx="26" dsty="18"/>
+			<Jump srcx="22" srcy="128" dstid="T020" dstx="73" dsty="23"/>
+			<Jump srcx="123" srcy="103" dstid="T013" dstx="17" dsty="53"/>
+		</Map>
+		<Map id="T019" name="东部矿区" minmapid="129" width="150" height="150">
+			<Jump srcx="111" srcy="12" dstid="T021" dstx="19" dsty="83"/>
+			<Jump srcx="27" srcy="127" dstid="T020" dstx="17" dsty="53"/>
+		</Map>
+		<Map id="T020" name="避难所" minmapid="130" width="100" height="100">
+			<Jump srcx="16" srcy="50" dstid="T019" dstx="25" dsty="125"/>
+			<Jump srcx="75" srcy="20" dstid="T018" dstx="24" dsty="126"/>
+		</Map>
+		<Map id="T021" name="北部断层" minmapid="131" width="100" height="100">
+			<Jump srcx="17" srcy="85" dstid="T019" dstx="109" dsty="15"/>
+			<Jump srcx="85" srcy="13" dstid="T015" dstx="16" dsty="26"/>
+		</Map>
+		<Map id="T022" name="疏散通道" minmapid="132" width="100" height="110">
+			<Jump srcx="28" srcy="21" dstid="T018" dstx="111" dsty="16"/>
+			<Jump srcx="64" srcy="14" dstid="T016" dstx="36" dsty="130"/>
+			<Jump srcx="15" srcy="73" dstid="T015" dstx="170" dsty="145"/>
+			<Jump srcx="83" srcy="93" dstid="T011" dstx="59" dsty="22"/>
+		</Map>
+		<Map id="T023" name="废弃矿坑" minmapid="130" width="100" height="100">
+			<Npc name="阿义" x="70" y="21" desc=""/>
+		</Map>
+		<Map id="TJ001" name="黑山魔界" minmapid="189" width="200" height="200">
+			<Npc name="黑山密使" x="48" y="132" desc=""/>
+			<Jump srcx="90" srcy="79" dstid="TJ001" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="112" dstid="TJ001" dstx="91" dsty="77"/>
+		</Map>
+		<Map id="TJ002" name="黑山魔界" minmapid="189" width="200" height="200">
+			<Npc name="黑山密使" x="48" y="132" desc=""/>
+			<Jump srcx="90" srcy="79" dstid="TJ001" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="112" dstid="TJ001" dstx="91" dsty="77"/>
+		</Map>
+		<Map id="TJ003" name="黑山魔界" minmapid="189" width="200" height="200">
+			<Npc name="黑山密使" x="48" y="132" desc=""/>
+			<Jump srcx="90" srcy="79" dstid="TJ001" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="112" dstid="TJ001" dstx="91" dsty="77"/>
+		</Map>
+		<Map id="TJ004" name="黑山魔界" minmapid="189" width="200" height="200">
+			<Npc name="黑山密使" x="48" y="132" desc=""/>
+			<Jump srcx="90" srcy="79" dstid="TJ001" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="112" dstid="TJ001" dstx="91" dsty="77"/>
+		</Map>
+		<Map id="TJ005" name="黑山魔界" minmapid="189" width="200" height="200">
+			<Npc name="黑山密使" x="48" y="132" desc=""/>
+			<Jump srcx="90" srcy="79" dstid="TJ001" dstx="121" dsty="114"/>
+			<Jump srcx="123" srcy="112" dstid="TJ001" dstx="91" dsty="77"/>
+		</Map>
+		<Map id="TT001" name="一手遮天" minmapid="1" width="420" height="400">
+			<Npc name="通天隐者" x="331" y="303" desc=""/>
+			<Jump srcx="56" srcy="173" dstid="TT002" dstx="44" dsty="165"/>
+			<Jump srcx="337" srcy="316" dstid="5" dstx="138" dsty="105"/>
+		</Map>
+		<Map id="TT002" name="二道廊线" minmapid="2" width="400" height="400">
+			<Jump srcx="165" srcy="42" dstid="TT003" dstx="169" dsty="25"/>
+			<Jump srcx="230" srcy="360" dstid="TT003" dstx="233" dsty="361"/>
+			<Jump srcx="317" srcy="316" dstid="5" dstx="135" dsty="73"/>
+			<Jump srcx="42" srcy="167" dstid="TT001" dstx="55" dsty="176"/>
+		</Map>
+		<Map id="TT003" name="三角排楼" minmapid="3" width="400" height="400">
+			<Jump srcx="34" srcy="166" dstid="TT004" dstx="57" dsty="174"/>
+			<Jump srcx="297" srcy="171" dstid="TT004" dstx="310" dsty="180"/>
+			<Jump srcx="167" srcy="27" dstid="TT002" dstx="164" dsty="46"/>
+			<Jump srcx="231" srcy="363" dstid="TT002" dstx="229" dsty="264"/>
+		</Map>
+		<Map id="TT004" name="四方擂台" minmapid="4" width="400" height="400">
+			<Jump srcx="182" srcy="51" dstid="TT005" dstx="188" dsty="51"/>
+			<Jump srcx="381" srcy="256" dstid="14" dstx="32" dsty="22"/>
+			<Jump srcx="55" srcy="176" dstid="TT003" dstx="33" dsty="170"/>
+			<Jump srcx="308" srcy="182" dstid="TT003" dstx="296" dsty="175"/>
+		</Map>
+		<Map id="TT005" name="五行宫殿" minmapid="5" width="400" height="400">
+			<Jump srcx="310" srcy="170" dstid="TT006" dstx="318" dsty="199"/>
+			<Jump srcx="185" srcy="307" dstid="TT006" dstx="192" dsty="329"/>
+			<Jump srcx="61" srcy="179" dstid="TT006" dstx="62" dsty="201"/>
+			<Jump srcx="186" srcy="52" dstid="TT004" dstx="181" dsty="55"/>
+		</Map>
+		<Map id="TT006" name="六道轮回" minmapid="6" width="400" height="410">
+			<Jump srcx="189" srcy="77" dstid="TT007" dstx="210" dsty="79"/>
+			<Jump srcx="323" srcy="304" dstid="16" dstx="28" dsty="14"/>
+			<Jump srcx="279" srcy="348" dstid="16" dstx="14" dsty="28"/>
+			<Jump srcx="316" srcy="201" dstid="TT005" dstx="309" dsty="174"/>
+			<Jump srcx="190" srcy="331" dstid="TT005" dstx="184" dsty="311"/>
+			<Jump srcx="60" srcy="203" dstid="TT005" dstx="60" dsty="183"/>
+		</Map>
+		<Map id="TT007" name="七旋关卡" minmapid="7" width="400" height="400">
+			<Jump srcx="207" srcy="209" dstid="TT008" dstx="155" dsty="232"/>
+			<Jump srcx="208" srcy="80" dstid="TT006" dstx="188" dsty="81"/>
+		</Map>
+		<Map id="TT008" name="八仙纵横" minmapid="8" width="400" height="400">
+			<Npc name="招魂使" x="154" y="81" desc="提示军机任务"/>
+			<Jump srcx="224" srcy="162" dstid="TT009" dstx="262" dsty="129"/>
+			<Jump srcx="306" srcy="272" dstid="18" dstx="17" dsty="47"/>
+			<Jump srcx="253" srcy="324" dstid="18" dstx="45" dsty="19"/>
+			<Jump srcx="153" srcy="234" dstid="TT007" dstx="206" dsty="213"/>
+		</Map>
+		<Map id="TT009" name="九重云霄" minmapid="9" width="400" height="400">
+			<Npc name="通天漩涡" x="156" y="234" desc=""/>
+			<Jump srcx="260" srcy="131" dstid="TT008" dstx="223" dsty="166"/>
+		</Map>
+		<Map id="WC004" name="炼狱林场一" minmapid="312" width="200" height="200">
+			<Npc name="炼狱建材商" x="163" y="92" desc=""/>
+			<Npc name="传送门" x="167" y="92" desc=""/>
+		</Map>
+		<Map id="WC005" name="炼狱林场二" minmapid="308" width="180" height="180">
+			<Npc name="炼狱建材商" x="33" y="115" desc=""/>
+			<Npc name="传送门" x="36" y="116" desc=""/>
+		</Map>
+		<Map id="WC006" name="炼狱焰火屠魔" minmapid="502" width="100" height="140">
+			<Npc name="传送门" x="59" y="59" desc=""/>
+		</Map>
+		<Map id="WK002" name="挖矿赛场一" minmapid="132" width="100" height="110">
+			<Npc name="挖矿赛裁判" x="54" y="49" desc=""/>
+			<Npc name="挖矿赛裁判" x="46" y="65" desc=""/>
+			<Npc name="挖矿赛裁判" x="59" y="55" desc=""/>
+			<Npc name="挖矿赛裁判" x="63" y="39" desc=""/>
+			<Npc name="挖矿赛裁判" x="48" y="38" desc=""/>
+		</Map>
+		<Map id="WK003" name="挖矿赛场二" minmapid="132" width="100" height="110">
+			<Npc name="挖矿赛裁判" x="54" y="49" desc=""/>
+		</Map>
+		<Map id="XIXI0" name="英雄试炼场" minmapid="167" width="70" height="70">
+			<Npc name="老人" x="39" y="13" desc="去中州落霞热砂"/>
+		</Map>
+		<Map id="XY004" name="障碍赛赛场" minmapid="339" width="283" height="283">
+			<Npc name="障碍赛管理员" x="222" y="150" desc=""/>
+		</Map>
+		<Map id="lhfmz" name="离火封魔阵" minmapid="00803" width="50" height="80"/>
+		<Map id="xlxg" name="修罗玄关" minmapid="00802" width="160" height="160"/>
+		<Map id="lxxd" name="灵犀仙岛" minmapid="00807" width="150" height="200">
+			<Npc name="灵犀使者" x="116" y="30" desc="灵兽转生、顿悟、幻化、滴血认主的关键人物"/>
+			<Npc name="灵兽骑将" x="67" y="67" desc="可以合成灵兽骑战技能残章"/>
+			<Npc name="蜃影" x="39" y="30" desc="可以将你传入迷仙阵"/>
+			<Npc name="火麒麟坐骑" x="66" y="66" desc="灵兽骑将的坐骑"/>
+			<Npc name="灵犀仙子" x="79" y="58" desc="强化灵犀宝盒"/>
+		</Map>
+		<Map id="KFZZB0" name="跨服争霸准备场" minmapid="527" width="200" height="200">
+			<Npc name="跨服争霸管理员" x="99" y="107" desc=""/>
+			<Npc name="跨服争霸管理员" x="99" y="127" desc=""/>
+			<Npc name="跨服争霸管理员" x="99" y="87" desc=""/>
+			<Npc name="跨服争霸管理员" x="79" y="107" desc=""/>
+			<Npc name="跨服争霸管理员" x="79" y="127" desc=""/>
+			<Npc name="跨服争霸管理员" x="79" y="87" desc=""/>
+			<Npc name="跨服争霸管理员" x="109" y="107" desc=""/>
+			<Npc name="跨服争霸管理员" x="109" y="127" desc=""/>
+			<Npc name="跨服争霸管理员" x="109" y="87" desc=""/>
+			<Npc name="跨服争霸管理员" x="89" y="107" desc=""/>
+			<Npc name="跨服争霸管理员" x="89" y="127" desc=""/>
+			<Npc name="跨服争霸管理员" x="89" y="87" desc=""/>
+			<Npc name="旗座" x="110" y="87" desc=""/>
+			<Npc name="旗座" x="100" y="127" desc=""/>
+			<Npc name="旗座" x="90" y="87" desc=""/>
+			<Npc name="旗座" x="80" y="87" desc=""/>
+			<Npc name="旗座" x="110" y="107" desc=""/>
+			<Npc name="旗座" x="100" y="107" desc=""/>
+			<Npc name="旗座" x="90" y="107" desc=""/>
+			<Npc name="旗座" x="80" y="107" desc=""/>
+			<Npc name="旗座" x="110" y="127" desc=""/>
+			<Npc name="旗座" x="100" y="127" desc=""/>
+			<Npc name="旗座" x="90" y="127" desc=""/>
+			<Npc name="旗座" x="80" y="127" desc=""/>
+		</Map>
+		<Map id="KFZ0" name="跨服争霸赛场" minmapid="165" width="70" height="70">
+			<Npc name="老人" x="37" y="33" desc="跨服争霸使者"/>
+		</Map>
+		<Map id="RYDY0001" name="熔岩地狱" minmapid="530" width="280" height="300">
+			<Jump srcx="206" srcy="52" dstid="QJPB0001" dstx="80" dsty="72"/>
+			<Jump srcx="36" srcy="242" dstid="HJC0001" dstx="111" dsty="126"/>
+		</Map>
+		<Map id="HJC0001" name="黄金之城" minmapid="810" width="180" height="260">
+			<Jump srcx="108" srcy="122" dstid="RYDY0001" dstx="40" dsty="238"/>
+			<Jump srcx="24" srcy="218" dstid="ZC0001" dstx="100" dsty="485"/>
+			<Jump srcx="77" srcy="85" dstid="JSMZ0001" dstx="27" dsty="37"/>
+		</Map>
+		<Map id="HJCHG0001" name="黄金城皇宫" minmapid="811" width="100" height="152">            
+        </Map>
+		<Map id="JSMZ0001" name="巨石迷阵" minmapid="812" width="180" height="260">
+			<Jump srcx="155" srcy="220" dstid="MSSL0001" dstx="30" dsty="39"/>
+			<Jump srcx="22" srcy="32" dstid="HJC0001" dstx="81" dsty="89"/>
+		</Map>
+		<Map id="MSSL0001" name="迷失森林" minmapid="813" width="160" height="280">
+			<Jump srcx="131" srcy="231" dstid="XFZB0001" dstx="47" dsty="106"/>
+			<Jump srcx="27" srcy="40" dstid="JSMZ0001" dstx="151" dsty="216"/>
+		</Map>
+		<Map id="QJPB0001" name="奇迹瀑布" minmapid="814" width="150" height="200">
+			<Jump srcx="122" srcy="28" dstid="SFZB0001" dstx="47" dsty="106"/>
+			<Jump srcx="73" srcy="63" dstid="RYDY0001" dstx="209" dsty="55"/>
+		</Map>
+		<Map id="SFZY0001" name="上方阵营" minmapid="815" width="120" height="180">
+			<Jump srcx="46" srcy="31" dstid="WARFIELD0001" dstx="140" dsty="305"/>
+			<Npc name="混世魔尊" x="77" y="87" desc="补给物资、将天绝金传送回中州"/>
+			<Npc name="密室引路人" x="69" y="87" desc="进入魔域密室，获取天绝金"/>
+		</Map>
+		<Map id="XFZY0001" name="下方阵营" minmapid="816" width="120" height="180">
+			<Jump srcx="93" srcy="85" dstid="WARFIELD0001" dstx="284" dsty="419"/>
+			<Npc name="混世魔尊" x="42" y="83" desc="补给物资、将天绝金传送回中州"/>
+			<Npc name="密室引路人" x="52" y="83" desc="进入魔域密室，获取天绝金"/>
+		</Map>
+		<Map id="XFDQTD0001" name="下方夺旗通道" minmapid="817" width="100" height="400">
+			<Jump srcx="83" srcy="372" dstid="XFZB0001" dstx="89" dsty="38"/>
+			<Jump srcx="20" srcy="38" dstid="ZC0001" dstx="171" dsty="480"/>
+		</Map>
+		<Map id="SFDQTD0001" name="上方夺旗通道" minmapid="818" width="100" height="400">
+			<Jump srcx="18" srcy="37" dstid="SFZB0001" dstx="89" dsty="38"/>
+			<Jump srcx="83" srcy="372" dstid="ZC0001" dstx="105" dsty="412"/>
+		</Map>
+		<Map id="WARFIELD0001" name="天绝魔域" minmapid="820" width="500" height="600">
+			<Jump srcx="231" srcy="510" dstid="WARFIELD0001" dstx="251" dsty="544"/>
+			<Jump srcx="253" srcy="546" dstid="WARFIELD0001" dstx="233" dsty="512"/>
+			<Jump srcx="95" srcy="252" dstid="WARFIELD0001" dstx="56" dsty="230"/>
+			<Jump srcx="58" srcy="232" dstid="WARFIELD0001" dstx="93" dsty="250"/>
+			<Npc name="混世魔尊" x="290" y="426" desc="补给物资、将天绝金传送回中州"/>
+			<Npc name="密室引路人" x="140" y="282" desc="进入魔域密室，获取天绝金"/>
+			<Npc name="混世魔尊" x="142" y="278" desc="补给物资、将天绝金传送回中州"/>
+			<Npc name="密室引路人" x="288" y="424" desc="进入魔域密室，获取天绝金"/>
+			<Npc name="祭王台" x="112" y="465" desc="树立行会旗帜，占领天绝魔域"/>
+		</Map>
+		<Map id="XFWZKJ0001" name="无罪空间" minmapid="821" width="70" height="70">            
+        </Map>
+		<Map id="ZZZS" name="宗簇争夺战" minmapid="165" width="70" height="70">            
+        </Map>
+		<Map id="SFZB0001" name="上方阵营" minmapid="527" width="200" height="200">
+			<Npc name="上方阵营使者" x="94" y="84" desc=""/>
+		</Map>
+		<Map id="XFZB0001" name="下方阵营" minmapid="527" width="200" height="200">
+			<Npc name="下方阵营使者" x="94" y="84" desc=""/>
+		</Map>
+		<Map id="ZC0001" name="虚幻之城" minmapid="820" width="500" height="600">
+			<Npc name="帝王台" x="112" y="465" desc=""/>
+			<Npc name="小贩" x="290" y="426" desc=""/>
+			<Npc name="小贩" x="142" y="278" desc=""/>
+			<Jump srcx="231" srcy="510" dstid="ZC0001" dstx="251" dsty="544"/>
+			<Jump srcx="253" srcy="546" dstid="ZC0001" dstx="233" dsty="512"/>
+			<Jump srcx="95" srcy="252" dstid="ZC0001" dstx="56" dsty="230"/>
+			<Jump srcx="58" srcy="232" dstid="ZC0001" dstx="93" dsty="250"/>
+			<Jump srcx="106" srcy="409" dstid="SFDQTD0001" dstx="78" dsty="368"/>
+			<Jump srcx="173" srcy="478" dstid="XFDQTD0001" dstx="21" dsty="43"/>
+			<Jump srcx="97" srcy="488" dstid="HJC0001" dstx="24" dsty="212"/>
+		</Map>
+		<Map id="TBMap0" name="银月" minmapid="814" width="150" height="200">            
+        </Map>
+		<Map id="TBMap5" name="炙日" minmapid="530" width="280" height="300">
+        </Map>
+		<Map id="flysd" name="幻神圣殿" minmapid="531" width="60" height="80">            
+        </Map>
+		<Map id="flymd" name="赤魔圣殿" minmapid="532" width="60" height="80">
+        </Map>
+		<Map id="skycity31" name="幻境凌霄天界" minmapid="830" width="340" height="560">
+		</Map>
+		<Map id="skycity3" name="凌霄天界" minmapid="1026" width="340" height="600">
+			<Npc name="玄冰柱一" x="85" y="219" desc="控制极阴之地的通道"/>
+			<Npc name="玄冰柱二" x="89" y="223" desc="控制极阴之地的通道"/>
+			<Npc name="玄冰柱三" x="93" y="219" desc="控制极阴之地的通道"/>
+			<Npc name="玄冰柱四" x="89" y="215" desc="控制极阴之地的通道"/>
+			<Npc name="玄冰柱五" x="89" y="219" desc="控制极阴之地的通道"/>
+			<Npc name="离火柱一" x="229" y="172" desc="控制极阳之地的通道"/>
+			<Npc name="离火柱二" x="233" y="176" desc="控制极阳之地的通道"/>
+			<Npc name="离火柱三" x="237" y="172" desc="控制极阳之地的通道"/>
+			<Npc name="离火柱四" x="233" y="168" desc="控制极阳之地的通道"/>
+			<Npc name="离火柱五" x="233" y="172" desc="控制极阳之地的通道"/>
+			<Npc name="玄冰八卦一" x="78" y="114" desc="控制凌霄天界的通道"/>
+			<Npc name="玄冰八卦二" x="90" y="103" desc="控制凌霄天界的通道"/>
+			<Npc name="离火八卦一" x="247" y="321" desc="控制凌霄天界的通道"/>
+			<Npc name="离火八卦二" x="256" y="312" desc="控制凌霄天界的通道"/>
+		</Map>
+		<Map id="222" name="热砂" minmapid="104" width="460" height="1000">
+			<Npc name="混元" x="221" y="446" desc=""/>
+		</Map>
+		<Map id="CDM001" name="魔冢" minmapid="535" width="50" height="60">
+			<Npc name="神威使者" x="26" y="32" desc=""/>
+		</Map>
+		<Map id="DC_FIRE" name="火龙潭" minmapid="832" width="300" height="300"/>
+		<Map id="DC_ICE" name="冰封迷阵" minmapid="831" width="300" height="300"/>
+		<Map id="WCZB" name="王城争霸赛" minmapid="850" width="200" height="200">
+			<Npc name="王城争霸赛旗座" x="88" y="87" desc=""/>
+		</Map>
+		<map id="BOSS001" name="宝藏遗址一层" minmapid="143" width="400" height="400"/>
+		<map id="BOSS002" name="宝藏遗址二层" minmapid="7" width="400" height="400"/>
+		<Map id="BOSS003" name="宝藏遗址三层" minmapid="25" width="280" height="280"/>
+		<map id="BOSS004" name="宝藏遗址四层" minmapid="414" width="300" height="300"/>
+		<Map id="BOSS005" name="宝藏遗址五层" minmapid="833" width="280" height="300"/>
+		<Map id="WCSJ" name="王城市集" minmapid="220" width="100" height="100"/>
+		<Map id="tjmj_public" name="天界密境" minmapid="842" width="130" height="130"/>
+		<Map id="tjmj_gold" name="天界密境-金" minmapid="836" width="200" height="300">
+			<Npc name="秘境守卫" x="53" y="256" desc="进入下一层秘境"/>
+		</Map>
+		<Map id="tjmj_wood" name="天界密境-木" minmapid="837" width="200" height="300">
+			<Npc name="仙池幻境守卫" x="136" y="73" desc="进入下一层秘境"/>
+		</Map>
+		<Map id="tjmj_soil" name="天界密境-土" minmapid="838" width="200" height="300">
+			<Npc name="仙池幻境守卫" x="112" y="124" desc="进入下一层秘境"/>
+		</Map>
+		<Map id="tjmj_water" name="天界密境-水" minmapid="839" width="200" height="300">
+			<Npc name="仙池幻境守卫" x="120" y="66" desc="进入下一层秘境"/>
+		</Map>
+		<Map id="tjmj_fire" name="天界密境-火" minmapid="840" width="200" height="300">
+			<Npc name="仙池幻境守卫" x="30" y="211" desc="进入下一层秘境"/>
+		</Map>
+		<map id="TXC" name="天仙池" minmapid="841" width="380" height="500">
+			<Npc name="仙池幻境守卫" x="334" y="357" desc="飞升仙界使者"/>
+		</map>
+		<Map id="WCP0001" name="世界杯赛场" minmapid="536" width="100" height="180">
+        </Map>
+		<Map id="BZFD" name="领主封地" minmapid="537" width="120" height="120"/>
+		<map id="SHACHENG" name="跃马平原" minmapid="861" width="540" height="800">
+			<Npc name="老兵" x="167" y="189" desc="炼狱及秘宝附身"/>
+			<Npc name="孤独老人" x="277" y="452" desc="打听攻沙城时间"/>
+			<Npc name="珠宝店掌柜" x="119" y="396" desc="买卖修理首饰"/>
+			<Npc name="杂货贩" x="143" y="338" desc="买卖杂物探消息"/>
+			<Npc name="保管员" x="106" y="314" desc="存取捆扎物品"/>
+			<Npc name="炼药师" x="159" y="332" desc="炼药制偶"/>
+			<Npc name="药商" x="154" y="334" desc="买卖药品"/>
+			<Npc name="服装店掌柜" x="182" y="371" desc="买卖修理服装"/>
+			<Npc name="铸造师" x="130" y="332" desc="升级武器"/>
+			<Npc name="铁匠" x="123" y="329" desc="买卖修理武器"/>
+			<Npc name="赏金猎人" x="174" y="187" desc="赏金等你拿"/>
+			<Npc name="沙城长老" x="156" y="173" desc=""/>
+			<Npc name="矿石资源" x="433" y="91" desc="可占领资源点夺取矿石资源"/>
+			<Npc name="宝石资源" x="128" y="595" desc="可占领资源点夺取宝石资源"/>
+			<Npc name="灵石资源" x="364" y="561" desc="可占领资源点夺取灵石资源"/>
+			<Npc name="海族护送将领" x="361" y="191" desc="海族护送任务领取处"/>
+			<Npc name="抗击海族将军" x="354" y="184" desc="海族灭魔任务领取处"/>
+			<Npc name="后勤执行官" x="349" y="186" desc="龙威奖章兑换处"/>
+			<Npc name="高级传送官" x="360" y="186" desc="沙城传送NPC"/>
+			<Npc name="沙城守护" x="138" y="368" desc="沙城左右区域传送NPC"/>
+			<Npc name="1号传送官" x="159" y="193" desc="可传送至沙城左边城墙外"/>
+			<Npc name="2号传送官" x="165" y="202" desc="可传送至沙城中部城墙外"/>
+			<Npc name="3号传送官" x="177" y="189" desc="可传送至沙城在部城墙外"/>
+			<Npc name="4号传送官" x="171" y="183" desc="可传送至沙城右边城墙外"/>
+			<Npc name="沙城军需官" x="145" y="178" desc="可购买攻城器械"/>
+			<Npc name="行会旗座" x="295" y="287" desc="攻城方占领旗座后可在此处复活"/>
+			<Npc name="保卫沙城官员" x="409" y="181" desc="保卫沙城活动官员，可免费领取攻城器械"/>
+			<Npc name="保卫沙城副官员" x="352" y="125" desc="保卫沙城活动副官员，可免费领取攻城器械"/>
+			<Npc name="保卫沙城副官员" x="385" y="221" desc="保卫沙城活动副官员，可免费领取攻城器械"/>
+			<Npc name="走私军火商甲" x="410" y="173" desc="他有各种各样的攻城器械，并且价格绝对公道"/>
+			<Npc name="走私军火商乙" x="271" y="273" desc="他有各种各样的攻城器械，并且价格绝对公道"/>
+			<Npc name="走私军火商丙" x="357" y="436" desc="他有各种各样的攻城器械，并且价格绝对公道"/>
+			<Npc name="走私军火商丁" x="171" y="568" desc="他有各种各样的攻城器械，并且价格绝对公道"/>
+			<Jump srcx="397" srcy="602" dstid="S011" dstx="275" dsty="276"/>
+			<Jump srcx="131" srcy="207" dstid="E004" dstx="218" dsty="308"/>
+			<Jump srcx="197" srcy="157" dstid="E004" dstx="250" dsty="314"/>
+			<Jump srcx="221" srcy="178" dstid="E004" dstx="348" dsty="237"/>
+			<Jump srcx="109" srcy="311" dstid="SH020" dstx="10" dsty="13"/>
+			<Jump srcx="115" srcy="390" dstid="SH019" dstx="14" dsty="11"/>
+			<Jump srcx="126" srcy="323" dstid="SH017" dstx="7" dsty="22"/>
+			<Jump srcx="147" srcy="333" dstid="SH015" dstx="6" dsty="19"/>
+			<Jump srcx="147" srcy="146" dstid="SH021" dstx="23" dsty="22"/>
+			<Jump srcx="123" srcy="154" dstid="SH021" dstx="9" dsty="28"/>
+			<Jump srcx="21" srcy="437" dstid="2" dstx="441" dsty="526"/>
+			<Jump srcx="416" srcy="324" dstid="6" dstx="34" dsty="45"/>
+			<Jump srcx="177" srcy="364" dstid="SH016" dstx="7" dsty="18"/>
+		</map>
+		<map id="HAIDI" name="幽暗海域" minmapid="860" width="450" height="500">
+			<Npc name="海底深沟" x="269" y="235" desc="每隔一小时地震，海底深沟就会产生变化"/>
+			<Npc name="西西姑娘" x="270" y="238" desc="在海底裂缝分开时，可传送至失落沉船"/>
+			<Npc name="珍蚌" x="168" y="181" desc="我喜欢吃海藻，我讨厌小鱼"/>
+			<Npc name="龙虾商人" x="156" y="181" desc="我是良心商人！"/>
+			<Npc name="乌龟" x="161" y="177" desc="在这里可以存储东西哦！"/>
+			<Npc name="海底反叛驯兽官" x="158" y="178" desc="海神战鲨驯化、陆地灵兽点化避水属性只管来找我！"/>
+			<Npc name="千年神龟" x="164" y="185" desc="开启各种经验丹，顺便介绍海魔值。"/>
+			<Jump srcx="146" srcy="110" dstid="haidiyj" dstx="84" dsty="157"/>
+			<Jump srcx="296" srcy="296" dstid="haidin1" dstx="40" dsty="58"/>
+			<Jump srcx="288" srcy="350" dstid="haidin1" dstx="57" dsty="41"/>
+			<Jump srcx="108" srcy="360" dstid="zshd" dstx="20" dsty="45"/>
+		</map>
+		<map id="HAIDIN1" name="失落沉船一层" minmapid="862" width="100" height="150">
+			<Jump srcx="55" srcy="33" dstid="HAIDIN2" dstx="51" dsty="53"/>
+		</map>
+		<map id="HAIDIN2" name="失落沉船二层" minmapid="863" width="100" height="150">
+			<Jump srcx="56" srcy="67" dstid="HAIDIN3" dstx="68" dsty="89"/>
+		</map>
+		<map id="HAIDIN3" name="失落沉船三层" minmapid="864" width="100" height="150"/>
+		<map id="haididg" name="海底地宫" minmapid="865" width="200" height="300">
+			<Npc name="海龟看守者" x="125" y="225" desc="领取海龟护送任务"/>
+			<Npc name="美人鱼厨师" x="138" y="61" desc="交还海龟护送任务、传送至章鱼BOSS洞穴"/>
+			<Jump srcx="127" srcy="233" dstid="haidiyj" dstx="96" dsty="60"/>
+		</map>
+		<map id="haidizyd" name="章鱼洞穴" minmapid="867" width="125" height="130">
+			<Jump srcx="20" srcy="45" dstid="haididg" dstx="140" dsty="63"/>
+		</map>
+		<map id="HaidiZYDHJ1" name="幻境章鱼洞穴" minmapid="867" width="125" height="130">
+		</map>
+		<map id="HaidiZYDHJ" name="章鱼洞穴幻境" minmapid="867" width="125" height="130">
+			<Jump srcx="20" srcy="45" dstid="haididg" dstx="140" dsty="63"/>
+		</map>
+		<map id="haidiyj1" name="幻境海底遗迹" minmapid="866" width="200" height="250">
+		</map>
+		<map id="haidiyj" name="海底遗迹" minmapid="866" width="200" height="250">
+			<Jump srcx="97" srcy="52" dstid="haididg" dstx="125" dsty="225"/>
+			<Jump srcx="88" srcy="163" dstid="HAIDI" dstx="144" dsty="116"/>
+		</map>
+		<map id="shachenghm" name="沙城毁灭" minmapid="869" width="250" height="300"/>
+		<map id="hdbz" name="海底宝藏" minmapid="875" width="200" height="200"/>
+		<map id="hddd" name="石径长廊(新)" minmapid="876" width="150" height="125"/>
+		<map id="hdld" name="PK友谊赛" minmapid="877" width="100" height="100">
+			<Npc name="友谊赛领奖" x="52" y="50" desc="开赛5分钟后、活动结束后都可以来找我领奖。"/>
+		</map>
+		<map id="LostSpace" name="失落空间" minmapid="878" width="50" height="70">
+			<Npc name="神秘老人" x="32" y="32" desc="迷失的神秘老人"/>
+		</map>
+		<map id="hdms" name="海底" minmapid="878" width="50" height="70"/>
+		<map id="xxhtm" name="海底焰火屠魔" minmapid="879" width="200" height="200"/>
+		<map id="zshd" name="战鲨寒洞" minmapid="880" width="125" height="200">
+			<Jump srcx="20" srcy="45" dstid="HAIDI" dstx="109" dsty="356"/>
+			<Npc name="传送门" x="89" y="85" desc="传送至灵犀仙岛"/>
+		</map>
+		<map id="hdhlg" name="海底欢乐谷" minmapid="879" width="200" height="200">
+			<Npc name="欢乐谷领奖" x="94" y="82" desc="凭借欢乐灵珠，可以来我这里领奖。"/>
+		</map>
+		<map id="jjhd01" name="警戒海岛" minmapid="881" width="140" height="170"/>
+		<map id="jjhd02" name="警戒海岛" minmapid="882" width="140" height="170"/>
+		<map id="jjhd03" name="警戒海岛" minmapid="883" width="140" height="170"/>
+		<map id="lxxdxn" name="灵犀仙岛" minmapid="541" width="150" height="200">
+			<Npc name="兽魂师" x="56" y="74" desc="魂佑灵兽技能、兽化技能介绍"/>
+			<Npc name="灵犀仙子" x="60" y="74" desc="灵犀宝盒、魂佑灵兽介绍、鉴定、繁殖"/>
+			<Npc name="灵犀使者" x="62" y="84" desc="灵兽滴血、幻化、转生、五行等介绍"/>
+			<Npc name="灵犀骑将" x="64" y="81" desc="了解、合成骑战技能"/>
+			<Npc name="蜃影" x="53" y="27" desc="迷仙阵、兽尊灵丹相关"/>
+			<Npc name="九天灵境传送门" x="107" y="149" desc="前往九天灵境捕捉“2转凤凰、2转麒麟”"/>
+			<Npc name="猛兽高原传送门" x="42" y="128" desc="前往猛兽高原捕捉“2转豹子、2转狮子、2转老虎”"/>
+			<Npc name="战鲨寒洞传送门" x="31" y="61" desc="前往战鲨寒洞捕捉“2转鲨鱼”"/>
+			<Npc name="凌霄秘径" x="99" y="56" desc="前往凌霄天界"/>
+			<Npc name="兽尊使者" x="63" y="75" desc="活动积分兑换灵兽相关道具"/>
+		</map>
+		<map id="msgy" name="猛兽高原" minmapid="542" width="180" height="240">
+			<Npc name="传送门" x="25" y="32" desc="传送至灵犀仙岛"/>
+		</map>
+		<map id="jtlj" name="九天灵境" minmapid="540" width="120" height="200">
+			<Npc name="传送门" x="69" y="35" desc="传送至灵犀仙岛"/>
+		</map>
+		<map id="shly1" name="兽魂炼狱一层" minmapid="354" width="250" height="250">
+			<Npc name="流浪商人" x="135" y="119" desc="买卖、修理、存储物品"/>
+		</map>
+		<map id="shly2" name="兽魂炼狱二层" minmapid="543" width="250" height="250">
+		</map>
+		<map id="bhtj001" name="幻境天界" minmapid="886" width="220" height="290">
+		</map>
+		<map id="bhtj002" name="幻境天界" minmapid="886" width="220" height="290">
+		</map>
+		<map id="bhtj003" name="幻境天界" minmapid="886" width="220" height="290">
+		</map>
+		<map id="bhtj004" name="幻境天界" minmapid="886" width="220" height="290">
+		</map>
+		<map id="bhtj005" name="幻境天界" minmapid="886" width="220" height="290">
+		</map>
+		<map id="xlj001" name="幻境修罗界" minmapid="888" width="180" height="240">
+		</map>
+		<map id="xlj002" name="幻境修罗界" minmapid="888" width="180" height="240">
+		</map>
+		<map id="xlj003" name="幻境修罗界" minmapid="888" width="180" height="240">
+		</map>
+		<map id="xlj004" name="幻境修罗界" minmapid="888" width="180" height="240">
+		</map>
+		<map id="xlj005" name="幻境修罗界" minmapid="888" width="180" height="240">
+		</map>
+		<map id="txmy001" name="幻境魔域" minmapid="887" width="180" height="240">
+		</map>
+		<map id="txmy002" name="幻境魔域" minmapid="887" width="180" height="240">
+		</map>
+		<map id="txmy003" name="幻境魔域" minmapid="887" width="180" height="240">
+		</map>
+		<map id="txmy004" name="幻境魔域" minmapid="887" width="180" height="240">
+		</map>
+		<map id="txmy005" name="幻境魔域" minmapid="887" width="180" height="240">
+		</map>
+		<map id="zqd" name="朱雀岛" minmapid="898" width="340" height="400">
+			<Npc name="药店老板" x="132" y="145" desc="买卖药品"/>
+			<Npc name="仓库管理员" x="154" y="186" desc="存取物品"/>
+			<Npc name="铁匠" x="217" y="159" desc="买卖修理武器"/>
+			<Npc name="首饰店老板" x="227" y="129" desc="买卖修理首饰"/>
+			<Npc name="服装店老板" x="209" y="79" desc="买卖修理衣服"/>
+			<Npc name="妖族族长" x="182" y="131" desc=""/>
+			<Npc name="妖族书商" x="180" y="61" desc="买卖书籍"/>
+			<Npc name="妖族将军" x="154" y="70" desc=""/>
+			<Npc name="杂货店老板" x="206" y="182" desc="买卖杂物"/>
+			<Npc name="肉店老板" x="138" y="95" desc="买卖肉类"/>
+			<Npc name="妖族传送员" x="175" y="124" desc=""/>
+			<Npc name="星宿祭祀" x="155" y="116" desc=""/>
+			<Npc name="神秘妖士" x="208" y="118" desc=""/>
+			<Npc name="情缘仙子" x="266" y="46" desc=""/>
+		</map>
+		<map id="hhd" name="火凰岛" minmapid="898" width="340" height="400">
+			<Npc name="药店老板" x="132" y="145" desc="买卖药品"/>
+			<Npc name="仓库管理员" x="154" y="186" desc="存取物品"/>
+			<Npc name="铁匠" x="217" y="159" desc="买卖修理武器"/>
+			<Npc name="首饰店老板" x="227" y="129" desc="买卖修理首饰"/>
+			<Npc name="服装店老板" x="209" y="79" desc="买卖修理衣服"/>
+			<Npc name="妖族族长" x="182" y="131" desc=""/>
+			<Npc name="妖族书商" x="180" y="61" desc="买卖书籍"/>
+			<Npc name="妖族将军" x="154" y="70" desc=""/>
+			<Npc name="杂货店老板" x="206" y="182" desc="买卖杂物"/>
+			<Npc name="肉店老板" x="138" y="95" desc="买卖肉类"/>
+			<Npc name="妖族传送员" x="175" y="124" desc=""/>
+		</map>
+		<map id="xfd" name="玄风岛" minmapid="898" width="340" height="400">
+			<Npc name="药店老板" x="132" y="145" desc="买卖药品"/>
+			<Npc name="仓库管理员" x="154" y="186" desc="存取物品"/>
+			<Npc name="铁匠" x="217" y="159" desc="买卖修理武器"/>
+			<Npc name="首饰店老板" x="227" y="129" desc="买卖修理首饰"/>
+			<Npc name="服装店老板" x="209" y="79" desc="买卖修理衣服"/>
+			<Npc name="妖族族长" x="182" y="131" desc=""/>
+			<Npc name="妖族书商" x="180" y="61" desc="买卖书籍"/>
+			<Npc name="妖族将军" x="154" y="70" desc=""/>
+			<Npc name="杂货店老板" x="206" y="182" desc="买卖杂物"/>
+			<Npc name="肉店老板" x="138" y="95" desc="买卖肉类"/>
+			<Npc name="妖族传送员" x="175" y="124" desc=""/>
+		</map>
+		<map id="mjlh001" name="mjlh001" minmapid="890" width="320" height="400">
+		</map>
+		<map id="mjlh002" name="mjlh002" minmapid="891" width="400" height="400">
+		</map>
+		<map id="mjlh003" name="mjlh003" minmapid="892" width="300" height="300">
+		</map>
+		<map id="mjlh005" name="mjlh005" minmapid="894" width="230" height="240">
+		</map>
+		<!--<map id="xlxd01" name="xlxd01" minmapid="901" width="140" height="100">
+		</map>
+		-->
+		<map id="xlxd02" name="落霞梦境三重" minmapid="902" width="80" height="100">
+		</map>
+		<map id="xlxd03" name="落霞梦境二重" minmapid="903" width="160" height="100">
+		</map>
+		<map id="suolongdian1" name="幻境锁龙殿" minmapid="907" width="210" height="250">
+		</map>
+		<map id="suolongdian" name="锁龙殿" minmapid="907" width="210" height="250">
+		</map>
+		<!--map id="xrshm01" name="xrshm01" minmapid="909" width="80" height="80">
+		</map>
+		<map id="xrshm02" name="xrshm02" minmapid="910" width="90" height="80">
+		</map-->
+		<map id="xjjf01" name="将军坟梦境一重" minmapid="920" width="94" height="110">
+		</map>
+		<map id="xjjfd01" name="将军坟东梦境一重" minmapid="921" width="100" height="100">
+		</map>
+		<map id="xjjfd02" name="将军坟东梦境二重" minmapid="922" width="100" height="100">
+		</map>
+		<map id="xjdmx01" name="禁地魔穴梦境一重" minmapid="923" width="100" height="100">
+		</map>
+		<map id="xjdmx02" name="禁地魔穴梦境二重" minmapid="924" width="100" height="120">
+		</map>
+		<map id="xrshm01" name="热砂梦境一重" minmapid="925" width="80" height="80">
+		</map>
+		<map id="xrshm02" name="热砂梦境二重" minmapid="926" width="90" height="80">
+		</map>
+		<map id="xrshm03" name="热砂梦境三重" minmapid="927" width="100" height="120">
+		</map>
+		<map id="xrshm04" name="热砂梦境四重" minmapid="928" width="100" height="130">
+		</map>
+		<map id="xrshm05" name="热砂梦境五重" minmapid="929" width="100" height="130">
+		</map>
+		<map id="xsx01" name="蛇穴梦境一重" minmapid="930" width="110" height="140">
+		</map>
+		<map id="xsx02" name="蛇穴梦境二重" minmapid="931" width="124" height="164">
+		</map>
+		<map id="xsx03" name="蛇穴梦境三重" minmapid="932" width="124" height="164">
+		</map>
+		<map id="xsx04" name="蛇穴梦境四重" minmapid="933" width="120" height="160">
+		</map>
+		<map id="xzz01" name="中州梦境一重" minmapid="934" width="120" height="100">
+		</map>
+		<map id="xzz02" name="中州梦境二重" minmapid="935" width="100" height="100">
+		</map>
+		<map id="xzz03" name="中州梦境三重" minmapid="936" width="100" height="100">
+		</map>
+		<map id="xzz04" name="中州梦境四重" minmapid="937" width="120" height="120">
+		</map>
+		<map id="xzz05" name="中州梦境五重" minmapid="938" width="120" height="120">
+		</map>
+		<map id="xjd01" name="禁地梦境一重" minmapid="940" width="120" height="120">
+		</map>
+		<map id="xjd02" name="禁地梦境二重" minmapid="941" width="120" height="120">
+		</map>
+		<map id="xjd03" name="禁地梦境三重" minmapid="942" width="100" height="100">
+		</map>
+		<map id="xjd04" name="禁地梦境四重" minmapid="943" width="100" height="120">
+		</map>
+		<map id="xjd05" name="禁地梦境五重" minmapid="944" width="120" height="120">
+		</map>
+		<map id="xympy01" name="跃马梦境一重" minmapid="946" width="80" height="100">
+		</map>
+		<map id="xympy02" name="跃马梦境二重" minmapid="947" width="100" height="124">
+		</map>
+		<map id="xympy03" name="跃马梦境三重" minmapid="948" width="110" height="140">
+		</map>
+		<map id="xympy04" name="跃马梦境四重" minmapid="949" width="120" height="160">
+		</map>
+		<map id="xympy05" name="跃马梦境五重" minmapid="950" width="120" height="160">
+		</map>
+		<map id="lhd3" name="仙池情境" minmapid="952" width="110" height="180">
+		</map>
+		<map id="xwmj" name="虚无梦境" minmapid="954" width="80" height="120">
+		</map>
+		<Map id="zqd_sgly" name="上古领域" minmapid="960" width="270" height="300">
+		</Map>
+		<Map id="dc_ttMap1" name="仙元开天塔" minmapid="970" width="80" height="100">            
+		</Map>
+		<Map id="dc_ttMap2" name="仙元开天塔" minmapid="972" width="130" height="160">            
+		</Map>
+		<Map id="dc_ttMap3" name="仙元开天塔" minmapid="971" width="120" height="140">            
+		</Map>
+		<Map id="zzgc" name="中州广场" minmapid="168" width="200" height="200">
+			<Npc name="江湖公告" x="85" y="87" desc="中州广场指南"/>
+			<Npc name="月光使者" x="66" y="85" desc="免费领取或购买月光宝盒"/>
+			<Npc name="幸运使者" x="93" y="59" desc="幸运树叶换取经验"/>
+			<Npc name="特戒使者" x="116" y="80" desc="特戒宝地"/>
+			<Npc name="神工匠" x="88" y="109" desc="装备强化"/>
+			<Npc name="百兽之王" x="96" y="83" desc="盾牌虎王强化"/>
+			<Npc name="VIP专员 " x="97" y="75" desc="VIP用户服务"/>
+			<Npc name="天元散人" x="77" y="104" desc="天炼丸换取经验"/>
+			<Npc name="凡人宝地" x="110" y="94" desc="凡人宝地"/>
+			<Npc name="中州传送门" x="89" y="80" desc="返回中州"/>
+			<Npc name="王城军需官" x="89" y="75" desc="兑换各种奖励"/>
+		</Map>
+		<Map id="newtjbd" name="特戒宝地" minmapid="27" width="300" height="300">
+		</Map>
+		<Map id="fjdb1" name="凡人宝地一层" minmapid="142" width="420" height="420">
+			<Npc name="宝地使者" x="206" y="188" desc="回收道具"/>
+		</Map>
+		<Map id="fjdb2" name="凡人宝地二层" minmapid="218" width="250" height="250">
+			<Npc name="宝地使者" x="123" y="123" desc="回收道具"/>
+		</Map>
+		<Map id="fjdb3" name="凡人宝地三层" minmapid="186" width="500" height="500">
+			<Npc name="宝地使者" x="250" y="250" desc="回收道具"/>
+		</Map>
+		<Map id="fjdb4" name="凡人宝地四层" minmapid="9" width="400" height="400">
+			<Npc name="宝地使者" x="210" y="182" desc="回收道具"/>
+		</Map>
+		<Map id="fjdb5" name="凡人宝地五层" minmapid="281" width="300" height="300">
+			<Jump srcx="240" srcy="284" dstid="J012" dstx="75" dsty="68"/>
+		</Map>
+		<Map id="lqzc01" name="龙泉战场东" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="lqzc02" name="龙泉战场西" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="lqzc03" name="龙泉战场中" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="nyzc01" name="宁远战场南" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="nyzc02" name="宁远战场北" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="nyzc03" name="宁远战场中" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="qyzc" name="庆阳夺宝" minmapid="975" width="150" height="150">
+		</Map>
+		<Map id="mszc01" name="明朔战场西" minmapid="976" width="150" height="180">
+		</Map>
+		<Map id="mszc02" name="明朔战场东" minmapid="976" width="150" height="180">
+		</Map>
+		<Map id="tqzc01" name="天启战场" minmapid="977" width="100" height="100">
+		</Map>
+		<Map id="ymzc01" name="云墨战场" minmapid="979" width="150" height="150">
+		</Map>
+		<Map id="lqzczb01" name="龙泉战场东准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="lqzczb02" name="龙泉战场西准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="lqzczb03" name="龙泉战场中准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="nyzczb01" name="宁远战场南准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="nyzczb02" name="宁远战场北准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="nyzczb03" name="宁远战场中准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="qyzczb" name="庆阳夺宝准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="mszczb01" name="明朔战场西准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="mszczb02" name="明朔战场东准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="tqzczb01" name="天启战场准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="ymzczb01" name="云墨战场准备区" minmapid="995" width="110" height="120">
+		</Map>
+		<Map id="bujifang-1" name="逆鳞迷境" minmapid="980" width="100" height="100">
+		</Map>
+		<Map id="bujifang-2" name="逆鳞迷境" minmapid="981" width="100" height="100">
+		</Map>
+		<Map id="bujifang-3" name="逆鳞迷境" minmapid="982" width="100" height="100">
+		</Map>
+		<Map id="bujifang-4" name="逆鳞迷境" minmapid="983" width="100" height="100">
+		</Map>
+		<Map id="bujifang" name="逆鳞迷境" minmapid="984" width="100" height="100">
+		</Map>
+		<Map id="chuansongfang-1" name="逆鳞迷境" minmapid="985" width="100" height="100">
+		</Map>
+		<Map id="chuansongfang-2" name="逆鳞迷境" minmapid="986" width="100" height="100">
+		</Map>
+		<Map id="chuansongfang-3" name="逆鳞迷境" minmapid="987" width="100" height="100">
+		</Map>
+		<Map id="chuansongfang-4" name="逆鳞迷境" minmapid="988" width="100" height="100">
+		</Map>
+		<Map id="chuansongfang" name="逆鳞迷境" minmapid="989" width="100" height="100">
+		</Map>
+		<Map id="tongyong" name="逆鳞迷境" minmapid="992" width="120" height="120">
+		</Map>
+		<Map id="xiaoBOSS" name="逆鳞迷境" minmapid="993" width="100" height="100">
+		</Map>
+		<Map id="bkc" name="碧空城" minmapid="994" width="300" height="400">
+		</Map>
+		<Map id="xwy" name="玄武域" minmapid="978" width="150" height="180">
+			<Npc name="中州神探" x="119" y="120" desc="深入逆鳞龙穴而活着回来的人"/>
+			<Npc name="逆鳞龙穴" x="128" y="124" desc="逆鳞龙穴入口"/>
+			<Jump srcx="81" srcy="19" dstid="bkc" dstx="51" dsty="370"/>
+		</Map>
+		<Map id="lxks" name="逆鳞龙穴" minmapid="991" width="260" height="300">
+			<Jump srcx="114" srcy="172" dstid="xwy" dstx="129" dsty="125"/>
+			<Jump srcx="207" srcy="245" dstid="NLLXA1" dstx="35" dsty="41"/>
+		</Map>
+		<Map id="daboss" name="逆鳞王座" minmapid="990" width="100" height="100">
+			<Jump srcx="33" srcy="66" dstid="NLLXB1" dstx="70" dsty="40"/>
+		</Map>
+		<Map id="fjdb6" name="天人宝地一层" minmapid="996" width="170" height="200">			
+		</Map>
+		<Map id="cybs" name="争霸赛场" minmapid="500" width="250" height="400">			
+		</Map>
+		<Map id="bzzbkj" name="珍宝空间" minmapid="1018" width="400" height="300">			
+		</Map>
+		<Map id="DFDuoBao" name="天空之城" minmapid="830" width="340" height="560">
+		</Map>
+		<Map id="DFZhengBa" name="巅峰争夺战场" minmapid="165" width="70" height="70">
+		</Map>
+		<Map id="wsjhzwh" name="万圣节化妆舞会" minmapid="1022" width="100" height="120">
+		</Map>
+		<Map id="ganen01" name="感恩圣地（个人）" minmapid="1030" width="100" height="100">
+		</Map>
+		<Map id="ganen02" name="感恩圣地（团队）" minmapid="1031" width="120" height="140">
+		</Map>
+		<Map id="sdkhy" name="圣诞狂欢乐园" minmapid="1035" width="120" height="160">
+		</Map>
+		<Map id="cangbaoku" name="藏宝库" minmapid="1036" width="120" height="150">
+		</Map>
+		<Map id="PHYLEMAP" name="宗族秘境" minmapid="1036" width="120" height="150">
+		</Map>
+		<Map id="PhyleAdv" name="宗族神境" minmapid="1036" width="120" height="150">
+		</Map>
+		<Map id="sjb" name="世界杯" minmapid="909" width="150" height="150">
+		</Map>
+		<Map id="cangqiongyaosai" name="苍穹要塞" minmapid="1040" width="240" height="300">
+		</Map>
+		<Map id="chiyanbaodi" name="赤焰宝地" minmapid="1040" width="240" height="300">
+		</Map>
+		<Map id="shengcunzz" name="生存之战" minmapid="1045" width="100" height="110">
+		</Map>
+		<Map id="shengdanfb" name="雪域秘境" minmapid="1046" width="68" height="200">
+		</Map>
+		<Map id="shenmibaodi" name="神秘宝地" minmapid="1046" width="68" height="200">
+		</Map>
+		<Map id="shenmibaodi1" name="神秘宝地" minmapid="1046" width="68" height="200">
+		</Map>		
+		<Map id="chunjiedabao" name="天地宝库" minmapid="1048" width="80" height="96">
+		</Map>
+		<Map id="caishenmiao" name="财神庙" minmapid="1049" width="80" height="90">
+		</Map>
+		<Map id="stl001" name="双头魔龙巢穴" minmapid="1050" width="78" height="100">
+		</Map>
+		<Map id="txdyjs" name="匠神秘境" minmapid="877" width="100" height="100">
+		</Map>
+		<Map id="luoleiqu" name="落雷试炼场" minmapid="1053" width="70" height="100">
+		</Map>
+		<Map id="ganwudiantang" name="感悟殿堂" minmapid="1054" width="75" height="100">
+		</Map>
+		<Map id="51jinshan" name="愚公移山" minmapid="1055" width="75" height="115">
+		</Map>
+		<Map id="pkzc" name="巅峰竞技场" minmapid="1042" width="70" height="90">
+		</Map>
+		<Map id="jdz" name="据点战" minmapid="1060" width="800" height="800">
+		</Map>
+		<Map id="12-dxmy" name="轮回之战副本" minmapid="1062" width="100" height="100">
+		</Map>
+		<Map id="12-halh" name="轮回之战副本" minmapid="1063" width="80" height="100">
+		</Map>
+		<Map id="12-hdsj" name="轮回之战副本" minmapid="1064" width="125" height="130">
+		</Map>
+		<Map id="12-jcyx" name="轮回之战副本" minmapid="1065" width="150" height="150">
+		</Map>
+		<Map id="12-jjd" name="轮回之战副本" minmapid="1066" width="90" height="100">
+		</Map>
+		<Map id="12-lxtj" name="轮回之战副本" minmapid="1067" width="150" height="250">
+		</Map>
+		<Map id="12-nmdd" name="轮回之战副本" minmapid="1068" width="100" height="100">
+		</Map>
+		<Map id="12-swd" name="轮回之战副本" minmapid="1069" width="60" height="90">
+		</Map>
+		<Map id="12-txmg" name="轮回之战副本" minmapid="1070" width="120" height="140">
+		</Map>
+		<Map id="12-wsd" name="轮回之战副本" minmapid="1071" width="100" height="100">
+		</Map>
+		<Map id="12-xlsd" name="轮回之战副本" minmapid="1072" width="100" height="100">
+		</Map>
+		<Map id="12-zsdd" name="轮回之战副本" minmapid="1073" width="120" height="130">
+		</Map>
+		<Map id="sulhbd" name="岁月轮回" minmapid="1050" width="78" height="100">
+		</Map>
+		<Map id="lhzd" name="周年庆轮回之地" minmapid="1075" width="120" height="150"/>
+		<Map id="xydt" name="副本" minmapid="1076" width="120" height="190"/>
+		<Map id="zdfb" name="试练场" minmapid="1077" width="46" height="60"/>
+		<Map id="grsl" name="个人试练" minmapid="1077" width="46" height="60"/>
+		<Map id="jiangjunling" name="将军陵" minmapid="1078" width="310" height="260"/>
+		<Map id="jiangjunling01" name="将军陵墓二层" minmapid="1080" width="160" height="200"/>
+		<Map id="jiangjunling02" name="将军陵墓一层" minmapid="1081" width="230" height="260"/>
+		<Map id="sgzc" name="时光之城" minmapid="105" width="540" height="1020"/>
+		<Map id="sgzc01" name="议事厅" minmapid="0" width="28" height="36"/>
+		<Map id="wuxing" name="五行宝地" minmapid="1079" width="146" height="204"/>
+		<Map id="lipaofb" name="雪域" minmapid="1046" width="68" height="200"/>
+		<Map id="slbd" name="试炼宝地" minmapid="886" width="220" height="290"/>
+		<Map id="swslc" name="神武试炼场" minmapid="1052" width="159" height="218"/>
+		<Map id="txmc0" name="魔域" minmapid="1084" width="158" height="328"/>
+		<Map id="txmc" name="魔域" minmapid="1083" width="158" height="328">
+			<Npc name="玄玄老人" x="129" y="138" desc="开启祭坛"/>
+			<Npc name="远征军将军" x="38" y="196" desc="接取主线任务"/>
+			<Npc name="前线指挥官" x="57" y="197" desc="接取主线任务"/>
+			<Npc name="铁匠徒弟" x="50" y="97" desc="接取主线任务"/>
+			<Npc name="远征军文官" x="33" y="198" desc="开启军衔、接取军衔日常任务"/>
+			<Npc name="杂货铺老板" x="44" y="192" desc="买卖杂物探消息"/>
+			<Npc name="仓库管理员" x="60" y="227" desc="存取捆扎物品"/>
+			<Npc name="药店掌柜" x="66" y="212" desc="买卖药品"/>
+			<Npc name="铁匠" x="71" y="216" desc="买卖修理武器、铸造命运之刃"/>
+			<Npc name="远征军密探" x="70" y="130" desc="接取主线任务"/>
+			<Npc name="远征军密探" x="51" y="117" desc="接取主线任务"/>
+			<Npc name="远征军密探" x="125" y="91" desc="接取主线任务"/>
+			<Npc name="远征军密探" x="101" y="183" desc="接取主线任务"/>
+			<Npc name="密探小队队长" x="87" y="219" desc="接取主线任务"/>
+			<Npc name="濒死的士兵" x="122" y="197" desc="接取主线任务"/>
+			<Npc name="巡逻小队士兵" x="109" y="250" desc="接取主线任务"/>
+			<Jump srcx="114" srcy="47" dstid="txwc02" dstx="162" dsty="30" type="1"/>
+		</Map>
+		<Map id="txmc1" name="心魔幻境" minmapid="1084" width="158" height="328"/>
+		<Map id="txwc01" name="绝望回廊" minmapid="1090" width="300" height="500">
+			<Jump srcx="28" srcy="421" dstid="txwc02" dstx="95" dsty="206"  type="1"/>
+			<Jump srcx="239" srcy="36" dstid="txwc04" dstx="262" dsty="280"  type="1"/>
+		</Map>
+		<Map id="txwc02" name="埋骨之地" minmapid="1088" width="200" height="240">
+			<Jump srcx="168" srcy="27" dstid="txmc" dstx="115" dsty="55"  type="1"/>
+			<Jump srcx="33" srcy="209" dstid="txwc03" dstx="180" dsty="504"  type="1"/>
+			<Jump srcx="100" srcy="202" dstid="txwc01" dstx="26" dsty="424"  type="1"/>
+		</Map>
+		<Map id="txwc03" name="暗影迷宫"/>
+		<Map id="txwc04" name="深渊王座" minmapid="1091" width="350" height="370">
+			<Npc name="远征军密探" x="260" y="274" desc="接取主线任务"/>
+			<Jump srcx="260" srcy="93" dstid="txmc" dstx="91" dsty="23"  type="1"/>
+			<Jump srcx="70" srcy="83" dstid="txwc03" dstx="64" dsty="108"  type="1"/>
+			<Jump srcx="267" srcy="286" dstid="txwc01" dstx="233" dsty="41"  type="1"/>
+		</Map>
+		<Map id="moba" name="远征军试炼场" minmapid="1099" width="380" height="440">	
+			 <Jump srcx="97" srcy="184" type="2"/>
+			 <Jump srcx="161" srcy="248" type="2"/>
+			 <Jump srcx="227" srcy="314" type="2"/>
+			 <Jump srcx="70" srcy="208" type="2"/>
+			 <Jump srcx="137" srcy="272" type="2"/>
+			 <Jump srcx="203" srcy="338" type="2"/>
+			 <Jump srcx="82" srcy="299" type="2"/>
+			 <Jump srcx="103" srcy="302" type="2"/>
+			 <Jump srcx="102" srcy="319" type="2"/>
+			 <Jump srcx="92" srcy="309" type="2"/>
+
+			 <Jump srcx="151" srcy="130" type="2"/>
+			 <Jump srcx="215" srcy="195" type="2"/>
+			 <Jump srcx="281" srcy="260" type="2"/>
+			 <Jump srcx="178" srcy="103" type="2"/>
+			 <Jump srcx="242" srcy="167" type="2"/>
+			 <Jump srcx="308" srcy="233" type="2"/>
+			 <Jump srcx="270" srcy="115" type="2"/>
+			 <Jump srcx="271" srcy="131" type="2"/>
+			 <Jump srcx="290" srcy="133" type="2"/>
+			 <Jump srcx="280" srcy="122" type="2"/>
+		</Map>
+		<Map id="caishenmiao-fx" name="财神庙" minmapid="1120" width="80" height="90"/>
+		<Map id="jingjichang" name="公平竞技场" minmapid="1124" width="101" height="152"/>
+		<Map id="HJJD" name="幻境禁地" minmapid="1130" width="198" height="208" adviceLv="45" comeOut="烈火剑法破盾斩等技能\禁地装备\职业之魂\裁决级武器\暗影精华">
+			<Jump srcx="40" srcy="126" dstid="hjym" dstx="120" dsty="165" />
+			<Jump srcx="105" srcy="62" dstid="hjlx" dstx="21" dsty="158" />
+		</Map>
+		<Map id="HJLX" name="幻境灵犀仙岛" minmapid="1131" width="188" height="248" adviceLv="50" comeOut="元神狂龙等顶级技能\禁地装备\神武装备\职业之魂\裁决级武器\雷裂刀级武器\圣战神武衣服">
+			<Jump srcx="21" srcy="158" dstid="hjjd" dstx="105" dsty="62" />
+		</Map>
+		<Map id="HJYM" name="幻境跃马平原" minmapid="1132" width="252" height="340" adviceLv="40" comeOut="初级技能\逆魔级别饰品\药水\镇魔值">
+			<Jump srcx="120" srcy="165" dstid="hjzz" dstx="180" dsty="108" />
+			<Jump srcx="39" srcy="234" dstid="hjjd" dstx="40" dsty="126" />
+		</Map>
+		<Map id="HJZZ" name="幻境中州" minmapid="1133" width="420" height="440" adviceLv="35" comeOut="初级技能\金币\药水\镇魔值">
+			<Npc name="未入魔的老兵" x="206" y="226" desc="心魔乱中州奖励领取"/>
+			<Npc name="中州皇陵入口" x="212" y="145" desc="前往中州皇陵第一层轮回道" looks="30999"/>
+			<Jump srcx="180" srcy="108" dstid="hjym" dstx="39" dsty="234" />
+		</Map>
+		<Map id="hjzzto0" name="幻境中州" minmapid="1133" width="420" height="440"/>
+		<Map id="hjzzto1" name="幻境中州" minmapid="1133" width="420" height="440"/>
+		<Map id="hjzzto2" name="幻境中州" minmapid="1133" width="420" height="440"/>
+		<Map id="hjzzto3" name="幻境中州" minmapid="1133" width="420" height="440"/>
+		<Map id="QGD" name="庆功殿" minmapid="1141" width="80" height="104">
+			<Npc name="幻境中州传送门" x="28" y="44" desc="进入幻境中州"/>
+			<Npc name="中州皇陵入口" x="212" y="145" desc="前往中州皇陵第一层轮回道" looks="30999"/>
+			<Jump srcx="21" srcy="75" dstid="sh000" dstx="37" dsty="44" />
+		</Map>
+		<Map id="HJQGD" name="幻境庆功殿" minmapid="1142" width="80" height="104"/>
+		<Map id="HJLX1" name="幻境灵犀秘境" minmapid="1131" width="188" height="248"/>
+		<Map id="HLDG" name="轮回道" minmapid="1196" width="168" height="220">
+			<Jump srcx="90" srcy="101" dstid="HLDG_02" dstx="109" dsty="127" />
+		</Map>
+		<Map id="HLDG_02" name="武神台" minmapid="1197" width="230" height="280">
+			<Jump srcx="204" srcy="156" dstid="HLDG_03" dstx="115" dsty="210" />
+			<Jump srcx="119" srcy="135" dstid="HLDG" dstx="83" dsty="98" />
+		</Map>
+		<Map id="HLDG_03" name="真龙殿" minmapid="1198" width="142" height="265">
+			<Jump srcx="121" srcy="218" dstid="HLDG_02" dstx="195" dsty="151" />
+		</Map>
+		<Map id="HLDG_KF" name="中州皇陵" minmapid="1196" width="168" height="220"/>
+		<Map id="HYBD0" name="噬魂狱" minmapid="173" width="325" height="325"/>
+		<Map id="F008-qingdianditu" name="庆典广场" minmapid="1150" width="200" height="200"/>
+		<Map id="F008-qingrenjie" name="情人节宝地" minmapid="1151" width="200" height="200"/>
+		<Map id="hlxy" name="幻灵仙域" minmapid="1160" width="172" height="308"/>
+		<Map id="YHSLC1" name="英豪试炼场一层" minmapid="218" width="250" height="250"/>
+		<Map id="YHSLC2" name="英豪试炼场二层" minmapid="9" width="400" height="400"/>
+		<Map id="YHSLC3" name="英豪试炼场三层" minmapid="281" width="300" height="300"/>
+		<Map id="xlxy_wj" name="修罗神界" minmapid="1179" width="196" height="312">
+            <Jump srcx="60" srcy="48" dstid="xlxy_dg01" dstx="58" dsty="164"/>
+            <Npc name="修罗定天柱" x="151" y="251" desc="回到中州"/>
+            <Npc name="魔法阵祭祀" x="162" y="256" desc=""/>
+            <Npc name="明月" x="157" y="198" desc="四圣军团首领"/>
+            <Npc name="圣战军团士兵" x="152" y="144" desc=""/>
+            <Npc name="法神军团士兵" x="145" y="57" desc=""/>
+            <Npc name="天尊军团士兵" x="88" y="96" desc=""/>
+            <Npc name="枪圣军团士兵" x="65" y="155" desc=""/>
+        </Map>
+		<Map id="xlxy_dg01" name="演武场" minmapid="1180" width="150" height="192">
+            <Jump srcx="51" srcy="172" dstid="xlxy_wj" dstx="70" dsty="63"/>
+            <Jump srcx="77" srcy="34" dstid="xlxy_dg02" dstx="33" dsty="164"/>
+            <Npc name="明月" x="74" y="34" desc="四圣军团首领"/>
+        </Map>
+		<Map id="xlxy_dg02" name="修罗古道" minmapid="1181" width="174" height="232">
+            <Jump srcx="30" srcy="171" dstid="xlxy_dg01" dstx="77" dsty="41"/>
+            <Jump srcx="98" srcy="114" dstid="xlzsd" dstx="38" dsty="42"/>
+            <Jump srcx="84" srcy="97" dstid="xlxy_dg02" dstx="57" dsty="193"/>
+            <Jump srcx="54" srcy="190" dstid="xlxy_dg02" dstx="82" dsty="99"/>
+            <Jump srcx="58" srcy="83" dstid="xlzsd" dstx="46" dsty="189"/>
+            <Jump srcx="87" srcy="213" dstid="xlzsd" dstx="181" dsty="100"/>
+            <Npc name="明月" x="96" y="115" desc="四圣军团首领"/>
+        </Map>
+		<Map id="xlzsd" name="修罗战神殿" minmapid="1178" width="202" height="284">
+            <Jump srcx="33" srcy="38" dstid="xlxy_dg02" dstx="90" dsty="119"/>
+            <Jump srcx="41" srcy="184" dstid="xlxy_dg02" dstx="61" dsty="86"/>
+            <Jump srcx="180" srcy="94" dstid="xlxy_dg02" dstx="85" dsty="215"/>
+        </Map>
+		<Map id="XIXI1" name="行会公共秘境" minmapid="167" width="70" height="70"/>
+        <Map id="nmsjs" name="逆魔随机赛" minmapid="1185" width="150" height="160"/>
+        <Map id="wqzdz" name="珍珑棋局" minmapid="1189" width="132" height="208"/>
+        <Map id="hghhy" name="皇宫后花园" minmapid="1046" width="68" height="200">
+		</Map>
+		<Map id="hghd" name="皇宫庭院" minmapid="1190" width="68" height="72"/>
+		<Map id="bmmg" name="北冥魔境" minmapid="1110" width="228" height="336">
+            <Jump srcx="170" srcy="75" dstid="bmdg1" dstx="50" dsty="375"/>
+            <Npc name="望乡魔岩" x="45" y="45" desc="镇守望乡台的魔化石巨人"/>
+            <Npc name="破魔军统领" x="50" y="215" desc="征讨北冥魔君"/>
+   </Map>
+		<Map id="bmdg1" name="寒荒秽土" minmapid="1111" width="312" height="444">
+            <Jump srcx="45" srcy="380" dstid="bmmg" dstx="170" dsty="75"/>
+            <Jump srcx="285" srcy="60" dstid="bmdg2" dstx="153" dsty="66"/>
+            <Npc name="寒荒秽土传送门" x="81" y="291" desc="随机传送进入一块秽土"/>
+			<Npc name="饥饿秽土传送门" x="63" y="165" desc="收取寒荒凭证传送到其他区域"/>
+			<Npc name="杀戮秽土传送门" x="173" y="183" desc="收取寒荒凭证传送到其他区域"/>
+			<Npc name="贪婪秽土传送门" x="185" y="358" desc="收取寒荒凭证传送到其他区域"/>
+			<Npc name="深渊" x="125" y="275" desc="陷入深渊的魔化跃马诸侯"/>
+   </Map>
+		<Map id="bmdg2" name="北冥魔宫" minmapid="1112" width="186" height="260">
+            <Jump srcx="153" srcy="66" dstid="bmdg1" dstx="285" dsty="60"/>
+			<Npc name="北冥魔君" x="100" y="155" desc="北冥之主，君临天下"/>
+   </Map>
+   <Map id="hhmj" name="洪荒魔界" minmapid="1210" width="242" height="436">
+		</Map>
+		<Map id="hhmj_Boss" name="流波山" minmapid="1211" width="116" height="156">
+		</Map>
+		<Map id="xlhg" name="仙灵幻谷" minmapid="1108" width="170" height="230">			
+		</Map>
+		<Map id="yuyuan" name="豫园" minmapid="1222" width="190" height="204"/>
+		<Map id="xwsy_ww" name="玄武圣域" minmapid="1223" width="312" height="500">
+			<Npc name="寻马" x="148" y="364" desc="山海探险团团长，迷茫的战士"/>
+			<Npc name="苏荣" x="144" y="364" desc="苏家千金，跟随寻马来到山海界"/>
+			<Npc name="吴牙" x="122" y="366" desc="不怀好意的法师，对寻马有特殊的目的"/>
+			<Npc name="裁决" x="128" y="364" desc="吴牙的跟班，想修炼魔法的战士"/>
+			<Npc name="元北斗" x="173" y="377" desc="玄妙的道士，性格和善"/>
+			<Npc name="风铃" x="177" y="377" desc="元北斗的情侣，身怀生死轮回之谜"/>
+			<Npc name="元北斗" x="172" y="239" desc="收集玄武精华，开启湖底传送阵"/>
+			<Npc name="风铃" x="174" y="237" desc="元北斗的情侣，身怀生死轮回之谜"/>
+			<Jump srcx="265" srcy="57" dstid="xwszd" dstx="60" dsty="60"/>
+		</Map>
+		<Map id="xwszd" name="玄武圣尊殿" minmapid="1225" width="84" height="92">
+			<Jump srcx="67" srcy="66" dstid="xwsy_ww" dstx="267" dsty="68"/>
+		</Map>
+		<Map id="xwsy_hd" name="玄武湖底" minmapid="1224" width="114" height="140">
+			<!-- <Jump srcx="44" srcy="150" dstid="bzs_shanyao" dstx="64" dsty="39"/> -->
+		</Map>
+		<Map id="slkpzbc" name="准备场" minmapid="1141" width="80" height="104">
+		</Map>
+		<Map id="youyuanhui_slkp" name="快跑竞速场" minmapid="1227" width="200" height="200">
+		</Map>
+		<Map id="SJDHJJC02" name="试剑大会" minmapid="1221" width="78" height="92">
+		</Map>
+		<Map id="BCS" name="百草山" minmapid="1229" width="394" height="312">
+			<Jump srcx="367" srcy="41" dstid="BCS_BOSS" dstx="45" dsty="40"/>
+		</Map>
+		<Map id="BCS_BOSS" name="药神谷" minmapid="1230" width="54" height="80">
+			<Jump srcx="50" srcy="37" dstid="BCS" dstx="360" dsty="57"/>
+		</Map>
+		<Map id="ZNQ2024" name="周年夏日盛典" minmapid="1231" width="180" height="220">
+		</Map>
+		<Map id="CBZDZ" name="城邦争夺战" minmapid="1228" width="420" height="732"/>
+		<Map id="MTJS01" name="魔童降世" minmapid="1221" width="78" height="92">
+		</Map>
+		<Map id="MTJS02" name="魔童降世" minmapid="1221" width="78" height="92">
+		</Map>
+		<Map id="MTJS03" name="乾元山" minmapid="1052" width="160" height="220">
+		</Map>
+		<Map id="MTNH01" name="魔童闹海" minmapid="864" width="100" height="150">
+		</Map>
+		<Map id="MTNH02" name="魔童闹海" minmapid="864" width="100" height="150">
+		</Map>
+		<Map id="MTNH03" name="乾元山" minmapid="1052" width="160" height="220">
+		</Map>
+        <Map id="XLYS" name="修罗要塞" minmapid="1233" width="188" height="276">
+			<Npc name="补给官" x="36" y="129" desc="补给药品"/>
+			<Npc name="补给官" x="153" y="129" desc="补给药品"/>
+			<Npc name="鼓舞官" x="94" y="70" desc="获得鼓舞"/>
+			<Npc name="鼓舞官" x="94" y="182" desc="获得鼓舞"/>
+		</Map>
+		<Map id="XLYSZBC" name="修罗要塞准备场" minmapid="168" width="200" height="200">
+
+		</Map>
+		<Map id="HDLGWW" name="东海龙宫" minmapid="1234" width="216" height="352">
+			<Jump srcx="52" srcy="79" dstid="HDLG" dstx="119" dsty="57"/>
+		</Map>
+		<Map id="HDLG" name="龙宫内殿" minmapid="1235" width="140" height="180">
+			<Jump srcx="128" srcy="144" dstid="HDLGWW" dstx="56" dsty="65"/>
+		</Map>
+		<Map id="LGYS" name="龙宫要塞" minmapid="1236" width="196" height="272">
+			<Npc name="补给官" x="36" y="129" desc="补给药品"/>
+			<Npc name="补给官" x="148" y="125" desc="补给药品"/>
+			<Npc name="鼓舞官" x="94" y="81" desc="获得鼓舞"/>
+			<Npc name="鼓舞官" x="96" y="193" desc="获得鼓舞"/>
+		</Map>
+		<Map id="LGYSZBC" name="龙宫要塞准备场" minmapid="168" width="200" height="200">
+		</Map>
+        <Map id="HDLG1" name="东海龙宫" minmapid="1235" width="140" height="180">
+		</Map>
+	</LocalMap>
+</MinMapList>

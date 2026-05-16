@@ -1,0 +1,6 @@
+[@main]
+#if
+us_damagedura 1
+#act
+systemmsgex $CC_WISPER "江湖告急令:【<$username>】在<$mapname>的(<$posx>,<$posy>)处发出江湖告急令!"
+close

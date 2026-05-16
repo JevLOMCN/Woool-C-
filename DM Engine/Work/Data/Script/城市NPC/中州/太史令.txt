@@ -1,0 +1,144 @@
+[@main]
+斗转星移，岁月如歌。传世大陆五千年的光辉历史，给后人\
+留下了无尽的宝藏传说，还有无数张神秘的藏宝图流传于世\
+。如果你有藏宝图却无法参透其中奥妙的话，可以拿给我看\
+看，老夫是这个大陆上知识最渊博的人；当然，如果你挖到\
+了宝盒打不开，我还可以帮你无偿打开。\
+<解开藏宝图的秘密/@ExamMap>  <归还已开藏宝图/@BackMap>\
+<参与竞争挖宝/@Compete>\
+<帮我打开宝盒/@OpenBox>\
+<离开/@exit>
+
+[@ExamMap]
+#if
+checkbagitem 普通藏宝图 1
+#act
+takebagitem 普通藏宝图 1
+goto @loneyMap
+#elsesay
+年轻人，做人要诚实，你没有藏宝图来找我干吗？老夫很生\
+气，后果很严重！\\
+<离开/@exit>
+
+[@loneyMap]
+
+[@BackMap]
+你没有已开藏宝图，何谈归还？ \\
+<离 开/@exit>
+
+[@Compete]
+你来的真是时候！目前正有一场竞争挖宝正在进行当中。你\
+赶紧出发，凭你的身手肯定可以第一个拿到宝盒！\\
+<宝藏的秘密－竞争挖宝/@_RW_taskDesp&2201>\\
+<离开/@exit>
+
+[@_RW_taskDesp&2201]
+这张藏宝图上面说的是一个故事，我把故事复述给你听。故\
+事里面会提到藏宝地点的大致范围，请你仔细推敲。你如此\
+聪明睿智，我相信你很快就可以找到宝藏。\
+<接受任务/@_RW_accept&2201>                <离开/@exit>
+
+[@_RW_accept&2201]
+几百年前，一支人类精锐之师闯入了地下魔域六层，一路杀\
+敌无数，正待功成班师之际，魔域的夺命之柱冲天而起，刹\
+那间魔气纵横，夺魂无数。英雄们历经奋战，终因寡不敌众\
+全部壮烈牺牲。但是他们的浩然英气却纵横于魔域之中，并凝\
+结成混元天地之宝，其中有一处宝物就在<Color=red 地下魔域 6-2层通>\
+<Color=red 往心之魔域的入口附近>，有待于各位英雄去寻觅。\
+<离开/@exit>
+
+[@OpenBox]
+#if
+checkbagitem 远古宝盒 1
+#act
+takebagitem 远古宝盒 1
+goto @BoxItem
+#elsesay
+年轻人，做人要诚实，你没有远古的宝箱，来瞎掺和什么，\
+你这是欺骗行为。\\
+<离开/@exit>
+
+[@BoxItem]
+#switch
+random 2 19
+#case:2
+#act
+give 银蛇剑 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了银蛇剑!"
+#case:3
+#act
+give 离别钩 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了离别钩!"
+#case:4
+#act
+give 无极 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了无极!"
+#case:5
+#act
+give 龙纹 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了龙纹!"
+#case:6
+#act
+give 魔法权杖 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了魔法权杖!"
+#case:7
+#act
+give 骨玉 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了骨玉!"
+#case:7
+#act
+give 血饮 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了血饮!"
+#case:8
+#act
+give 龙牙利刃 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了龙牙利刃!"
+#case:9
+#act
+give 铜锤 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了铜锤!"
+#case:10
+#act
+give 裁决 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了裁决!"
+#case:11
+#act
+give 屠龙刀 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了屠龙刀!"
+#case:12
+#act
+give 雷裂刀 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了雷裂刀!"
+#case:13
+#act
+give 紫月圣君 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了紫月圣君!"
+#case:14
+#act
+give 耀阳圣尊 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了耀阳圣尊!"
+#case:15
+#act
+give 碧海天王 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了碧海天王!"
+#case:16
+#act
+give 大关刀 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了大关刀!"
+#case:17
+#act
+give 狼牙棒 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了狼牙棒!"
+#case:18
+#act
+give 井中月 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了井中月!"
+#case:19
+#act
+give 血剑 1
+systemmsg "太神奇了!<$username>的远古宝盒换得了血剑!"
+#default
+#act
+give 乌木剑 1
+systemmsg "真不幸!<$username>的远古宝盒换得了乌木剑!"
+#end

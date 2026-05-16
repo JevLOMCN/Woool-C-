@@ -1,0 +1,16 @@
+[@main]
+年青人,我可以带你去铁血魔城.\
+不过路费要1000金币!\
+<去铁血魔城/@goback>\
+<不去了/@exit>
+
+[@goback]
+#if
+checkex gold > 999
+#act
+takegold 1000
+move 284 80 76
+close
+#elsesay
+年青人!你钱不够,我帮不了你!\\
+<离开/@exit>

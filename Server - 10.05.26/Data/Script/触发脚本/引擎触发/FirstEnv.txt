@@ -1,0 +1,176 @@
+[@First]
+#act
+VAR RedGem 0
+VAR BlueGem 0
+VAR BerylGem 0
+VAR deathid 0
+VAR deathx 0
+VAR deathy 0
+VAR PetBackExpTime 0
+VAR ZhenBaoExp 0
+VAR ZhenBaoExpMax 10000
+VAR ZhenBaoStar 0
+VAR ZhenBaoTime 0
+SENDTREASUREINFO 0 10000 0
+goto @firstlogin
+
+[@firstlogin]
+你好，欢迎你第一次来到《传奇世界》，精彩世界在等你游历！\
+作为新人，现在你还一无所有，不过你马上就能得到一些必备\
+物品了。下面有三种兵器可供挑选，还有新手任务等着你哦！\
+选择<硬木剑/@give1>\
+选择<桃木剑/@give2>\
+选择<竹剑/@give3>\
+查看<武器介绍/@lista>\
+<新手任务/@goodnew>\
+<确定/@exit>
+
+[@give1]
+#act
+give 硬木剑 1 1
+goto @clothes
+
+[@give2]
+#act
+give 桃木剑 1 1
+goto @clothes
+
+[@give3]
+#act
+give 竹剑 1 1
+goto @clothes
+
+[@lista]
+桃木剑：攻击2-5。\
+竹剑：攻击3-5 诅咒+1。\
+硬木剑：攻击2-4 幸运+1。\\
+<挑选武器/@firstlogin>
+
+[@goodnew]
+你可以在海角村里的398，590和落霞岛村里的248，240附近\
+找到新手向导，他可以为你提供帮助，同时你也可以在他那\
+里开始“新手任务”！\\
+<知道了/@firstlogin>
+
+[@clothes]
+祝您在本服务器游戏愉快！\\
+<开启大背包/@bigbag>\
+<测试领取/@books>\\
+<确定/@exit>
+
+[@bigbag]
+#act
+SetBigBag 1
+systemmsg $username "已开启大背包！"
+
+[@books]
+#if
+check job 0
+#act
+goto @job1
+#elseif
+check job 1
+#act
+goto @job2
+#elseif
+check job 2
+#act
+goto @job3
+#if
+true
+#act
+setlevel 56
+
+[@job1]
+#act
+AddMagic 初级剑法 2
+AddMagic 攻杀剑法 2
+AddMagic 护身真气 2
+AddMagic 刺杀剑术 2
+AddMagic 半月弯刀 2
+AddMagic 野蛮冲撞 2
+AddMagic 烈火剑法 2
+AddMagic 战魂真悟 2
+AddMagic 破击剑法 2
+AddMagic 突斩 2
+AddMagic 破盾斩 2
+AddMagic 金刚护体 2
+AddMagic 擒龙手 2
+AddMagic 移形换影 2
+give 无赦 1
+give 蟠龙金甲 1
+give 蟠龙金袍 1
+give 血煞勋章 1
+give 血煞靴子 1
+give 血煞腰带 1
+give 血煞头盔 1
+give 血煞项链 1
+give 血煞戒指 2
+give 血煞手镯 2
+
+[@job2]
+#act
+AddMagic 小火球 2
+AddMagic 火炎刀 2
+AddMagic 抗拒火环 2
+AddMagic 地狱火焰 2
+AddMagic 疾光电影 2
+AddMagic 雷电术 2
+AddMagic 诱惑之光 2
+AddMagic 瞬间移动 2
+AddMagic 火墙 2
+AddMagic 爆裂火焰 2
+AddMagic 地狱雷光 2
+AddMagic 魔法盾 2
+AddMagic 圣言术 2
+AddMagic 冰咆哮 2
+AddMagic 化身蝙蝠 2
+AddMagic 法之魄 2
+AddMagic 兽灵术 2
+AddMagic 风影盾 2
+AddMagic 狂龙紫电 2
+AddMagic 流星火雨 2
+AddMagic 魔魂术 2
+give 夺魄 1
+give 蟠龙金甲 1
+give 蟠龙金袍 1
+give 魔雷勋章 1
+give 魔雷靴子 1
+give 魔雷腰带 1
+give 魔雷头盔 1
+give 魔雷项链 1
+give 魔雷手镯 2
+give 魔雷戒指 2
+
+[@job3]
+#act
+AddMagic 治疗术 2
+AddMagic 精神战法 2
+AddMagic 施毒术 2
+AddMagic 灵魂道符 2
+AddMagic 幽灵盾 2
+AddMagic 神圣战甲术 2
+AddMagic 困魔咒 2
+AddMagic 骷髅召唤术 2
+AddMagic 隐身术 2
+AddMagic 集体隐身术 2
+AddMagic 群体治愈术 2
+AddMagic 召唤神兽 2
+AddMagic 狮子吼 2
+AddMagic 道心清明 2
+AddMagic 神光术 2
+AddMagic 解毒术 2
+AddMagic 强化骷髅术 2
+AddMagic 幽冥火咒 2
+AddMagic 心灵召唤 2
+AddMagic 遁地 2
+give 聚灵 1
+give 蟠龙金甲 1
+give 蟠龙金袍 1
+give 幽泉勋章 1
+give 幽泉道靴 1
+give 幽泉腰带 1
+give 幽泉头盔 1
+give 幽泉项链 1
+give 幽泉手镯 2
+give 幽泉戒指 2

@@ -1,0 +1,46 @@
+[Setup]
+CastleName=…≥≥«
+OwnGuild=
+ChangeDate="2024-12-16 15:09:23"
+WarDate="2024-12-16 15:09:23"
+IncomeToday="2024-12-16 15:09:23"
+TotalGold=1000000
+TodayIncome=0
+TexRate=50
+Rebate=70
+
+[Defense]
+CastleMap=116
+CastleHomeMap=116
+CastleHomeX=224
+CastleHomeY=436
+CastleWarRangeX=100
+CastleWarRangeY=100
+
+PalaceMap=123
+PalaceDoorX=18
+PalaceDoorY=25
+CastlePalaceDoorX=167
+CastlePalaceDoorY=370
+
+MainDoorName=…≥≥«¥Û√≈
+MainDoorX=206
+MainDoorY=416
+MainDoorOpen=1
+MainDoorHP=10000
+
+LeftWallName=ª π¨«Ω◊Û
+LeftWallX=158
+LeftWallY=371
+LeftWallHP=5000
+
+CenterWallName=ª π¨«Ω÷–
+CenterWallX=164
+CenterWallY=372
+CenterWallHP=5000
+
+RightWallName=ª π¨«Ω”“
+RightWallX=170
+RightWallY=366
+RightWallHP=5000
+

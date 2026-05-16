@@ -1,0 +1,105 @@
+[@Logout]
+#if 
+hasmaster
+#act
+call @sendtomaster
+#end
+#if
+hasstudent
+#act
+call @sendtostudent
+#if
+ismarried
+#act
+call @marryshow
+#if
+checkflag 50
+#act
+clrflag 50
+#if
+checkex $mapid = 258
+#act
+call @eliminate
+#if
+checkflag 7
+#act
+clrflag 7
+#end
+#act
+call @redname
+close
+
+[@marryshow]
+#if
+check sex  0
+#act
+systemmsgex $CC_SPECIAL $marriage "您的丈夫<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了！"
+#elseact
+systemmsgex $CC_SPECIAL $marriage "您的妻子<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了！"
+
+
+[@sendtomaster]
+#if
+humonline $master
+#act
+systemmsgex $CC_SPECIAL $master "您的徒弟<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了"
+
+
+[@sendtostudent]
+#if
+hasstudent 0
+humonline $student1
+#act
+systemmsgex $CC_SPECIAL $student1 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了"
+#if
+hasstudent 1
+humonline $student2
+#act
+systemmsgex $CC_SPECIAL $student2 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了"
+#if
+hasstudent 2
+humonline $student3
+#act
+systemmsgex $CC_SPECIAL $student3 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处下线了"
+
+[@redname]
+#if
+ISDEATH
+#act
+call @rednameer
+close
+
+[@rednameer]
+#if
+checkex pkpoint > 2
+#act
+setrelivepoint 红名村
+close
+
+[@eliminate]
+#if
+checkex $horserace.player1name = $username
+#act
+timerstop 1
+movr horserace.player1name = 0
+movr horserace.raceway1 = 0
+#if
+checkex $horserace.player2name = $username
+#act
+timerstop 2
+movr horserace.player2name = 0
+movr horserace.raceway2 = 0
+#if
+checkex $horserace.player3name = $username
+#act
+timerstop 3
+movr horserace.player3name = 0
+movr horserace.raceway3 = 0
+#if
+checkex $horserace.player4name = $username
+#act
+timerstop 4
+movr horserace.player4name = 0
+movr horserace.raceway4 = 0
+#end
+close

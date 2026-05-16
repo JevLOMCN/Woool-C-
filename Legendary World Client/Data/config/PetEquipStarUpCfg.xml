@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<petStarUp>
+	<dragon>
+		<equip level="1" hp="1000" ss_mianshang="50" wuxing="100"/>
+		<equip level="2" hp="2000" ss_mianshang="100" wuxing="200"/>
+		<equip level="3" hp="4000" ss_mianshang="200" wuxing="400"/>
+		<equip level="4" hp="7000" ss_mianshang="300" wuxing="700"/>
+		<equip level="5" hp="10000" ss_mianshang="400" wuxing="1000"/>
+		<equip level="6" hp="15000" ss_mianshang="500" wuxing="1400"/>
+		<equip level="7" hp="20000" ss_mianshang="600" wuxing="1800"/>
+		<equip level="8" hp="30000" ss_mianshang="800" wuxing="2400"/>
+		<equip level="9" hp="45000" ss_mianshang="1000" wuxing="3000"/>
+		<equip level="10" hp="65000" ss_mianshang="1200" wuxing="3600"/>
+		<equip level="11" hp="90000" ss_mianshang="1400" wuxing="4300"/>
+		<equip level="12" hp="120000" ss_mianshang="1600" wuxing="5000"/>
+		<equip level="13" hp="160000" ss_mianshang="1800" wuxing="5800"/>
+		<equip level="14" hp="200000" ss_mianshang="2000" wuxing="6600"/>
+		<equip level="15" hp="250000" ss_mianshang="2200" wuxing="7500"/>
+		<equip level="16" hp="300000" ss_mianshang="2400" wuxing="8500"/>
+		<equip level="17" hp="350000" ss_mianshang="2700" wuxing="9700"/>
+		<equip level="18" hp="400000" ss_mianshang="3000" wuxing="11000"/>
+		<equip level="19" hp="450000" ss_mianshang="3300" wuxing="13000"/>
+		<equip level="20" hp="500000" ss_mianshang="3600" wuxing="15000"/>
+		<equip level="21" hp="600000" ss_mianshang="4000" wuxing="17000"/>
+		<equip level="22" hp="700000" ss_mianshang="4400" wuxing="19000"/>
+		<equip level="23" hp="800000" ss_mianshang="4800" wuxing="21000"/>
+		<equip level="24" hp="900000" ss_mianshang="5200" wuxing="23500"/>
+		<equip level="25" hp="1000000" ss_mianshang="5600" wuxing="26000"/>
+	</dragon>
+	<petAvatar>
+		<equip level="1" hp="3000" attack="100" defend="100" mo_defend="100" wx_attack="100" wx_defend="100"/>
+		<equip level="2" hp="6000" attack="200" defend="200" mo_defend="200" wx_attack="200" wx_defend="200"/>
+		<equip level="3" hp="9000" attack="300" defend="300" mo_defend="300" wx_attack="300" wx_defend="300"/>
+		<equip level="4" hp="12000" attack="400" defend="400" mo_defend="400" wx_attack="400" wx_defend="400"/>
+		<equip level="5" hp="18000" attack="600" defend="600" mo_defend="600" wx_attack="600" wx_defend="600"/>
+		<equip level="6" hp="24000" attack="800" defend="800" mo_defend="800" wx_attack="800" wx_defend="800"/>
+		<equip level="7" hp="30000" attack="1000" defend="1000" mo_defend="1000" wx_attack="1000" wx_defend="1000"/>
+		<equip level="8" hp="36000" attack="1200" defend="1200" mo_defend="1200" wx_attack="1200" wx_defend="1200"/>
+		<equip level="9" hp="42000" attack="1400" defend="1400" mo_defend="1400" wx_attack="1400" wx_defend="1400"/>
+		<equip level="10" hp="48000" attack="1600" defend="1600" mo_defend="1600" wx_attack="1600" wx_defend="1600"/>
+		<equip level="11" hp="54000" attack="1800" defend="1800" mo_defend="1800" wx_attack="1800" wx_defend="1800"/>
+		<equip level="12" hp="60000" attack="2000" defend="2000" mo_defend="2000" wx_attack="2000" wx_defend="2000"/>
+		<equip level="13" hp="69000" attack="2300" defend="2300" mo_defend="2300" wx_attack="2300" wx_defend="2300"/>
+		<equip level="14" hp="78000" attack="2600" defend="2600" mo_defend="2600" wx_attack="2600" wx_defend="2600"/>
+		<equip level="15" hp="87000" attack="2900" defend="2900" mo_defend="2900" wx_attack="2900" wx_defend="2900"/>
+		<equip level="16" hp="96000" attack="3200" defend="3200" mo_defend="3200" wx_attack="3200" wx_defend="3200"/>
+		<equip level="17" hp="105000" attack="3500" defend="3500" mo_defend="3500" wx_attack="3500" wx_defend="3500"/>
+		<equip level="18" hp="114000" attack="3800" defend="3800" mo_defend="3800" wx_attack="3800" wx_defend="3800"/>
+		<equip level="19" hp="126000" attack="4200" defend="4200" mo_defend="4200" wx_attack="4200" wx_defend="4200"/>
+		<equip level="20" hp="138000" attack="4600" defend="4600" mo_defend="4600" wx_attack="4600" wx_defend="4600"/>
+		<equip level="21" hp="150000" attack="5000" defend="5000" mo_defend="5000" wx_attack="5000" wx_defend="5000"/>
+		<equip level="22" hp="162000" attack="5400" defend="5400" mo_defend="5400" wx_attack="5400" wx_defend="5400"/>
+		<equip level="23" hp="174000" attack="5800" defend="5800" mo_defend="5800" wx_attack="5800" wx_defend="5800"/>
+		<equip level="24" hp="186000" attack="6200" defend="6200" mo_defend="6200" wx_attack="6200" wx_defend="6200"/>
+		<equip level="25" hp="198000" attack="6600" defend="6600" mo_defend="6600" wx_attack="6600" wx_defend="6600"/>
+	</petAvatar>
+</petStarUp>

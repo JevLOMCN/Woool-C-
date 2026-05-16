@@ -1,0 +1,150 @@
+<!-- type == 0 JumpPoint type == 1 NPC -->
+<mapfly>
+	<map id="1">
+		<fly srcx="255" srcy="250" dstx="176" dsty="185" dstmap="ZQD" dmsx="225" dmsy="218" dmdx="175" dmdy="124">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="217" dsty="213"/>
+			<Ponit dstx="176" dsty="185"/>
+		</fly>
+		<fly srcx="173" srcy="200" dstx="255" dsty="250">
+			<Ponit dstx="173" dsty="200"/>
+			<Ponit dstx="200" dsty="203"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+		<fly srcx="255" srcy="250" dstx="270" dsty="170" dstmap="0" dmsx="360" dmsy="400" dmdx="468" dmdy="226">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="270" dsty="170"/>
+		</fly>
+		<fly srcx="290" srcy="186" dstx="255" dsty="250">
+			<Ponit dstx="290" dsty="186"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+	</map>
+	<map id="DQD">
+		<fly srcx="255" srcy="250" dstx="176" dsty="185" dstmap="HHD" dmsx="226" dmsy="174" dmdx="175" dmdy="124">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="200" dsty="203"/>
+			<Ponit dstx="176" dsty="185"/>
+		</fly>
+		<fly srcx="173" srcy="200" dstx="255" dsty="250">
+			<Ponit dstx="173" dsty="200"/>
+			<Ponit dstx="200" dsty="203"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+		<fly srcx="255" srcy="250" dstx="270" dsty="170" dstmap="0" dmsx="374" dmsy="387" dmdx="468" dmdy="226">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="270" dsty="170"/>
+		</fly>
+		<fly srcx="290" srcy="186" dstx="255" dsty="250">
+			<Ponit dstx="290" dsty="186"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+	</map>
+	<map id="8">
+		<fly srcx="255" srcy="250" dstx="176" dsty="185" dstmap="XFD" dmsx="237" dmsy="154" dmdx="175" dmdy="124">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="200" dsty="203"/>
+			<Ponit dstx="176" dsty="185"/>
+		</fly>
+		<fly srcx="173" srcy="200" dstx="255" dsty="250">
+			<Ponit dstx="173" dsty="200"/>
+			<Ponit dstx="200" dsty="203"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+		<fly srcx="255" srcy="250" dstx="270" dsty="170" dstmap="0" dmsx="394" dmsy="387" dmdx="468" dmdy="226">
+			<Ponit dstx="255" dsty="250"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="270" dsty="170"/>
+		</fly>
+		<fly srcx="290" srcy="186" dstx="255" dsty="250">
+			<Ponit dstx="290" dsty="186"/>
+			<Ponit dstx="270" dsty="213"/>
+			<Ponit dstx="255" dsty="250"/>
+		</fly>
+	</map>
+	<map id="ZQD">
+		<fly srcx="175" srcy="124" dstx="216" dsty="218" dstmap="1" dmsx="173" dmsy="200" dmdx="255" dmdy="250">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="187" dsty="165"/>
+			<Ponit dstx="216" dsty="218"/>
+		</fly>
+		<fly srcx="225" srcy="218" dstx="175" dsty="124">
+			<Ponit dstx="225" dsty="218"/>
+			<Ponit dstx="207" dsty="134"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+		<fly srcx="175" srcy="124" dstx="247" dsty="102" dstmap="0" dmsx="412" dmsy="405" dmdx="468" dmdy="226">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="247" dsty="102"/>
+		</fly>
+		<fly srcx="247" srcy="102" dstx="175" dsty="124">
+			<Ponit dstx="247" dsty="102"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+	</map>
+	<map id="HHD">
+		<fly srcx="175" srcy="124" dstx="237" dsty="163" dstmap="DQD" dmsx="173" dmsy="200" dmdx="255" dmdy="250">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="237" dsty="163"/>
+		</fly>
+		<fly srcx="226" srcy="174" dstx="175" dsty="124">
+			<Ponit dstx="226" dsty="174"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+		<fly srcx="175" srcy="124" dstx="247" dsty="102" dstmap="0" dmsx="412" dmsy="405" dmdx="468" dmdy="226">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="247" dsty="102"/>
+		</fly>
+		<fly srcx="247" srcy="102" dstx="175" dsty="124">
+			<Ponit dstx="247" dsty="102"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+	</map>
+	<map id="XFD">
+		<fly srcx="175" srcy="124" dstx="244" dsty="139" dstmap="8" dmsx="173" dmsy="200" dmdx="255" dmdy="250">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="207" dsty="134"/>
+			<Ponit dstx="244" dsty="139"/>
+		</fly>
+		<fly srcx="237" srcy="154" dstx="175" dsty="124">
+			<Ponit dstx="237" dsty="154"/>
+			<Ponit dstx="200" dsty="150"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+		<fly srcx="175" srcy="124" dstx="247" dsty="102" dstmap="0" dmsx="412" dmsy="405" dmdx="468" dmdy="226">
+			<Ponit dstx="175" dsty="124"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="247" dsty="102"/>
+		</fly>
+		<fly srcx="247" srcy="102" dstx="175" dsty="124">
+			<Ponit dstx="247" dsty="102"/>
+			<Ponit dstx="190" dsty="85"/>
+			<Ponit dstx="175" dsty="124"/>
+		</fly>
+	</map>
+	<map id="0">
+		<fly srcx="360" srcy="400" dstx="468" dsty="226">
+			<Ponit dstx="360" dsty="400"/>
+			<Ponit dstx="358" dsty="322"/>
+			<Ponit dstx="468" dsty="226"/>
+		</fly>
+		<fly srcx="374" srcy="387" dstx="468" dsty="226">
+			<Ponit dstx="374" dsty="387"/>
+			<Ponit dstx="378" dsty="344"/>
+			<Ponit dstx="468" dsty="226"/>
+		</fly>
+		<fly srcx="394" srcy="387" dstx="468" dsty="226">
+			<Ponit dstx="394" dsty="387"/>
+			<Ponit dstx="389" dsty="344"/>
+			<Ponit dstx="468" dsty="226"/>
+		</fly>
+	</map>
+</mapfly>

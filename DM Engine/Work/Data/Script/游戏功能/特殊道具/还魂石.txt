@@ -1,0 +1,31 @@
+[@main]
+#if
+CHECKCHARNAMELIST 还魂石
+#act
+us_damagedura 1
+goto @hhs1
+#elsesay
+\
+　　使用还魂石失败！\
+　　原因：\
+　　一、你根本没死亡过哦！\
+　　二、你已经使用过一次！\
+
+[@hhs1]
+#if
+checkex $LOGINLONG <= 60
+#act
+move $deathid $deathx $deathy
+DELNAMELIST 还魂石
+clrvar deathid
+clrvar deathx
+clrvar deathy
+systemmsgex $CC_WISPER "还魂石使用成功,您已成功回到上次死亡的地方!"
+#elseact
+DELNAMELIST 还魂石
+clrvar deathid
+clrvar deathx
+clrvar deathy
+#elsesay
+\
+　　距上次死亡时间已超过1分钟，不能使用还魂石!

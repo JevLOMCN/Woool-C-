@@ -1,0 +1,194 @@
+[@main]
+#if
+isguildmaster
+#say
+作为国王，我掌管这里的一切。\
+如果是为了行会的事情，那么这个世界只有我可以帮你！\
+有什么要求，你先提出来吧！\
+<创建行会/@buildguild>\
+<上传行会旗帜/@guildlogo>\
+<申请行会战争/@guildwar>\
+<增加行会人数上限/@updateguild>\
+<询问行会战争的条件/@guildwarexp>\
+<申请攻城战/@requestcastlewar>
+#elsesay
+作为国王，我掌管这里的一切。\
+如果是为了行会的事情，那么这个世界只有我可以帮你！\
+有什么要求，你先提出来吧！\
+<创建行会/@buildguild>\
+<申请行会战争/@guildwar>\
+<询问如何建立行会/@buildguildexp>\
+<增加行会人数上限/@updateguild>\
+<询问行会战争的条件/@guildwarexp>\
+<申请攻城战/@requestcastlewar>\\
+
+[@buildguild]
+#if
+hasguild
+#say
+对不起,你已经加入行会了,不能创建行会\\
+<关闭/@exit>
+#elseact
+goto @buildguild1
+
+[@buildguild1]
+#if
+checkbagitem 战斗号角 1
+checkex gold > 1000000
+#act
+inputtext 请输入要创建行会的名字: 16 @postrequest
+close
+#elsesay
+没有必要的物品\
+<关闭/@exit>
+[@postrequest]
+#act
+createguild $inputtext
+takebagitem 战斗号角 1
+takegold 1000000
+#say
+创建行会成功!\
+<关闭/@exit>
+[@guildwar]
+#if
+isguildmaster
+#say
+你要先让我知道你要和哪个行会打仗。\
+要申请合法的行会战争, 你必须给我足够\
+的金币，这样才会有合法战争的权利！\\
+<输入你想要挑战的行会名称/@guildwar_d>\
+<返回/@main>\
+#elsesay
+你不是行会掌门人!\
+<返回/@main>\
+
+[@buildguildexp]
+想要成立行会，你得首先证明你有这个资格。\
+你准备好100万金币和一个战斗号角了吗？\
+新成立的行会最多有100位成员的名额。\
+行会成员每提供1点声望值可以为所在行会\
+增加20个行会成员的名额上限。\\
+<返回/@main>
+
+[@updateguild]
+行会大了不容易管理，所以现在建立的行会人数超过100　\
+就需要用声望才能增加行会人数上限，每一点声望可增加　\
+20个成员名额上限，行会成员的最终上限是500，到了500　\
+就不能增加了，目前成员超过500的行会将不能再增加成员。\
+你愿意用1点声望值为所在行会换取20个成员名额上限吗？\
+<愿意/@change>\
+<再考虑考虑/@main>
+
+[@guildwarexp]
+<行会战争/@guildwar2> 是合法的战争。\
+经过批准的战争双方可以在法律允许下大开杀戒！ \
+要有足够的行会，行会里有足够的勇士才可以申请。\
+政府也才会批准这次<合法/@warrule>战争 。\
+一次战争 <要求/@propose> 被批准，战争将持续三个小时。\
+当然，你必须支付 金币来让政府维持秩序 。\\
+<继续/@guildwar2>
+
+[@guildwar2]
+你成功申请行会战争后，你们行会的所有参战人员\的名字将变成蓝色；\
+而你的敌对行会成员的名字就会变成橘黄色的。\
+一旦进入行会战争状态,你会看到这样的信息\
+——“行会战争正在进行” \
+在这种模式下，不管你杀死对方多少人，\
+都不会被看作PK.\\
+<继续/@warrule>
+
+[@warrule]
+行会战争不允许在城市、乡村里进行。\
+战场必须离开城堡，乡村一定距离，\
+当然，商店里更是不可以的了。\
+行会战争结束后，一切将恢复到正常状态。\
+这个时候你还继续PK的话，你的名字可就真\
+的变成红的了！\
+<继续/@propose>
+
+[@propose]
+行会战争的申请只能由行会掌门人提出。\\
+<返回/@main>
+
+[@requestcastlewar]
+你来申请攻占沙城？你带魔神雕像来了吗？\
+除了神魔雕像我还需要二百万金币和一千万行会经验。\
+以上几样你都准备好了吗？\
+如果待会你的攻城申请被允许的话，\
+两天后就可以攻城！\\
+<提供魔神雕像,二百万金币和一千万行会经验。/@requestcastlewarnow>\
+<取消/@main>\
+
+[@requestcastlewarnow]
+#if
+hasguild
+isguildmaster
+checkbagitem 魔神雕像 1
+checkex gold > 1999999$GUILDMAXMEMBERCOUNT
+#act
+takegold 2000000
+takebagitem 魔神雕像 1
+requestattacksabuk
+#say
+申请成功,两天后就可以攻城 \\
+<关闭/@exit>
+#elsesay
+不满足申请条件\
+<关闭/@exit>
+
+[@updateguild]
+行会大了不容易管理，所以现在建立的行会人数超过100　\
+就需要用声望才能增加行会人数上限，每一点声望可增加　\
+20个成员名额上限，行会成员的最终上限是1000，到了1000　\
+就不能增加了，目前成员超过1000的行会将不能再增加成员。　\
+你愿意用1点声望值为所在行会换取20个成员名额上限吗？\
+<愿意/@change>\
+<再考虑考虑/@main>
+
+[@change]
+#if
+checkex credit > 0
+hasguild
+checkex $maxguildmembercount < 1000
+#act
+takecredit 1
+ADDGUILDMAXMEMBERCOUNT 20
+#say
+好了，你所在的行会最大成员名额已经多了20个。\
+你所在的行会人数最大名额为<$GUILDMAXMEMBERCOUNT>.\
+<关闭/@exit>
+#elsesay
+不能增加你所在的行会最大成员名额.\
+可能是以下原因 .\
+1:你的声望值不够.\
+2:你所在的行会人数已经超过999人了\
+<关闭/@exit>
+
+[@guildwar_d]
+#if
+checkex gold > 99999
+#act
+inputtext 输入你想要挑战的行会名称 30 @guildwar_f
+#elsesay
+你的金币不够10万!\
+<关闭/@exit>\\
+
+[@guildwar_f]
+#if
+ISGUILDEXIST $inputtext
+#act
+call @guildwar_ok
+#elsesay
+你输入的行会名不存在\
+
+[@guildwar_ok]
+#if
+requestguildwar $inputtext
+#act
+takegold 100000
+#say
+行会战是申请成功!\
+<关闭/@exit>\\
+#elsesay
+你和对方行会是联盟行会,请先取消联盟\
+<关闭/@exit>\\

@@ -1,0 +1,123 @@
+[@main]
+我们人类的乐土现在正被恶魔占领着，只有燃起漫天的焰火才\
+能将它们驱逐。我们需要你这样的英雄，赶快参加这场“焰火屠\
+魔记”！\
+在那里，你将享受到双倍经验＋双倍暴率。\
+<参加“焰火屠魔记”活动/@firevil>\
+<如何获得焰火卷轴？/@getinfo>\
+<我还没准备好去/@exit>\\
+
+[@firevil]
+在参加“焰火屠魔记”之前，你需要确认以下几件事情：1、你\
+的客户端必须已经更新为五月柔情版“百年好合”；2、你的包\
+裹中必须有至少一个焰火卷轴，如果你还没有找到卷\
+轴，你可以登陆商城购买。我的力量只能维持你\
+在里面停留1小时，里面已盘踞着大量的怪物，请注意安全，\
+一旦被怪物杀死将立即出场，你确认要入场吗？\
+<进入魔境/@enterfire>\
+<了解焰火卷轴/@info>\
+<离开/@exit>
+
+[@enterfire]
+参加"焰火屠魔记"行动会收取您一个焰火卷轴，您确\
+定参加吗？\\
+<参加/@runfire>\
+<算了/@exit>
+
+[@runfire]
+#if
+checkbagitem 姹紫嫣红 1
+#act
+takebagitem 姹紫嫣红 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 红色恋人 1
+#act
+takebagitem 红色恋人 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 蓝色妖姬 1
+#act
+takebagitem 蓝色妖姬 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 红粉佳人 1
+#act
+takebagitem 红粉佳人 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 金碧辉煌 1
+#act
+takebagitem 金碧辉煌 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 心心相映 1
+#act
+takebagitem 心心相映 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 天若有情 1
+#act
+takebagitem 天若有情 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 双宿双飞 1
+#act
+takebagitem 双宿双飞 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 花开并蒂 1
+#act
+takebagitem 花开并蒂 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elseif
+checkbagitem 地久天长 1
+#act
+takebagitem 地久天长 1
+setflag 8
+mapmove 262
+delay 3600 @outfire
+#elsesay
+你没有携带焰火卷轴。\\
+<离开/@exit>
+#end
+
+[@info]
+焰火卷轴系列有以下一些：\
+姹紫嫣红 红色恋人\
+蓝色妖姬 红粉佳人\
+金碧辉煌 心心相映\
+天若有情 双宿双飞\
+花开并蒂 地久天长\
+<返回/@main>
+
+[@getinfo]
+你可以用元宝从传世商城购买\\
+<返回/@main>
+
+[@outfire]
+#if
+checkflag 8
+checkex $mapid = 262
+#act
+clrflag 8
+mapmove 67
+ 

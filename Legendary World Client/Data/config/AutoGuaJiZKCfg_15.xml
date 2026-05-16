@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<!--       只能追加，不能插入   -->
+
+	<AutoGuaJiZKEx name="超级金创药" change="超级金创药袋" changenum="6"/>	
+	<AutoGuaJiZKEx name="超级魔法药" change="超级魔法药袋" changenum="6"/>
+	<AutoGuaJiZKEx name="特级金创药包" change="特级金创药袋" changenum="6"/>
+	<AutoGuaJiZKEx name="特级魔法药包" change="特级魔法药袋" changenum="6"/>
+	<AutoGuaJiZKEx name="海神金创药包" change="海神金创药袋" changenum="6"/>
+	<AutoGuaJiZKEx name="海神魔法药包" change="海神魔法药袋" changenum="6"/>
+	
+	<AutoGuaJiZKEx name="太阳神水" change="太阳水药袋" changenum="6"/>	
+	<AutoGuaJiZKEx name="强效太阳神水" change="强效太阳水药袋" changenum="6"/>	
+
+
+</CFG>

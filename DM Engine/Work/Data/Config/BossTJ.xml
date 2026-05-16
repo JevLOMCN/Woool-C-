@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BossTJ>
+	<Boss name="铁血魔王" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="55" enter_lv="30" map="碧空魔城" fresh_time="7200" pic="32132" move_btn="1" open_desc="" desc="\\  <color=graygolden 铁血魔宫的主人，拥有召唤>\<color=graygolden 地狱魔焰的恐怖力量。时刻准>\<color=graygolden 备着带领麾下的幽影武士和炎>\<color=graygolden 魔大军入侵人界，夺取灵宝。>">
+		<Item show_name="血煞装备" name="血煞戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="赤明天帝" name="赤明天帝"/>
+		<Item show_name="血煞战甲" name="血煞战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="阿修罗神" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="55" enter_lv="30" map="碧空神殿" fresh_time="14400" pic="32120" move_btn="1" open_desc="" desc="\\  <color=graygolden 阿修罗神乃是九天之外，修>\<color=graygolden 罗神族的三大神将之一：修罗>\<color=graygolden 法神。作为神族的好战派，它>\<color=graygolden 已经提前入侵到人界，盘踞在>\<color=graygolden 修罗神殿中，虎视眈眈。>">
+		<Item show_name="蟠龙装备" name="蟠龙傲天戒"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="无赦" name="无赦"/>
+		<Item show_name="蟠龙金甲" name="蟠龙金甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="阴阳妖灵" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="55" enter_lv="30" map="凌霄天界和炽焰领域" fresh_time="3600" pic="32186" move_btn="1" open_desc="" desc="\\  <color=graygolden 冰与火，阴与阳经万载魔化生成，>\<color=graygolden 常年盘踞在天界和炽焰领域，分化为>\<color=graygolden 冰火双形态击杀可以获得大量宝藏>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="巫妖王" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="55" enter_lv="30" map="失落沉船三层" fresh_time="14400" pic="32182" move_btn="1" open_desc="" desc="\\  <color=graygolden 海底世界最恐怖的鱼人族之一>\<color=graygolden 常年盘踞在沉船三层>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="章鱼大王" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="章鱼洞穴" fresh_time="21600" pic="32188" move_btn="1" open_desc="" desc="\\  <color=graygolden 章鱼洞穴主宰，统领海底鱼人>\<color=graygolden 抵抗人族大军>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="烈焰领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="五行空间" fresh_time="28800" pic="32178" move_btn="1" open_desc="" desc="\\  <color=graygolden 五行空间火元素主宰之一，>\<color=graygolden 擅火系魔法>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="寒冰领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="五行空间" fresh_time="21600" pic="32176" move_btn="1" open_desc="" desc="\\  <color=graygolden 五行空间冰元素主宰之一，>\<color=graygolden 擅长冰系魔法>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="紫金领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="五行空间" fresh_time="21600" pic="32190" move_btn="1" open_desc="" desc="\\  <color=graygolden 五行空间金元素主宰之一，>\<color=graygolden 擅物理攻击>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="土岩领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="五行空间" fresh_time="21600" pic="32180" move_btn="1" open_desc="" desc="\\  <color=graygolden 五行空间土元素主宰之一，>\<color=graygolden 擅物理攻击>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="树精领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="五行空间" fresh_time="21600" pic="32192" move_btn="1" open_desc="" desc="\\  <color=graygolden 五行空间木元素主宰之一，>\<color=graygolden 擅长治疗魔法>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="勋章" name="荣耀勋章1级"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="魔域树魔" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="56" enter_lv="30" map="魔域-树王谷" fresh_time="43200" pic="32164" move_btn="1" open_desc="" desc="\\  <color=graygolden 盘踞在魔域树王俗，据说由>\<color=graygolden 远古树王吸入魔气魔化而成，>\<color=graygolden 拥有着毁天灭地的实力，治疗>\<color=graygolden 和毒的能力天下无双。>">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="强化技能残章" name="主强化火球残章"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="深渊领主" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="56" enter_lv="30" map="魔域-深渊王座" fresh_time="43200" pic="32166" move_btn="1" open_desc="" desc="\\  <color=graygolden 他统治着深渊王座，在这片>\<color=graygolden 只有魔才能生存的领域，他就>\<color=graygolden 是主人。>\">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="强化技能残章" name="主强化火球残章"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="幻境魔神" cate="0" enable="1" time="11:00" time_type="0" lv_recomm="60" enter_lv="30" map="幻境神殿" fresh_time="43200" pic="32160" move_btn="1" open_desc="" desc="\\  <color=graygolden 他统治着幻境神殿，在这片>\<color=graygolden 只有魔才能生存的领域，他就>\<color=graygolden 是主人。>\">
+		<Item show_name="圣天装备" name="圣天戒指"/>
+		<Item show_name="顶级技能" name="五级破盾斩"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="镶嵌宝石" name="攻击宝石一级"/>
+		<Item show_name="沙城装备" name="沙城套武器核心"/>
+	</Boss>
+	<Boss name="魔化尸王" cate="1" enable="1" time="0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800" time_type="1" lv_recomm="40" enter_lv="20" map="炼狱魔境一层" fresh_time="7200" pic="32138" move_btn="1" open_desc="" desc="\\  <color=graygolden 矿洞中死亡的贪婪矿工们，>\<color=graygolden 由于灵魂被矿脉束缚，导致无法>\<color=graygolden 逃离转世，变为怨灵，附着在尸>\<color=graygolden 块之上。经年月累，竟汇聚修炼>\<color=graygolden 为一只恐怖的活物。>">
+		<Item show_name="大量金币" name="大量金币"/>
+		<Item show_name="强效太阳神水" name="强效太阳神水"/>
+		<Item show_name="42级技能书" name="狂龙紫电"/>
+		<Item show_name="战神级别首饰" name="战神戒指"/>
+		<Item show_name="雷霆怒斩" name="雷霆怒斩"/>
+	</Boss>
+	<Boss name="魔化尸霸" cate="1" enable="1" time="0,3600,7200,10800,14400,18000,21600,25200,28800,32400,36000,39600,43200,46800,50400,54000,57600,61200,64800,68400,72000,75600,79200,82800" time_type="1" lv_recomm="50" enter_lv="25" map="炼狱魔境二层" fresh_time="7200" pic="32148" move_btn="1" open_desc="" desc="\\  <color=graygolden 他曾是帝王最信任的手下，那>\<color=graygolden 双几百公斤重的巨锤据说是帝王>\<color=graygolden 亲自送给他的，在死后仍然被他>\<color=graygolden 紧紧地握在手中。>">
+		<Item show_name="大量金币" name="大量金币"/>
+		<Item show_name="强效太阳神水" name="强效太阳神水"/>
+		<Item show_name="42级技能书" name="狂龙紫电"/>
+		<Item show_name="战神级别首饰" name="战神手镯"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+		<Item show_name="战神战甲" name="战神战甲"/>
+	</Boss>
+	<Boss name="魔化机关巨兽" cate="1" enable="1" time="3600,14400,25200,36000,46800,57600,68400,79200" time_type="1" lv_recomm="50" enter_lv="30" map="炼狱魔境三层" fresh_time="7200" pic="32140" move_btn="1" open_desc="" desc="\\  <color=graygolden 隐藏在机关洞最深处的BOSS级>\<color=graygolden 怪物，是所有机关怪物中最可怕>\<color=graygolden 的种类。你有勇气挑战它吗？>">
+		<Item show_name="大量金币" name="大量金币"/>
+		<Item show_name="强效太阳神水" name="强效太阳神水"/>
+		<Item show_name="42级技能书" name="狂龙紫电"/>
+		<Item show_name="血煞级别首饰" name="血煞戒指"/>
+		<Item show_name="战神级别武器" name="龙牙利刃"/>
+		<Item show_name="荣耀勋章1级" name="荣耀勋章1级"/>
+	</Boss>
+	<Boss name="魔化蛇妖王" cate="1" enable="1" time="3600,14400,25200,36000,46800,57600,68400,79200" time_type="1" lv_recomm="50" enter_lv="30" map="炼狱魔境四层" fresh_time="7200" pic="32146" move_btn="1" open_desc="" desc="\\  <color=graygolden 长尾，长着三个朝向不同的脑>\<color=graygolden 袋，这让它随时能看到来自各方>\<color=graygolden 的攻击。一手持冰雪之杖，一手>\<color=graygolden 托冰霜之珠随时准备攻击进犯的>\<color=graygolden 敌人。>">
+		<Item show_name="大量金币" name="大量金币"/>
+		<Item show_name="强效太阳神水" name="强效太阳神水"/>
+		<Item show_name="血煞级别首饰" name="血煞戒指"/>
+		<Item show_name="42级技能书" name="狂龙紫电"/>
+		<Item show_name="赤明天帝" name="赤明天帝"/>
+		<Item show_name="祝福神油" name="祝福神油"/>
+	</Boss>
+	<Boss name="魔化逆魔" cate="1" enable="1" time="0,32400,54000,64800,75600" time_type="1" lv_recomm="60" enter_lv="30" map="炼狱魔境六层" fresh_time="7200" pic="32144" move_btn="1" open_desc="" desc="\\  <color=graygolden 逆魔本身为人类，乃是人族>\<color=graygolden 中的烈焰诸侯，后因复仇之心的侵>\<color=graygolden 蚀烈焰堕入魔道，被称为“逆魔”。>">
+		<Item show_name="大量金币" name="大量金币"/>
+		<Item show_name="血煞首饰" name="血煞戒指"/>
+		<Item show_name="赤明天帝" name="赤明天帝"/>
+		<Item show_name="血煞级别衣服" name="血煞战甲"/>
+		<Item show_name="神兵" name="神兵·嗜血1阶"/>
+		<Item show_name="金刚护体" name="金刚护体"/>
+	</Boss>
+	<Boss name="魔化禁地魔王" cate="1" enable="1" time="36000,57600,79200" time_type="1" lv_recomm="60" enter_lv="30" map="炼狱魔境七层" fresh_time="7200" pic="32142" move_btn="1" open_desc="" desc="\\  <color=graygolden 禁地魔王这个只有上半身的>\<color=graygolden 魔界傀儡就一直被牢牢地禁锢在>\<color=graygolden 禁地魔穴。传说是由统领魔界的>\<color=graygolden 魔君亲手将它囚禁于魔窟千年，>\<color=graygolden 最终禁地魔王魔化成了现在的这>\<color=graygolden 个样子。>">
+		<Item show_name="蟠龙装备" name="蟠龙傲天戒"/>
+		<Item show_name="无赦" name="无赦"/>
+		<Item show_name="顶级技能" name="狂龙紫电"/>
+		<Item show_name="强化技能" name="一级强化攻杀"/>
+		<Item show_name="蟠龙金甲" name="蟠龙金甲"/>
+		<Item show_name="荣耀勋章1级" name="荣耀勋章1级"/>
+	</Boss>
+	<Boss name="魔化通天教主" cate="1" enable="0" time="36000,57600,79200" time_type="1" lv_recomm="60" enter_lv="30" map="炼狱魔境八层" fresh_time="7200" pic="32152" move_btn="1" open_desc="" desc="\\  <color=graygolden 曾经的楼兰王子，由于嫉妒>\<color=graygolden 和暴虐，被永远禁锢在“通天塔”>\<color=graygolden 内守护这片土地。>">
+		<Item show_name="圣天级别首饰" name="圣天戒指"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="顶级技能" name="破盾斩"/>
+		<Item show_name="强化技能" name="一级强化攻杀"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="组合技能残章" name="怒斩天下残章"/>
+	</Boss>
+	<Boss name="魔化铁血魔王" cate="1" enable="0" time="54000,68400,82800" time_type="1" lv_recomm="70" enter_lv="30" map="炼狱魔境九层" fresh_time="7200" pic="32132" move_btn="1" open_desc="" desc="\\  <color=graygolden 炼狱魔镜九层的主人，拥有召唤>\<color=graygolden 地狱魔焰的恐怖力量。时刻准>\\<color=graygolden 备着带领麾下的幽影武士和炎>\<color=graygolden 魔大军入侵人界，夺取灵宝。>">
+		<Item show_name="圣天级别首饰" name="圣天戒指"/>
+		<Item show_name="怒狂降魔杵" name="怒狂降魔杵"/>
+		<Item show_name="顶级技能" name="破盾斩"/>
+		<Item show_name="强化技能" name="一级强化攻杀"/>
+		<Item show_name="圣武天战甲" name="圣武天战甲"/>
+		<Item show_name="组合技能残章" name="怒斩天下残章"/>
+	</Boss>
+	<Boss name="魔化阿修罗神" cate="1" enable="0" time="54000,68400,82800" time_type="1" lv_recomm="50" enter_lv="30" map="炼狱魔境十层" fresh_time="7200" pic="32120" move_btn="1" open_desc="" desc="\\  <color=graygolden 阿修罗神乃是九天之外，修>\<color=graygolden 罗神族的三大神将之一：修罗>\<color=graygolden 法神。作为神族的好战派，它>\<color=graygolden 已经提前入侵到人界，盘踞在>\<color=graygolden 修罗神殿中，虎视眈眈。>">
+		<Item show_name="流金级别首饰" name="流金圣阳戒"/>
+		<Item show_name="流金圣阳刃" name="流金圣阳刃"/>
+		<Item show_name="流金魔月杖" name="流金魔月杖"/>
+		<Item show_name="流金魔月甲" name="流金魔月甲"/>
+		<Item show_name="流金圣阳甲" name="流金圣阳甲"/>
+		<Item show_name="流金天星甲" name="流金天星甲"/>
+	</Boss>
+</BossTJ>

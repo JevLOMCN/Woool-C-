@@ -1,0 +1,66 @@
+[@leopard1]
+#act
+setpetbag 5
+
+[@leopard2]
+#act
+setpetbag 5
+
+[@leopard3]
+#act
+setpetbag 10
+
+[@leopard4]
+#act
+setpetbag 10
+
+[@leopard5]
+#act
+setpetbag 10
+
+[@leopard6]
+#act
+setpetbag 10
+
+[@leopard7]
+#act
+setpetbag 10
+
+[@use]
+#if
+checkex $ui_dc1 = 0
+#act
+callmon !丛林豹0
+#elseif
+checkex $ui_dc1 = 1
+#act
+callmon !丛林豹1
+#elseif
+checkex $ui_dc1 = 2
+#act
+callmon !丛林豹2
+#elseif
+checkex $ui_dc1 = 3
+#act
+callmon !丛林豹3
+#elseif
+checkex $ui_dc1 = 4
+#act
+callmon !丛林豹4
+#elseif
+checkex $ui_dc1 = 5
+#act
+callmon !丛林豹5
+#elseif
+checkex $ui_dc1 =6
+#act
+callmon !丛林豹6
+#elseif
+checkex $ui_dc1 =7
+#act
+callmon !丛林豹7
+#end
+
+[@upgrade]
+#act
+us_upgrade 豹魔石 "mc=+10"

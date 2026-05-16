@@ -1,0 +1,26 @@
+[@CurDay]
+#act
+Inc GameStage.CurDay
+#switch
+valueof $GameStage.CurDay
+#case:1
+Inc GameStage.CurStage
+#case:4
+Inc GameStage.CurStage
+#case:7
+Inc GameStage.CurStage
+#case:14
+Inc GameStage.CurStage
+#case:30
+Inc GameStage.CurStage
+#case:60
+Inc GameStage.CurStage
+#case:90
+Inc GameStage.CurStage
+#case:120
+Inc GameStage.CurStage
+#case:150
+Inc GameStage.CurStage
+#case:180
+Inc GameStage.CurStage
+#end

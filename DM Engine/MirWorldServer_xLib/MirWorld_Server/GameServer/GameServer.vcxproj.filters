@@ -1,0 +1,780 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="架构相关">
+      <UniqueIdentifier>{95dbdd3f-8888-4101-a9fa-07053752e2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理">
+      <UniqueIdentifier>{edbff931-6226-472f-bc87-91fc8680f6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\地图">
+      <UniqueIdentifier>{eb180b5c-6e2a-4096-adc0-ec9f04c01217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\物品">
+      <UniqueIdentifier>{345bb4cd-900c-4e2f-af61-d76c727fdc53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\玩家">
+      <UniqueIdentifier>{acd25f75-a6ef-4c64-8be4-7425e83ac2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作">
+      <UniqueIdentifier>{9a1483db-82e6-4d1e-9601-cd96d2d079ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\交易">
+      <UniqueIdentifier>{46fa74e7-ecef-4651-88fc-6fbdb400c1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\组队">
+      <UniqueIdentifier>{b1b34d82-b160-46ae-8f40-0201426e41dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\行会">
+      <UniqueIdentifier>{1091afb4-e2c0-4b69-b40c-62b23ad314ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\行会\行会战">
+      <UniqueIdentifier>{7422a68e-b766-4d9b-bda3-2c61ddbf24d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\商城">
+      <UniqueIdentifier>{d7b6413a-471b-45fc-a74b-1f307a05d08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\怪物">
+      <UniqueIdentifier>{3b2ddbee-94f0-4ff5-8bdd-32b1c650a31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\NPC">
+      <UniqueIdentifier>{93557992-4675-46e6-b80d-7b85b4b27740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\事件">
+      <UniqueIdentifier>{d5788939-4279-42b3-9513-88a809e0a80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\矿石">
+      <UniqueIdentifier>{06c5d56e-816a-4016-af0e-8dce1b05c38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\排行榜">
+      <UniqueIdentifier>{36818526-9f9a-46cd-80a5-e4528490e14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\任务">
+      <UniqueIdentifier>{c5c0bfd2-715f-4ca7-a1ac-15ceeb14fc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\地图\对象">
+      <UniqueIdentifier>{87e376f9-eb08-4580-b512-599dfed7d071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\玩家\技能数据">
+      <UniqueIdentifier>{9618b198-2c4c-42a3-a363-da54679d0e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="架构基础">
+      <UniqueIdentifier>{e2c0d997-4385-4c7f-bd87-c949f3f34cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库包相关">
+      <UniqueIdentifier>{0c97b2f3-3fbb-46c7-a120-a860035a772c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库包相关\TinyXml">
+      <UniqueIdentifier>{99bf3139-8f8b-48ec-8a32-4e6f4e2cf4e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库包相关\xScript">
+      <UniqueIdentifier>{56cd1b0b-f74c-481f-87c8-5eddff33184f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库包相关\xObject">
+      <UniqueIdentifier>{ccc8b84b-fb19-4158-9e3f-928ca9c25c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="库包相关\xTools">
+      <UniqueIdentifier>{8dc0a3e7-6d0e-4be0-892c-1389aabaf2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="架构相关\脚本函数">
+      <UniqueIdentifier>{ca3e3b0d-66f7-4a29-8d40-0d8a70ce8bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="架构相关\脚本变量">
+      <UniqueIdentifier>{15361436-2b6a-4bb6-85f8-875d0bd1e8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="架构相关\GM">
+      <UniqueIdentifier>{45c684a6-abe1-4eda-ba94-91451c8206b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="架构相关\天气">
+      <UniqueIdentifier>{175b4d1d-06af-4d50-84fd-fdd3f690330c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\行会\沙城">
+      <UniqueIdentifier>{5f261904-f50b-42ad-b633-34fb9a6f5996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\操作\活动">
+      <UniqueIdentifier>{58da1cb7-f61c-4aec-8978-288431f501fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能处理\玩家\时长封号">
+      <UniqueIdentifier>{fb4d8f15-db27-4627-a34a-4e004156a873}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\res\public.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogicMap.cpp">
+      <Filter>功能处理\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicMapMgr.cpp">
+      <Filter>功能处理\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMap.cpp">
+      <Filter>功能处理\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsMapMgr.cpp">
+      <Filter>功能处理\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="BundleManager.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="DownItemMgr.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="DownItemObject.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBox.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialEquipmentManager.cpp">
+      <Filter>功能处理\物品</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="gsClientObj.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Action.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Community.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Guild.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Item.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Msg.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Pet.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Skill.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Task.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayer.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanPlayerMgr.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleManager.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicManager.cpp">
+      <Filter>功能处理\玩家\技能数据</Filter>
+    </ClCompile>
+    <ClCompile Include="AliveObject.cpp">
+      <Filter>功能处理\地图\对象</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>功能处理\地图\对象</Filter>
+    </ClCompile>
+    <ClCompile Include="NpcManager.cpp">
+      <Filter>功能处理\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptNpc.cpp">
+      <Filter>功能处理\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeObj.cpp">
+      <Filter>功能处理\操作\交易</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeObjectMgr.cpp">
+      <Filter>功能处理\操作\交易</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupObject.cpp">
+      <Filter>功能处理\操作\组队</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupObjectMgr.cpp">
+      <Filter>功能处理\操作\组队</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeMapEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObject.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="EventProcessor.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBurnEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibleEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildEx.cpp">
+      <Filter>功能处理\行会</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildManagerEx.cpp">
+      <Filter>功能处理\行会</Filter>
+    </ClCompile>
+    <ClCompile Include="PalaceWall.cpp">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClCompile>
+    <ClCompile Include="SandCity.cpp">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClCompile>
+    <ClCompile Include="SCArcher.cpp">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClCompile>
+    <ClCompile Include="SCDoor.cpp">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClCompile>
+    <ClCompile Include="SCPalaceDoor.cpp">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClCompile>
+    <ClCompile Include="AiObjectEx.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonItemsMgr.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterEx.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterGenManager.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManagerEx.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>功能处理\商城</Filter>
+    </ClCompile>
+    <ClCompile Include="MarketManager.cpp">
+      <Filter>功能处理\商城</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMarket.cpp">
+      <Filter>功能处理\商城</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptShell.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTarget.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptView.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>库包相关\xObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>库包相关\xObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FmtTextFile.cpp">
+      <Filter>架构基础</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>架构基础</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>架构基础</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>架构基础</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>架构基础</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoScriptManager.cpp">
+      <Filter>架构相关</Filter>
+    </ClCompile>
+    <ClCompile Include="FlagEventEx.cpp">
+      <Filter>架构相关</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildWarManager.cpp">
+      <Filter>功能处理\行会\行会战</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>功能处理\操作\任务</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="FireNimoBurnEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="MineList.cpp">
+      <Filter>功能处理\操作\矿石</Filter>
+    </ClCompile>
+    <ClCompile Include="TopManager.cpp">
+      <Filter>功能处理\操作\排行榜</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTrapper.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombiHoleEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="SculpEiceEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="FireRainEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptElement.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdProc.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFile.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObject.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectMgr.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="StringListManager.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemScript.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherSystem.cpp">
+      <Filter>架构相关\天气</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSystem.cpp">
+      <Filter>架构相关</Filter>
+    </ClCompile>
+    <ClCompile Include="GmManager.cpp">
+      <Filter>架构相关\GM</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptEvent.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTimerManager.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptVariable.cpp">
+      <Filter>库包相关\xScript</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolManager.cpp">
+      <Filter>库包相关\xTools</Filter>
+    </ClCompile>
+    <ClCompile Include="xSimpleSocket.cpp">
+      <Filter>库包相关\xTools</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDBConnection.cpp">
+      <Filter>架构相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Item.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Player.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_SandCity.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Timer.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Top.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunction_UsingItem.cpp">
+      <Filter>架构相关\脚本函数</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunction.cpp">
+      <Filter>架构相关\脚本函数</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunction2.cpp">
+      <Filter>架构相关\脚本函数</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptFunction_Monster.cpp">
+      <Filter>架构相关\脚本函数</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Monster.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+    <ClCompile Include="MapScriptManager.cpp">
+      <Filter>功能处理\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTJ.cpp">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeAchieve.cpp">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack.cpp">
+      <Filter>功能处理\怪物</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueFireEvent.cpp">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStage.cpp">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClCompile>
+    <ClCompile Include="FengHaoGrowManager.cpp">
+      <Filter>功能处理\玩家\时长封号</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_FengHao.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Human_Achieve.cpp">
+      <Filter>功能处理\玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable_Achieve.cpp">
+      <Filter>架构相关\脚本变量</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LogicMap.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicMapMgr.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMap.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsMapMgr.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="vMap.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="BundleManager.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="DownItemMgr.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="DownItemObject.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBox.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialEquipmentManager.h">
+      <Filter>功能处理\物品</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="gsClientObj.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayer.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanPlayerMgr.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="StringDef.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleManager.h">
+      <Filter>功能处理\玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicManager.h">
+      <Filter>功能处理\玩家\技能数据</Filter>
+    </ClInclude>
+    <ClInclude Include="AliveObject.h">
+      <Filter>功能处理\地图\对象</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>功能处理\地图\对象</Filter>
+    </ClInclude>
+    <ClInclude Include="NpcManager.h">
+      <Filter>功能处理\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptNpc.h">
+      <Filter>功能处理\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeObj.h">
+      <Filter>功能处理\操作\交易</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeObjectMgr.h">
+      <Filter>功能处理\操作\交易</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupObject.h">
+      <Filter>功能处理\操作\组队</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupObjectMgr.h">
+      <Filter>功能处理\操作\组队</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeMapEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObject.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="EventProcessor.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBurnEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibleEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildEx.h">
+      <Filter>功能处理\行会</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildManagerEx.h">
+      <Filter>功能处理\行会</Filter>
+    </ClInclude>
+    <ClInclude Include="PalaceWall.h">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClInclude>
+    <ClInclude Include="SandCity.h">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClInclude>
+    <ClInclude Include="SCArcher.h">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClInclude>
+    <ClInclude Include="SCDoor.h">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClInclude>
+    <ClInclude Include="SCPalaceDoor.h">
+      <Filter>功能处理\行会\沙城</Filter>
+    </ClInclude>
+    <ClInclude Include="AiObjectEx.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonItemsMgr.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterEx.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterGenManager.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManagerEx.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>功能处理\商城</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketDef.h">
+      <Filter>功能处理\商城</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketManager.h">
+      <Filter>功能处理\商城</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMarket.h">
+      <Filter>功能处理\商城</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptDef.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptShell.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTarget.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptView.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>库包相关\xObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>库包相关\xObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FindFile.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="FmtTextFile.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalDefine.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalSupport.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoScriptManager.h">
+      <Filter>架构相关</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagEventEx.h">
+      <Filter>架构相关</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagEventListener.h">
+      <Filter>架构相关</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildWarManager.h">
+      <Filter>功能处理\行会\行会战</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>功能处理\操作\任务</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>库包相关\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\res\resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FireNimoBurnEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="MineList.h">
+      <Filter>功能处理\操作\矿石</Filter>
+    </ClInclude>
+    <ClInclude Include="TopManager.h">
+      <Filter>功能处理\操作\排行榜</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTrapper.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombiHoleEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="SculpEiceEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="FireRainEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptElement.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdProc.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFile.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObject.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectMgr.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="StringListManager.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemScript.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherSystem.h">
+      <Filter>架构相关\天气</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem.h">
+      <Filter>架构相关</Filter>
+    </ClInclude>
+    <ClInclude Include="GmManager.h">
+      <Filter>架构相关\GM</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptEvent.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTimerManager.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptVariable.h">
+      <Filter>库包相关\xScript</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolManager.h">
+      <Filter>库包相关\xTools</Filter>
+    </ClInclude>
+    <ClInclude Include="xSimpleSocket.h">
+      <Filter>库包相关\xTools</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDBConnection.h">
+      <Filter>架构相关</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptFunction.h">
+      <Filter>架构相关\脚本函数</Filter>
+    </ClInclude>
+    <ClInclude Include="MapScriptManager.h">
+      <Filter>功能处理\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTJ.h">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeAchieve.h">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack.h">
+      <Filter>功能处理\怪物</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueFireEvent.h">
+      <Filter>功能处理\操作\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStage.h">
+      <Filter>功能处理\操作\活动</Filter>
+    </ClInclude>
+    <ClInclude Include="EventsBus.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+    <ClInclude Include="FengHaoGrowManager.h">
+      <Filter>功能处理\玩家\时长封号</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectHelper.h">
+      <Filter>架构基础</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

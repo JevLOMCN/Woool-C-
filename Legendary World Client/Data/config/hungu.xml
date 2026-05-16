@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes"?>
+<soulbones>
+		<soulbone name="头部">
+				<joint value0="1" value1="1" value2="1" value3="1" value4="1" value5="1" />
+				<joint value0="1" value1="1" value2="1" value3="1" value4="1" value5="1" />
+				<joint value0="1" value1="1" value2="1" value3="1" value4="1" value5="1" />
+				<joint value0="1" value1="1" value2="1" value3="1" value4="1" value5="1" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+		</soulbone>
+		<soulbone name="脊椎">
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="2" value1="2" value2="2" value3="2" value4="2" value5="2" />
+				<joint value0="3" value1="3" value2="3" value3="3" value4="3" value5="3" />
+		</soulbone>
+		<soulbone name="身体">
+				<joint value0="3" value1="3" value2="3" value3="3" value4="3" value5="3" />
+				<joint value0="3" value1="3" value2="3" value3="3" value4="3" value5="3" />
+				<joint value0="3" value1="3" value2="3" value3="3" value4="3" value5="3" />
+				<joint value0="3" value1="3" value2="3" value3="3" value4="3" value5="3" />
+				<joint value0="4" value1="4" value2="4" value3="4" value4="4" value5="4" />
+		</soulbone>
+		<soulbone name="左手">
+				<joint value0="4" value1="4" value2="4" value3="4" value4="4" value5="4" />
+				<joint value0="4" value1="4" value2="4" value3="4" value4="4" value5="4" />
+				<joint value0="4" value1="4" value2="4" value3="4" value4="4" value5="4" />
+				<joint value0="4" value1="4" value2="4" value3="4" value4="4" value5="4" />
+				<joint value0="5" value1="5" value2="5" value3="5" value4="5" value5="5" />
+		</soulbone>
+		<soulbone name="右手">
+				<joint value0="5" value1="5" value2="5" value3="5" value4="5" value5="5" />
+				<joint value0="5" value1="5" value2="5" value3="5" value4="5" value5="5" />
+				<joint value0="5" value1="5" value2="5" value3="5" value4="5" value5="5" />
+				<joint value0="5" value1="5" value2="5" value3="5" value4="5" value5="5" />
+				<joint value0="6" value1="6" value2="6" value3="6" value4="6" value5="6" />
+		</soulbone>
+		<soulbone name="左腿">
+				<joint value0="8" value1="8" value2="8" value3="8" value4="8" value5="8" />
+				<joint value0="8" value1="8" value2="8" value3="8" value4="8" value5="8" />
+				<joint value0="8" value1="8" value2="8" value3="8" value4="8" value5="8" />
+				<joint value0="8" value1="8" value2="8" value3="8" value4="8" value5="8" />
+				<joint value0="8" value1="8" value2="8" value3="8" value4="8" value5="8" />
+		</soulbone>
+		<soulbone name="右腿">
+				<joint value0="10" value1="10" value2="10" value3="10" value4="10" value5="10" />
+				<joint value0="10" value1="10" value2="10" value3="10" value4="10" value5="10" />
+				<joint value0="10" value1="10" value2="10" value3="10" value4="10" value5="10" />
+				<joint value0="10" value1="10" value2="10" value3="10" value4="10" value5="10" />
+				<joint value0="10" value1="10" value2="10" value3="10" value4="10" value5="10" />
+		</soulbone>
+		<soulbone name="左脚">
+				<joint value0="12" value1="12" value2="12" value3="12" value4="12" value5="12" />
+				<joint value0="12" value1="12" value2="12" value3="12" value4="12" value5="12" />
+				<joint value0="12" value1="12" value2="12" value3="12" value4="12" value5="12" />
+				<joint value0="12" value1="12" value2="12" value3="12" value4="12" value5="12" />
+				<joint value0="12" value1="12" value2="12" value3="12" value4="12" value5="12" />
+		</soulbone>
+		<soulbone name="右脚">
+				<joint value0="15" value1="15" value2="15" value3="15" value4="15" value5="15" />
+				<joint value0="15" value1="15" value2="15" value3="15" value4="15" value5="15" />
+				<joint value0="15" value1="15" value2="15" value3="15" value4="15" value5="15" />
+				<joint value0="15" value1="15" value2="15" value3="15" value4="15" value5="15" />
+				<joint value0="15" value1="15" value2="15" value3="15" value4="15" value5="15" />
+		</soulbone>
+</soulbones>

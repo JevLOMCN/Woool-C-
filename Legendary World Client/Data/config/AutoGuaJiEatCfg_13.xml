@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<CFG>
+	<!--       只能追加，不能插入   -->
+	<AutoGuaJiEatEx name="金创药(中量)" change="金创药（中）包" changenum="6"/>
+	<AutoGuaJiEatEx name="金创药(大量)" change="超级金创药" changenum="6"/>
+	<AutoGuaJiEatEx name="魔法药(中量)" change="魔法药（中）包" changenum="6"/>	
+	<AutoGuaJiEatEx name="魔法药(大量)" change="超级魔法药" changenum="6"/>
+	<AutoGuaJiEatEx name="超级金创药" change="特级金创药包" changenum="6"/>	
+	<AutoGuaJiEatEx name="超级金创药" change="特级魔法药包" changenum="6"/>	
+	<AutoGuaJiEatEx name="金创药（中）包"/>
+	<AutoGuaJiEatEx name="魔法药（中）包"/>	
+	<AutoGuaJiEatEx name="超级金创药"/>	
+	<AutoGuaJiEatEx name="超级魔法药"/>
+	<AutoGuaJiEatEx name="特级金创药包"/>
+	<AutoGuaJiEatEx name="特级魔法药包"/>
+	
+	<AutoGuaJiEatEx name="绿色毒药(少量)"/>
+	<AutoGuaJiEatEx name="绿色毒药(中量)"/>
+	<AutoGuaJiEatEx name="绿色毒药(大量)"/>	
+	<AutoGuaJiEatEx name="红色毒药(少量)"/>
+	<AutoGuaJiEatEx name="红色毒药(中量)"/>
+	<AutoGuaJiEatEx name="红色毒药(大量)"/>
+	<AutoGuaJiEatEx name="雄稻草人偶(小)"/>
+	<AutoGuaJiEatEx name="雄稻草人偶(中)"/>
+	<AutoGuaJiEatEx name="雄稻草人偶(大)"/>
+	<AutoGuaJiEatEx name="雌稻草人偶(小)"/>
+	<AutoGuaJiEatEx name="雌稻草人偶(中)"/>
+	<AutoGuaJiEatEx name="雌稻草人偶(大)"/>
+
+
+</CFG>

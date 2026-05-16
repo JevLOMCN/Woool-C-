@@ -1,0 +1,7 @@
+[player]
+top_0_0 = 
+top_0_1 = 
+top_1_0 = 
+top_1_1 = 
+top_2_0 = 
+top_2_1 = 

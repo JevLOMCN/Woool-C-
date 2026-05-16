@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="gb2312" standalone="yes" ?>
+<MapXmlMgr Ver="1">
+  <Map Src= "TG1*" Dst= "TG11" />
+  <Map Src= "TG2*" Dst= "TG21" />
+  <Map Src= "TG3*" Dst= "TG31" />
+  <Map Src= "TG4*" Dst= "TG41" />
+  <Map Src= "TG5*" Dst= "TG51" />
+  <Map Src= "RTG1*" Dst= "RTG1" />
+  <Map Src= "RTG2*" Dst= "RTG2" />
+  <Map Src= "RTG3*" Dst= "RTG3" />
+  <Map Src= "RTG4*" Dst= "RTG4" />
+  <Map Src= "RTG5*" Dst= "RTG5" />
+  <Map Src= "JD0*" Dst= "JD001" />
+  <Map Src= "LV0*" Dst= "LV001" />
+  <Map Src= "SWY1*" Dst= "SWY101" />
+  <Map Src= "SWY2*" Dst= "SWY201" />
+  <Map Src= "SWY3*" Dst= "SWY301" />
+  <Map Src= "SWY4*" Dst= "SWY401" />
+  <Map Src= "SWY5*" Dst= "SWY501" />
+  <Map Src= "SWYBOSS*" Dst= "SWYBOSS" />
+  <Map Src= "wxxg0*" Dst= "lhfmz" />
+  <Map Src= "fydj1*" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj2*" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj3*" Dst= "FROSTFIGHT" />
+  <Map Src= "fydj401" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj402" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj403" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj404" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj405" Dst= "ARRISKYFIGHT" />
+  <Map Src= "fydj406" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj407" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj408" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj409" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj410" Dst= "FORBIFIGHT" />
+  <Map Src= "fydj411" Dst= "FROSTFIGHT" />
+  <Map Src= "fydj412" Dst= "FROSTFIGHT" />
+  <Map Src= "fydj413" Dst= "FROSTFIGHT" />
+  <Map Src= "fydj414" Dst= "FROSTFIGHT" />
+  <Map Src= "fydj415" Dst= "FROSTFIGHT" />
+  <Map Src= "3" Dst= "88003" />
+  <Map Src= "5" Dst= "88005" />
+  <Map Src= "7" Dst= "88007" />
+  <Map Src= "J006" Dst= "88J006" />
+  <Map Src= "J013" Dst= "88J013" />
+  <Map Src= "LV001" Dst= "14" />
+  <Map Src= "SG001" Dst= "14" />
+  <Map Src= "F0021" Dst= "F002" />
+  <Map Src= "F0022" Dst= "F002" />
+  <Map Src= "F006" Dst= "F004" />
+  <Map Src= "F010" Dst= "F004" />
+  <Map Src= "JD001" Dst= "F004" />
+  <Map Src= "AY001" Dst= "F004" />
+  <Map Src= "XY008" Dst= "F004" />
+  <Map Src= "F007" Dst= "F005" />
+  <Map Src= "SC001" Dst= "F005" />
+  <Map Src= "wk001" Dst= "F005" />
+  <Map Src= "F0082" Dst= "F0081" />
+  <Map Src= "hd002" Dst= "F0081" />
+  <Map Src= "f025" Dst= "F015" />
+  <Map Src= "F0171" Dst= "F017" />
+  <Map Src= "F0172" Dst= "F017" />
+  <Map Src= "F0181" Dst= "F018" />
+  <Map Src= "F0182" Dst= "F018" />
+  <Map Src= "LOVEMW000" Dst= "G001" />
+  <Map Src= "LOVEM002" Dst= "H071" />
+  <Map Src= "NL002" Dst= "H072" />
+  <Map Src= "LOVEW002" Dst= "H072" />
+  <Map Src= "NL001" Dst= "H086" />
+  <Map Src= "L002" Dst= "L001" />
+  <Map Src= "BX031" Dst= "L007" />
+  <Map Src= "BX032" Dst= "L007" />
+  <Map Src= "BX033" Dst= "L007" />
+  <Map Src= "BX034" Dst= "L007" />
+  <Map Src= "BX035" Dst= "L007" />
+  <Map Src= "BX036" Dst= "L007" />
+  <Map Src= "BX037" Dst= "L007" />
+  <Map Src= "BX038" Dst= "L007" />
+  <Map Src= "BX039" Dst= "L007" />
+  <Map Src= "BX040" Dst= "L007" />
+  <Map Src= "BX041" Dst= "L007" />
+  <Map Src= "BX042" Dst= "L007" />
+  <Map Src= "BX043" Dst= "L007" />
+  <Map Src= "BX044" Dst= "L007" />
+  <Map Src= "BX045" Dst= "L007" />
+  <Map Src= "BX046" Dst= "L007" />
+  <Map Src= "BX047" Dst= "L007" />
+  <Map Src= "BX048" Dst= "L007" />
+  <Map Src= "BX049" Dst= "L007" />
+  <Map Src= "BX050" Dst= "L007" />
+  <Map Src= "BX051" Dst= "L007" />
+  <Map Src= "NL003" Dst= "M018" />
+  <Map Src= "LOVEM006" Dst= "MC001" />
+  <Map Src= "LOVEW006" Dst= "MC002" />
+  <Map Src= "NL017" Dst= "MC003" />
+  <Map Src= "NL018" Dst= "MC003" />
+  <Map Src= "NL019" Dst= "MC003" />
+  <Map Src= "NL011" Dst= "MC004" />
+  <Map Src= "NL012" Dst= "MC004" />
+  <Map Src= "NL013" Dst= "MC004" />
+  <Map Src= "NL010" Dst= "MC006" />
+  <Map Src= "NL015" Dst= "MC007" />
+  <Map Src= "NL014" Dst= "MC007" />
+  <Map Src= "NL016" Dst= "MC007" />
+  <Map Src= "JPXL001" Dst= "MC009" />
+  <Map Src= "JPXL005" Dst= "MC009" />
+  <Map Src= "JPXL010" Dst= "MC009" />
+  <Map Src= "mc014" Dst= "MC010" />
+  <Map Src= "DX001" Dst= "MG002" />
+  <Map Src= "WC005" Dst= "mh008" />
+  <Map Src= "WC004" Dst= "mh012" />
+  <Map Src= "XY004" Dst= "mh039" />
+  <Map Src= "NL008" Dst= "mh049" />
+  <Map Src= "MH056" Dst= "MH055" />
+  <Map Src= "MH057" Dst= "MH055" />
+  <Map Src= "NL005" Dst= "MH055" />
+  <Map Src= "LOVEM004" Dst= "N005" />
+  <Map Src= "NL004" Dst= "N006" />
+  <Map Src= "LOVEW004" Dst= "N006" />
+  <Map Src= "S025" Dst= "NL006" />
+  <Map Src= "SC002" Dst= "NL006" />
+  <Map Src= "S026" Dst= "NL007" />
+  <Map Src= "TT009" Dst= "NL009" />
+  <Map Src= "LOVEW003" Dst= "S013" />
+  <Map Src= "S015" Dst= "S014" />
+  <Map Src= "S017" Dst= "S014" />
+  <Map Src= "ST001" Dst= "S014" />
+  <Map Src= "LOVEM003" Dst= "S016" />
+  <Map Src= "NL020" Dst= "S019" />
+  <Map Src= "NL024" Dst= "S019" />
+  <Map Src= "NL021" Dst= "S020" />
+  <Map Src= "NL025" Dst= "S020" />
+  <Map Src= "NL022" Dst= "S021" />
+  <Map Src= "NL026" Dst= "S021" />
+  <Map Src= "NL023" Dst= "S022" />
+  <Map Src= "NL027" Dst= "S022" />
+  <Map Src= "S024" Dst= "S023" />
+  <Map Src= "fightprepare" Dst= "sh003" />
+  <Map Src= "ARENA000" Dst= "sh003" />
+  <Map Src= "sh030" Dst= "sh005" />
+  <Map Src= "XY003" Dst= "sh006" />
+  <Map Src= "LOVEW001" Dst= "T011" />
+  <Map Src= "LOVEM001" Dst= "T018" />
+  <Map Src= "T023" Dst= "T020" />
+  <Map Src= "LOVEM005" Dst= "TT003" />
+  <Map Src= "LOVEW005" Dst= "TT004" />
+  <Map Src= "herofight002" Dst= "herofight001" />
+  <Map Src= "herofight003" Dst= "herofight001" />
+  <Map Src= "herofight004" Dst= "herofight001" />
+  <Map Src= "herofight005" Dst= "herofight001" />
+  <Map Src= "herofight006" Dst= "herofight001" />
+  <Map Src= "herofight007" Dst= "herofight001" />
+  <Map Src= "herofight008" Dst= "herofight001" />
+  <Map Src= "herofight009" Dst= "herofight001" />
+  <Map Src= "WC001" Dst= "tg41" />
+  <Map Src= "WC002" Dst= "tg41" />
+  <Map Src= "WC003" Dst= "tg41" />
+  <Map Src= "LF001" Dst= "tg51" />
+  <Map Src= "LF002" Dst= "tg51" />
+  <Map Src= "SC003" Dst= "ARENA001" />
+  <Map Src= "XY006" Dst= "ARENA001" />
+  <Map Src= "DV010" Dst= "dv001" />
+  <Map Src= "DV1" Dst= "dv001" />
+  <Map Src= "DV2" Dst= "dv001" />
+  <Map Src= "DV3" Dst= "dv001" />
+  <Map Src= "DV4" Dst= "dv001" />
+  <Map Src= "DV5" Dst= "dv001" />
+  <Map Src= "DV6" Dst= "dv001" />
+  <Map Src= "DV7" Dst= "dv001" />
+  <Map Src= "DV8" Dst= "dv001" />
+  <Map Src= "DV9" Dst= "dv001" />
+  <Map Src= "DV12" Dst= "DV012" />
+  <Map Src= "DV024" Dst= "DV023" />
+  <Map Src= "DV025" Dst= "DV023" />
+  <Map Src= "DV23" Dst= "DV023" />
+  <Map Src= "DV24" Dst= "DV023" />
+  <Map Src= "DV25" Dst= "DV023" />
+  <Map Src= "DV26" Dst= "DV026" />
+  <Map Src= "DV27" Dst= "DV026" />
+  <Map Src= "DV28" Dst= "DV026" />
+  <Map Src= "LK002" Dst= "LK001" />
+  <Map Src= "LK003" Dst= "LK001" />
+  <Map Src= "LK004" Dst= "LK001" />
+  <Map Src= "LK005" Dst= "LK001" />
+  <Map Src= "LK006" Dst= "LK001" />
+  <Map Src= "LK009" Dst= "LK001" />
+  <Map Src= "LK010" Dst= "LK001" />
+  <Map Src= "BX062" Dst= "CG002" />
+  <Map Src= "BX063" Dst= "CG002" />
+  <Map Src= "BX064" Dst= "CG002" />
+  <Map Src= "BX065" Dst= "CG002" />
+  <Map Src= "BX066" Dst= "CG002" />
+  <Map Src= "BX067" Dst= "CG002" />
+  <Map Src= "BX068" Dst= "CG002" />
+  <Map Src= "BX069" Dst= "CG002" />
+  <Map Src= "BX070" Dst= "CG002" />
+  <Map Src= "BX071" Dst= "CG002" />
+  <Map Src= "XY007" Dst= "CG002" />
+  <Map Src= "BX002" Dst= "BX001" />
+  <Map Src= "BX003" Dst= "BX001" />
+  <Map Src= "BX004" Dst= "BX001" />
+  <Map Src= "BX005" Dst= "BX001" />
+  <Map Src= "BX006" Dst= "BX001" />
+  <Map Src= "BX007" Dst= "BX001" />
+  <Map Src= "BX008" Dst= "BX001" />
+  <Map Src= "BX009" Dst= "BX001" />
+  <Map Src= "BX010" Dst= "BX001" />
+  <Map Src= "BX011" Dst= "BX001" />
+  <Map Src= "BX012" Dst= "BX001" />
+  <Map Src= "BX013" Dst= "BX001" />
+  <Map Src= "BX014" Dst= "BX001" />
+  <Map Src= "BX015" Dst= "BX001" />
+  <Map Src= "BX016" Dst= "BX001" />
+  <Map Src= "BX017" Dst= "BX001" />
+  <Map Src= "BX018" Dst= "BX001" />
+  <Map Src= "BX019" Dst= "BX001" />
+  <Map Src= "BX020" Dst= "BX001" />
+  <Map Src= "BX022" Dst= "BX021" />
+  <Map Src= "BX023" Dst= "BX021" />
+  <Map Src= "BX024" Dst= "BX021" />
+  <Map Src= "BX025" Dst= "BX021" />
+  <Map Src= "BX026" Dst= "BX021" />
+  <Map Src= "BX027" Dst= "BX021" />
+  <Map Src= "BX028" Dst= "BX021" />
+  <Map Src= "BX029" Dst= "BX021" />
+  <Map Src= "BX030" Dst= "BX021" />
+  <Map Src= "BX053" Dst= "BX052" />
+  <Map Src= "BX054" Dst= "BX052" />
+  <Map Src= "BX055" Dst= "BX052" />
+  <Map Src= "BX056" Dst= "BX052" />
+  <Map Src= "BX057" Dst= "BX052" />
+  <Map Src= "BX058" Dst= "BX052" />
+  <Map Src= "BX059" Dst= "BX052" />
+  <Map Src= "BX060" Dst= "BX052" />
+  <Map Src= "BX061" Dst= "BX052" />
+  <Map Src= "BX073" Dst= "BX072" />
+  <Map Src= "BX074" Dst= "BX072" />
+  <Map Src= "BX075" Dst= "BX072" />
+  <Map Src= "BX076" Dst= "BX072" />
+  <Map Src= "XY005" Dst= "XY001" />
+  <Map Src= "XY010" Dst= "XY001" />
+  <Map Src= "wk004" Dst= "XY002" />
+  <Map Src= "wk003" Dst= "wk002" />
+  <Map Src= "ARENA002" Dst= "ARENA001" />
+  <Map Src= "ARENA003" Dst= "ARENA001" />
+  <Map Src= "ARENA004" Dst= "ARENA001" />
+  <Map Src= "ARENA005" Dst= "ARENA001" />
+  <Map Src= "ARENA006" Dst= "ARENA001" />
+  <Map Src= "ARENA007" Dst= "ARENA001" />
+  <Map Src= "ARENA008" Dst= "ARENA001" />
+  <Map Src= "ARENA009" Dst= "ARENA001" />
+  <Map Src= "ARENA010" Dst= "ARENA001" />
+  <Map Src= "ARENA011" Dst= "ARENA001" />
+  <Map Src= "CG001" Dst= "CG001" />
+  <Map Src= "CG011" Dst= "CG001" />
+  <Map Src= "CG021" Dst= "CG001" />
+  <Map Src= "CG031" Dst= "CG001" />
+  <Map Src= "CG041" Dst= "CG001" />
+  <Map Src= "CG051" Dst= "CG001" />
+  <Map Src= "CG061" Dst= "CG001" />
+  <Map Src= "CG071" Dst= "CG001" />
+  <Map Src= "CG081" Dst= "CG001" />
+  <Map Src= "CG091" Dst= "CG001" />
+  <Map Src= "CG111" Dst= "CG001" />
+  <Map Src= "CG121" Dst= "CG001" />
+  <Map Src= "CG131" Dst= "CG001" />
+  <Map Src= "CG141" Dst= "CG001" />
+  <Map Src= "CG151" Dst= "CG001" />
+  <Map Src= "CG161" Dst= "CG001" />
+  <Map Src= "CG171" Dst= "CG001" />
+  <Map Src= "CG181" Dst= "CG001" />
+  <Map Src= "CG191" Dst= "CG001" />
+  <Map Src= "CG201" Dst= "CG001" />
+  <Map Src= "CG002" Dst= "CG002" />
+  <Map Src= "CG012" Dst= "CG002" />
+  <Map Src= "CG022" Dst= "CG002" />
+  <Map Src= "CG032" Dst= "CG002" />
+  <Map Src= "CG042" Dst= "CG002" />
+  <Map Src= "CG052" Dst= "CG002" />
+  <Map Src= "CG062" Dst= "CG002" />
+  <Map Src= "CG072" Dst= "CG002" />
+  <Map Src= "CG082" Dst= "CG002" />
+  <Map Src= "CG092" Dst= "CG002" />
+  <Map Src= "CG112" Dst= "CG002" />
+  <Map Src= "CG122" Dst= "CG002" />
+  <Map Src= "CG132" Dst= "CG002" />
+  <Map Src= "CG142" Dst= "CG002" />
+  <Map Src= "CG152" Dst= "CG002" />
+  <Map Src= "CG162" Dst= "CG002" />
+  <Map Src= "CG172" Dst= "CG002" />
+  <Map Src= "CG182" Dst= "CG002" />
+  <Map Src= "CG192" Dst= "CG002" />
+  <Map Src= "CG202" Dst= "CG002" />
+  <Map Src= "CG003" Dst= "CG003" />
+  <Map Src= "CG013" Dst= "CG003" />
+  <Map Src= "CG023" Dst= "CG003" />
+  <Map Src= "CG033" Dst= "CG003" />
+  <Map Src= "CG043" Dst= "CG003" />
+  <Map Src= "CG053" Dst= "CG003" />
+  <Map Src= "CG063" Dst= "CG003" />
+  <Map Src= "CG073" Dst= "CG003" />
+  <Map Src= "CG083" Dst= "CG003" />
+  <Map Src= "CG093" Dst= "CG003" />
+  <Map Src= "CG113" Dst= "CG003" />
+  <Map Src= "CG123" Dst= "CG003" />
+  <Map Src= "CG133" Dst= "CG003" />
+  <Map Src= "CG143" Dst= "CG003" />
+  <Map Src= "CG153" Dst= "CG003" />
+  <Map Src= "CG163" Dst= "CG003" />
+  <Map Src= "CG173" Dst= "CG003" />
+  <Map Src= "CG183" Dst= "CG003" />
+  <Map Src= "CG193" Dst= "CG003" />
+  <Map Src= "CG203" Dst= "CG003" />
+  <Map Src= "TT2" Dst= "TT1" />
+  <Map Src= "TT3" Dst= "TT1" />
+  <Map Src= "TT4" Dst= "TT1" />
+  <Map Src= "TT5" Dst= "TT1" />
+  <Map Src= "TT6" Dst= "TT1" />
+  <Map Src= "TT7" Dst= "TT1" />
+  <Map Src= "TT8" Dst= "TT1" />
+  <Map Src= "TT9" Dst= "TT1" />
+  <Map Src= "TT10" Dst= "TT1" />
+  <Map Src= "TT11" Dst= "TT1" />
+  <Map Src= "TT12" Dst= "TT1" />
+  <Map Src= "TT13" Dst= "TT1" />
+  <Map Src= "DK00*" Dst= "DK001" />
+  <Map Src= "DK010" Dst= "DK001" />
+  <Map Src= "DV00*" Dst= "DV001" />
+  <Map Src= "DV010" Dst= "DV001" />
+  <Map Src= "DV013" Dst= "DV012" />
+  <Map Src= "DV014" Dst= "DV012" />
+  <Map Src= "DV015" Dst= "DV012" />
+  <Map Src= "DV016" Dst= "DV012" />
+  <Map Src= "DV017" Dst= "DV012" />
+  <Map Src= "DV018" Dst= "DV012" />
+  <Map Src= "DV019" Dst= "DV012" />
+  <Map Src= "DV020" Dst= "DV012" />
+  <Map Src= "DV021" Dst= "DV012" />
+  <Map Src= "DV027" Dst= "DV026" />
+  <Map Src= "DV028" Dst= "DV026" />
+  <Map Src= "L005" Dst= "BX052" />
+  <Map Src= "XIXI0" Dst= "F005" />
+  <Map Src= "QueYsh*" Dst= "QueYsh00" />
+  <Map Src= "HD003" Dst= "J008" />
+  <Map Src= "xlxg" Dst= "AS002" />
+  <Map Src= "8" Dst= "1" />
+  <map Src= "MAZE*" Dst= "MAZE" />
+  <Map Src= "KFZZB*"   Dst= "KFZZB0" />  
+  <Map Src= "KFZLEITAI*" Dst= "KFZ0" />
+  <Map Src= "KFZ0*" Dst= "KFZ0" />
+  <Map Src= "WBZS" Dst= "F005" />
+  <Map Src= "NL007A" Dst= "AS004" />
+  <Map Src= "smd" Dst= "F019" />
+  <Map Src= "hjba1*" Dst= "F019" />
+  
+  <map src= "HJZC*"    Dst= "HJC0001" />
+  <map src= "HJCHG*"   Dst= "HJCHG0001" />
+  <map src= "JSMZ*"    Dst= "JSMZ0001" />
+  <map src= "MSSL*"    Dst= "MSSL0001" />
+  <map src= "QJPB*"    Dst= "QJPB0001" />
+  <map src= "RYDY0*"   Dst= "RYDY0001" />  
+  <map src= "SFZY*"    Dst= "SFZY0001" />
+  <map src= "XFZY*"     Dst= "XFZY0001" />
+  <map src= "XFDQTD*"  Dst= "XFDQTD0001" />  
+  <map src= "SFDQTD*"  Dst= "SFDQTD0001" /> 
+  <map src= "RYDY*"    Dst= "RYDY0001" />
+  <map src= "WARFIELD*" Dst= "WARFIELD0001" />
+  <map src= "XFWZKJ*"  Dst= "XFWZKJ0001" />
+  <map src= "SFWZKJ*"  Dst= "XFWZKJ0001" />
+  <map src= "MYMS*"    Dst= "swyzb" MinMap= "MYMS0001"/>
+  <map src= "ZZZS*"    Dst= "F005" MinMap= "ZZZS"/>
+  <map src= "TBMap0*"    Dst= "QJPB0001" MinMap= "TBMap0"/>
+  <map src= "TBMap1*"    Dst= "QJPB0001" MinMap= "TBMap0"/>
+  <map src= "TBMap2*"    Dst= "QJPB0001" MinMap= "TBMap0"/>
+  <map src= "TBMap3*"    Dst= "QJPB0001" MinMap= "TBMap0"/>
+  <map src= "TBMap5*"    Dst= "RYDY0001" MinMap= "TBMap5"/>
+  <map src= "TBMap6*"    Dst= "RYDY0001" MinMap= "TBMap5"/>
+  <map src= "TBMap7*"    Dst= "RYDY0001" MinMap= "TBMap5"/>
+  <map src= "TBMap8*"    Dst= "RYDY0001" MinMap= "TBMap5"/>  
+  <map src= "SFZB0001"    Dst= "KFZZB0"  MinMap= "SFZB0001"/>
+  <map src= "XFZB0001"     Dst= "KFZZB0"  MinMap= "XFZB0001"/>   
+  <map src= "ZC0001"    Dst= "WARFIELD0001" MinMap= "ZC0001"/>
+  <map src= "222"    Dst= "2" MinMap= "222"/>
+  <map src= "skycity3"  Dst= "skycity3" MinMap="skycity3"/>
+  <map src= "CDM*"  Dst= "mzdg" MinMap="CDM001"/>
+  <map src= "DC_FIRE*"  Dst= "DC_FIRE" MinMap="DC_FIRE"/>
+  <map src= "DC_ICE*"  Dst= "DC_ICE" MinMap="DC_ICE"/>
+ 
+  <map Src= "BOSS001" Dst= "h073" MinMap="BOSS001"/>
+  <Map Src= "BOSS002" Dst= "tt007" MinMap="BOSS002"/>
+  <Map Src= "BOSS003" Dst= "MC005" MinMap="BOSS003"/>
+  <map src= "BOSS004" Dst= "AS004" MinMap="BOSS004"/>
+  <map src= "BOSS005" Dst= "boss005" MinMap="BOSS005"/>  
+  <map src= "WCSJ" Dst= "G001" MinMap="WCSJ"/>
+  <map src= "COMMONMAP*" Dst= "tjmj_public"/>
+  <map src= "DC_TJMJ00*" Dst="tjmj_gold"/>
+  <map src= "DC_TJMJ01*" Dst="tjmj_wood"/>
+  <map src= "DC_TJMJ02*" Dst="tjmj_soil"/>
+  <map src= "DC_TJMJ03*" Dst="tjmj_water"/>
+  <map src= "DC_TJMJ04*" Dst="tjmj_fire"/>
+  <map src= "DC_TXC00*"  Dst="lhd2"/> 
+  <map src= "WCZB" Dst="WCZB"/>
+  <map src= "DC_FOOTBALL0*" Dst="L006"/>
+  <map Src= "DC_WCP00*" Dst= "WCP0001" MinMap="WCP0001"/>
+  <map src= "DC_LZDT00*" Dst="BZFD"/>
+  <map src="hldg" Dst="hldg" BKMusic="HJSWY6"/>
+  <map src="hldg_02" Dst="hldg_02" BKMusic="txwc02"/>
+  <map src="hldg_03" Dst="hldg_03" BKMusic="txwc04"/>
+  <map src="HLDGKF_*" Dst="hldg_kf" BKMusic="HJSWY6"/>
+  <map src="caishenmiao" Dst="caishenmiao-fx"/>
+  <map src="YHSLC1" Dst="M018"/>
+  <map src="YHSLC2" Dst="NL009"/>
+  <map src="YHSLC3" Dst="J011"/>
+  <map src="hghhy" Dst="zddt"/>
+	<map src="bmmg" Dst="bmmg" BKMusic="bmmg"/>
+	<map src="bmdg1" Dst="bmdg1" BKMusic="bmdg1"/>
+	<map src="bmdg2" Dst="bmdg2" BKMusic="bmdg2"/>
+	<Map Src="MTJS01*" Dst="jingjichang3" MinMap="MTJS01"/>
+	<Map Src="MTJS02*" Dst="jingjichang3" MinMap="MTJS02"/>
+	<Map Src="MTJS03*" Dst="dj" MinMap="MTJS03"/>
+	<Map Src="MTNH01*" Dst="haidi-nj03_bing" MinMap="MTNH01"/>
+	<Map Src="MTNH02*" Dst="haidi-nj03_bing" MinMap="MTNH02"/>
+	<Map Src="MTNH03*" Dst="dj" MinMap="MTNH03"/>
+</MapXmlMgr>

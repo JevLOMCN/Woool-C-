@@ -1,0 +1,407 @@
+[@main]
+每天你可以接取5个任务，每完成一个任务你都能获得部分极\
+品修炼值奖赏，如果能够完成全部5个任务，更能获得大量的\
+极品修炼值与金币奖励！\
+<开始武器升级/@upgrade1>     <取回升级武器/@getbackupgnow>\
+<每日灭魔任务/@TaskMSW>     <升级极品装备/@updsp>    <二次升级极品/@up2dsp>\
+<退出/@exit>
+
+
+[@upgrade1]
+看上去你确实想要升级你的武器\
+给我看你的武器,升级价格是10000金币\
+修炼这个武器需要原料<黑铁矿石/@biron>,<饰品/@etc>,<武器/@weapon>\
+和 <金币/@gold>.你确定要这么做吗？\
+别的原料你可以使用你包内的物品\
+你想好了吗？\\
+<确认/@confirmupgrade>\
+<取消/@main>\
+
+[@biron]
+你可以在矿山里采到黑铁矿石。\
+如果你想把武器锤炼的好一点，\
+黑铁矿石的纯度越高越好。\
+顺便请记得，在修炼期间如果没有足够数\
+量的黑色铁矿，那怕你的矿石纯度再高\
+结果也好不到哪里去。\\
+<返回/@upgrade>
+
+[@etc]
+饰品，项链，手镯\
+当你的武器融入了这些东西的属性的时候，\
+就成了更高等级的好兵器。\
+如果你给我的原料比较好的话，升级会顺利一些；\
+要是你给的东西很糟糕，那可能会失败，\
+除非你有很好的运气\\
+<返回/@upgrade>
+
+[@weapon]
+只能对武器进行升级\
+如果你想要升级武器\
+请给我你携带的武器 ...\\
+<返回/@upgrade>
+
+[@gold]
+你的钱太少了...\
+你真的认为我价值就这么点？\
+这个价格我不给你做。 ..\\
+<返回/@upgrade>
+
+[@confirmupgrade]
+给我看你想用来升级<$weapon>的原料\
+我会自己从你的包里取出饰品和黑铁矿石来。\
+如果你有重要的东西，请你存在仓库后再来。\\
+<请求修炼/@upgradenow>\
+<过会再来/@exit>\
+
+[@upgradenow]
+#if
+hasupgradeweapon
+#say
+您已经有一件武器在我这里，请取回后再升级其他武器。\
+#elseact
+goto @doupgrade
+
+[@doupgrade]
+#if
+checkex gold > 9999
+checkbagitem 黑铁矿石 1
+#act 
+goto @doupgrade1
+#elsesay
+请你下次来的时候， \
+准备好所有的矿石，武器和饰品,金钱。 \
+当然，我的工作才是最基本的...\\
+<返回/@main>
+
+[@doupgrade1]
+#if
+doupgradeweapon
+#act
+takegold 10000
+#say
+我会把它弄得像新的一样，\
+请过段时间后再来取 \
+<返回/@main>\
+#elsesay
+材料不够。请你下次来的时候， \
+准备好所有的矿石，武器和饰品。 \
+当然，我的工作才是最基本的...\\
+<返回/@main>
+
+[@getbackupgnow]
+#if
+hasupgradeweapon
+#act
+goto @takeupgrade
+#elsesay
+以前你是不是寄存了很多东西?\
+如果你找我是为了取回你很\
+久前寄存在这里的物品，\
+那你还是回去吧，我可记\
+不起来了，这也过去太长时间了……\\
+<返回/@main>\
+
+[@takeupgrade]
+#if
+takeupgradeweapon
+#say
+就这样了,我尽我最大努力锤炼了你的武器,结果是否<成功/@success>\
+只有在你使用过一次后才知道，出去试试吧。\\
+<退出/@exit>\
+#elsesay
+以前你是不是寄存了很多东西?\
+如果你找我是为了取回你很\
+久前寄存在这里的物品，\
+那你还是回去吧，我可记\
+不起来了，这也过去太长时间了……\\
+<返回/@main>\
+
+[@updsp]
+请选择要升级的属性.\
+<防御/@ac2>   <魔防/@mac2> \
+<攻击/@dc2>   <魔法/@mc2>   <道术/@sc2> \
+<武器刻名/@renameweapon>\\
+<离开/@exit>
+
+[@ac2]
+请提供您要升级的首饰
+#act
+putitem 请放入装备: @upgradeac2
+
+[@upgradeac2]
+#if
+checkex $forgerate > 50000
+#act
+takeforgerate 50000
+US_UPGRADE "ac2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+#elsesay
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@mac2]
+请提供您要升级的首饰
+#act
+putitem 请放入装备: @upgrademac2
+
+[@upgrademac2]
+#if
+checkex $forgerate > 50000
+#act
+takeforgerate 50000
+US_UPGRADE "mac2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+#elsesay
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@dc2]
+请提供您要升级的首饰
+#act
+putitem 请放入装备: @upgradedc2
+
+[@upgradedc2]
+#if
+checkex $forgerate > 50000
+#act
+takeforgerate 50000
+US_UPGRADE "dc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+#elsesay
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@mc2]
+请提供您要升级的首饰
+#act
+putitem 请放入装备: @upgrademc2
+
+[@upgrademc2]
+#if
+checkex $forgerate > 50000
+#act
+takeforgerate 50000
+US_UPGRADE "mc2=+1"
+#say
+首饰升级成功!\\
+<离开/@exit>
+#elsesay
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@sc2]
+请提供您要升级的首饰
+#act
+putitem 请放入装备: @upgradesc2
+
+[@upgradesc2]
+#if
+checkex $forgerate > 50000
+#act
+takeforgerate 50000
+US_UPGRADE "sc2=+1"
+#say
+首饰升级成功!
+<离开/@exit>
+#elsesay
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@renameweapon]
+#act
+inputtext 请输入你想要的武器名字(3个汉字以内): 6 @weaponself
+
+[@weaponself]
+请提供您要刻名的武器
+#act
+putitem 请放入武器: @upgradeweapon
+
+
+
+[@upgradeweapon]
+#if
+checkex $ui_stdmode = 5
+checkex $forgerate > 30000
+#act
+formatstring vstr "name=<$inputtext><$ui_name>"
+takeforgerate 30000
+us_upgrade $vstr
+#say
+武器刻名成功\\
+<离开/@exit>
+#elsesay
+你提供的不是武器,我无法帮您刻名!\
+你的极品修炼值不够\\
+<离开/@exit>
+
+[@TaskMSW]
+#if
+hastask 2
+#act
+goto @whitesnake
+#elseif
+hastask 3
+#act
+goto @gundaoshou
+#elseif
+hastask 4
+#act
+goto @zhanjiang
+#elseif
+hastask 5
+#act
+goto @nimodiaoxian
+#elseif
+hastask 6
+#act
+goto @tengyao
+#elseif
+hastask 7
+#act
+goto @tongling
+#elseact
+goto @accepttask
+
+
+[@whitesnake]
+#if
+checktaskstep 2 = 4
+#act
+addforgerate 1000
+removetask 2
+givegold 20000
+#say
+这1000的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+[@gundaoshou]
+#if
+checktaskstep 3 = 21
+#act
+addforgerate 1500
+removetask 3
+givegold 20000
+#say
+这1500的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+[@zhanjiang]
+#if
+checktaskstep 4 = 16
+#act
+addforgerate 1100
+removetask 4
+givegold 20000
+#say
+这1100的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+
+[@nimodiaoxian]
+#if
+checktaskstep 5 = 16
+#act
+addforgerate 1100
+removetask 5
+givegold 20000
+#say
+这1100的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+[@tengyao]
+#if
+checktaskstep 6 = 16
+#act
+addforgerate 1100
+removetask 6
+givegold 20000
+#say
+这1100的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+[@tongling]
+#if
+checktaskstep 7 = 4
+#act
+addforgerate 900
+removetask 7
+givegold 20000
+#say
+这900的极品修炼值是做任务的奖励\\
+<退出/@exit>
+#elsesay
+年轻人,你的任务还没有完成,完成了再来找我吧\\
+<退出/@exit>
+
+[@accepttask]
+<极品修炼值任务/@forgerate>\\
+<离开/@exit>
+
+[@forgerate]
+#switch
+random 1 6
+#case:1
+#act
+addtask 2
+reloadtask
+#say
+杀死3只白蛇妖\\
+<好的/@exit>
+#case:2
+#act
+addtask 3
+reloadtask
+#say
+剿灭20只滚刀手\\
+<好的/@exit>
+#case:3
+#act
+addtask 4
+reloadtask
+#say
+剿灭15个尸卫战将\\
+<好的/@exit>
+#case:4
+#act
+addtask 5
+reloadtask
+#say
+剿灭15个逆魔雕像\\
+<好的/@exit>
+#case:5
+#act
+addtask 6
+reloadtask
+#say
+剿灭15个藤妖\\
+<好的/@exit>
+#case:6
+#act
+addtask 7
+reloadtask
+#say
+剿灭3个兽骑统领\\
+<好的/@exit>
+#end

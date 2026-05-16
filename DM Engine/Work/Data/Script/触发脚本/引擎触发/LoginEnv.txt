@@ -1,0 +1,97 @@
+[@Login]
+#if
+CHECKACCOUNTLIST AccountList
+#act
+Kick
+close
+#if
+CHECKCHARNAMELIST CharNameList
+#act
+Kick
+close
+#if
+checkex level > 0
+#act
+SENDTREASUREINFO $ZhenBaoExp $ZhenBaoExpMax $ZhenBaoStar
+#if
+checkflag 50
+#act
+clrflag 50
+#if 
+hasmaster
+#act
+call @sendtomaster
+#if
+hasstudent
+#act
+call @sendtostudent
+#if
+ismarried
+#act
+call @sendtomarry
+
+[@sendtomarry]
+#if
+check sex  0
+humonline $marriage
+#act
+systemmsgex $CC_SPECIAL  $marriage "您的丈夫<$username>在<$mapname>的 (<$posx>,<$posy>)上线了！"
+showpage $marriage @womanshow $username
+close 
+#if
+check sex  1
+humonline $marriage
+#act
+systemmsgex $CC_SPECIAL  $marriage "您的妻子<$username>在<$mapname>的 (<$posx>,<$posy>)上线了！"
+showpage $marriage @manshow $username
+close 
+[@womanshow]
+#act
+systemmsgex $CC_SPECIAL $_param0 "您的妻子<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+close 
+
+[@manshow]
+#act
+systemmsgex $CC_SPECIAL $_param0 "您的丈夫<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+close 
+
+[@sendtomaster]
+#if
+humonline $master
+#act
+systemmsgex $CC_SPECIAL $master "您的徒弟<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+showpage $master @mastershow $username
+close 
+
+[@sendtostudent]
+#if
+hasstudent 0
+humonline $student1
+#act
+systemmsgex $CC_SPECIAL $student1 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+showpage $student1 @studentshow $username
+close  
+#if
+hasstudent 1
+humonline $student2
+#act
+systemmsgex $CC_SPECIAL  $student2 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+showpage $student2 @studentshow $username
+close 
+#if
+hasstudent 2
+humonline $student3
+#act
+systemmsgex $CC_SPECIAL $student3 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+showpage $student3 @studentshow $username
+close 
+
+[@mastershow]
+#act
+systemmsgex $CC_SPECIAL $_param0 "您的师傅<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+close 
+
+[@studentshow]
+#act
+systemmsgex $CC_SPECIAL $_param0 "您的徒弟在<$username>在<$mapname>的 (<$posx>,<$posy>)处上线了"
+close

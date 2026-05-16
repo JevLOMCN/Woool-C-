@@ -1,0 +1,9 @@
+[@main]
+你准备离开这个地方吗？\\
+<是的/@out>\
+<不/@exit>
+
+[@out]
+#act
+mapmove 16
+close

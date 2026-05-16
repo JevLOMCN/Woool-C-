@@ -1,0 +1,242 @@
+[@落霞岛_屠夫]
+#IF
+CHECKTASKSTEP 1 = 1
+#SAY
+可以完成的任务：\
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp1>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 1 = 3
+#SAY
+可以完成的任务：\
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp3>\\
+<离开/@exit>
+#ELSEIF
+CHECKTASKSTEP 1 = 4
+#SAY
+可以完成的任务：\
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp4>\\
+<离开/@exit>
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp4]
+不错不错，这么快就找到了3块高品质的鹿肉，你的进步蛮\
+快嘛！快把鹿肉给我吧，乡亲们等着我开张呢！\
+<交还鹿肉/@_RW_fulfilTask4_4>                <离开/@exit>
+
+[@_RW_fulfilTask4_4]
+#IF
+CHECKBAGITEM 鹿肉 3
+#ACT
+CompleteTask 1
+TAKEBAGITEM 鹿肉 3
+give 幻彩戒指 2 1
+give 新鲜鹿肉 1
+GIVEGOLD 100
+GIVEEXP 450
+AddTask 2
+systemmsg $username "您成功增加了100金币。"
+#SAY
+太好了，今年过节乡亲们可都有口福了！今天上午村里的炼\
+药师到我这定购了一些鹿肉，我一直没时间给他送过去，你\
+帮我送给他吧，他就在村子南门边的药铺（219：269）。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp1]
+是新手向导让你来的吧。这老小子人倒是好，带的新人桃李\
+满天下；就是贪吃了点，经常到我这里蹭饭。现在我碰到困\
+难，他还记得派人来帮我，算是有点良心。我有事情需要你\
+帮忙，你愿意吗？\
+<愿意接受/@_RW_fulfilTaskDesp1_1>                <我没空/@exit>
+
+[@_RW_fulfilTaskDesp1_1]
+#ACT
+modifytask 1 2
+GIVEEXP 150
+GIVEGOLD 100
+give 磨损的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+近来生意兴隆，每天客户盈门，我都忙得没时间去铁匠铺打\
+磨杀鹿刀了。能否麻烦你帮我去找铁匠打磨一下刀子呢？我\
+会酬谢你的。他就在村子西门附近的铁匠铺（227：216）。\
+<离开/@exit>
+
+[@落霞岛_铁匠]
+#IF
+CHECKTASKSTEP 1 = 2
+#SAY
+可以完成的任务：\
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp2>\\
+<离开/@exit>
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp2]
+这是屠夫阿三的杀鹿刀吧，阿三这家伙天生神力，应该去从\
+军报国啊，做个屠夫真是埋没了他！阿三虽然杀鹿技艺精湛\
+无比，但是没有我的磨刀功夫，他再厉害也是白搭，呵呵。\
+你把刀子交给我吧！\
+<麻烦你磨刀/@_RW_fulfilTask2_2>                <离开/@exit>
+
+[@_RW_fulfilTask2_2]
+#ACT
+modifytask 1 3
+GIVEEXP 300
+GIVEGOLD 100
+TAKEBAGITEM 磨损的刀子 1
+give 锋利的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+刀子已经帮你磨好了，看你初来乍到，就照顾你，不收钱了\
+。快把磨好的刀子送还给屠夫吧，他等得着急呢！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp3]
+呵呵，铁匠做事就是快，这村里我最佩服他了。别看他瘦瘦\
+的，但是一身气力，丝毫不输于我。你把刀子还给我吧，有\
+了锋利的刀，我向你展示一下“庖丁解鹿”的功夫，哈哈！\
+<刀磨好了，给你/@_RW_fulfilTask3_3>                <离开/@exit>
+
+[@_RW_fulfilTask3_3]
+#ACT
+modifytask 1 4
+GIVEEXP 300
+GIVEGOLD 100
+TAKEBAGITEM 锋利的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+谢谢你，年轻人，作为报酬就送你些零钱吧。落霞村里一年\
+一度的庆祝节日到了，鹿肉有些供不应求，能不能帮忙找些\
+品质高的鹿肉来，村子周围有很多鹿跑来跑去的。<color=green 你杀死鹿>\
+<color=green 之后，将鼠标放在鹿的尸体上面，按住ALT+鼠标左键，就可>\
+<color=green 以获得鹿肉了>。提示：需要任意品质的鹿肉1块。\
+<离开/@exit>
+
+[@海角_屠夫]
+#IF
+CHECKTASKSTEP 14 = 1
+#SAY
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp10>\\
+<离开/@exit>
+#elseif
+CHECKTASKSTEP 14 = 3
+#SAY
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp12>\\
+<离开/@exit>
+#elseif
+CHECKTASKSTEP 14 = 4
+#SAY
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp13>\\
+<离开/@exit>
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp13]
+不错不错，这么快就找到了 3块高品质的猪肉，你的进步蛮\
+快嘛！快把猪肉给我吧，乡亲们等着我开张呢！\
+<交还猪肉/@_RW_fulfilTask13_13>                <离开/@exit>
+
+[@_RW_fulfilTask13_13]
+#IF
+CHECKBAGITEM 猪肉 3
+#ACT
+CompleteTask 14
+TAKEBAGITEM 猪肉 3
+give 幻彩戒指 2 1
+give 新鲜猪肉 1
+GIVEGOLD 100
+GIVEEXP 450
+AddTask 15
+systemmsg $username "您成功增加了450金币。"
+#SAY
+太好了，今年过节乡亲们可都有口福了！今天上午村里的炼\
+药师到我这定购了一些猪肉，我一直没时间给他送过去，你\
+帮我送给他吧，他就在村子中央的药铺（417：615）。\
+<离开/@exit>
+#ELSESAY
+你还没有完成任务！\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp12]
+呵呵，铁匠做事就是快，这村里我最佩服他了。别看他瘦瘦\
+的，但是一身气力，丝毫不输于我。你把刀子还给我吧，有\
+了锋利的刀，我向你展示一下“庖丁解猪”的功夫，哈哈！\
+<刀磨好了，给你/@_RW_fulfilTask12_12>                <离开/@exit>
+
+[@_RW_fulfilTask12_12]
+#ACT
+modifytask 14 4
+GIVEEXP 300
+GIVEGOLD 100
+TAKEBAGITEM 锋利的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+谢谢你，年轻人，作为报酬就送你些零钱吧。海角村里一年\
+一度的庆祝节日到了，猪肉有些供不应求，能不能帮忙找些\
+品质高的猪肉来，村子周围有很多猪跑来跑去的。<color=green 你杀死猪>\
+<color=green 之后，将鼠标放在猪的尸体上面，按住ALT+鼠标左键，就可>\
+<color=green 以获得猪肉了>。提示：需要任意品质的猪肉1块。\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp10]
+是新手向导让你来的吧。这老小子人倒是好，带的新人桃李\
+满天下；就是贪吃了点，经常到我这里蹭饭。现在我碰到困\
+难，他还记得派人来帮我，算是有点良心。我有事情需要你\
+帮忙，你愿意吗？\
+<愿意接受/@_RW_fulfilTask10_10>                <我没空/@exit>
+
+[@_RW_fulfilTask10_10]
+#ACT
+modifytask 14 2
+GIVEEXP 150
+GIVEGOLD 100
+give 磨损的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+近来生意兴隆，每天客户盈门，我都忙得没时间去铁匠铺打\
+磨杀猪刀了。能否麻烦你帮我去找铁匠打磨一下刀子呢？我\
+会酬谢你的。他就在村子北门附近的铁匠铺（417：595）。\
+<离开/@exit>
+
+[@海角_铁匠10]
+#IF
+CHECKTASKSTEP 14 = 2
+#SAY
+可以完成的任务：\
+<新手任务--屠夫的刀子/@_RW_fulfilTaskDesp11>\\
+<离开/@exit>
+#elseif
+CHECKTASKSTEP 17 = 1
+#ACT
+CALL @打听挖矿任务.海角_铁匠11
+#ELSESAY
+您当前没有可以接的任务。\\
+<离开/@exit>
+
+[@_RW_fulfilTaskDesp11]
+这是屠夫阿三的杀猪刀吧，阿三这家伙天生神力，应该去从\
+军报国啊，做个屠夫真是埋没了他！阿三虽然杀猪技艺精湛\
+无比，但是没有我的磨刀功夫，他再厉害也是白搭，呵呵。\
+你把刀子交给我吧！\
+<麻烦你磨刀/@_RW_fulfilTask11_11>                <离开/@exit>
+
+[@_RW_fulfilTask11_11]
+#ACT
+modifytask 14 3
+GIVEEXP 300
+GIVEGOLD 100
+TAKEBAGITEM 磨损的刀子 1
+give 锋利的刀子 1
+systemmsg $username "您成功增加了100金币。"
+#SAY
+刀子已经帮你磨好了，看你初来乍到，就照顾你，不收钱了\
+。快把磨好的刀子送还给屠夫吧，他等得着急呢！\
+<离开/@exit>

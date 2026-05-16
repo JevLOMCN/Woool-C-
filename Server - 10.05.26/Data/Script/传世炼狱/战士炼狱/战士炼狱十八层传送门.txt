@@ -1,0 +1,4 @@
+[@main]
+#act
+move 206 12 14
+close

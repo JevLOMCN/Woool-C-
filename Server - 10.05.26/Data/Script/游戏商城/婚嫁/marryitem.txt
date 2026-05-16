@@ -1,0 +1,26 @@
+[@rose]
+#if
+us_damagedura 1
+#act
+showpile $_param0 600 0
+#end
+#act
+close
+
+[@candle]
+#if
+us_damagedura 1
+#act
+showpile 8 600 0
+#end
+#act
+close 
+
+[@banger]
+#if
+us_damagedura 1
+#act
+showdamagepile 20 2 15 2 10 2
+#end
+#act
+close

@@ -1,0 +1,216 @@
+[Teleport]
+Special = dmove
+Count = 1
+Group1 = [22:59:*]
+
+[Relive]
+Special = 在神力的帮助下，您又获得了新生！
+Count = 1
+Group1 = [22:65:*]
+
+[Cloak]
+Count = 1
+Group1 = [22:66:*]
+
+[Overload]
+Count = 1
+Group1 = [22:63:*]
+
+[Protect]
+Count = 1
+Group1 = [22:60:*]
+
+[Search]
+Count = 1
+Group1 = [20:87:*]
+
+[HealHalo]
+Special = 你已拥有幻彩全套，内蕴的仙灵之力将提升你的生命上限……
+Params = 20,5,8
+Count = 1
+Group1 = [幻彩项链:*]&[幻彩手镯:*]&[幻彩戒指:*]
+
+[Mirage]
+Special = 你已拥有幻影全套，远古的符咒让你变幻出残影,更有神秘的力量隐藏……
+Count = 1
+Group1 = [幻影项链:*]&[幻影戒指:*]&[幻影手镯:*]&[幻影头盔:*]
+
+[BigHit]
+Special =你拥有的狂怒全套让你重击成功!
+Params = 5
+Count = 1
+Group1 = [狂怒头盔:*]&[狂怒项链:*]&[狂怒手镯:*]&[狂怒戒指:*]
+
+[Shield]
+Special = 你拥有的神御全套让你神御成功!
+Params = 10
+Count = 1
+Group1 = [神御头盔:*]&[神御项链:*]&[神御手镯:*]&[神御戒指:*]
+
+[Immdie]
+Special = 你拥有的X全套让你秒杀成功!
+Params = 1
+Count = 0
+
+[DefenceUp]
+Params = 15,20
+Count = 1
+Group1 = [不动明王头盔:*]&[不动明王项链:*]&[不动明王手镯:*]&[不动明王戒指:*]
+
+[BagOverload]
+Count = 1
+Group1 = [龙象项链:*]&[龙象手镯:*]&[龙象戒指:*]
+
+[Palsy]
+Params = 7,3000
+Count = 1
+Group1 = [麻痹戒指:*]
+
+[TeleportGroup]
+Count = 1
+Group1 = [记忆头盔:*]&[记忆项链:*]&[记忆手镯:*]&[记忆戒指:*]
+
+[ShiXue01]
+Params=10,30
+Count = 1
+Group1 = [嗜血项链:3]
+
+[ShiXue02]
+Params=10,30
+Count = 1
+Group1 = [嗜血手镯:5]
+
+[ShiXue03]
+Params=10,30
+Count = 1
+Group1 = [嗜血手镯:6]
+
+[ShiXue04]
+Params=10,30
+Count = 1
+Group1 = [嗜血戒指:7]
+
+[ShiXue05]
+Params=10,30
+Count = 1
+Group1 = [嗜血戒指:8]
+
+[ShiXueHalf]
+Params=5
+Count = 1
+Group1 = [嗜血项链:3]&[嗜血手镯:*]&[嗜血戒指:*]
+
+[ShiXueAll]
+Params=5
+Count = 1
+Group1 = [嗜血项链:3]&[嗜血手镯:5]&[嗜血戒指:7]&[嗜血手镯:6]&[嗜血戒指:8]
+
+[MoXue01]
+Params=25,1
+Count = 1
+Group1 = [魔血项链:3]
+
+[MoXue02]
+Params=25,1
+Count = 1
+Group1 = [魔血手镯:5]
+
+[MoXue03]
+Params=25,1
+Count = 1
+Group1 = [魔血手镯:6]
+
+[MoXue04]
+Params=25,1
+Count = 1
+Group1 = [魔血戒指:7]
+
+[MoXue05]
+Params=25,1
+Count = 1
+Group1 = [魔血戒指:8]
+
+[MoXueHalf]
+Params=25
+Count = 1
+Group1 = [魔血项链:3]&[魔血手镯:*]&[魔血戒指:*]
+
+[MoXueAll]
+Params=25
+Count = 1
+Group1 = [魔血项链:3]&[魔血手镯:5]&[魔血戒指:7]&[魔血手镯:6]&[魔血戒指:8]
+
+[ShenWu01]
+Params=10,10
+Count=1
+Group1=[神武头盔:*]
+
+[ShenWu02]
+Params=20,30
+Count=1
+Group1=[神武项链:*]
+
+[ShenWu03]
+Params=20,30
+Count=1
+Group1=[神武手镯:*]
+
+[ShenWu04]
+Params=20,30
+Count=1
+Group1=[神武戒指:*]
+
+[ShenWuHalf]
+Params=15
+Count=1
+Group1=[神武头盔:*]&[神武项链:*]&[神武手镯:*]&[神武戒指:*]
+
+[ShenWuAll]
+Params=20
+Count=1
+Group1=[神武头盔:*]&[神武项链:*]&[神武手镯:*]&[神武戒指:*]&[神武腰带:*]&[神武靴子:*]
+
+[HuanMo01]
+Params=10,1
+Count = 1
+Group1 = [幻魔项链:3]
+
+[HuanMo02]
+Params=10,1
+Count = 1
+Group1 = [幻魔手镯:5]
+
+[HuanMo03]
+Params=10,1
+Count = 1
+Group1 = [幻魔手镯:6]
+
+[HuanMo04]
+Params=20,1
+Count = 1
+Group1 = [幻魔戒指:7]
+
+[HuanMo05]
+Params=20,1
+Count = 1
+Group1 = [幻魔戒指:8]
+
+[HuanMoHalf]
+Params=40
+Count = 1
+Group1 = [幻魔头盔:4]&[幻魔项链:3]&[幻魔手镯:5]&[幻魔戒指:7]&[幻魔手镯:6]&[幻魔戒指:8]
+
+[HuanMoAll]
+Params=40
+Count = 1
+Group1 = [幻魔头盔:4]&[幻魔项链:3]&[幻魔手镯:5]&[幻魔戒指:7]&[幻魔手镯:6]&[幻魔戒指:8]&[幻魔腰带:10]&[幻魔靴子:9]
+
+[TianXuanHalf]
+Params=5,2
+Count=1
+Group1=[天玄头盔:*]&[天玄项链:*]&[天玄手镯:*]&[天玄戒指:*] 
+
+[TianXuanAll]
+Params=6,3
+Count=1
+Group1=[天玄头盔:*]&[天玄项链:*]&[天玄手镯:*]&[天玄戒指:*] &[天玄腰带:*] &[天玄道靴:*] 

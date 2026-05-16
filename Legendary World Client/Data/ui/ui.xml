@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Ui>
+	<Window name = "PanelWnd" path = "PanelWnd.xml">
+		<Path path="FashionPanelWnd.xml" />
+		<Path path="PanelWndNew.xml" />
+		<Path path="NewPetPanelWnd.xml" />
+		<Path path="PanelWnd_2.0.xml"/>
+		<Path path="PanelWnd_2.7.xml"/>
+		<Path path="PanelWnd_13.xml"/>
+		<Path path="PanelWnd_15.xml"/>
+		<Path path="PanelWnd_13_1.xml"/>
+	</Window>
+	<Window name = "PackageWnd" path = "PackageWnd.xml">
+		<Path path="NewPackageWnd.xml" />
+	</Window>
+  <!--
+  <Window name = "AvatarWnd" path = "AvatarWnd.xml">
+    <path path = "LittleAvatarWnd.xml"/>
+  </Window>
+  <Window name = "NpcWnd" path = "NpcWnd.xml"/>
+   -->
+</Ui>
+
